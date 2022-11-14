@@ -19,6 +19,6 @@ $image = $array[23]['image'];
 <map name="page-24">
     <?php for ($i = 0; $i < count($array[23]["silhouettes"]); $i++): ?>
     <?php $id = 241 + $i?>
-            <area shape="rect" class="tooltipLink" coords=<?php echo $array[23]["silhouettes"][$i]["coordinates"]?> data-coords=<?php echo $array[23]["silhouettes"][$i]["coordinates"]?> data-id=<?php echo $id ?> data-tooltip="<?php print $array[4]["silhouettes"][$i]["url"] ?>">
+            <area shape="rect" class="tooltipLink" coords=<?php echo $array[23]["silhouettes"][$i]["coordinates"]?> data-coords=<?php echo $array[23]["silhouettes"][$i]["coordinates"]?> data-id=<?php echo $id ?> data-tooltip="<?php print $array[23]["silhouettes"][$i]["url"] ?>">
     <?php endfor; ?>
 </map>
