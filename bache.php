@@ -12,6 +12,7 @@
 	<link rel="shortcut icon" href="../favicon.ico">
 	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 	<script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/@panzoom/panzoom@4.5.1/dist/panzoom.min.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel="stylesheet" href="css/book.css">
 	<link rel="stylesheet" href="css/crop.css">
@@ -103,7 +104,7 @@
 			<nav>
 				<button id="bb-nav-first" class="inline-flex text-white bg-cyan-700 border-0 py-2 px-6 focus:outline-none hover:bg-cyan-800 rounded text-lg"><i class="fa-sharp fa-solid fa-backward text-white"></i></i></i></button>
         <button id="bb-nav-prev" class="inline-flex text-white bg-cyan-700 border-0 py-2 px-6 focus:outline-none hover:bg-cyan-800 rounded text-lg"><i class="fa-solid fa-caret-left text-white"></i></i></button>
-        <label for="page-number" style="font: 20px arial; font-family: Lato, sans-serif;">Page:</label> <input type="text" size="2" id="page-number" style="font: 20px arial; font-family: Lato, sans-serif;"> <span
+        <label for="page-number" style="font: 20px arial; font-family: Lato, sans-serif;">Page:</label> <input type="text" size="2" id="page-number" min="1" max="76" style="font: 20px arial; font-family: Lato, sans-serif;"> <span
 			style="font: 20px arial; font-family: Lato, sans-serif;">of  </span> <span id="number-pages"></span>
 				<button id="bb-nav-next" class="inline-flex text-white bg-cyan-700 border-0 py-2 px-6 focus:outline-none hover:bg-cyan-800 rounded text-lg"><i class="fa-solid fa-caret-right text-white"></i></button>
 				<button id="bb-nav-last" class="inline-flex text-white bg-cyan-700 border-0 py-2 px-6 focus:outline-none hover:bg-cyan-800 rounded text-lg"><i class="fa-solid fa-forward text-white"></i></button>
@@ -130,7 +131,7 @@
 				<button id="zoom-out-odd"
 					class="rounded px-4 py-2 text-xs text-gray-800 bg-gray-200  rounded my-2 md:my-6 py-2 px-8 shadow-lg ">Zoom
 					Out</button>
-				<!-- <input type="range" class="zoom-range"> -->
+				<!-- <input type="range" id="zoom-range" min="0.1" max="4" step="0.1" value="1"> -->
 				<button
 					class="rounded px-4 py-2 text-xs text-gray-800 bg-gray-200  rounded my-2 md:my-6 py-2 px-8 shadow-lg"
 					id="reset-odd">Reset</button>
@@ -397,7 +398,7 @@
               pageNumber = pageNumber + 1;
             $('#page-number').val(pageNumber);
             }else if(pageNumber < numberOfPages){
-              pageNumber = pageNumber + 2;
+              pageNumber = parseInt(pageNumber) + 2;
             $('#page-number').val(pageNumber);
             }
 						return false;
@@ -433,10 +434,24 @@
 					$slides.on({
 						'swipeleft': function (event) {
 							config.$bookBlock.bookblock('next');
+              if(pageNumber == numberOfPages - 1){
+              pageNumber = pageNumber + 1;
+            $('#page-number').val(pageNumber);
+            }else if(pageNumber < numberOfPages){
+              pageNumber = parseInt(pageNumber) + 2;
+            $('#page-number').val(pageNumber);
+            }
 							return false;
 						},
 						'swiperight': function (event) {
 							config.$bookBlock.bookblock('prev');
+              if(pageNumber > 2){
+              pageNumber = pageNumber - 2;
+              $('#page-number').val(pageNumber);
+            }else{
+              pageNumber = 1;
+              $('#page-number').val(pageNumber);
+            }
 							return false;
 						}
 					});
@@ -454,19 +469,42 @@
 						switch (keyCode) {
 							case arrow.left:
 								config.$bookBlock.bookblock('prev');
+                config.$bookBlock.bookblock('prev');
+              if(pageNumber > 2){
+              pageNumber = pageNumber - 2;
+              $('#page-number').val(pageNumber);
+            }else{
+              pageNumber = 1;
+              $('#page-number').val(pageNumber);
+            }
 								break;
 							case arrow.right:
 								config.$bookBlock.bookblock('next');
+                if(pageNumber == numberOfPages - 1){
+              pageNumber = pageNumber + 1;
+            $('#page-number').val(pageNumber);
+            }else if(pageNumber < numberOfPages){
+              pageNumber = parseInt(pageNumber) + 2;
+            $('#page-number').val(pageNumber);
+            }
 								break;
 						}
           });
 
           //Page input event
           $('#page-number').keydown(function (e) {
-            if (e.keyCode == 13)
-            config.$bookBlock.bookblock('jump', Math.ceil($('#page-number').val() /2));
-            $('#page-number').val($('#page-number').val());
-            pageNumber = $('#page-number').val();
+            if($('#page-number').val() > numberOfPages){
+              $('#page-number').val(numberOfPages);
+            }
+            if (e.keyCode == 13){
+              if($('#page-number').val() < 1){
+                $('#page-number').val(1)
+              }
+              config.$bookBlock.bookblock('jump', Math.ceil($('#page-number').val() /2));
+              $('#page-number').val($('#page-number').val());
+              pageNumber = $('#page-number').val();
+            }
+            
             });
           
           $('#number-pages').text(numberOfPages);
