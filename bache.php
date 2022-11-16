@@ -122,8 +122,6 @@
 				<button
 					class="rounded px-4 py-2 text-xs text-gray-800 bg-gray-200  rounded my-2 md:my-6 py-2 px-8 shadow-lg"
 					id="reset-even">Reset</button>
-          <button class="myButton">My Button</button>
-
 			</div>
 
 			<div>
