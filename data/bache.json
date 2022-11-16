@@ -4846,7 +4846,7 @@
   },
   {
     "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p42",
-    "silhouettes":[
+    "silhouettes": [
       {
         "url": "edanmdm:npg_S_NPG.2002.184.1165",
         "coordinates": "256,64,444,328"
@@ -5471,7 +5471,7 @@
   },
   {
     "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p47",
-    "silhouettes":[
+    "silhouettes": [
       {
         "url": "edanmdm:npg_S_NPG.2002.184.1315",
         "coordinates": "97,67,268,377"
@@ -5847,127 +5847,127 @@
   {
     "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p50",
     "silhouettes": [
-  {
-    "url": "edanmdm:npg_S_NPG.2002.184.1405",
-    "coordinates": "209,83,450,407"
-  },
-  {
-    "url": "edanmdm:npg_S_NPG.2002.184.1406",
-    "coordinates": "480,75,684,390"
-  },
-  {
-    "url": "edanmdm:npg_S_NPG.2002.184.1407",
-    "coordinates": "737,63,960,374"
-  },
-  {
-    "url": "edanmdm:npg_S_NPG.2002.184.1408",
-    "coordinates": "999,58,1211,371"
-  },
-  {
-    "url": "edanmdm:npg_S_NPG.2002.184.1409",
-    "coordinates": "1239,45,1412,366"
-  },
-  {
-    "url": "edanmdm:npg_S_NPG.2002.184.1410",
-    "coordinates": "212,412,435,704"
-  },
-  {
-    "url": "edanmdm:npg_S_NPG.2002.184.1411",
-    "coordinates": "467,395,713,705"
-  },
-  {
-    "url": "edanmdm:npg_S_NPG.2002.184.1412",
-    "coordinates": "736,381,980,696"
-  },
-  {
-    "url": "edanmdm:npg_S_NPG.2002.184.1413",
-    "coordinates": "1004,381,1222,687"
-  },
-  {
-    "url": "edanmdm:npg_S_NPG.2002.184.1414",
-    "coordinates": "1240,375,1405,669"
-  },
-  {
-    "url": "edanmdm:npg_S_NPG.2002.184.1415",
-    "coordinates": "218,718,454,1011"
-  },
-  {
-    "url": "edanmdm:npg_S_NPG.2002.184.1416",
-    "coordinates": "471,712,699,1009"
-  },
-  {
-    "url": "edanmdm:npg_S_NPG.2002.184.1417",
-    "coordinates": "737,710,957,1002"
-  },
-  {
-    "url": "edanmdm:npg_S_NPG.2002.184.1418",
-    "coordinates": "998,702,1223,1006"
-  },
-  {
-    "url": "edanmdm:npg_S_NPG.2002.184.1419",
-    "coordinates": "1247,714,1413,974"
-  },
-  {
-    "url": "edanmdm:npg_S_NPG.2002.184.1420",
-    "coordinates": "211,1018,434,1319"
-  },
-  {
-    "url": "edanmdm:npg_S_NPG.2002.184.1421",
-    "coordinates": "470,1018,701,1305"
-  },
-  {
-    "url": "edanmdm:npg_S_NPG.2002.184.1422",
-    "coordinates": "734,1011,969,1317"
-  },
-  {
-    "url": "edanmdm:npg_S_NPG.2002.184.1423",
-    "coordinates": "997,1013,1247,1327"
-  },
-  {
-    "url": "edanmdm:npg_S_NPG.2002.184.1424",
-    "coordinates": "1256,1016,1412,1293"
-  },
-  {
-    "url": "edanmdm:npg_S_NPG.2002.184.1425",
-    "coordinates": "221,1322,440,1618"
-  },
-  {
-    "url": "edanmdm:npg_S_NPG.2002.184.1426",
-    "coordinates": "471,1311,710,1648"
-  },
-  {
-    "url": "edanmdm:npg_S_NPG.2002.184.1427",
-    "coordinates": "734,1333,974,1630"
-  },
-  {
-    "url": "edanmdm:npg_S_NPG.2002.184.1428",
-    "coordinates": "998,1333,1244,1638"
-  },
-  {
-    "url": "edanmdm:npg_S_NPG.2002.184.1429",
-    "coordinates": "1253,1332,1422,1636"
-  },
-  {
-    "url": "edanmdm:npg_S_NPG.2002.184.1430",
-    "coordinates": "233,1645,457,1914"
-  },
-  {
-    "url": "edanmdm:npg_S_NPG.2002.184.1431",
-    "coordinates": "483,1660,695,1909"
-  },
-  {
-    "url": "edanmdm:npg_S_NPG.2002.184.1432",
-    "coordinates": "730,1646,968,1934"
-  },
-  {
-    "url": "edanmdm:npg_S_NPG.2002.184.1433",
-    "coordinates": "1002,1655,1236,1925"
-  },
-  {
-    "url": "edanmdm:npg_S_NPG.2002.184.1434",
-    "coordinates": "1255,1641,1429,1930"
-  }
-]
+      {
+        "url": "edanmdm:npg_S_NPG.2002.184.1405",
+        "coordinates": "209,83,450,407"
+      },
+      {
+        "url": "edanmdm:npg_S_NPG.2002.184.1406",
+        "coordinates": "480,75,684,390"
+      },
+      {
+        "url": "edanmdm:npg_S_NPG.2002.184.1407",
+        "coordinates": "737,63,960,374"
+      },
+      {
+        "url": "edanmdm:npg_S_NPG.2002.184.1408",
+        "coordinates": "999,58,1211,371"
+      },
+      {
+        "url": "edanmdm:npg_S_NPG.2002.184.1409",
+        "coordinates": "1239,45,1412,366"
+      },
+      {
+        "url": "edanmdm:npg_S_NPG.2002.184.1410",
+        "coordinates": "212,412,435,704"
+      },
+      {
+        "url": "edanmdm:npg_S_NPG.2002.184.1411",
+        "coordinates": "467,395,713,705"
+      },
+      {
+        "url": "edanmdm:npg_S_NPG.2002.184.1412",
+        "coordinates": "736,381,980,696"
+      },
+      {
+        "url": "edanmdm:npg_S_NPG.2002.184.1413",
+        "coordinates": "1004,381,1222,687"
+      },
+      {
+        "url": "edanmdm:npg_S_NPG.2002.184.1414",
+        "coordinates": "1240,375,1405,669"
+      },
+      {
+        "url": "edanmdm:npg_S_NPG.2002.184.1415",
+        "coordinates": "218,718,454,1011"
+      },
+      {
+        "url": "edanmdm:npg_S_NPG.2002.184.1416",
+        "coordinates": "471,712,699,1009"
+      },
+      {
+        "url": "edanmdm:npg_S_NPG.2002.184.1417",
+        "coordinates": "737,710,957,1002"
+      },
+      {
+        "url": "edanmdm:npg_S_NPG.2002.184.1418",
+        "coordinates": "998,702,1223,1006"
+      },
+      {
+        "url": "edanmdm:npg_S_NPG.2002.184.1419",
+        "coordinates": "1247,714,1413,974"
+      },
+      {
+        "url": "edanmdm:npg_S_NPG.2002.184.1420",
+        "coordinates": "211,1018,434,1319"
+      },
+      {
+        "url": "edanmdm:npg_S_NPG.2002.184.1421",
+        "coordinates": "470,1018,701,1305"
+      },
+      {
+        "url": "edanmdm:npg_S_NPG.2002.184.1422",
+        "coordinates": "734,1011,969,1317"
+      },
+      {
+        "url": "edanmdm:npg_S_NPG.2002.184.1423",
+        "coordinates": "997,1013,1247,1327"
+      },
+      {
+        "url": "edanmdm:npg_S_NPG.2002.184.1424",
+        "coordinates": "1256,1016,1412,1293"
+      },
+      {
+        "url": "edanmdm:npg_S_NPG.2002.184.1425",
+        "coordinates": "221,1322,440,1618"
+      },
+      {
+        "url": "edanmdm:npg_S_NPG.2002.184.1426",
+        "coordinates": "471,1311,710,1648"
+      },
+      {
+        "url": "edanmdm:npg_S_NPG.2002.184.1427",
+        "coordinates": "734,1333,974,1630"
+      },
+      {
+        "url": "edanmdm:npg_S_NPG.2002.184.1428",
+        "coordinates": "998,1333,1244,1638"
+      },
+      {
+        "url": "edanmdm:npg_S_NPG.2002.184.1429",
+        "coordinates": "1253,1332,1422,1636"
+      },
+      {
+        "url": "edanmdm:npg_S_NPG.2002.184.1430",
+        "coordinates": "233,1645,457,1914"
+      },
+      {
+        "url": "edanmdm:npg_S_NPG.2002.184.1431",
+        "coordinates": "483,1660,695,1909"
+      },
+      {
+        "url": "edanmdm:npg_S_NPG.2002.184.1432",
+        "coordinates": "730,1646,968,1934"
+      },
+      {
+        "url": "edanmdm:npg_S_NPG.2002.184.1433",
+        "coordinates": "1002,1655,1236,1925"
+      },
+      {
+        "url": "edanmdm:npg_S_NPG.2002.184.1434",
+        "coordinates": "1255,1641,1429,1930"
+      }
+    ]
   },
   {
     "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p51",
@@ -6598,123 +6598,123 @@
     "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p56",
     "silhouettes": [
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1585",
         "coordinates": "234,73,447,381"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1586",
         "coordinates": "476,66,688,370"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1587",
         "coordinates": "707,55,965,369"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1588",
         "coordinates": "974,47,1223,370"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1589",
         "coordinates": "1237,58,1417,384"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1590",
         "coordinates": "229,390,456,689"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1591",
         "coordinates": "471,375,697,683"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1592",
         "coordinates": "711,372,977,678"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1593",
         "coordinates": "989,378,1229,666"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1594",
         "coordinates": "1243,396,1413,656"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1595",
         "coordinates": "222,702,440,958"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1596",
         "coordinates": "473,706,709,989"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1597",
         "coordinates": "721,696,938,995"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1598",
         "coordinates": "981,678,1205,998"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1599",
         "coordinates": "1221,680,1421,989"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1600",
         "coordinates": "225,988,453,1302"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1601",
         "coordinates": "469,1000,675,1313"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1602",
         "coordinates": "715,1006,951,1300"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1603",
         "coordinates": "974,1006,1223,1328"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1604",
         "coordinates": "1228,998,1428,1325"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1605",
         "coordinates": "229,1306,451,1627"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1606",
         "coordinates": "464,1322,699,1632"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1607",
         "coordinates": "719,1316,964,1613"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1608",
         "coordinates": "980,1335,1218,1627"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1609",
         "coordinates": "1234,1329,1434,1630"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1610",
         "coordinates": "220,1634,449,1934"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1611",
         "coordinates": "465,1638,690,1938"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1612",
         "coordinates": "721,1625,971,1941"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1613",
         "coordinates": "980,1630,1230,1949"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1614",
         "coordinates": "1241,1634,1437,1942"
       }
     ]
@@ -6723,123 +6723,123 @@
     "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p57",
     "silhouettes": [
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1615",
         "coordinates": "84,61,251,377"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1616",
         "coordinates": "299,36,498,374"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1617",
         "coordinates": "561,66,757,362"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1618",
         "coordinates": "811,68,1023,351"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1619",
         "coordinates": "1047,65,1279,354"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1620",
         "coordinates": "75,379,271,680"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1621",
         "coordinates": "301,383,517,673"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1622",
         "coordinates": "533,378,742,681"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1623",
         "coordinates": "754,358,1074,683"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1624",
         "coordinates": "1082,362,1285,682"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1625",
         "coordinates": "85,715,241,975"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1626",
         "coordinates": "276,687,510,1003"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1627",
         "coordinates": "534,687,782,982"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1628",
         "coordinates": "789,690,1038,988"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1629",
         "coordinates": "1049,689,1270,1003"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1630",
         "coordinates": "76,996,266,1328"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1631",
         "coordinates": "277,1008,521,1320"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1632",
         "coordinates": "531,998,774,1321"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1633",
         "coordinates": "793,1001,1035,1313"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1634",
         "coordinates": "1052,1007,1270,1308"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1635",
         "coordinates": "68,1331,266,1627"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1636",
         "coordinates": "276,1330,527,1624"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1637",
         "coordinates": "537,1327,780,1605"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1638",
         "coordinates": "796,1316,1041,1611"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1639",
         "coordinates": "1052,1313,1281,1603"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1640",
         "coordinates": "73,1632,276,1949"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1641",
         "coordinates": "282,1629,534,1933"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1642",
         "coordinates": "544,1614,785,1930"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1643",
         "coordinates": "800,1617,1043,1917"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1644",
         "coordinates": "1054,1608,1282,1909"
       }
     ]
@@ -6848,123 +6848,123 @@
     "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p58",
     "silhouettes": [
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1645",
         "coordinates": "220,57,418,360"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1646",
         "coordinates": "456,53,664,369"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1647",
         "coordinates": "712,53,952,381"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1648",
         "coordinates": "974,54,1201,375"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1649",
         "coordinates": "1243,74,1411,361"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1650",
         "coordinates": "222,366,438,679"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1651",
         "coordinates": "449,376,688,683"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1652",
         "coordinates": "712,388,960,673"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1653",
         "coordinates": "973,383,1220,670"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1654",
         "coordinates": "1233,370,1421,677"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1655",
         "coordinates": "220,690,442,981"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1656",
         "coordinates": "458,693,686,984"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1657",
         "coordinates": "715,686,961,996"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1658",
         "coordinates": "978,683,1220,987"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1659",
         "coordinates": "1237,695,1420,997"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1660",
         "coordinates": "216,999,430,1295"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1661",
         "coordinates": "455,1000,701,1317"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1662",
         "coordinates": "719,1000,968,1320"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1663",
         "coordinates": "980,1003,1225,1318"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1664",
         "coordinates": "1232,1007,1416,1327"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1665",
         "coordinates": "220,1307,435,1626"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1666",
         "coordinates": "464,1331,696,1611"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1667",
         "coordinates": "718,1330,968,1625"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1668",
         "coordinates": "978,1322,1224,1637"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1669",
         "coordinates": "1239,1346,1425,1619"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1670",
         "coordinates": "222,1633,453,1934"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1671",
         "coordinates": "467,1629,707,1937"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1672",
         "coordinates": "721,1636,969,1948"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1673",
         "coordinates": "980,1646,1227,1942"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1674",
         "coordinates": "1240,1633,1427,1928"
       }
     ]
@@ -6973,123 +6973,123 @@
     "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p59",
     "silhouettes": [
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1675",
         "coordinates": "82,68,267,363"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1676",
         "coordinates": "296,57,529,355"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1677",
         "coordinates": "558,58,753,373"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1678",
         "coordinates": "823,55,1033,365"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1679",
         "coordinates": "1065,59,1264,372"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1680",
         "coordinates": "80,389,252,636"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1681",
         "coordinates": "293,379,517,667"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1682",
         "coordinates": "547,380,759,663"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1683",
         "coordinates": "803,369,1030,680"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1684",
         "coordinates": "1058,378,1267,681"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1685",
         "coordinates": "74,692,244,962"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1686",
         "coordinates": "280,696,499,992"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1687",
         "coordinates": "545,667,765,989"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1688",
         "coordinates": "805,686,1019,976"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1689",
         "coordinates": "1039,714,1246,971"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1690",
         "coordinates": "76,1003,246,1245"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1691",
         "coordinates": "281,1004,509,1284"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1692",
         "coordinates": "553,1019,766,1275"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1693",
         "coordinates": "805,1019,1027,1305"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1694",
         "coordinates": "1062,1025,1263,1307"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1695",
         "coordinates": "71,1312,243,1573"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1696",
         "coordinates": "287,1325,495,1607"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1697",
         "coordinates": "536,1310,759,1603"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1698",
         "coordinates": "792,1321,1006,1597"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1699",
         "coordinates": "1041,1316,1264,1600"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1700",
         "coordinates": "75,1620,267,1918"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1701",
         "coordinates": "279,1616,506,1940"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1702",
         "coordinates": "529,1610,781,1945"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1703",
         "coordinates": "797,1605,1022,1919"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1704",
         "coordinates": "1043,1603,1263,1877"
       }
     ]
@@ -7098,123 +7098,123 @@
     "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p60",
     "silhouettes": [
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1705",
         "coordinates": "211,60,434,372"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1706",
         "coordinates": "461,61,667,372"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1707",
         "coordinates": "699,58,912,374"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1708",
         "coordinates": "952,57,1182,349"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1709",
         "coordinates": "1198,55,1408,365"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1710",
         "coordinates": "219,378,444,690"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1711",
         "coordinates": "461,377,668,679"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1712",
         "coordinates": "702,378,945,669"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1713",
         "coordinates": "963,352,1189,666"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1714",
         "coordinates": "1204,370,1420,661"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1715",
         "coordinates": "225,699,439,998"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1716",
         "coordinates": "459,682,693,995"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1717",
         "coordinates": "713,676,930,991"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1718",
         "coordinates": "967,676,1199,978"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1719",
         "coordinates": "1214,669,1424,959"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1720",
         "coordinates": "230,1005,448,1274"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1721",
         "coordinates": "461,1002,702,1278"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1722",
         "coordinates": "718,1002,950,1273"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1723",
         "coordinates": "969,989,1210,1274"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1724",
         "coordinates": "1222,974,1420,1264"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1725",
         "coordinates": "230,1281,448,1592"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1726",
         "coordinates": "463,1284,708,1596"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1727",
         "coordinates": "720,1284,954,1592"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1728",
         "coordinates": "976,1282,1224,1571"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1729",
         "coordinates": "1244,1278,1421,1588"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1730",
         "coordinates": "229,1598,447,1922"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1731",
         "coordinates": "467,1605,702,1931"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1732",
         "coordinates": "723,1607,965,1926"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1733",
         "coordinates": "983,1595,1228,1934"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1734",
         "coordinates": "1241,1603,1426,1922"
       }
     ]
@@ -7223,123 +7223,123 @@
     "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p61",
     "silhouettes": [
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1735",
         "coordinates": "101,92,314,375"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1736",
         "coordinates": "358,82,558,375"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1737",
         "coordinates": "590,85,793,380"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1738",
         "coordinates": "832,82,1009,375"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1739",
         "coordinates": "1033,87,1247,378"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1740",
         "coordinates": "105,380,331,666"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1741",
         "coordinates": "357,381,563,671"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1742",
         "coordinates": "583,384,793,677"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1743",
         "coordinates": "827,381,1018,673"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1744",
         "coordinates": "1034,384,1246,677"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1745",
         "coordinates": "116,675,350,967"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1746",
         "coordinates": "363,679,561,963"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1747",
         "coordinates": "577,679,789,964"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1748",
         "coordinates": "808,678,1028,965"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1749",
         "coordinates": "1042,686,1242,947"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1750",
         "coordinates": "123,971,347,1249"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1751",
         "coordinates": "367,970,561,1274"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1752",
         "coordinates": "573,968,784,1272"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1753",
         "coordinates": "808,968,1006,1272"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1754",
         "coordinates": "1024,972,1245,1257"
       },
       {
-        "url": "John Doe",
+        "url": "",
         "coordinates": "103,1276,330,1574"
       },
       {
-        "url": "John Doe",
+        "url": "",
         "coordinates": "362,1285,586,1578"
       },
       {
-        "url": "John Doe",
+        "url": "",
         "coordinates": "599,1285,800,1582"
       },
       {
-        "url": "John Doe",
+        "url": "",
         "coordinates": "818,1292,1030,1595"
       },
       {
-        "url": "John Doe",
+        "url": "",
         "coordinates": "1047,1289,1256,1587"
       },
       {
-        "url": "John Doe",
+        "url": "",
         "coordinates": "99,1586,349,1891"
       },
       {
-        "url": "John Doe",
+        "url": "",
         "coordinates": "364,1590,589,1863"
       },
       {
-        "url": "John Doe",
+        "url": "",
         "coordinates": "603,1587,816,1869"
       },
       {
-        "url": "John Doe",
+        "url": "",
         "coordinates": "830,1604,1027,1860"
       },
       {
-        "url": "John Doe",
+        "url": "",
         "coordinates": "1043,1591,1278,1881"
       }
     ]
@@ -7348,99 +7348,99 @@
     "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p62",
     "silhouettes": [
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1755",
         "coordinates": "259,62,475,379"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1756",
         "coordinates": "502,56,716,371"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1757",
         "coordinates": "739,51,954,380"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1758",
         "coordinates": "985,56,1188,375"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1759",
         "coordinates": "1230,58,1413,368"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1760",
         "coordinates": "261,387,459,675"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1761",
         "coordinates": "497,381,712,673"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1762",
         "coordinates": "741,387,954,674"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1763",
         "coordinates": "983,378,1202,681"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1764",
         "coordinates": "1221,372,1425,694"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1765",
         "coordinates": "257,686,472,970"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1766",
         "coordinates": "505,684,695,978"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1767",
         "coordinates": "735,688,968,978"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1768",
         "coordinates": "996,708,1202,965"
       },
       {
-        "url": "John Doe",
+        "url": "",
         "coordinates": "223,1278,451,1595"
       },
       {
-        "url": "John Doe",
+        "url": "",
         "coordinates": "481,1276,681,1603"
       },
       {
-        "url": "John Doe",
+        "url": "",
         "coordinates": "714,1282,937,1588"
       },
       {
-        "url": "John Doe",
+        "url": "",
         "coordinates": "983,1266,1222,1585"
       },
       {
-        "url": "John Doe",
+        "url": "",
         "coordinates": "1238,1264,1427,1584"
       },
       {
-        "url": "John Doe",
+        "url": "",
         "coordinates": "222,1600,446,1933"
       },
       {
-        "url": "John Doe",
+        "url": "",
         "coordinates": "475,1607,698,1935"
       },
       {
-        "url": "John Doe",
+        "url": "",
         "coordinates": "725,1601,940,1930"
       },
       {
-        "url": "John Doe",
+        "url": "",
         "coordinates": "976,1596,1216,1936"
       },
       {
-        "url": "John Doe",
+        "url": "",
         "coordinates": "1239,1589,1428,1932"
       }
     ]
@@ -7449,123 +7449,123 @@
     "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p63",
     "silhouettes": [
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1769",
         "coordinates": "105,104,279,415"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1770",
         "coordinates": "378,97,594,410"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1771",
         "coordinates": "613,93,803,420"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1772",
         "coordinates": "830,99,1027,412"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1773",
         "coordinates": "1058,121,1255,414"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1774",
         "coordinates": "97,423,256,713"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1775",
         "coordinates": "349,411,578,720"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1776",
         "coordinates": "596,425,825,735"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1777",
         "coordinates": "835,424,1014,730"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1778",
         "coordinates": "1034,425,1258,744"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1779",
         "coordinates": "92,721,271,1020"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1780",
         "coordinates": "355,729,575,1017"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1781",
         "coordinates": "604,740,816,1021"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1782",
         "coordinates": "834,738,1027,1029"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1783",
         "coordinates": "1039,748,1252,1031"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1784",
         "coordinates": "110,1038,295,1279"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1785",
         "coordinates": "345,1027,582,1321"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1786",
         "coordinates": "597,1032,802,1321"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1787",
         "coordinates": "826,1035,1035,1319"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1788",
         "coordinates": "1042,1036,1250,1332"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1789",
         "coordinates": "119,1310,330,1613"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1790",
         "coordinates": "357,1327,588,1617"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1791",
         "coordinates": "601,1327,817,1603"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1792",
         "coordinates": "830,1325,1033,1649"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1793",
         "coordinates": "1049,1337,1257,1614"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1794",
         "coordinates": "118,1615,336,1932"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1795",
         "coordinates": "361,1622,583,1912"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1796",
         "coordinates": "605,1612,814,1927"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1797",
         "coordinates": "837,1656,1030,1896"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1798",
         "coordinates": "1050,1619,1267,1919"
       }
     ]
@@ -7574,123 +7574,123 @@
     "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p64",
     "silhouettes": [
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1799",
         "coordinates": "224,56,440,356"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1800",
         "coordinates": "468,60,652,360"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1801",
         "coordinates": "716,48,948,364"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1802",
         "coordinates": "972,36,1208,364"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1803",
         "coordinates": "1224,40,1416,372"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1804",
         "coordinates": "228,368,436,664"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1805",
         "coordinates": "464,360,688,672"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1806",
         "coordinates": "704,368,952,656"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1807",
         "coordinates": "968,372,1200,664"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1808",
         "coordinates": "1224,380,1412,676"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1809",
         "coordinates": "228,668,440,988"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1810",
         "coordinates": "460,684,700,996"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1811",
         "coordinates": "720,664,960,984"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1812",
         "coordinates": "980,672,1204,972"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1813",
         "coordinates": "1228,688,1412,952"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1814",
         "coordinates": "220,1004,444,1312"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1815",
         "coordinates": "464,1004,700,1300"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1816",
         "coordinates": "720,996,960,1300"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1817",
         "coordinates": "976,984,1212,1304"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1818",
         "coordinates": "1228,964,1436,1280"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1819",
         "coordinates": "228,1324,452,1628"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1820",
         "coordinates": "490,1318,706,1628"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1821",
         "coordinates": "724,1308,968,1624"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1822",
         "coordinates": "984,1308,1220,1608"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1823",
         "coordinates": "1228,1292,1432,1612"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1824",
         "coordinates": "236,1636,472,1920"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1825",
         "coordinates": "492,1633,723,1945"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1826",
         "coordinates": "735,1628,991,1943"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1827",
         "coordinates": "1003,1616,1236,1953"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.1828",
         "coordinates": "1247,1619,1448,1933"
       }
     ]
