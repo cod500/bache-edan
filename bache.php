@@ -122,6 +122,8 @@
 				<button
 					class="rounded px-4 py-2 text-xs text-gray-800 bg-gray-200  rounded my-2 md:my-6 py-2 px-8 shadow-lg"
 					id="reset-even">Reset</button>
+          <button class="myButton">My Button</button>
+
 			</div>
 
 			<div>
@@ -363,6 +365,8 @@
 	<script src="js/jquerypp.custom.js"></script>
 	<script src="js/jquery.panzoom.js"></script>
 	<script src="js/mapoid.js"></script>
+  <script src="https://unpkg.com/@popperjs/core@2"></script>
+<script src="https://unpkg.com/tippy.js@6"></script>
   <script src="js/jquery.bookblock.js"></script>
   <script src="js/jquery.rwdImageMaps.js"></script>
 	<script src="js/book.js"></script>

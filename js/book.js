@@ -49,94 +49,76 @@ function openCropCanvasImg(x, y) {
 
 //
 setTimeout(function () {
-
-	//Attatches tooltip to body so it stays relevant to page and not image
-	//Attatching to mouse 
-	$('.tooltipLink').hover(function () {
-		if (window.silhouettes === undefined) {
-			window.silhouettes = {};
-		}
-		$('.tooltip').remove();
-
-		var url = $(this).attr('data-tooltip');
-		var jsonData = "";
-		var data = {
-			silhouette: url,
-		};
-
-		if (window.silhouettes.hasOwnProperty(url)) {
-			setTimeout(function () {
-				$('<p class="tooltip" style="z-index:9000"></p>').fadeIn(200).text(window.silhouettes['' + url + ''].title).appendTo('body');
-			}, 300)
-		} else {
+	//Tooltip for every image
+	//Makes request on over and stores in window so only has to make one request to Edan
+	tippy('.tooltipLink', {
+		followCursor: true,
+		delay: 0,
+		onShow(instance) {
+			if (window.silhouettes === undefined) {
+				window.silhouettes = {};
+			}
+			var url = instance.reference.dataset.tooltip;
+			var data = {
+				silhouette: url,
+			};
+			if (window.silhouettes.hasOwnProperty(url)) {
+				window.silhouettes['' + url + ''].title
+			}
 			$.ajax({
 				type: "POST",
 				url: "../data/index.php",
 				data: data
 			}).done(function (result) {
-				jsonData = JSON.parse(result);
-				window.silhouettes[jsonData.id] = jsonData;
-				console.log(jsonData);
-				$('<p class="tooltip" style="z-index:9000"></p>').fadeIn(200).text(jsonData.title).appendTo('body');
+				var jsonData = JSON.parse(result);
+				if (!jsonData.title) {
+					instance.setContent("Unidentified")
+				} else {
+					window.silhouettes[jsonData.id] = jsonData;
+					instance.setContent(jsonData.title);
+				}
 			});
-		}
-
-		// var title = $(this).attr('data-tooltip');
-		// $(this).data('tipText', title);
-		// if (title == '') { }
-		// else {
-		// 	$('<p class="tooltip" style="z-index:9000"></p>').fadeIn(200).text(jsonData.title).appendTo('body');
-		// }
-	}, function () {
-		$(this).attr('data-tooltip', $(this).data('tipText'));
-		$('.tooltip').fadeOut(200);
-	}).mousemove(function (e) {
-		var mousex = e.pageX;
-		var mousey = e.pageY;
-		$('.tooltip').css({
-			top: mousey,
-			left: mousex,
-			position: 'absolute'
-		})
+		},
 	});
+
 
 	//Panzoom for al odd pages
 	const oddPages = document.querySelectorAll('.panzoom-odd');
 	oddPages.forEach((elem) => {
 		const parent = elem.parentElement;
 		const panzoom = Panzoom(elem, {
-			autocenter  : true,
+			autocenter: true,
 			bounds: true,
-  			boundsPadding: 1,
+			boundsPadding: 1,
 			minScale: 1,
 			maxScale: 5,
 			contain: 'outside',
-			panOnlyWhenZoomed:true,
+			panOnlyWhenZoomed: true,
 			disableZoom: false,
 			animate: true,
 		});
 
-	
-		$('#reset-odd').click(function(){
+
+		$('#reset-odd').click(function () {
 			panzoom.reset();
 		})
 
-		$('#zoom-in-odd').click(function(){
+		$('#zoom-in-odd').click(function () {
 			panzoom.zoomIn();
 		})
 
-		$('#zoom-out-odd').click(function(){
+		$('#zoom-out-odd').click(function () {
 			var m = $('.panzoom-odd').css('transform');
 			var mt = m.substring(m.indexOf('(') + 1, m.indexOf(')')).split(',');
-			if(mt[0] < 1.5){
+			if (mt[0] < 1.5) {
 				panzoom.reset();
-			}else{
+			} else {
 				panzoom.zoomOut();
 			}
 		})
 		// parent.addEventListener('wheel', panzoom.zoomWithWheel);
 		const rangeInput = document.getElementById('zoom-range');
-		
+
 		// rangeInput.addEventListener('input', (event) => {
 		// 	panzoom.zoom(event.target.valueAsNumber)
 		//   })
@@ -148,38 +130,38 @@ setTimeout(function () {
 	evenPages.forEach((elem) => {
 		const parent = elem.parentElement;
 		const panzoom = Panzoom(elem, {
-			autocenter  : true,
+			autocenter: true,
 			bounds: true,
-  			boundsPadding: 1,
+			boundsPadding: 1,
 			minScale: 1,
 			maxScale: 5,
 			contain: 'outside',
-			panOnlyWhenZoomed:true,
+			panOnlyWhenZoomed: true,
 			disableZoom: false,
 			animate: true,
 		});
 
-	
-		$('#reset-even').click(function(){
+
+		$('#reset-even').click(function () {
 			panzoom.reset();
 		})
 
-		$('#zoom-in-even').click(function(){
+		$('#zoom-in-even').click(function () {
 			panzoom.zoomIn();
 		})
 
-		$('#zoom-out-even').click(function(){
+		$('#zoom-out-even').click(function () {
 			var m = $('.panzoom-even').css('transform');
 			var mt = m.substring(m.indexOf('(') + 1, m.indexOf(')')).split(',');
-			if(mt[0] < 1.5){
+			if (mt[0] < 1.5) {
 				panzoom.reset();
-			}else{
+			} else {
 				panzoom.zoomOut();
 			}
 		})
 		// parent.addEventListener('wheel', panzoom.zoomWithWheel);
 		const rangeInput = document.getElementById('zoom-range');
-		
+
 		// rangeInput.addEventListener('input', (event) => {
 		// 	panzoom.zoom(event.target.valueAsNumber)
 		//   })
@@ -212,10 +194,9 @@ setTimeout(function () {
 			};
 
 			if (window.silhouettes.hasOwnProperty(url)) {
-				setTimeout(function () {
-					// openCropCanvasImg(-leftCoord, -topCoord); //Send coordinates of this area to be cropped
-					$('#image-info').text(`${window.silhouettes['' + url + ''].content.freetext.name[1].content}`);
-				}, 700)
+				// openCropCanvasImg(-leftCoord, -topCoord); //Send coordinates of this area to be cropped
+				$('#image-info').text(`${window.silhouettes['' + url + ''].content.freetext.name[1].content}`);
+				$("#result").attr("src", window.silhouettes['' + url + ''].content.descriptiveNonRepeating.online_media.media[0].guid);
 			} else {
 				$.ajax({
 					type: "POST",
@@ -224,13 +205,10 @@ setTimeout(function () {
 				}).done(function (msg) {
 					var jsonData = JSON.parse(msg);
 					let image = jsonData.content.descriptiveNonRepeating.online_media.media[0].guid
+					// openCropCanvasImg(-leftCoord, -topCoord); //Send coordinates of this area to be cropped
+					$('#image-info').text(`${jsonData.content.freetext.name[1].content}`);
+					$("#result").attr("src", image);
 
-					setTimeout(function () {
-						// openCropCanvasImg(-leftCoord, -topCoord); //Send coordinates of this area to be cropped
-						$('#image-info').text(`${jsonData.content.freetext.name[1].content}`);
-						$("#result").attr("src", image);
-
-					}, 700)
 				});
 			}
 
