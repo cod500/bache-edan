@@ -183,11 +183,13 @@
 }
 
 .bb-custom-wrapper {
-  width: 900px;
+  max-width: 900px;
   height: 680px;
+  margin-bottom: 200px;
   position: relative;
-  margin: 0 auto;
+  margin: 0 auto 200px;
   box-shadow: 0 12px 20px -10px rgba(81, 64, 49, 0.6);
+  z-index: 0;
 }
 /* img {
 	width: 450px;

@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <?php 
+    $title = "William Bache Silhouettes";
+    include("includes/main_head.php");?>
+    </head>
+    <body id="section_1">
+        <?php include("includes/nav.php");?>
+        <?php 
+        $page = "William Bache's Silhouettes Album";
+        include("includes/page_header.php");
+        ?>
+        <main>
+            <!-- BACHE INTRO-->
+            <section class="section-padding section-bg pt-5" id="section_2">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-4 col-12 mb-5 mb-lg-0 text-center">
+                            <img src="https://ids.si.edu/ids/deliveryService?id=NPG-S_NPG_74_39_2_30Bache-000001"
+                                class="custom-text-box-image img-fluid" alt="">
+                        </div>
+
+                        <div class="col-lg-8 col-12">
+                            <div class="custom-text-box">
+                                <p class="mb-0">William Bache (1771–1845) emigrated from England to Philadelphia in May 1793
+                                    with no
+                                    apparent training as an artist. Yet from 1803 to 1812, he pursued a prolific and
+                                    successful
+                                    career as an itinerant maker of silhouette portraits, traveling up and down the eastern
+                                    seaboard,
+                                    from Maine to Virginia, and further south to Louisiana and Cuba. Working sporadically
+                                    over that
+                                    nine-year period, he produced thousands of shaded profiles with the aid of a patented
+                                    physiognotrace, a mechanical device used to trace the outline of a person’s face. Cheap
+                                    and
+                                    quick to make, silhouettes captured the likenesses of a broad cross-section of society,
+                                    including
+                                    those who could afford no other form of portrait.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-12 mt-5" style="">
+                            <div class="custom-text-box">
+                                <p class="mb-0">Bache preserved nearly two thousand of his earliest silhouettes in a ledger
+                                    book that
+                                    was acquired by the Smithsonian’s National Portrait Gallery in 2002. Conservation
+                                    analysis in
+                                    2008 revealed that the album was infused with arsenic, a hazardous material. This
+                                    interactive,
+                                    digital reproduction of the ledger book provides a safe means of accessing Bache&#39;s
+                                    work, and
+                                    supporting materials provide additional insights into his life and practice.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <!-- END BACHE INTRO-->
+            <!-- BOOK LINK-->
+            <section class="section-padding" id="section_3">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-12 d-flex justify-content-center flex-wrap">
+                            <a href="book.php">
+                            <div class="text-center book-link">
+                                <p>View William Bache's</p>
+                                <p>Silhouettes Album</p>
+                            </div>
+                            </a>
+                            <div class="book-link-credit">
+                                This digital project made possible with support from Getty Foudation through The Paper
+                                Project initiative.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- END BOOK LINK-->
+
+            <!-- ARTICLES SECTION-->
+            <section class="articles-section section-padding section-bg">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-12 col-12 mb-4 text-center">
+                            <h2>Read Contemporary Articles</h2>
+                        </div>
+
+                    </div>
+                    <!-- 3 columns -->
+                    <div class="container">
+                        <div class="row">
+
+                            <div class="col-12 col-lg-4">
+                                <div class="box row">
+                                    <p class="content-title">Content</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam perspiciatis aliquam
+                                        quam ex aut repellendus quis architecto, explicabo dolores quibusdam quos unde
+                                        maiores
+                                        blanditiis dolor. Soluta ratione voluptatem vero? Nisi.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-lg-4">
+                                <div class="box row">
+                                    <!-- <div class="col-4">
+                                        <img src="https://picsum.photos/200/300" alt="">
+                                    </div> -->
+                                    <div class="col-12">
+                                        <p class="content-title">Content</p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam perspiciatis
+                                            aliquam
+                                            quam ex aut repellendus quis architecto, explicabo dolores quibusdam quos unde
+                                            maiores
+                                            blanditiis dolor. Soluta ratione voluptatem vero? Nisi.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-lg-4">
+                                <div class="box row">
+                                    <p class="content-title">Content</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam perspiciatis aliquam
+                                        quam ex aut repellendus quis architecto, explicabo dolores quibusdam quos unde
+                                        maiores
+                                        blanditiis dolor. Soluta ratione voluptatem vero? Nisi.</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12 col-lg-4">
+                                <div class="box row">
+                                    <p class="content-title">Content</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam perspiciatis aliquam
+                                        quam ex aut repellendus quis architecto, explicabo dolores quibusdam quos unde
+                                        maiores
+                                        blanditiis dolor. Soluta ratione voluptatem vero? Nisi.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-lg-4">
+                                <div class="box row">
+                                    <p class="content-title">Content</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam perspiciatis aliquam
+                                        quam ex aut repellendus quis architecto, explicabo dolores quibusdam quos unde
+                                        maiores
+                                        blanditiis dolor. Soluta ratione voluptatem vero? Nisi.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-lg-4">
+                                <div class="box row">
+                                    <p class="content-title">Content</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam perspiciatis aliquam
+                                        quam ex aut repellendus quis architecto, explicabo dolores quibusdam quos unde
+                                        maiores
+                                        blanditiis dolor. Soluta ratione voluptatem vero? Nisi.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- END ARTICLES SECTION-->
+        </main>
+        <?php include("includes/page_footer.php");?>
+        <!-- JAVASCRIPT FILES -->
+        <?php include("includes/main_js.php");?>
+    </body>
+</html>

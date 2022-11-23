@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<?php include("includes/header.php");?>
-    <title>Biography</title>
+<?php 
+$title = "Biography";
+include("includes/main_head.php");
+?>
 </head>
 <body>
-<?php include("includes/nav_bar.php");?>
+<?php include("includes/nav.php");?>
+<?php 
+        $page = "A Brief Biography of William Bache";
+        include("includes/page_header.php");
+        ?>
 
-
-<!-- Section for time line -->
-<section class="text-gray-700 body-font border-t border-gray-200 mt-20">
+<!-- BIOGRAPHY-->
+<section class="section-padding section-bg pt-5 biography-section">
     
-  <div class="container px-5 py-24 mx-auto">
-  <h1 dir="ltr" style="text-align:center" class="text-3xl">
-    A Brief Biography of William Bache
-</h1>
-<br/>
+  <div class="container">
 <p dir="ltr" style=" text-indent: 40px;">
         William Bache (1771–1845) emigrated from England to Philadelphia in May
     1793 with no apparent training as an artist. Yet from 1803 to 1812, he
@@ -30,6 +31,12 @@
     trace the human face with ‘mathematical correctness’ without touching it.”
 </p>
 <br>
+<!-- TIMELINE-->
+<div class="container px-5 py-24 mx-auto">
+  <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1meNa1_81w3_u6F2QJi2UWnzjTFZukRP9qjSCVWe2O6I&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+  </div>
+  <!-- END TIMELINE-->
+  <br>
 <p dir="ltr" style=" text-indent: 40px;">
     On August 16, 1803, Bache and Todd advertised that they had “commenced
     taking likenesses in profile” in Baltimore, offering customers “four
@@ -136,14 +143,7 @@
 </div>
   </div>
 </section>
-<section class="text-gray-700 body-font border-t border-gray-200">
-    
-  <div class="container px-5 py-24 mx-auto">
-  <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1meNa1_81w3_u6F2QJi2UWnzjTFZukRP9qjSCVWe2O6I&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
-  </div>
-</section>
-<!-- End of Section for time line -->
-
-<?php include("includes/footer.php");?>
+<!-- END BIOGRAPHY-->
+<?php include("includes/page_footer.php");?>
 </body>
 </html>

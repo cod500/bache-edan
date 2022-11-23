@@ -207,10 +207,16 @@ var obj = {
 				if (!jsonData.title) {
 					openCropCanvasImg(-leftCoord, -topCoord); //Send coordinates of this area to be cropped
 					$('#image-info').text('Unidentified');
+					setTimeout(function () {
+						$('#bache-modal').click();
+					}, 300)
 				} else {
 					let image = jsonData.content.descriptiveNonRepeating.online_media.media[0].guid
 					$('#image-info').text(`${jsonData.content.freetext.name[1].content}`);
 					$("#result").attr("src", image);
+					setTimeout(function () {
+						$('#bache-modal').click();
+					}, 300)
 				}
 
 			});
