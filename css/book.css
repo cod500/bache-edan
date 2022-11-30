@@ -3,15 +3,6 @@
   margin: 100px auto;
 }
 
-.modal-open {
-  padding-right: 0px !important;
-  overflow: auto !important;
-}
-
-.modal-dialog {
-  top: 15%;
-}
-
 #book-zoom {
   -webkit-transition: -webkit-transform 1s;
   -moz-transition: -moz-transform 1s;
@@ -226,6 +217,11 @@ area {
   display: flex;
   justify-content: space-around;
 }
+
+.zoom-controls i {
+  margin-right: 5px;
+  font-size: 0.9rem;
+}
 #zoom-in-even,
 #zoom-in-odd,
 #zoom-out-even,
@@ -234,6 +230,12 @@ area {
 #reset-odd {
   background-color: #dddddd;
   font-size: 0.8rem;
+  border-radius: 4px;
+  -webkit-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+  -moz-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+  -ms-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+  -o-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
 }
 
 .controls input,
@@ -294,11 +296,17 @@ i {
   width: 100%;
   object-fit: contain;
 }
+
 .img-box {
   height: 300px !important;
   object-fit: fill;
   width: 250px !important;
 }
+
+/* #result {
+  width: 280px;
+  height: 350px;
+} */
 
 @media (min-width: 768px) {
   /* .container {

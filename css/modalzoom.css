@@ -1,0 +1,75 @@
+/*---------------------------------------
+  MODAL              
+-----------------------------------------*/
+.modal-open {
+  padding-right: 0px !important;
+  overflow: hidden;
+}
+
+.modal-dialog {
+  top: 5%;
+}
+
+.modal-body h2 {
+  font-size: 28px;
+}
+
+.modal-body p {
+  display: inline;
+}
+
+.modal-body span {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.modal-body .silhouette-content-block {
+  margin: 10px 0;
+}
+
+.btn-close {
+  margin-left: auto !important;
+}
+
+/*---------------------------------------
+  MODAL IMAGE ZOOM              
+-----------------------------------------*/
+.zoom-main {
+  overflow: hidden;
+  position: relative;
+  max-width: 500px;
+  max-height: 344px;
+  margin-top: 30px !important;
+  -webkit-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+  -moz-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+  -ms-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+  -o-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+}
+.zoom-main img {
+  pointer-events: none;
+  display: block;
+  width: 100%;
+  height: auto;
+  cursor: zoom-in;
+  opacity: 1;
+  top: 0;
+  left: 0;
+}
+.zoom-main img.is-loaded {
+  position: absolute;
+}
+.zoom-main img.is-active {
+  opacity: 1;
+  pointer-events: initial;
+}
+.zoom-main img.is-zoomed-in {
+  cursor: zoom-out;
+  width: initial;
+}
+.silhouette {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+}

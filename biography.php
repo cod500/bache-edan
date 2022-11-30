@@ -12,7 +12,60 @@ include("includes/main_head.php");
         $page = "A Brief Biography of William Bache";
         include("includes/page_header.php");
         ?>
-
+    <!-- MODAL -->
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-4">
+          <button hidden id="bache-modal" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Open Modal</button>
+        </div>
+      </div>
+      
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="row">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body row">
+          <div class="silhouette col-5">
+            <div class="silhouette__focus zoom-main"><img id="result" src="" alt="single silhouette image"/></div>
+          </div>
+          <div class="col-7">
+            <h2 class="text-center text-decoration-underline" id="silhouette-name"></h2>
+           <div class="silhouette-content-block">
+           <span>Artist:</span> <p id="artist-name"></p>
+           </div>
+           <div class="silhouette-content-block">
+           <span>Sitter:</span> <p id="sitter"></p>
+           </div>
+           <div class="silhouette-content-block">
+           <span>Medium:</span> <p id="medium"></p>
+           </div>
+           <div class="silhouette-content-block">
+           <span>Dimensions:</span> <p id="dimensions"></p>
+           </div>
+           <div class="silhouette-content-block">
+           <span>Book Closed:</span> <p id="book-closed"></p>
+           </div>
+           <div class="silhouette-content-block">
+           <span>Book Open:</span> <p id="book-open"></p>
+           </div>
+           <div class="silhouette-content-block">
+           <span>Date:</span> <p id="silhouette-date"></p>
+           </div>
+           <div class="silhouette-content-block">
+           <span>Credit Line:</span> <p id="credit-line"></p>
+           </div>
+           <div class="silhouette-content-block">
+           <span>Object Number:</span> <p id="obj-number"></p>
+           </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- END MODAL -->
 <!-- BIOGRAPHY-->
 <section class="section-padding section-bg pt-5 biography-section">
     
@@ -25,7 +78,7 @@ include("includes/main_head.php");
     Maine to Virginia, and further south to Louisiana and Cuba. Working
     sporadically over that nine-year period, he produced thousands of shaded
     profiles with the aid of a physiognotrace, a mechanical device used to
-    trace the outline of a person’s face (fig. 1). Bache and two partners,
+    trace the outline of a person’s face (fig. <span class="article-figure" data-tippy-content="Click to view figure." data-link="edanmdm:npg_S_NPG.2002.184.1104">1</span>). Bache and two partners,
     Augustus Day and Isaac Todd, had patented their physiognotrace on June 15,
     1803. According to Todd, it differed from similar devices in that it “can
     trace the human face with ‘mathematical correctness’ without touching it.”
@@ -42,7 +95,7 @@ include("includes/main_head.php");
     taking likenesses in profile” in Baltimore, offering customers “four
     correct profiles for 25 cents.” They used the physiognotrace to outline a
     sitter’s profile on a piece of light-colored paper that was folded in half
-    twice. When they cut out the tracing, four copies were produced (fig. 2).
+    twice. When they cut out the tracing, four copies were produced (fig. <span class="article-figure" data-tippy-content="Click to view figure." data-link="edanmdm:npg_S_NPG.2002.184.50">2</span>).
     Each “hollow-cut” sheet was adhered to a dark ground, creating the
     appearance of a black profile on a white background
 </p>
@@ -54,11 +107,11 @@ include("includes/main_head.php");
     his work in a ledger book, blackening one of the four cut-out heads left
     over from his hollow-cut technique and pasting it into the album above a
     number that corresponded with an index of numbered names at the back of the
-    book (fig. 3). As Bache traveled from place to place, the ledger book
+    book (fig. <span class="article-figure" data-tippy-content="Click to go to album."><a href="/book.php">3</a></span>). As Bache traveled from place to place, the ledger book
     provided samples of his past work and attested to his bona fides. President
     Thomas Jefferson, former president George Washington, and First Lady Martha
     Washington are among the celebrated figures represented on the first page
-    of Bache’s album (figs. 4, 5).
+    of Bache’s album (figs. <span class="article-figure" data-tippy-content="Click to view figure." data-link="edanmdm:npg_S_NPG.2002.184.62">4</span>, <span class="article-figure" data-tippy-content="Click to view figure." data-link="edanmdm:npg_S_NPG.2002.184.6">5</span>).
 </p>
 <p dir="ltr" style=" text-indent: 40px;">
     Sensing an opportunity in the Louisiana Purchase of 1803, Bache reunited
@@ -68,8 +121,8 @@ include("includes/main_head.php");
     “Four correct likenesses, neatly cut in Vellum paper for one dollar.” The
     index of Bache’s ledger book attests to the great variety of his patrons in
     New Orleans, which included American, French, Spanish, and British men,
-    women, and children, with several military figures in bicorne hats (fig. 6,
-    7).
+    women, and children, with several military figures in bicorne hats (fig. <span class="article-figure" data-tippy-content="Click to view figure." data-link="edanmdm:npg_S_NPG.2002.184.223">6</span>,
+    <span class="article-figure" data-tippy-content="Click to view figure." data-link="edanmdm:npg_S_NPG.2002.184.702">7</span>).
 </p>
 <br>
 <p dir="ltr" style=" text-indent: 40px;">
@@ -80,7 +133,7 @@ include("includes/main_head.php");
     unnumbered and unnamed silhouettes were most likely made in Cuba. They
     represent even greater diversity than his New Orleans clientele, including
     Catholic priests in birettas, women with elaborate floral hairdressings,
-    and numerous individuals of African heritage (figs. 8, 9, 10, 11).
+    and numerous individuals of African heritage (figs. <span class="article-figure" data-tippy-content="Click to view figure." data-link="edanmdm:npg_S_NPG.2002.184.1042">8</span>, <span class="article-figure" data-tippy-content="Click to view figure." data-link="edanmdm:npg_S_NPG.2002.184.986">9</span>, <span class="article-figure" data-tippy-content="Click to view figure." data-link="edanmdm:npg_S_NPG.2002.184.1599">10</span>, <span class="article-figure" data-tippy-content="Click to view figure." data-link="edanmdm:npg_S_NPG.2002.184.1630">11</span>).
     According to a newspaper editorial published in Havana in 1806, Bache
     enjoyed phenomenal success in the city, going from house to house with his
     physiognotrace and making silhouettes of everyone in the family, “right
@@ -105,38 +158,38 @@ include("includes/main_head.php");
 <p dir="ltr">
     Illustration List
 </p>
-<p dir="ltr">
-    Fig. 1 Unidentified Man (possibly William Bache), S/NPG.2002.184.1104
+<p dir="ltr" class="article-link" data-link="edanmdm:npg_S_NPG.2002.184.1104">
+    <a>Fig. 1 Unidentified Man (possibly William Bache), S/NPG.2002.184.1104</a>
 </p>
-<p dir="ltr">
-    Fig. 2 Unidentified Woman, NPG.2002.184.50
+<p dir="ltr" class="article-link" data-link="edanmdm:npg_S_NPG.2002.184.50">
+    <a>Fig. 2 Unidentified Woman, NPG.2002.184.50</a>
 </p>
-<p dir="ltr">
-    Fig. 3 A detail from Bache's album showing a group of numbered silhouettes
+<p dir="ltr" class="article-hyperlink">
+    <a href="/book.php">Fig. 3 A detail from Bache's album showing a group of numbered silhouettes</a>
+  </p>
+<p dir="ltr" class="article-link" data-link="edanmdm:npg_S_NPG.2002.184.62">
+    <a>Fig. 4 Thomas Jefferson; NPG.2002.184.62</a>
 </p>
-<p dir="ltr">
-    Fig. 4 Thomas Jefferson; NPG.2002.184.62
+<p dir="ltr" class="article-link" data-link="edanmdm:npg_S_NPG.2002.184.6">
+    <a>Fig. 5 Martha Washington; NPG.2002.184.6</a>
 </p>
-<p dir="ltr">
-    Fig. 5 Martha Washington; NPG.2002.184.6
+<p dir="ltr" class="article-link" data-link="edanmdm:npg_S_NPG.2002.184.223">
+    <a>Fig. 6 Unidentified Girl; S/NPG.2002.184.223</a>
 </p>
-<p dir="ltr">
-    Fig. 6 Unidentified Girl; S/NPG.2002.184.223
+<p dir="ltr" class="article-link" data-link="edanmdm:npg_S_NPG.2002.184.702">
+    <a>Fig. 7 Unidentified Man (possibly Sgt. Matthew Boon); S/NPG.2002.184.702</a>
 </p>
-<p dir="ltr">
-    Fig. 7 Unidentified Man (possibly Sgt. Matthew Boon); S/NPG.2002.184.702
+<p dir="ltr" class="article-link" data-link="edanmdm:npg_S_NPG.2002.184.1042">
+    <a>Fig. 8 Unidentified Woman; S/NPG.2002.184.1042</a>
 </p>
-<p dir="ltr">
-    Fig. 8 Unidentified Woman; S/NPG.2002.184.1042
+<p dir="ltr" class="article-link" data-link="edanmdm:npg_S_NPG.2002.184.986">
+    <a>Fig. 9 Unidentified Man, S/NPG.2002.184.986</a>
 </p>
-<p dir="ltr">
-    Fig. 9 Unidentified Man, S/NPG.2002.184.986
+<p dir="ltr" class="article-link" data-link="edanmdm:npg_S_NPG.2002.184.1599">
+    <a>Fig.10 Unidentified Woman, S/NPG.2002.184.1599</a>
 </p>
-<p dir="ltr">
-    Fig.10 Unidentified Woman, S/NPG.2002.184.1599
-</p>
-<p dir="ltr">
-    Fig. 11 Unidentified Man, S/NPG.2002.184.1630
+<p dir="ltr" class="article-link" data-link="edanmdm:npg_S_NPG.2002.184.1630">
+    <a>Fig. 11 Unidentified Man, S/NPG.2002.184.1630</a>
 </p>
 <div>
     <br/>
@@ -145,5 +198,45 @@ include("includes/main_head.php");
 </section>
 <!-- END BIOGRAPHY-->
 <?php include("includes/page_footer.php");?>
+<?php include("includes/main_js.php");?>
+<script src="https://unpkg.com/@popperjs/core@2"></script>
+<script src="https://unpkg.com/tippy.js@6"></script>
+<script>
+tippy('.article-figure', { arrow: true });
+
+$('.article-figure, .article-link').click(function(){
+    var data = {
+			silhouette: $(this).attr('data-link'),
+		};
+        $.ajax({
+				type: "POST",
+				url: "/data/index.php",
+				data: data
+			}).done(function (msg) {
+				var jsonData = JSON.parse(msg);
+					console.log(jsonData);
+					let image = jsonData.content.descriptiveNonRepeating.online_media.media[0].guid;
+					$('#silhouette-name').text(jsonData.title);
+					$('#artist-name').text(jsonData.content.freetext.name[0].content);
+					$('#sitter').text(jsonData.content.freetext.name[1].content);
+					$('#medium').text(jsonData.content.freetext.physicalDescription[0].content);
+                    $('#dimensions').text(jsonData.content.freetext.physicalDescription[1].content);
+                    if(data.silhouette == 'edanmdm:npg_S_NPG.2002.184.50'){
+                        $('#book-closed').text('');
+                        $('#book-open').text('');
+                    }else{
+                        $('#book-closed').text(jsonData.content.freetext.physicalDescription[2].content);
+                        $('#book-open').text(jsonData.content.freetext.physicalDescription[3].content);
+                    }
+					$('#silhouette-date').text(jsonData.content.freetext.date[0].content);
+					$('#credit-line').text(jsonData.content.freetext.physicalDescription[0].content);
+					$('#obj-number').text(jsonData.content.freetext.identifier[0].content);
+					$("#result").attr("src", image);
+						$('#bache-modal').click();
+
+				})
+
+			});
+</script>
 </body>
 </html>

@@ -47,6 +47,8 @@ function openCropCanvasImg(x, y) {
 
 }
 
+
+
 //
 
 //Tooltip for every image
@@ -116,18 +118,29 @@ oddPages.forEach((elem) => {
 			panzoom.zoomOut();
 		}
 	})
-	// parent.addEventListener('wheel', panzoom.zoomWithWheel);
-	const rangeInput = document.getElementById('zoom-range');
 
-	// rangeInput.addEventListener('input', (event) => {
-	// 	panzoom.zoom(event.target.valueAsNumber)
-	//   })
+	$('#bb-nav-next, #bb-nav-last, #bb-nav-prev, #bb-nav-first').hover(function () {
+		panzoom.reset();
+	})
+
+	$('#page-number').on('input', function () {
+		panzoom.reset();
+	});
+
+	$(window).keydown(function (event) {
+		if (event.keyCode == 37 || event.keyCode == 38 || event.keyCode == 39 || event.keyCode == 40) {
+			panzoom.reset();
+		}
+	});
+
+
 
 });
 
 //Panzoom for all even pages
 const evenPages = document.querySelectorAll('.panzoom-even');
 evenPages.forEach((elem) => {
+
 	const parent = elem.parentElement;
 	const panzoom = Panzoom(elem, {
 		autocenter: true,
@@ -159,12 +172,20 @@ evenPages.forEach((elem) => {
 			panzoom.zoomOut();
 		}
 	})
-	// parent.addEventListener('wheel', panzoom.zoomWithWheel);
-	const rangeInput = document.getElementById('zoom-range');
+	$('#bb-nav-next, #bb-nav-last, #bb-nav-prev, #bb-nav-first').hover(function () {
+		panzoom.reset();
+	})
 
-	// rangeInput.addEventListener('input', (event) => {
-	// 	panzoom.zoom(event.target.valueAsNumber)
-	//   })
+
+	$('#page-number').on('input', function () {
+		panzoom.reset();
+	});
+
+	$(window).keydown(function (event) {
+		if (event.keyCode == 37 || event.keyCode == 38 || event.keyCode == 39 || event.keyCode == 40) {
+			panzoom.reset();
+		}
+	});
 
 });
 
@@ -195,7 +216,16 @@ var obj = {
 
 		if (window.silhouettes.hasOwnProperty(url)) {
 			// openCropCanvasImg(-leftCoord, -topCoord); //Send coordinates of this area to be cropped
-			$('#image-info').text(`${window.silhouettes['' + url + ''].content.freetext.name[1].content}`);
+			$('#silhouette-name').text(window.silhouettes['' + url + ''].title);
+			$('#artist-name').text(window.silhouettes['' + url + ''].content.freetext.name[0].content);
+			$('#sitter').text(window.silhouettes['' + url + ''].content.freetext.name[1].content);
+			$('#medium').text(window.silhouettes['' + url + ''].content.freetext.physicalDescription[0].content);
+			$('#dimensions').text(window.silhouettes['' + url + ''].content.freetext.physicalDescription[1].content);
+			$('#book-closed').text(window.silhouettes['' + url + ''].content.freetext.physicalDescription[2].content);
+			$('#book-open').text(window.silhouettes['' + url + ''].content.freetext.physicalDescription[3].content);
+			$('#silhouette-date').text(window.silhouettes['' + url + ''].content.freetext.date[0].content);
+			$('#credit-line').text(window.silhouettes['' + url + ''].content.freetext.physicalDescription[0].content);
+			$('#obj-number').text(window.silhouettes['' + url + ''].content.freetext.identifier[0].content);
 			$("#result").attr("src", window.silhouettes['' + url + ''].content.descriptiveNonRepeating.online_media.media[0].guid);
 		} else {
 			$.ajax({
@@ -211,8 +241,18 @@ var obj = {
 						$('#bache-modal').click();
 					}, 300)
 				} else {
-					let image = jsonData.content.descriptiveNonRepeating.online_media.media[0].guid
-					$('#image-info').text(`${jsonData.content.freetext.name[1].content}`);
+					console.log(jsonData);
+					let image = jsonData.content.descriptiveNonRepeating.online_media.media[0].guid;
+					$('#silhouette-name').text(jsonData.title);
+					$('#artist-name').text(jsonData.content.freetext.name[0].content);
+					$('#sitter').text(jsonData.content.freetext.name[1].content);
+					$('#medium').text(jsonData.content.freetext.physicalDescription[0].content);
+					$('#dimensions').text(jsonData.content.freetext.physicalDescription[1].content);
+					$('#book-closed').text(jsonData.content.freetext.physicalDescription[2].content);
+					$('#book-open').text(jsonData.content.freetext.physicalDescription[3].content);
+					$('#silhouette-date').text(jsonData.content.freetext.date[0].content);
+					$('#credit-line').text(jsonData.content.freetext.physicalDescription[0].content);
+					$('#obj-number').text(jsonData.content.freetext.identifier[0].content);
 					$("#result").attr("src", image);
 					setTimeout(function () {
 						$('#bache-modal').click();
@@ -226,5 +266,8 @@ var obj = {
 	}
 }
 
+//initialize mapping
 $("map").mapoid(obj);
+
+
 

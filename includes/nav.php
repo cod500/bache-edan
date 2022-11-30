@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg bg-light shadow-lg npg-bg">
-        <a class="navbar-brand p-3" href="index.php">
-            <img src="images/navbar-img.png" style="width: 35%" class="logo img-fluid"
+        <a class="navbar-brand" href="index.php">
+            <img src="images/navbar-img.png" style="width: 45%" class="logo img-fluid"
                 alt="William Bache Silhouette navigation icon">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -27,12 +27,12 @@
 
                 <li class="nav-item dropdown">
                     <a class="nav-link click-scroll dropdown-toggle" href="#section_5" id="navbarLightDropdownMenuLink"
-                        role="button" data-bs-toggle="dropdown" aria-expanded="false">Additional Materials</a>
+                        role="button" data-bs-toggle="dropdown" aria-expanded="false">Additional Recources</a>
 
                     <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
                         <li><a class="dropdown-item" href="#">Bibliography</a></li>
 
-                        <li><a class="dropdown-item" href="#">Other Collections</a></li>
+                        <li><a class="dropdown-item" href="/other-collections.php">Other Collections</a></li>
                     </ul>
                 </li>
             </ul>

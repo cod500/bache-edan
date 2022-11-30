@@ -120,7 +120,7 @@ h2 a:after:hover, a h2:after:hover, h3 a:after:hover, #block-panels-mini-footer 
 }
 
 @media (min-width:1366px) {
-    footer h2, span{
+    footer h2{
     font-size: 70.3125%;
 }
 
@@ -2979,9 +2979,9 @@ aside .entity-paragraphs-item.field-bg .b-text-wrapper, .aside .entity-paragraph
 .modal-content {
     background-color: #fefefe;
     margin: 10% auto;
-    padding: 20px;
+    padding: 5px 20px;
     border: 1px solid #888;
-    width: 80%;
+    width: 100%;
     min-width: 400px;
 }
 .modal-content .modal-close {

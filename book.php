@@ -29,11 +29,43 @@ include("includes/main_head.php");
       <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-lg">
         <div class="modal-content">
-          <div class="modal-header">
+          <div class="row">
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
-          <div class="modal-body">
-            <img id="result" src="https://ids.si.edu/ids/deliveryService?id=NPG-S_NPG_74_39_2_30Bache-000001" style="width:50%" alt="">
+          <div class="modal-body row">
+          <div class="silhouette col-5">
+            <div class="silhouette__focus zoom-main"><img id="result" src="" alt="single silhouette image"/></div>
+          </div>
+          <div class="col-7">
+            <h2 class="text-center text-decoration-underline" id="silhouette-name"></h2>
+           <div class="silhouette-content-block">
+           <span>Artist:</span> <p id="artist-name"></p>
+           </div>
+           <div class="silhouette-content-block">
+           <span>Sitter:</span> <p id="sitter"></p>
+           </div>
+           <div class="silhouette-content-block">
+           <span>Medium:</span> <p id="medium"></p>
+           </div>
+           <div class="silhouette-content-block">
+           <span>Dimensions:</span> <p id="dimensions"></p>
+           </div>
+           <div class="silhouette-content-block">
+           <span>Book Closed:</span> <p id="book-closed"></p>
+           </div>
+           <div class="silhouette-content-block">
+           <span>Book Open:</span> <p id="book-open"></p>
+           </div>
+           <div class="silhouette-content-block">
+           <span>Date:</span> <p id="silhouette-date"></p>
+           </div>
+           <div class="silhouette-content-block">
+           <span>Credit Line:</span> <p id="credit-line"></p>
+           </div>
+           <div class="silhouette-content-block">
+           <span>Object Number:</span> <p id="obj-number"></p>
+           </div>
+          </div>
           </div>
         </div>
       </div>
@@ -77,28 +109,28 @@ include("includes/main_head.php");
             <div class="zoom-controls mt-3 mb-3">
                 <div>
                 <button id="zoom-in-even"
-                  class="px-4 py-2 my-2 md:my-6 py-2 px-8">ZOOM
+                  class="px-4 py-2 my-2 md:my-6 py-2 px-8"><i class="bi-plus-circle-fill"></i>ZOOM
                   IN </button>
                 <button id="zoom-out-even"
-                  class="px-4 py-2 my-2 md:my-6 py-2 px-8">ZOOM
+                  class="px-4 py-2 my-2 md:my-6 py-2 px-8"><i class="bi-dash-circle-fill"></i>ZOOM
                   OUT</button>
                 <!-- <input type="range" class="zoom-range"> -->
                 <button
                   class="px-4 py-2 my-2 md:my-6 py-2 px-8"
-                  id="reset-even">RESET</button>
+                  id="reset-even"><i class="bi-arrow-counterclockwise"></i>RESET</button>
               </div>
 
               <div>
                 <button id="zoom-in-odd"
-                  class="px-4 py-2 my-2 md:my-6 py-2 px-8">ZOOM
+                  class="px-4 py-2 my-2 md:my-6 py-2 px-8"><i class="bi-plus-circle-fill"></i>ZOOM
                   IN </button>
                 <button id="zoom-out-odd"
-                  class="px-4 py-2 my-2 md:my-6 py-2 px-8">ZOOM
+                  class="px-4 py-2 my-2 md:my-6 py-2 px-8"><i class="bi-dash-circle-fill"></i>ZOOM
                   OUT</button>
                 <!-- <input type="range" id="zoom-range" min="0.1" max="4" step="0.1" value="1"> -->
                 <button
                   class="px-4 py-2 my-2 md:my-6 py-2 px-8"
-                  id="reset-odd">RESET</button>
+                  id="reset-odd"><i class="bi-arrow-counterclockwise"></i>RESET</button>
               </div>
             </div>
               <nav>

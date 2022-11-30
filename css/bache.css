@@ -68,7 +68,7 @@ h1 {
 }
 
 h2 {
-  color: var(--secondary-color);
+  color: var(--dark-color);
   font-size: var(--h2-font-size);
   letter-spacing: -2px;
 }
@@ -91,7 +91,7 @@ h6 {
 
 p {
   color: var(--dark-color);
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: var(--font-weight-light);
 }
 
@@ -208,7 +208,7 @@ strong {
 }
 
 .custom-text-box p {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   font-weight: var(--font-weight-light);
   color: #000;
   line-height: 1.5;
@@ -459,8 +459,7 @@ strong {
 -----------------------------------------*/
 .site-header {
   background: var(--npg-bg-color-dark);
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding: 50px 0;
   font-weight: bold;
 }
 
@@ -580,6 +579,18 @@ a {
   margin: 0 0 100px;
 }
 
+.article-figure,
+.article-link,
+.article-hyperlink a {
+  cursor: pointer;
+  color: #006992;
+}
+
+.article-figure:hover,
+.article-link:hover,
+.article-hyperlink a:hover {
+  color: #527081;
+}
 /*---------------------------------------
   RESPONSIVE STYLES               
 -----------------------------------------*/
