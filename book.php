@@ -73,7 +73,14 @@ include("includes/main_head.php");
   </div>
 <!-- END MODAL -->
 <!-- BOOK SECTION-->
-    <section class="section-padding section-bg pt-5">
+    <div class="col-12 d-flex justify-content-center flex-wrap pt-5">
+                                <a href="book-index.php">
+                                <div class="text-center book-link">
+                                    <p>View Book Index</p>
+                                </div>
+                                </a>
+    </div>
+    <section class="section-padding section-bg pt-3">
       <img crossorigin="Anonymous" src="" class="crop-image" alt=""/>
       <div class="container">
         <div class="bb-custom-wrapper">

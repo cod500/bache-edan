@@ -22,7 +22,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link click-scroll" href="#">Contemporary</a>
+                    <a class="nav-link click-scroll" href="#">Primary</a>
                 </li>
 
                 <li class="nav-item dropdown">
@@ -33,6 +33,8 @@
                         <li><a class="dropdown-item" href="#">Bibliography</a></li>
 
                         <li><a class="dropdown-item" href="/other-collections.php">Other Collections</a></li>
+
+                        <li><a class="dropdown-item" href="/book-index.php">Book Index</a></li>
                     </ul>
                 </li>
             </ul>

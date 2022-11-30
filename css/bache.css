@@ -591,6 +591,18 @@ a {
 .article-hyperlink a:hover {
   color: #527081;
 }
+
+/*---------------------------------------
+  BIOGRAPHY            
+-----------------------------------------*/
+.table-tabs a {
+  font-weight: bold;
+  color: #006992;
+}
+
+.table-tabs a:hover {
+  color: #4c535a;
+}
 /*---------------------------------------
   RESPONSIVE STYLES               
 -----------------------------------------*/
