@@ -97,8 +97,9 @@ p {
 
 .nav-item {
   color: var(--white-color) !important;
-  font-size: var(--p-font-size);
+  font-size: var(--btn-font-size);
   font-weight: var(--font-weight-bold);
+  padding: 0 30px;
 }
 
 a,
@@ -144,6 +145,89 @@ strong {
 
 .section-overlay + .container {
   position: relative;
+}
+
+/*---------------------------------------
+  BIOBLIOGRAPHY            
+-----------------------------------------*/
+.block_ {
+  display: block;
+  font-size: 1.41667em;
+  line-height: 1.2;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  text-align: center;
+}
+.block_1 {
+  display: block;
+  font-family: serif;
+  font-size: 0.75em;
+  line-height: 1.08;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  text-align: center;
+}
+.block_2 {
+  display: block;
+  font-family: serif;
+  font-size: 0.75em;
+  line-height: 1.08;
+  margin-bottom: 5px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 5px;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+}
+.block_3 {
+  display: block;
+  line-height: 1.2;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+}
+.calibre {
+  display: block;
+  font-family: "Arial", sans-serif;
+  font-size: 1em;
+  margin-bottom: 0;
+  /* margin-left: 5pt;
+  margin-right: 5pt; */
+  margin-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+.calibre1 {
+  font-style: italic;
+  line-height: 1.2;
+}
+.calibre2 {
+  line-height: 1.2;
+  white-space: pre-wrap;
+}
+
+@page {
+  margin-bottom: 5pt;
+  margin-top: 5pt;
 }
 
 /*---------------------------------------
@@ -335,7 +419,7 @@ strong {
   background: var(--npg-bg-color);
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
   border: 0;
-  max-width: 50px;
+  /* max-width: 50px; */
   padding: 0;
   margin-top: 20px;
 }
@@ -343,7 +427,7 @@ strong {
 .dropdown-item {
   display: inline-block;
   color: var(--white-color);
-  font-size: var(--menu-font-size);
+  font-size: var(--copyright-font-size);
   font-weight: var(--font-weight-medium);
   position: relative;
   padding-top: 10px;
@@ -593,7 +677,7 @@ a {
 }
 
 /*---------------------------------------
-  BIOGRAPHY            
+  OTHER COLLECTIONS           
 -----------------------------------------*/
 .table-tabs a {
   font-weight: bold;
@@ -602,6 +686,13 @@ a {
 
 .table-tabs a:hover {
   color: #4c535a;
+}
+
+/*---------------------------------------
+  BOOK INDEX         
+-----------------------------------------*/
+.book-index-link {
+  cursor: pointer;
 }
 /*---------------------------------------
   RESPONSIVE STYLES               
