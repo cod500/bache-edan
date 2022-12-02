@@ -142,7 +142,9 @@ $(document).ready(function () {
 					$('#credit-line').text(jsonData.content.freetext.physicalDescription[0].content);
 					$('#obj-number').text(jsonData.content.freetext.identifier[0].content);
 					$("#result").attr("src", image);
-						$('#bache-modal').click();
+						setTimeout(() => {
+                            $('#bache-modal').click();
+                        }, 100);
 
 				})
 
