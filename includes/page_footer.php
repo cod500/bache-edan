@@ -8,7 +8,7 @@
                 </div>
                 <div class="group-location wrapper">
                     <div class="inner">
-                        <h2><span>Museum Location</span></h2>
+                        <h2><span style="font-size: 30px;">Museum Location</span></h2>
 
                         <p>National Portrait Gallery<br />
                             8th and G Streets NW<br />
@@ -18,7 +18,7 @@
                 </div>
                 <div class="group-hours wrapper">
                     <div class="inner">
-                        <h2><i class="fa-solid fa-clock-nine"></i><span>Hours</span></h2>
+                        <h2><i class="fa-solid fa-clock-nine"></i><span style="font-size: 30px;">Hours</span></h2>
 
                         <p>Open 7 days a week<br />
                             11:30 a.m.–7:00 p.m.<br />

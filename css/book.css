@@ -1,3 +1,20 @@
+/*---------------------------------------
+  CUSTOM             
+-----------------------------------------*/
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+}
+
+/*---------------------------------------
+ BOOK          
+-----------------------------------------*/
 #canvas {
   width: 960px;
   margin: 100px auto;
@@ -152,14 +169,18 @@
   -webkit-border-image: url(../pics/tab-hover.png) 5 20 5 20 repeat stretch;
 }
 
-/* Custom styles */
+.fixed-height {
+  width: 510px;
+  height: 680px;
+  max-width: none;
+  /* border-radius: 6px; */
+}
+.cut-seam-even {
+  transform: translate(10px, 0);
+}
 
-*,
-*::before,
-*::after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+.cut-seam-odd {
+  transform: translate(-10px, 0);
 }
 
 #even-label {
@@ -173,41 +194,9 @@ area {
   cursor: pointer;
 }
 
-.tooltip {
-  transform: translate(-50%, -200%);
-  text-transform: capitalize;
-  display: none;
-  position: absolute;
-  color: white;
-  background-color: rgb(65, 65, 65, 0.9);
-  border-color: #711111;
-  border-radius: 10px;
-  padding: 15px 10px;
-  z-index: 10;
-  display: block;
-  width: 100%;
-  max-width: 200px;
-  top: 0;
-  left: 50%;
-  text-align: center;
-  -webkit-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
-  -moz-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
-  -ms-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
-  -o-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
-  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
-}
-.tooltip:after {
-  content: "";
-  display: block;
-  position: absolute;
-  border-color: rgb(65, 65, 65, 0.9) rgba(0, 0, 0, 0);
-  border-style: solid;
-  border-width: 13px 13px 0;
-  bottom: -10px;
-  left: 50%;
-  transform: translate(-50%, 0);
-  width: 0;
-}
+/*---------------------------------------
+BOOK CONTROLS         
+-----------------------------------------*/
 .controls {
   text-align: center;
   font: 30px arial;
@@ -250,83 +239,6 @@ area {
   padding: 0 25px;
 }
 
-.fixed-height {
-  width: 510px;
-  height: 680px;
-  max-width: none;
-  /* border-radius: 6px; */
-}
-.cut-seam-even {
-  transform: translate(10px, 0);
-}
-
-.cut-seam-odd {
-  transform: translate(-10px, 0);
-}
-
 i {
   color: #888;
-}
-
-.container {
-  width: 100%;
-}
-
-.card {
-  min-width: 942px;
-  max-height: 220px !important;
-  display: flex;
-  align-items: center;
-  margin-bottom: 1rem;
-  overflow: hidden;
-  background-color: #fff;
-}
-
-.card div:first-child {
-  flex-basis: 35%;
-}
-
-.card div:last-child {
-  flex-basis: 65%;
-  padding: 0 0.5rem 0.25rem;
-}
-
-.card img {
-  display: block;
-  width: 100%;
-  object-fit: contain;
-}
-
-.img-box {
-  height: 300px !important;
-  object-fit: fill;
-  width: 250px !important;
-}
-
-/* #result {
-  width: 280px;
-  height: 350px;
-} */
-
-@media (min-width: 768px) {
-  /* .container {
-    max-width: 60%;
-  } */
-
-  .card div:first-child {
-    flex-basis: 30%;
-  }
-
-  .card div:last-child {
-    flex-basis: 70%;
-  }
-}
-.card-box {
-  width: 400px;
-}
-.info-box,
-#book-data-box {
-  height: 100%;
-  max-width: 100%;
-  max-height: 100%;
 }

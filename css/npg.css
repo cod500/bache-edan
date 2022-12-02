@@ -167,7 +167,7 @@ footer,.region--postscript {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    padding: 48px 0;
+    padding: 38px 0!important;
     padding: 4.8rem 0;
 }
 #block-panels-mini-footer * {

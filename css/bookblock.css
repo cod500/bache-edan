@@ -161,7 +161,7 @@
 }
 
 .bb-item {
-  width: 100%;
+  width: 900px;
   height: 100%;
   position: absolute;
   top: 0;
@@ -201,6 +201,14 @@
   height: 100%;
   -webkit-perspective: 2000px;
   perspective: 2000px;
+  /* margin-left: -100px; */
+  /* For smaller screen */
+}
+
+@media (max-width: 992px) {
+  .bb-custom-wrapper .bb-bookblock {
+    margin-left: -100px;
+  }
 }
 
 .bb-custom-side {

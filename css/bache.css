@@ -99,7 +99,6 @@ p {
   color: var(--white-color) !important;
   font-size: var(--btn-font-size);
   font-weight: var(--font-weight-bold);
-  padding: 0 30px;
 }
 
 a,
@@ -148,7 +147,7 @@ strong {
 }
 
 /*---------------------------------------
-  BIOBLIOGRAPHY            
+  BIBLIOGRAPHY            
 -----------------------------------------*/
 .block_ {
   display: block;
@@ -228,6 +227,14 @@ strong {
 @page {
   margin-bottom: 5pt;
   margin-top: 5pt;
+}
+
+/*---------------------------------------
+  TIMELINE        
+-----------------------------------------*/
+.tl-timemarker-text h2 {
+  color: var(--dark-color) !important;
+  letter-spacing: 0.1px !important;
 }
 
 /*---------------------------------------
