@@ -21,7 +21,7 @@
                 <a class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="javascript:void(0)">Other Recources</a>
 
                     <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
-                        <li><a class="dropdown-item" href="/book-index.php">Conservation History</a></li>
+                        <li><a class="dropdown-item" href="/assets/Which Cracked Firsts.pdf" target="_blank">Conservation History</a></li>
                         <li><a class="dropdown-item" href="/other-collections.php"> Silhouettes In Other Collections</a></li>
                         <li><a class="dropdown-item" href="/bibliography.php">Bibliography</a></li>
                     </ul>

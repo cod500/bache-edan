@@ -232,10 +232,39 @@ strong {
 /*---------------------------------------
   TIMELINE        
 -----------------------------------------*/
-.tl-timemarker-text h2 {
+.time-line{
+  position: relative;
+}
+
+.tl-timemarker-text p  {
   color: var(--dark-color) !important;
   letter-spacing: 0.1px !important;
+  font-weight: bold;
 }
+
+.tl-headline-date {
+  letter-spacing: 0.1px;
+}
+
+.england, .north-east, .south-east, .caribbean{
+  letter-spacing: .1px;
+  color: var(--dark-color);
+}
+
+
+#expand-timeline{
+  border: none;
+  background-color: var(--white-color);
+  position: absolute;
+  left: 95%;
+  top: 0;
+  z-index: 10;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 10px 15px;
+  box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.1), 0px 3px 3px -2px rgba(0, 0, 0, 0.05), 0px 1px 8px 0px rgba(0, 0, 0, 0.03);
+}
+
 
 /*---------------------------------------
   CUSTOM BLOCK               
@@ -302,12 +331,12 @@ strong {
   font-size: 1.6rem;
   font-weight: var(--font-weight-light);
   color: #000;
-  line-height: 1.5;
+  line-height: 1.7;
 }
 
 .custom-text-box-image {
   width: 90%;
-  height: 100%;
+  height: 90%;
   /* object-fit: cover; */
   box-shadow: 4px 7px 11px -2px rgba(0, 0, 0, 0.41);
   -webkit-box-shadow: 4px 7px 11px -2px rgba(0, 0, 0, 0.41);
@@ -549,7 +578,8 @@ strong {
   SITE HEADER              
 -----------------------------------------*/
 .site-header {
-  background: var(--npg-bg-color-dark);
+  background-image: url('/images/bache-back.jpg');
+  background-size: contain;
   padding: 50px 0;
   font-weight: bold;
 }

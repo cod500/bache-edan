@@ -44,7 +44,7 @@
 
                     </div>
                     <div class="row">
-                        <div class="col-12 mt-5" style="">
+                        <div class="col-12" style="">
                             <div class="custom-text-box">
                                 <p class="mb-0">Bache preserved nearly two thousand of his earliest silhouettes in a ledger
                                     book that
@@ -84,95 +84,6 @@
                 </div>
             </section>
             <!-- END BOOK LINK-->
-
-            <!-- ARTICLES SECTION-->
-            <section class="articles-section section-padding section-bg">
-                <div class="container">
-                    <div class="row">
-
-                        <div class="col-lg-12 col-12 mb-4 text-center">
-                            <h2>Read Contemporary Articles</h2>
-                        </div>
-
-                    </div>
-                    <!-- 3 columns -->
-                    <div class="container">
-                        <div class="row">
-
-                            <div class="col-12 col-lg-4">
-                                <div class="box row">
-                                    <p class="content-title">Content</p>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam perspiciatis aliquam
-                                        quam ex aut repellendus quis architecto, explicabo dolores quibusdam quos unde
-                                        maiores
-                                        blanditiis dolor. Soluta ratione voluptatem vero? Nisi.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-12 col-lg-4">
-                                <div class="box row">
-                                    <!-- <div class="col-4">
-                                        <img src="https://picsum.photos/200/300" alt="">
-                                    </div> -->
-                                    <div class="col-12">
-                                        <p class="content-title">Content</p>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam perspiciatis
-                                            aliquam
-                                            quam ex aut repellendus quis architecto, explicabo dolores quibusdam quos unde
-                                            maiores
-                                            blanditiis dolor. Soluta ratione voluptatem vero? Nisi.</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-12 col-lg-4">
-                                <div class="box row">
-                                    <p class="content-title">Content</p>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam perspiciatis aliquam
-                                        quam ex aut repellendus quis architecto, explicabo dolores quibusdam quos unde
-                                        maiores
-                                        blanditiis dolor. Soluta ratione voluptatem vero? Nisi.</p>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="row">
-                            <div class="col-12 col-lg-4">
-                                <div class="box row">
-                                    <p class="content-title">Content</p>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam perspiciatis aliquam
-                                        quam ex aut repellendus quis architecto, explicabo dolores quibusdam quos unde
-                                        maiores
-                                        blanditiis dolor. Soluta ratione voluptatem vero? Nisi.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-12 col-lg-4">
-                                <div class="box row">
-                                    <p class="content-title">Content</p>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam perspiciatis aliquam
-                                        quam ex aut repellendus quis architecto, explicabo dolores quibusdam quos unde
-                                        maiores
-                                        blanditiis dolor. Soluta ratione voluptatem vero? Nisi.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-12 col-lg-4">
-                                <div class="box row">
-                                    <p class="content-title">Content</p>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam perspiciatis aliquam
-                                        quam ex aut repellendus quis architecto, explicabo dolores quibusdam quos unde
-                                        maiores
-                                        blanditiis dolor. Soluta ratione voluptatem vero? Nisi.</p>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- END ARTICLES SECTION-->
         </main>
         <?php include("includes/page_footer.php");?>
         <!-- JAVASCRIPT FILES -->

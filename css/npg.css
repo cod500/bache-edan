@@ -2984,6 +2984,10 @@ aside .entity-paragraphs-item.field-bg .b-text-wrapper, .aside .entity-paragraph
     width: 100%;
     min-width: 400px;
 }
+.modal-content.expanded-timeline {
+    width: 100vw;
+    height: 100vh;
+}
 .modal-content .modal-close {
     font-size: 4rem;
 }

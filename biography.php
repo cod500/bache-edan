@@ -67,6 +67,27 @@ include("includes/main_head.php");
     </div>
   </div>
 <!-- END MODAL -->
+
+    <!-- MODAL -->
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-4">
+          <button hidden id="timeline-modal" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#timelineeModal">Open Modal</button>
+        </div>
+      </div>
+      
+      <div class="modal fade" id="timelineeModal" tabindex="-1" aria-labelledby="timelineModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" style="margin:0!important; top:-10%">
+        <div class="modal-content expanded-timeline">
+          <div class="row">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div id='modal-timeline'></div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- END MODAL -->
 <!-- BIOGRAPHY-->
 <section class="section-padding section-bg pt-5 biography-section">
     
@@ -86,8 +107,11 @@ include("includes/main_head.php");
 </p>
 <br>
 <!-- TIMELINE-->
-<div id='timeline-embed' style="width: 100%; height: 600px"></div>
-  <!-- END TIMELINE-->
+<div class="time-line">
+  <div id='timeline-embed' style="width: 100%; height: 600px"></div>
+  <button id="expand-timeline" aria-label="Open Full Screen" data-tippy-content="Click to Expand"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="false"></i></button>
+</div>
+ <!-- END TIMELINE-->
   <br>
 <p dir="ltr" style=" text-indent: 40px;">
     On August 16, 1803, Bache and Todd advertised that they had “commenced
@@ -202,7 +226,11 @@ include("includes/main_head.php");
 <script src="https://unpkg.com/tippy.js@6"></script>
 <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
 <script>
-tippy('.article-figure', { arrow: true });
+tippy('.article-figure, #expand-timeline', { arrow: true });
+
+$('#expand-timeline').click(function(){
+  $('#timeline-modal').click();
+})
 
 $('.article-figure, .article-link').click(function(){
     var data = {
@@ -243,38 +271,56 @@ $('.article-figure, .article-link').click(function(){
       height:                     100,
       width:                      100,
       initial_zoom:               1,
-      scale_factor:               0.5,              // How many screen widths wide should the timeline be
+      scale_factor:               1,              // How many screen widths wide should the timeline be
       zoom_sequence:89,
       layout:                     "portrait",    // portrait or landscape
       timenav_position:           "bottom",       // timeline on top or bottom
-      optimal_tick_width:         100,            // optimal distance (in pixels) between ticks on axis
-      base_class:                 "",
-      timenav_height:             150,
-      timenav_height_percentage:  25,             // Overrides timenav height as a percentage of the screen
-      timenav_height_min:         150,            // Minimum timenav height
-      marker_height_min:          30,             // Minimum Marker Height
-      marker_width_min:           100,            // Minimum Marker Width
-      marker_padding:             5,              // Top Bottom Marker Padding
-      start_at_slide:             0,
-      menubar_height:             0,
-      skinny_size:                650,
-      relative_date:              false,          // Use momentjs to show a relative date from the slide.text.date.created_time field
-      use_bc:                     false,          // Use declared suffix on dates earlier than 0
-      // animation
-      duration:                   1000,
-      // interaction
-      dragging:                   true,
-      trackResize:                true,
-      map_type:                   "stamen:toner-lite",
-      slide_padding_lr:           100,            // padding on slide of slide
-      slide_default_fade:         "0%",           // landscape fade
+      // optimal_tick_width:         100,            // optimal distance (in pixels) between ticks on axis
+      // base_class:                 "",
+      // timenav_height:             150,
+      // timenav_height_percentage:  25,             // Overrides timenav height as a percentage of the screen
+      // timenav_height_min:         150,            // Minimum timenav height
+      // marker_height_min:          30,             // Minimum Marker Height
+      // marker_width_min:           100,            // Minimum Marker Width
+      // marker_padding:             5,              // Top Bottom Marker Padding
+      // start_at_slide:             0,
+      // menubar_height:             0,
+      // skinny_size:                650,
+      // relative_date:              false,          // Use momentjs to show a relative date from the slide.text.date.created_time field
+      // use_bc:                     false,          // Use declared suffix on dates earlier than 0
+      // // animation
+      // duration:                   1000,
+      // // interaction
+      // dragging:                   true,
+      // trackResize:                true,
+      // map_type:                   "stamen:toner-lite",
+      // slide_padding_lr:           100,            // padding on slide of slide
+      // slide_default_fade:         "0%",           // landscape fade
 
-      api_key_flickr:             "",             // Flickr API Key
-      language:                   "en"        
+      // api_key_flickr:             "",             // Flickr API Key
+      // language:                   "en"        
+
 };
-  var timeline = new TL.Timeline('timeline-embed',
-                                 'https://docs.google.com/spreadsheets/d/1meNa1_81w3_u6F2QJi2UWnzjTFZukRP9qjSCVWe2O6I/edit#gid=0',
+let database = []
+
+fetch('./data/timeline.json')
+.then(response => response.json())
+.then(data => {
+    var timeline = new TL.Timeline('timeline-embed',
+                                 data,
                                  options);
+  var modalTimeline = new TL.Timeline('modal-timeline',
+                                 data,
+                                 options);
+
+                                 setTimeout(() => {
+                                  $('.tl-timemarker-content-container').has('.north-east').css('background-color','#fceef2');
+                                  $('.tl-timemarker-content-container').has('.south-east').css('background-color','#527181');
+                                  $('.tl-timemarker-content-container').has('.england').css('background-color','#81b4c8');
+                                 }, 1000);
+})
+      
+
 </script>
 </body>
 </html>

@@ -1,0 +1,520 @@
+{
+    "events": [
+        {
+            "start_date": {
+                "month": "12",
+                "day": "22",
+                "year": "1771"
+            },
+            "text": {
+                "headline": "<b class=\"england\">Bromsgrove, England</b>",
+                "text": "William Bache is born to William and Bridget (Laugher) Bache"
+            },
+            "group": "England"
+        },
+        {
+            "start_date": {
+                "month": "5",
+                "day": "3",
+                "year": "1793"
+            },
+            "text": {
+                "headline": "<b class=\"north-east\">Philadelphia, PA</b>",
+                "text": "Bache immigrates to the United States. He reportedly operates a bookstore in Philadelphia with a Mr. Todd."
+            },
+            "group": "Northeast"
+        },
+        {
+            "start_date": {
+                "month": "5",
+                "day": "3",
+                "year": "1803"
+            },
+            "text": {
+                "headline": "<b class=\"north-east\">Baltimore, MD</b>",
+                "text": "Isaac Todd, Augustus Day, and William Bache, all of Pennsylvania, patent a physiognotrace (US Patent: 463X). All patent records were destroyed in a fire in 1836."
+            },
+            "group": "Northeast"
+        },
+        {
+            "start_date": {
+                "month": "8",
+                "day": "18",
+                "year": "1803"
+            },
+            "text": {
+                "headline": "<b class=\"north-east\">Baltimore, MD</b>",
+                "text": "Bache and Todd advertise \"correct profiles\" made \"with their Patent Phisiognotrace,\" four for 25 cents. They also offer \"an assortment of elegant gilt and black frames.\""
+            },
+            "group": "Northeast"
+        },
+        {
+            "start_date": {
+                "month": "9",
+                "day": "6",
+                "year": "1803"
+            },
+            "text": {
+                "headline": "<b class=\"north-east\">Baltimore, MD</b>",
+                "text": "Bache and Todd announce that they are leaving Baltimore at the end of the week."
+            },
+            "group": "Northeast"
+        },
+        {
+            "start_date": {
+                "month": "11",
+                "day": "11",
+                "year": "1803"
+            },
+            "text": {
+                "headline": "<b class=\"north-east\">Petersburg, VA</b>",
+                "text": "Bache advertises \"four correct Likenesses in Profile, for 25 Cents,\" made with his \"Patent Physiognotrace.\" He also offers \"an elegant assortment of gilt and black frames with glasses."
+            },
+            "group": "Northeast"
+        },
+        {
+            "start_date": {
+                "month": "12",
+                "day": "20",
+                "year": "1803"
+            },
+            "text": {
+                "headline": "<b class=\"south-east\">New Orleans, LA</b>",
+                "text": "France officially turns over the historic colonial capital city to the United States. "
+            },
+            "group": "Southeast"
+        },
+        {
+            "start_date": {
+                "month": "1",
+                "day": "28",
+                "year": "1804"
+            },
+            "text": {
+                "headline": "<b class=\"north-east\"> Richmond, VA</b>",
+                "text": "Bache advertises that he \"has returned to this city with his Patent Phisiognotrace, and a supply of handsome Frames.\" Offers profiles \"Four for 25 cents."
+            },
+            "group": "Northeast"
+        },
+        {
+            "start_date": {
+                "month": "1",
+                "day": "28",
+                "year": "1804"
+            },
+            "text": {
+                "headline": "<b class=\"north-east\"> Richmond, VA</b>",
+                "text": "Bache advertises that he \"has returned to this city with his Patent Phisiognotrace, and a supply of handsome Frames.\" Offers profiles \"Four for 25 cents."
+            },
+            "group": "Northeast"
+        },
+        {
+            "start_date": {
+                "month": "3",
+                "day": "14",
+                "year": "1804"
+            },
+            "text": {
+                "headline": "<b class=\"north-east\"> Richmond, VA</b>",
+                "text": "Bache offers \"a handsome assortment of GILT and BLACK frames...either with or without profiles.\""
+            },
+            "group": "Northeast"
+        },
+        {
+            "start_date": {
+                "month": "5",
+                "day": "28",
+                "year": "1804"
+            },
+            "text": {
+                "headline": "<b class=\"north-east\"> Fredericksburg, VA</b>",
+                "text": "\"Having returned to this place\" with \"greater experience,\" Bache offers \"four striking Likenesses in PROFILE for 25 cents.\""
+            },
+            "group": "Northeast"
+        },
+        {
+            "start_date": {
+                "month": "6",
+                "day": "12",
+                "year": "1804"
+            },
+            "text": {
+                "headline": "<b class=\"north-east\"> Fredericksburg, VA</b>",
+                "text": "\"Leaving this place on Wednesday next.\" "
+            },
+            "group": "Northeast"
+        },
+        {
+            "start_date": {
+                "month": "11",
+                "day": "16",
+                "year": "1804"
+            },
+            "text": {
+                "headline": "<b class=\"south-east\">New Orleans, LA</b>",
+                "text":  "Bache and Todd, \"just arrrived form [sic] the United States, where they...cut and framed many thousands [of] profiles; among which were the President and many other principal characers.\" They offer \"Four correct likenesses, neatly cut in Vellum paper for one dollar,\" as well as \"elegant profile frames from Fifty cents to Three dollars each, gilt and black,\" \"Looking Glasses, White Demity, Parasoles ebony tops silver mounted, Billiard balls, Portable writing desks, A copying press, A pair of beautiful prints framed” and “A Store to Let.” Similar advertisement in French."
+            },
+            "group": "Southeast"
+        },
+        {
+            "start_date": {
+                "month": "12",
+                "day": "",
+                "year": "1804"
+            },
+            "text": {
+                "headline": "<b class=\"caribbean\">Havana, Cuba</b>",
+                "text": "Bache reportedly goes from house to house with his physiognotrace, offering to make silhouettes for four reales. "
+            },
+            "group": "Caribbean"
+        },
+        {
+            "start_date": {
+                "month": "5",
+                "day": "15",
+                "year": "1806"
+            },
+            "text": {
+                "headline": "<b class=\"north-east\">Philadelphia, PA</b>",
+                "text": "Bache returns from Havana on the brig Grace Ann Green with “Two Trunks containing Wearing apparell & his implements of Trade & Bed & Bedding” as well as “Two small Pots of Sweetmeats” and a “half Box of Segars.”"
+            },
+            "group": "Northeast"
+        },
+        {
+            "start_date": {
+                "month": "8",
+                "day": "",
+                "year": "1806"
+            },
+            "text": {
+                "headline": "<b class=\"caribbean\">Havana, Cuba</b>",
+                "text": "A satirical editorial published in Miscelánea Literaria complains of the craze Bache created with his inexpensive portraits, so that every house has six to eight silhouettes in little zinc frames hanging on the wall."
+            },
+            "group": "Caribbean"
+        },
+        {
+            "start_date": {
+                "month": "10",
+                "day": "13",
+                "year": "1806"
+            },
+            "text": {
+                "headline": "<b class=\"north-east\">Philadelphia, PA</b>",
+                "text": "Bache is naturalized as a U.S. citizen."
+            },
+            "group": "Northeast"
+        },
+        {
+            "start_date": {
+                "month": "7",
+                "day": "16",
+                "year": "1808"
+            },
+            "text": {
+                "headline": "<b class=\"north-east\">Boston, MA</b>",
+                "text": "Bache advertises \"Profile Likenesses, Correctly Drawn and elegantly finished by Bache's Patent Phyiognotrace… Four Likenesses for 25 Cents.” He does not intend to stay in Boston more than a month. For those \"to whom it may be inconvenient to attend at the Profile Room, ...he will at the shortest notice, wait upon them at their own Dwellings without any additional expence [sic]. He also offers “an elegant variety of Frames, at various Prices.\""
+            },
+            "group": "Northeast"
+        },
+        {
+            "start_date": {
+                "month": "9",
+                "day": "14",
+                "year": "1808"
+            },
+            "text": {
+                "headline": "<b class=\"north-east\">Salem, MA</b>",
+                "text": "Bache is \"leaving this place the ensuing week.\""
+            },
+            "group": "Northeast"
+        },
+        {
+            "start_date": {
+                "month": "10",
+                "day": "17",
+                "year": "1809"
+            },
+            "text": {
+                "headline": "<b class=\"north-east\">New Haven, CT</b>",
+                "text": "Bache and T. Nixon offer \"Profile Cutting, Painting and Shading.\""
+            },
+            "group": "Northeast"
+        },
+        {
+            "start_date": {
+                "month": "10",
+                "day": "24",
+                "year": "1809"
+            },
+            "text": {
+                "headline": "<b class=\"north-east\">New Haven, CT</b>",
+                "text": "Bache and Nixon advertise a change in location and mention “their long experience, and great success in business, and aided by an improved patent Physiognotrace.”"
+            },
+            "group": "Northeast"
+        },
+        {
+            "start_date": {
+                "month": "11",
+                "day": "20",
+                "year": "1809"
+            },
+            "text": {
+                "headline": "<b class=\"north-east\">Hartford, CT</b>",
+                "text": "Announcing “a short stay in Hartford,” Bache and Nixon offer cut, shaded, and painted profile likenesses, “far superior to any thing of the kind ever executed in this place,” priced from 25 cents to 3 dollars. “Ladies who desire it, may be attended at their respective houses.... Likenesses Warranted.\""
+            },
+            "group": "Northeast"
+        },
+        {
+            "start_date": {
+                "month": "12",
+                "day": "22",
+                "year": "1809"
+            },
+            "text": {
+                "headline": "<b class=\"north-east\">Providence, RI</b>",
+                "text": "With a \"half an hour's sitting,\" Bache and Nixon will produce \"an elegant painting and speaking Likeness for the small sum of Two Dollars and Twenty-five Cents. – Also, Profiles in a new and superiour style, elegantly shaded, for Fifty Cents… Something entirely different from any thing heretofore attempted in this place.”"
+            },
+            "group": "Northeast"
+        },
+        {
+            "start_date": {
+                "month": "1",
+                "day": "12",
+                "year": "1810"
+            },
+            "text": {
+                "headline": "<b class=\"north-east\">Providence, RI</b>",
+                "text": "Under the heading \"T. Nixon & W. Bache, Painters and Profileists [sic]\" Bache announces that he \"intends staying but two weeks longer in Providence.\""
+            },
+            "group": "Northeast"
+        },
+        {
+            "start_date": {
+                "month": "2",
+                "day": "23",
+                "year": "1810"
+            },
+            "text": {
+                "headline": "<b class=\"north-east\">Providence, RI</b>",
+                "text": "Bache and Nixon \"do not purpose staying longer than during the approaching session of the Legislature.\" Prices: “25 Cents for cutting the set of Profiles; 25 Cents for shading each; or 2 Dollars in Colours.”"
+            },
+            "group": "Northeast"
+        },
+        {
+            "start_date": {
+                "month": "4",
+                "day": "28",
+                "year": "1810"
+            },
+            "text": {
+                "headline": "<b class=\"north-east\">Newport, RI</b>",
+                "text": "Bache and Todd advertise that they “painted during the winter in Providence and Bristol” and their “stay in town [Newport] will be short.” They offer \"a speaking likeness and handsome painting...with an half-hours' [sic] sitting, for the small sum of Two Dollars. –They also cut profiles and execute likenesses in a new and handsome style of black on a fine vellum paper, for fifty cents.\""
+            },
+            "group": "Northeast"
+        },
+        {
+            "start_date": {
+                "month": "5",
+                "day": "16",
+                "year": "1810"
+            },
+            "text": {
+                "headline": "<b class=\"north-east\">Newport, RI</b>",
+                "text": "Bache and Nixon will prolong their stay for two or three weeks. \"Speaking Likenesses for the small sum of two dollars, in colours, twenty-five cents shaded, or twenty-five cents a set cut in paper.\""
+            },
+            "group": "Northeast"
+        },
+        {
+            "start_date": {
+                "month": "6",
+                "day": "15",
+                "year": "1810"
+            },
+            "text": {
+                "headline": "<b class=\"north-east\">New Bedford, MA</b>",
+                "text": "Under the headline “Miniature Painting and Shading in Profile,” Nixon and Bache offer \"speaking Likenesses, in Miniature style, for the small sum of two dollars and twenty-five cents, and require but half an hour's sitting. They also cut Profiles, and shade them in a new and elegant style, on a fine vellum paper, for fifty cents.... Ladies, objecting to call at the Room, may be waited on at their houses.\"\n"
+            },
+            "group": "Northeast"
+        },
+        {
+            "start_date": {
+                "month": "7",
+                "day": "10",
+                "year": "1810"
+            },
+            "text": {
+                "headline": "<b class=\"north-east\">Salem, MA</b>",
+                "text":  "Bache announces \"his return to town\" and offers \"a much improved style of SHADED PROFILES, on a fine vellum paper; and begs leave to introduce his friend Mr. NIXON, who colours profiles in miniature style, and warrants as good a likeness for two dollars as can be obtained for twenty.\""
+            },
+            "group": "Northeast"
+        },
+        {
+            "start_date": {
+                "month": "8",
+                "day": "11",
+                "year": "1810"
+            },
+            "text": {
+                "headline": "<b class=\"north-east\">Salem, MA</b>",
+                "text":  "Bache is \"leaving Salem, at the close of the ensuing week, and particularly requests those to make immediate application for their PROFILES, who intend having them painted by Mr. NIXON,” who “will remain for a short time longer…for that purpose.\"  "
+            },
+            "group": "Northeast"
+        },
+        {
+            "start_date": {
+                "month": "9",
+                "day": "7",
+                "year": "1810"
+            },
+            "text": {
+                "headline": "<b class=\"north-east\">Newburyport, MA</b>",
+                "text":  "Announcing that “his stay here will be very short,” Bache (without Nixon) advertises that “from the great superiority of his Patent Physiognotrace and long practice…he shall be able to give much more striking and correct likenesses, as well as more elegantly finished, than any heretofore done in this place,” adding \"No person required to take their Profiles after being cut, if not satisfied.\" Also offers “An elegant assortment of Profile Frames.”\n"
+            },
+            "group": "Northeast"
+        },
+        {
+            "start_date": {
+                "month": "10",
+                "day": "26",
+                "year": "1810"
+            },
+            "text": {
+                "headline": "<b class=\"north-east\">Newburyport, MA</b>",
+                "text":  "Bache announces the arrival of Nixon, who can provide “an elegant and striking Likeness in miniature style for the small sum of Two Dollars. Bache intends to stay in town “only two weeks longer.\""
+            },
+            "group": "Northeast"
+        },
+        {
+            "start_date": {
+                "month": "12",
+                "day": "4",
+                "year": "1810"
+            },
+            "text": {
+                "headline": "<b class=\"north-east\">Newburyport, MA</b>",
+                "text":  "Nixon announces that Bache \"will leave this place in two or three days,” so “those who wish to have their Likenesses Painted by him [Nixon]” should come \"forward immediately to get their Profiles CUT [by Bache]; as it greatly facilitates the Painting, and saves expence.\" Price: “Two Dollars for Painting a Likeness.”"
+            },
+            "group": "Northeast"
+        },
+        {
+            "start_date": {
+                "month": "1",
+                "day": "12",
+                "year": "1811"
+            },
+            "text": {
+                "headline": "<b class=\"north-east\">Portsmouth, NH</b>",
+                "text":  "“Miniature Painting in Profile” advertised by “W. Bache and T. Nixon, Physiognotrists and Painters… Prices for cutting a set of Profiles 25 cents. Shading in black additional 25 ct. each, or painting in colors in miniature style, 2 dollars. "
+            },
+            "group": "Northeast"
+        },
+        {
+            "start_date": {
+                "month": "2",
+                "day": "21",
+                "year": "1811"
+            },
+            "text": {
+                "headline": "<b class=\"north-east\">Portland, ME</b>",
+                "text":  "Bache describes himself as \"having devoted the last 7 years to delineating the human countenance and having invented a Machine upon principles less liable to error than those commonly used for drawing Profiles…. His stay in Portland will be for a short time only.”"
+            },
+            "group": "Northeast"
+        },
+        {
+            "start_date": {
+                "month": "5",
+                "day": "2",
+                "year": "1811"
+            },
+            "text": {
+                "headline": "<b class=\"north-east\">Portland, ME</b>",
+                "text":  "Bache intends to remain in Portland only two weeks longer (although this advertisement runs through June 6). "
+            },
+            "group": "Northeast"
+        },
+        {
+            "start_date": {
+                "month": "11",
+                "day": "28",
+                "year": "1811"
+            },
+            "text": {
+                "headline": "<b class=\"north-east\">Philadelphia, PA</b>",
+                "text":  "Bache marries Anna Page, daughter of Apollos and Axiby Page of Burlington, New Jersey,"
+            },
+            "group": "Northeast"
+        },
+        {
+            "start_date": {
+                "month": "1",
+                "day": "24",
+                "year": "1812"
+            },
+            "text": {
+                "headline": "<b class=\"north-east\">Philadelphia, PA</b>",
+                "text":  "Bache advertises that \"specimens\" of his work \"may be seen in the windows of most of the Print stores in town.\" He \"also reduces large profiles to miniature and shades Old Profiles to look entirely New…. A variety of Elegant Profile Frames, and largest size best Gold Leaf for sale.\"  Advertisement runs through March 24.\nBache purchases property in the town of Wellsboro and in Delmar Township, Tioga County, Pennsylvania. He erects a general store in Wellsboro and is the first merchant in the town.\nAt an unknown date, a falling tree shatters his right arm, which is amputated. He learns to write with his left hand. "
+            },
+            "group": "Northeast"
+        },
+        {
+            "start_date": {
+                "month": "3",
+                "day": "25",
+                "year": "1817"
+            },
+            "text": {
+                "headline": "<b class=\"north-east\">Wellsboro, PA</b>",
+                "text":  "Wellsboro Academy is chartered with William Bache as one of the trustees."
+            },
+            "group": "Northeast"
+        },
+        {
+            "start_date": {
+                "month": "4",
+                "day": "10",
+                "year": "1822"
+            },
+            "text": {
+                "headline": "<b class=\"north-east\">Wellsboro, PA</b>",
+                "text":  "Bache is appointed postmaster of Wellsboro, PA, a position he holds until his death. \n"
+            },
+            "group": "Northeast"
+        },
+        {
+            "start_date": {
+                "month": "",
+                "day": "",
+                "year": "1822"
+            },
+            "text": {
+                "headline": "<b class=\"north-east\">Wellsboro, PA</b>",
+                "text":  " Bache builds a stone distillery where he conducts business for about ten years.\n"
+            },
+            "group": "Northeast"
+        },
+        {
+            "start_date": {
+                "month": "",
+                "day": "",
+                "year": "1831"
+            },
+            "text": {
+                "headline": "<b class=\"north-east\">Wellsboro, PA</b>",
+                "text":  "Bache’s property, as recorded in the Assessment Roll of the Borough of Wellsborough, includes 11 town lots, 1 distillery and ground, 2 oxen, and 5 cows for a total value of $758."
+            },
+            "group": "Northeast"
+        },
+        {
+            "start_date": {
+                "month": "",
+                "day": "",
+                "year": "1845"
+            },
+            "text": {
+                "headline": "<b class=\"north-east\">Wellsboro, PA</b>",
+                "text":  "Death of William Bache. "
+            },
+            "group": "Northeast"
+        }
+    ]
+}
