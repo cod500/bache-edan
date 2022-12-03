@@ -64,7 +64,7 @@
             </section>
             <!-- END BACHE INTRO-->
             <!-- BOOK LINK-->
-            <section class="section-padding" id="section_3">
+            <section class="section-padding pb-5" id="section_3">
                 <div class="container">
                     <div class="row">
 

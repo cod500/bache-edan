@@ -8,7 +8,7 @@ include("includes/main_head.php");
 <link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
 </head>
 <body>
-  <div id='timeline-embed'></div>
+  <div id='timeline-embed' style="height:100vh"></div>
  <!-- END TIMELINE-->
   <br>
 
@@ -16,13 +16,12 @@ include("includes/main_head.php");
 <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
 <script>
 
-      
-    var options = {
+var options = {
       script_path:                "",
       height:                     100,
       width:                      100,
       initial_zoom:               1,
-      scale_factor:               0.5,              // How many screen widths wide should the timeline be
+      scale_factor:               1,              // How many screen widths wide should the timeline be
       zoom_sequence:89,
       layout:                     "portrait",    // portrait or landscape
       timenav_position:           "bottom",       // timeline on top or bottom
@@ -50,10 +49,23 @@ include("includes/main_head.php");
 
       // api_key_flickr:             "",             // Flickr API Key
       // language:                   "en"        
+
 };
-  var timeline = new TL.Timeline('timeline-embed',
-                                 'https://docs.google.com/spreadsheets/d/1meNa1_81w3_u6F2QJi2UWnzjTFZukRP9qjSCVWe2O6I/edit#gid=0',
+let database = []
+
+fetch('./data/timeline.json')
+.then(response => response.json())
+.then(data => {
+    var timeline = new TL.Timeline('timeline-embed',
+                                 data,
                                  options);
+})
+
+setTimeout(() => {
+     $('.tl-timemarker-content-container').has('.north-east').css('background-color','#fceef2');
+     $('.tl-timemarker-content-container').has('.south-east').css('background-color','#527181');
+    $('.tl-timemarker-content-container').has('.england').css('background-color','#81b4c8');
+}, 1000);
 </script>
 </body>
 </html>

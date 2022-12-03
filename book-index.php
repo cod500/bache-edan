@@ -84,7 +84,7 @@ include("includes/main_head.php");
                     <th>Page</th>
                     <th>Row</th>
                     <th>Column</th>
-                    <!-- <th>Number</th> -->
+                    <th>Number</th>
                     <th>URL</th>
                 </tr>
             </thead>
@@ -95,7 +95,15 @@ include("includes/main_head.php");
                         <td><?php echo $array[$i]["Page"]?></td>
                         <td><?php echo $array[$i]["Row"] ?></td>
                         <td><?php echo $array[$i]["Column"] ?></td>
-                        <!-- Number goes here -->
+                        <td><?php 
+                              if(isset($array[$i]["Number"])){
+                                echo $array[$i]["Number"];
+                              }else{
+                                echo "";
+                              }
+                        ?>
+                      
+                      </td>
                         <td><?php echo $array[$i]["URL"] ?></td>
                     </tr>
                 <?php endfor; ?>

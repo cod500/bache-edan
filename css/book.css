@@ -183,6 +183,14 @@
   transform: translate(-10px, 0);
 }
 
+.cut-seam-odd#seam-19, .cut-seam-odd#seam-21 {
+  transform: translate(-20px, 0);
+}
+
+.cut-seam-odd#seam-23 {
+  transform: translate(-30px, 0);
+}
+
 #even-label {
   float: left;
 }
