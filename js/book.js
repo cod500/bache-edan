@@ -210,7 +210,6 @@ $(document).ready(function () {
 			}
 		},
 		"click": function (j, e) {
-			alert(imagesLoaded);
 			console.log(window.silhouettes);
 			let coords = e.attr('data-coords').split(',') //Find coordinates of area and pass to be cropped
 			let url = e.attr('data-tooltip');
@@ -242,11 +241,7 @@ $(document).ready(function () {
 				}).done(function (msg) {
 					var jsonData = JSON.parse(msg);
 					if (!jsonData.title) {
-						if (imagesLoaded == true) {
-							openCropCanvasImg(-leftCoord, -topCoord); //Send coordinates of this area to be cropped
-						} else {
-							$("#result").attr("src", "");
-						}
+						openCropCanvasImg(-leftCoord, -topCoord); //Send coordinates of this area to be cropped
 						$('#silhouette-name').text("");
 						$('#artist-name').text("");
 						$('#sitter').text("");
