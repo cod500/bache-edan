@@ -14,7 +14,7 @@
                 <a class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="javascript:void(0)">Primary Documents</a>
 
                     <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Newspaper Advertisements</a></li>
+                        <li><a class="dropdown-item" href="newspaper-advertisements.php">Newspaper Advertisements</a></li>
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
