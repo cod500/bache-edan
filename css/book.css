@@ -179,17 +179,50 @@
   transform: translate(10px, 0);
 }
 
-.cut-seam-odd {
+.cut-seam-odd,
+.cut-seam-even#seam-38,
+.cut-seam-even#seam-42,
+.cut-seam-even#seam-46,
+.cut-seam-even#seam-48,
+.cut-seam-even#seam-50,
+.cut-seam-even#seam-52,
+.cut-seam-even#seam-54,
+.cut-seam-even#seam-56,
+.cut-seam-even#seam-58,
+.cut-seam-even#seam-60
+ {
   transform: translate(-10px, 0);
 }
 
 .cut-seam-odd#seam-19,
-.cut-seam-odd#seam-21 {
+.cut-seam-odd#seam-21,
+.cut-seam-even#seam-30,
+.cut-seam-even#seam-32,
+.cut-seam-even#seam-34,
+.cut-seam-even#seam-36,
+.cut-seam-even#seam-44
+ {
   transform: translate(-20px, 0);
 }
 
-.cut-seam-odd#seam-23 {
+.cut-seam-odd#seam-23,
+.cut-seam-odd#seam-25,
+.cut-seam-odd#seam-27,
+.cut-seam-odd#seam-29,
+.cut-seam-odd#seam-31,
+.cut-seam-odd#seam-33,
+.cut-seam-odd#seam-35,
+.cut-seam-odd#seam-37,
+.cut-seam-odd#seam-39,
+.cut-seam-odd#seam-41,
+.cut-seam-odd#seam-43
+ {
   transform: translate(-30px, 0);
+}
+
+.cut-seam-odd#seam-55
+ {
+  transform: translate(5px, 0);
 }
 
 #even-label {

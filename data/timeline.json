@@ -1,10 +1,11 @@
-{
-    "events": [
+ [
         {
             "start_date": {
                 "month": "12",
                 "day": "22",
-                "year": "1771"
+                "year": "1771",
+                "id": "1771",
+                "hidden":"false"
             },
             "text": {
                 "headline": "<b class=\"england\">Bromsgrove, England</b>",
@@ -16,7 +17,9 @@
             "start_date": {
                 "month": "5",
                 "day": "3",
-                "year": "1793"
+                "year": "1793",
+                "id": "1793",
+                "hidden":"false"
             },
             "text": {
                 "headline": "<b class=\"north-east\">Philadelphia, PA</b>",
@@ -28,7 +31,9 @@
             "start_date": {
                 "month": "5",
                 "day": "3",
-                "year": "1803"
+                "year": "1803",
+                "id": "1803-1",
+                "hidden":"false"
             },
             "text": {
                 "headline": "<b class=\"north-east\">Baltimore, MD</b>",
@@ -40,7 +45,9 @@
             "start_date": {
                 "month": "8",
                 "day": "18",
-                "year": "1803"
+                "year": "1803",
+                "id": "1803-2",
+                "hidden":"true"
             },
             "text": {
                 "headline": "<b class=\"north-east\">Baltimore, MD</b>",
@@ -52,7 +59,9 @@
             "start_date": {
                 "month": "9",
                 "day": "6",
-                "year": "1803"
+                "year": "1803",
+                "id": "1803-3",
+                "hidden":"true"
             },
             "text": {
                 "headline": "<b class=\"north-east\">Baltimore, MD</b>",
@@ -64,7 +73,9 @@
             "start_date": {
                 "month": "11",
                 "day": "11",
-                "year": "1803"
+                "year": "1803",
+                "id": "1803-4",
+                "hidden":"true"
             },
             "text": {
                 "headline": "<b class=\"north-east\">Petersburg, VA</b>",
@@ -76,7 +87,9 @@
             "start_date": {
                 "month": "12",
                 "day": "20",
-                "year": "1803"
+                "year": "1803",
+                "id": "1803-5",
+                "hidden":"true"
             },
             "text": {
                 "headline": "<b class=\"south-east\">New Orleans, LA</b>",
@@ -88,7 +101,9 @@
             "start_date": {
                 "month": "1",
                 "day": "28",
-                "year": "1804"
+                "year": "1804",
+                "id": "1804-1",
+                "hidden":"false"
             },
             "text": {
                 "headline": "<b class=\"north-east\"> Richmond, VA</b>",
@@ -100,7 +115,9 @@
             "start_date": {
                 "month": "1",
                 "day": "28",
-                "year": "1804"
+                "year": "1804",
+                "id": "1804-2",
+                "hidden":"true"
             },
             "text": {
                 "headline": "<b class=\"north-east\"> Richmond, VA</b>",
@@ -112,7 +129,9 @@
             "start_date": {
                 "month": "3",
                 "day": "14",
-                "year": "1804"
+                "year": "1804",
+                "id": "1804-3",
+                "hidden":"true"
             },
             "text": {
                 "headline": "<b class=\"north-east\"> Richmond, VA</b>",
@@ -124,7 +143,9 @@
             "start_date": {
                 "month": "5",
                 "day": "28",
-                "year": "1804"
+                "year": "1804",
+                "id": "1804-4",
+                "hidden":"true"
             },
             "text": {
                 "headline": "<b class=\"north-east\"> Fredericksburg, VA</b>",
@@ -136,7 +157,9 @@
             "start_date": {
                 "month": "6",
                 "day": "12",
-                "year": "1804"
+                "year": "1804",
+                "id": "1804-5",
+                "hidden":"true"
             },
             "text": {
                 "headline": "<b class=\"north-east\"> Fredericksburg, VA</b>",
@@ -148,7 +171,9 @@
             "start_date": {
                 "month": "11",
                 "day": "16",
-                "year": "1804"
+                "year": "1804",
+                "id": "1804-6",
+                "hidden":"true"
             },
             "text": {
                 "headline": "<b class=\"south-east\">New Orleans, LA</b>",
@@ -160,7 +185,9 @@
             "start_date": {
                 "month": "12",
                 "day": "",
-                "year": "1804"
+                "year": "1804",
+                "id": "1804-7",
+                "hidden":"true"
             },
             "text": {
                 "headline": "<b class=\"caribbean\">Havana, Cuba</b>",
@@ -172,7 +199,9 @@
             "start_date": {
                 "month": "5",
                 "day": "15",
-                "year": "1806"
+                "year": "1806",
+                "id": "1806-1",
+                "hidden":"false"
             },
             "text": {
                 "headline": "<b class=\"north-east\">Philadelphia, PA</b>",
@@ -184,7 +213,9 @@
             "start_date": {
                 "month": "8",
                 "day": "",
-                "year": "1806"
+                "year": "1806",
+                "id": "1806-2",
+                "hidden":"true"
             },
             "text": {
                 "headline": "<b class=\"caribbean\">Havana, Cuba</b>",
@@ -196,7 +227,9 @@
             "start_date": {
                 "month": "10",
                 "day": "13",
-                "year": "1806"
+                "year": "1806",
+                "id": "1806-3",
+                "hidden":"true"
             },
             "text": {
                 "headline": "<b class=\"north-east\">Philadelphia, PA</b>",
@@ -208,7 +241,9 @@
             "start_date": {
                 "month": "7",
                 "day": "16",
-                "year": "1808"
+                "year": "1808",
+                "id": "1808-1",
+                "hidden":"false"
             },
             "text": {
                 "headline": "<b class=\"north-east\">Boston, MA</b>",
@@ -220,7 +255,9 @@
             "start_date": {
                 "month": "9",
                 "day": "14",
-                "year": "1808"
+                "year": "1808",
+                "id": "1808-2",
+                "hidden":"true"
             },
             "text": {
                 "headline": "<b class=\"north-east\">Salem, MA</b>",
@@ -232,7 +269,9 @@
             "start_date": {
                 "month": "10",
                 "day": "17",
-                "year": "1809"
+                "year": "1809",
+                "id": "1809-1",
+                "hidden":"false"
             },
             "text": {
                 "headline": "<b class=\"north-east\">New Haven, CT</b>",
@@ -244,7 +283,9 @@
             "start_date": {
                 "month": "10",
                 "day": "24",
-                "year": "1809"
+                "year": "1809",
+                "id": "1809-2",
+                "hidden":"true"
             },
             "text": {
                 "headline": "<b class=\"north-east\">New Haven, CT</b>",
@@ -256,7 +297,9 @@
             "start_date": {
                 "month": "11",
                 "day": "20",
-                "year": "1809"
+                "year": "1809",
+                "id": "1809-3",
+                "hidden":"true"
             },
             "text": {
                 "headline": "<b class=\"north-east\">Hartford, CT</b>",
@@ -268,7 +311,9 @@
             "start_date": {
                 "month": "12",
                 "day": "22",
-                "year": "1809"
+                "year": "1809",
+                "id": "1809-4",
+                "hidden":"true"
             },
             "text": {
                 "headline": "<b class=\"north-east\">Providence, RI</b>",
@@ -280,7 +325,9 @@
             "start_date": {
                 "month": "1",
                 "day": "12",
-                "year": "1810"
+                "year": "1810",
+                "id": "1810-1",
+                "hidden":"false"
             },
             "text": {
                 "headline": "<b class=\"north-east\">Providence, RI</b>",
@@ -292,7 +339,9 @@
             "start_date": {
                 "month": "2",
                 "day": "23",
-                "year": "1810"
+                "year": "1810",
+                "id": "1810-2",
+                "hidden":"true"
             },
             "text": {
                 "headline": "<b class=\"north-east\">Providence, RI</b>",
@@ -304,7 +353,9 @@
             "start_date": {
                 "month": "4",
                 "day": "28",
-                "year": "1810"
+                "year": "1810",
+                "id": "1810-3",
+                "hidden":"true"
             },
             "text": {
                 "headline": "<b class=\"north-east\">Newport, RI</b>",
@@ -316,7 +367,9 @@
             "start_date": {
                 "month": "5",
                 "day": "16",
-                "year": "1810"
+                "year": "1810",
+                "id": "1810-4",
+                "hidden":"true"
             },
             "text": {
                 "headline": "<b class=\"north-east\">Newport, RI</b>",
@@ -328,7 +381,9 @@
             "start_date": {
                 "month": "6",
                 "day": "15",
-                "year": "1810"
+                "year": "1810",
+                "id": "1810-5",
+                "hidden":"true"
             },
             "text": {
                 "headline": "<b class=\"north-east\">New Bedford, MA</b>",
@@ -340,7 +395,9 @@
             "start_date": {
                 "month": "7",
                 "day": "10",
-                "year": "1810"
+                "year": "1810",
+                "id": "1810-6",
+                "hidden":"true"
             },
             "text": {
                 "headline": "<b class=\"north-east\">Salem, MA</b>",
@@ -352,7 +409,9 @@
             "start_date": {
                 "month": "8",
                 "day": "11",
-                "year": "1810"
+                "year": "1810",
+                "id": "1810-7",
+                "hidden":"true"
             },
             "text": {
                 "headline": "<b class=\"north-east\">Salem, MA</b>",
@@ -364,7 +423,9 @@
             "start_date": {
                 "month": "9",
                 "day": "7",
-                "year": "1810"
+                "year": "1810",
+                "id": "1810-8",
+                "hidden":"true"
             },
             "text": {
                 "headline": "<b class=\"north-east\">Newburyport, MA</b>",
@@ -376,7 +437,9 @@
             "start_date": {
                 "month": "10",
                 "day": "26",
-                "year": "1810"
+                "year": "1810",
+                "id": "1810-9",
+                "hidden":"true"
             },
             "text": {
                 "headline": "<b class=\"north-east\">Newburyport, MA</b>",
@@ -388,7 +451,9 @@
             "start_date": {
                 "month": "12",
                 "day": "4",
-                "year": "1810"
+                "year": "1810",
+                "id": "1810-10",
+                "hidden":"true"
             },
             "text": {
                 "headline": "<b class=\"north-east\">Newburyport, MA</b>",
@@ -400,7 +465,9 @@
             "start_date": {
                 "month": "1",
                 "day": "12",
-                "year": "1811"
+                "year": "1811",
+                "id": "1811-1",
+                "hidden":"false"
             },
             "text": {
                 "headline": "<b class=\"north-east\">Portsmouth, NH</b>",
@@ -412,7 +479,9 @@
             "start_date": {
                 "month": "2",
                 "day": "21",
-                "year": "1811"
+                "year": "1811",
+                "id": "1811-2",
+                "hidden":"true"
             },
             "text": {
                 "headline": "<b class=\"north-east\">Portland, ME</b>",
@@ -424,7 +493,9 @@
             "start_date": {
                 "month": "5",
                 "day": "2",
-                "year": "1811"
+                "year": "1811",
+                "id": "1811-3",
+                "hidden":"true"
             },
             "text": {
                 "headline": "<b class=\"north-east\">Portland, ME</b>",
@@ -436,7 +507,9 @@
             "start_date": {
                 "month": "11",
                 "day": "28",
-                "year": "1811"
+                "year": "1811",
+                "id": "1811-4",
+                "hidden":"true"
             },
             "text": {
                 "headline": "<b class=\"north-east\">Philadelphia, PA</b>",
@@ -448,7 +521,9 @@
             "start_date": {
                 "month": "1",
                 "day": "24",
-                "year": "1812"
+                "year": "1812",
+                "id": "1812",
+                "hidden":"false"
             },
             "text": {
                 "headline": "<b class=\"north-east\">Philadelphia, PA</b>",
@@ -460,7 +535,9 @@
             "start_date": {
                 "month": "3",
                 "day": "25",
-                "year": "1817"
+                "year": "1817",
+                "id": "1817",
+                "hidden":"false"
             },
             "text": {
                 "headline": "<b class=\"north-east\">Wellsboro, PA</b>",
@@ -472,7 +549,9 @@
             "start_date": {
                 "month": "4",
                 "day": "10",
-                "year": "1822"
+                "year": "1822",
+                "id": "1822-1",
+                "hidden":"false"
             },
             "text": {
                 "headline": "<b class=\"north-east\">Wellsboro, PA</b>",
@@ -484,7 +563,9 @@
             "start_date": {
                 "month": "",
                 "day": "",
-                "year": "1822"
+                "year": "1822",
+                "id": "1822-2",
+                "hidden":"true"
             },
             "text": {
                 "headline": "<b class=\"north-east\">Wellsboro, PA</b>",
@@ -496,7 +577,9 @@
             "start_date": {
                 "month": "",
                 "day": "",
-                "year": "1831"
+                "year": "1831",
+                "id": "1831",
+                "hidden":"false"
             },
             "text": {
                 "headline": "<b class=\"north-east\">Wellsboro, PA</b>",
@@ -508,7 +591,9 @@
             "start_date": {
                 "month": "",
                 "day": "",
-                "year": "1845"
+                "year": "1845",
+                "id": "1845",
+                "hidden":"false"
             },
             "text": {
                 "headline": "<b class=\"north-east\">Wellsboro, PA</b>",
@@ -517,4 +602,3 @@
             "group": "Northeast"
         }
     ]
-}

@@ -11,7 +11,7 @@ $image = $array[24]['image'];
 ?>
 
 <div class="panzoom-odd">
-    <div class="cut-seam-odd">
+    <div class="cut-seam-odd" id="seam-25">
         <img class="fixed-height"src=<?php echo $image?> usemap="#page-25" />
     </div>
 </div>

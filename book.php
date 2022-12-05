@@ -8,7 +8,7 @@ include("includes/main_head.php");
   <link rel="stylesheet" href="css/book.css">
 	<link rel="stylesheet" href="css/crop.css">
   <link rel="stylesheet" type="text/css" href="css/bookblock.css" />
-  <script src="https://unpkg.com/@panzoom/panzoom@4.5.1/dist/panzoom.min.js"></script>
+  <!-- <script src="https://unpkg.com/@panzoom/panzoom@4.5.1/dist/panzoom.min.js"></script> -->
 </head>
 
 <body>
@@ -164,6 +164,7 @@ include("includes/main_head.php");
     <script src="js/modernizr.custom.js"></script>
     <script src="js/jquery.bookblock.js"></script>
     <script src="js/jquery.rwdImageMaps.js"></script>
+    <script src="js/panzoom.4.5.js"></script>
     <script src="js/book.js"></script>
     <script>
       var numberOfPages = 76;
