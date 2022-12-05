@@ -1,6 +1,9 @@
 /*---------------------------------------
   CUSTOM PROPERTIES ( VARIABLES )             
 -----------------------------------------*/
+body {
+  min-height: calc(100vh - 500px);
+}
 :root {
   --white-color: #ffffff;
   --primary-color: #5bc1ac;
@@ -37,6 +40,7 @@
 
 body {
   background-color: var(--white-color);
+  overflow-y: visible !important;
 }
 
 /*---------------------------------------
@@ -232,11 +236,15 @@ strong {
 /*---------------------------------------
   TIMELINE        
 -----------------------------------------*/
-.time-line{
+.time-line {
   position: relative;
 }
 
-.tl-timemarker-text p  {
+.tl-timegroup-message {
+  color: var(--dark-color) !important;
+}
+
+.tl-timemarker-text p {
   color: var(--dark-color) !important;
   letter-spacing: 0.1px !important;
   font-weight: bold;
@@ -246,13 +254,15 @@ strong {
   letter-spacing: 0.1px;
 }
 
-.england, .north-east, .south-east, .caribbean{
-  letter-spacing: .1px;
+.england,
+.north-east,
+.south-east,
+.caribbean {
+  letter-spacing: 0.1px;
   color: var(--dark-color);
 }
 
-
-#expand-timeline{
+#expand-timeline {
   border: none;
   background-color: var(--white-color);
   position: absolute;
@@ -262,9 +272,9 @@ strong {
   cursor: pointer;
   border-radius: 4px;
   padding: 10px 15px;
-  box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.1), 0px 3px 3px -2px rgba(0, 0, 0, 0.05), 0px 1px 8px 0px rgba(0, 0, 0, 0.03);
+  box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.1), 0px 3px 3px -2px rgba(0, 0, 0, 0.05),
+    0px 1px 8px 0px rgba(0, 0, 0, 0.03);
 }
-
 
 /*---------------------------------------
   CUSTOM BLOCK               
@@ -341,6 +351,13 @@ strong {
   box-shadow: 4px 7px 11px -2px rgba(0, 0, 0, 0.41);
   -webkit-box-shadow: 4px 7px 11px -2px rgba(0, 0, 0, 0.41);
   -moz-box-shadow: 4px 7px 11px -2px rgba(0, 0, 0, 0.41);
+}
+
+@media screen and (max-width: 992px) {
+  .custom-text-box-image {
+    width: 50%;
+    height: 100%;
+  }
 }
 
 .custom-text-box-icon {
@@ -578,7 +595,7 @@ strong {
   SITE HEADER              
 -----------------------------------------*/
 .site-header {
-  background-image: url('/images/bache-back.jpg');
+  background-image: url("/images/bache-back.jpg");
   background-size: contain;
   padding: 50px 0;
   font-weight: bold;
@@ -711,6 +728,13 @@ a {
 .article-link:hover,
 .article-hyperlink a:hover {
   color: #527081;
+}
+
+/*---------------------------------------
+  TABLES          
+-----------------------------------------*/
+.table-container {
+  min-height: calc(100vh - 95px);
 }
 
 /*---------------------------------------

@@ -7,7 +7,7 @@ include("includes/main_head.php");
 ?>
  
 </head>
-<body>
+<body style="overflow: scroll">
 <?php include("includes/nav.php");?>
 <?php 
         $page = "Ledger Book Index";
@@ -35,10 +35,10 @@ include("includes/main_head.php");
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body row">
-          <div class="silhouette col-5">
+          <div class="silhouette col-lg-5 col-12">
             <div class="silhouette__focus zoom-main"><img id="result" src="" alt="single silhouette image"/></div>
           </div>
-          <div class="col-7">
+          <div class="col-lg-7 col-12">
             <h2 class="text-center text-decoration-underline" id="silhouette-name"></h2>
            <div class="silhouette-content-block">
            <span>Artist:</span> <p id="artist-name"></p>
@@ -76,8 +76,8 @@ include("includes/main_head.php");
 <!-- END MODAL -->
 
 <section class="section-padding section-bg pt-5 biography-section">
-<div class="container">
-    <table id="" class="display" style="width:100%">
+<div class="container table-container">
+    <table id="index-table" class="display" style="width:100%">
             <thead>
                 <tr>
                     <th>Sitter</th>
@@ -120,6 +120,7 @@ include("includes/main_head.php");
 $(document).ready(function () {
     $('table.display').DataTable({
         "pageLength": 25,
+        "order": [1, 'asc'],
         "fnDrawCallback": function( oSettings ) {
           //Modal for Book Index
     $('.book-index-link').click(function(){

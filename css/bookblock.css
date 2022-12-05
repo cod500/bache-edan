@@ -207,7 +207,7 @@
 
 @media (max-width: 992px) {
   .bb-custom-wrapper .bb-bookblock {
-    margin-left: -100px;
+    /* margin-left: -100px; */
   }
 }
 

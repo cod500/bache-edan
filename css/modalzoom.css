@@ -38,13 +38,20 @@
   overflow: hidden;
   position: relative;
   max-width: 500px;
-  max-height: 344px;
+  /* max-height: 344px; */
+  max-height: 300px;
   margin-top: 30px !important;
   -webkit-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
   -moz-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
   -ms-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
   -o-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+}
+@media screen and (max-width: 992px) {
+  .zoom-main {
+    max-height: 400px;
+    margin: 0px 0 30px !important;
+  }
 }
 .zoom-main img {
   pointer-events: none;
@@ -70,6 +77,6 @@
 .silhouette {
   display: flex;
   flex-flow: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }

@@ -28,10 +28,10 @@ include("includes/main_head.php");
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body row">
-          <div class="silhouette col-5">
+          <div class="silhouette col-lg-5 col-12">
             <div class="silhouette__focus zoom-main"><img id="result" src="" alt="single silhouette image"/></div>
           </div>
-          <div class="col-7">
+          <div class="col-lg-7 col-12">
             <h2 class="text-center text-decoration-underline" id="silhouette-name"></h2>
            <div class="silhouette-content-block">
            <span>Artist:</span> <p id="artist-name"></p>
@@ -77,8 +77,8 @@ include("includes/main_head.php");
       </div>
       
       <div class="modal fade" id="timelineeModal" tabindex="-1" aria-labelledby="timelineModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg" style="margin:0!important; top:-10%">
-        <div class="modal-content expanded-timeline">
+      <div class="modal-dialog modal-fullscreen" style="margin:0!important; top:-10%">
+        <div class="modal-content">
           <div class="row">
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
@@ -113,7 +113,7 @@ include("includes/main_head.php");
 </div>
  <!-- END TIMELINE-->
   <br>
-<p dir="ltr" style=" text-indent: 40px;">
+<p dir="ltr" class="biography-content"vstyle=" text-indent: 40px;">
     On August 16, 1803, Bache and Todd advertised that they had “commenced
     taking likenesses in profile” in Baltimore, offering customers “four
     correct profiles for 25 cents.” They used the physiognotrace to outline a
@@ -228,9 +228,18 @@ include("includes/main_head.php");
 <script>
 tippy('.article-figure, #expand-timeline', { arrow: true });
 
+//Hide timeline behind modal
 $('#expand-timeline').click(function(){
   $('#timeline-modal').click();
+  $('.time-line').css('z-index', '-1');
 })
+
+//Bring back timeline when modal is closed
+$('#exampleModal, #timelineeModal').on('hide.bs.modal', function(){
+      setTimeout(() => {
+    $('.time-line').css('z-index', '1');
+  }, 300);
+});
 
 $('.article-figure, .article-link').click(function(){
     var data = {
@@ -261,6 +270,7 @@ $('.article-figure, .article-link').click(function(){
 					$('#obj-number').text(jsonData.content.freetext.identifier[0].content);
 					$("#result").attr("src", image);
 						$('#bache-modal').click();
+            $('.time-line').css('z-index', '-1');
 
 				})
 
@@ -270,7 +280,7 @@ $('.article-figure, .article-link').click(function(){
       script_path:                "",
       height:                     100,
       width:                      100,
-      initial_zoom:               1,
+      initial_zoom:               3,
       scale_factor:               1,              // How many screen widths wide should the timeline be
       zoom_sequence:89,
       layout:                     "portrait",    // portrait or landscape
@@ -280,8 +290,8 @@ $('.article-figure, .article-link').click(function(){
       // timenav_height:             150,
       // timenav_height_percentage:  25,             // Overrides timenav height as a percentage of the screen
       // timenav_height_min:         150,            // Minimum timenav height
-      // marker_height_min:          30,             // Minimum Marker Height
-      // marker_width_min:           100,            // Minimum Marker Width
+      marker_height_min:          50,             // Minimum Marker Height
+      marker_width_min:           100,            // Minimum Marker Width
       // marker_padding:             5,              // Top Bottom Marker Padding
       // start_at_slide:             0,
       // menubar_height:             0,

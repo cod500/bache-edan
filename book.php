@@ -33,10 +33,10 @@ include("includes/main_head.php");
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body row">
-          <div class="silhouette col-5">
+          <div class="silhouette col-lg-5 col-12">
             <div class="silhouette__focus zoom-main"><img id="result" src="" alt="single silhouette image"/></div>
           </div>
-          <div class="col-7">
+          <div class="col-lg-7 col-12">
             <h2 class="text-center text-decoration-underline" id="silhouette-name"></h2>
            <div class="silhouette-content-block">
            <span>Artist:</span> <p id="artist-name"></p>
@@ -80,9 +80,9 @@ include("includes/main_head.php");
                                 </div>
                                 </a>
     </div>
-    <section class="section-padding section-bg pt-3">
+    <section class="pt-3">
       <img crossorigin="Anonymous" src="" class="crop-image" alt=""/>
-      <div class="container">
+      <div class="">
         <div class="bb-custom-wrapper">
             <div id="bb-bookblock" class="bb-bookblock">
 
@@ -181,7 +181,7 @@ include("includes/main_head.php");
           init = function () {
             config.$bookBlock.bookblock({
               speed: 1000,
-              shadowSides: 0.8,
+              // shadowSides: 0.8,
               shadowFlip: 0.4
             });
             initEvents();

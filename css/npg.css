@@ -298,6 +298,11 @@ footer,.region--postscript {
     top: 15px;
     left: -2.5rem;
 }
+@media (max-width:1024px) {
+    #block-panels-mini-footer .newsletter h2:before {
+        left: 5.5rem;
+    }
+}
 #block-panels-mini-footer .newsletter h2:hover:before {
     color: inherit;
 }
@@ -2984,9 +2989,9 @@ aside .entity-paragraphs-item.field-bg .b-text-wrapper, .aside .entity-paragraph
     width: 100%;
     min-width: 400px;
 }
-.modal-content.expanded-timeline {
-    width: 100vw;
-    height: 100vh;
+.modal-content .modal-fullscreen{
+    width: 99.4vw!important;
+    height: 80%!important;
 }
 .modal-content .modal-close {
     font-size: 4rem;
