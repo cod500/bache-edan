@@ -739,7 +739,7 @@ Cortesía de Maya Lin Studio</p>
 
   </div>
 
-  <div class="entity entity-paragraphs-item paragraphs-item-text-block" id="paragraphs-item-12277">
+  <div class="entity entity-paragraphs-item paragraphs-item-text-block" id="paragraphs-item-12277">f
     <div class="content">
 
 
