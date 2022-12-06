@@ -40,10 +40,17 @@
 #dates.bottom-date {
   overflow: visible;
 }
+#dates.regions{
+  cursor: pointer;
+}
+#dates.regions .selected {
+  font-size: 24px;
+}
 
 #dates.bottom-date li {
   background: none;
 }
+
 
 #issues {
   width: 800px;
@@ -140,3 +147,4 @@
 .highlight {
   background: yellow !important;
 }
+

@@ -56,11 +56,11 @@ include("includes/main_head.php");
  </div>
 <br>
  <div class="container">
- <ul id="dates" style="width:100%; margin-left:0">
- <li  id="england-dates" style="margin-right:140px!important"><a href="">England</a></li>
- <li id="northeast-dates" style="margin-right:140px!important"><a href="">Northeast</a></li>
- <li id="southeast-dates" style="margin-right:140px!important"><a href="">Southeast</a></li>
- <li id="caribbean-dates" style="margin-right:140px!important"><a href="">Caribbean</a></li>
+ <ul class="regions" id="dates" style="width:100%; margin-left:0">
+ <li  id="england-dates" style="margin-right:140px!important">England</li>
+ <li id="northeast-dates" style="margin-right:140px!important">Northeast</li>
+ <li id="southeast-dates" style="margin-right:140px!important">Southeast</li>
+ <li id="caribbean-dates"style="margin-right:140px!important">Caribbean</li>
   </ul>
  </div>
 
@@ -75,15 +75,19 @@ include("includes/main_head.php");
 
 
 $("#england-dates" ).on( "click", function() {
+  $(this).toggleClass( "highlight");
     $('.England').toggleClass( "highlight");
 });
 $("#northeast-dates" ).on( "click", function() {
+  $(this).toggleClass( "highlight");
     $('.Northeast').toggleClass( "highlight");
 });
 $("#southeast-dates" ).on( "click", function() {
+  $(this).toggleClass( "highlight");
     $('.Southeast').toggleClass( "highlight");
 });
 $("#caribbean-dates" ).on( "click", function() {
+  $(this).toggleClass( "highlight");
     $('.Caribbean').toggleClass( "highlight");
 });
   </script>
