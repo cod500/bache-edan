@@ -5,7 +5,8 @@
 $title = "Biography";
 include("includes/main_head.php");
 ?>
-<link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
+<!-- <link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css"> -->
+<link rel="stylesheet" href="css/timeline.css" media="screen" />
 </head>
 <body>
 <?php include("includes/nav.php");?>
@@ -107,11 +108,63 @@ include("includes/main_head.php");
 </p>
 <br>
 <!-- TIMELINE-->
-<div class="time-line">
+<!-- <div class="time-line">
   <div id='timeline-embed' style="width: 100%; height: 600px"></div>
   <button id="expand-timeline" aria-label="Open Full Screen" data-tippy-content="Click to Expand"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="false"></i></button>
-</div>
+</div> -->
  <!-- END TIMELINE-->
+ <?php 
+              $data = file_get_contents('data/timeline.json',true);
+              $array = json_decode($data, true);
+      ?>
+  <div id="timeline">
+    <ul id="dates" class="text-dark" style="margin-left:0">
+    <?php for ($i = 0; $i < count($array); $i++): ?>
+      <li class="<?php echo $array[$i]['group']?>"><a href="#<?php echo $array[$i]['start_date']['id'] ?>"><?php echo $array[$i]['start_date']['year'] ?></a></li>
+    <?php endfor; ?>
+    </ul>
+
+    <ul id="issues">
+      <?php for ($i = 0; $i < count($array); $i++): ?>
+        <li id="<?php echo $array[$i]['start_date']['id'] ?>">
+          <h1 style="padding: 0 40px"><?php echo $array[$i]['text']['headline'] ?></h1>
+          <p class="timeline-date" style="padding: 0 30px">- <?php echo $array[$i]['start_date']['month']." ".$array[$i]['start_date']['day'].", ".$array[$i]['start_date']['year']?> </p>
+          <div class="slider">
+          <p><?php echo $array[$i]['text']['text'] ?></p>
+            </div>
+        </li>
+      <?php endfor; ?>
+   
+      
+    </ul>
+    <!-- <div id="grad_left"></div>
+    <div id="grad_right"></div> -->
+    <a href="#" id="next"><i class="bi-arrow-right"></i></a>
+    <a href="#" id="prev">-</a>
+  </div>
+ <div class="container">
+ <ul id="dates" class="bottom-date" style="width:100%; margin-left:0">
+    <?php for ($i = 0; $i < count($array); $i++): ?>
+      <?php $hidden = $array[$i]['start_date']['hidden'];
+        if($array[$i]['start_date']['hidden'] == 'true'){
+            $hidden= 'hidden';
+        }else{
+          $hidden = "";
+        }
+      ?>
+      <li <?php echo $hidden ?>><a href="<?php echo $array[$i]['start_date']['id'] ?>"><?php echo $array[$i]['start_date']['year'] ?></a></li>
+    <?php endfor; ?>
+  </ul>
+ </div>
+<br>
+ <div class="container">
+ <ul class="regions" id="dates" style="width:100%; margin-left:0">
+ <li  id="england-dates" style="margin-right:140px!important">England</li>
+ <li id="northeast-dates" style="margin-right:140px!important">Northeast</li>
+ <li id="southeast-dates" style="margin-right:140px!important">Southeast</li>
+ <li id="caribbean-dates"style="margin-right:140px!important">Caribbean</li>
+  </ul>
+ </div>
   <br>
 <p dir="ltr" class="biography-content"vstyle=" text-indent: 40px;">
     On August 16, 1803, Bache and Todd advertised that they had “commenced
@@ -224,22 +277,28 @@ include("includes/main_head.php");
 <?php include("includes/main_js.php");?>
 <script src="https://unpkg.com/@popperjs/core@2"></script>
 <script src="https://unpkg.com/tippy.js@6"></script>
+<script src="js/jquery.timelinr-0.9.7.js"></script>
 <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
 <script>
+   $(function(){
+      $().timelinr({
+        arrowKeys: 'true'
+      })
+    });
 tippy('.article-figure, #expand-timeline', { arrow: true });
 
 //Hide timeline behind modal
-$('#expand-timeline').click(function(){
-  $('#timeline-modal').click();
-  $('.time-line').css('z-index', '-1');
-})
+// $('#expand-timeline').click(function(){
+//   $('#timeline-modal').click();
+//   $('.time-line').css('z-index', '-1');
+// })
 
-//Bring back timeline when modal is closed
-$('#exampleModal, #timelineeModal').on('hide.bs.modal', function(){
-      setTimeout(() => {
-    $('.time-line').css('z-index', '1');
-  }, 300);
-});
+// //Bring back timeline when modal is closed
+// $('#exampleModal, #timelineeModal').on('hide.bs.modal', function(){
+//       setTimeout(() => {
+//     $('.time-line').css('z-index', '1');
+//   }, 300);
+// });
 
 $('.article-figure, .article-link').click(function(){
     var data = {
@@ -276,61 +335,76 @@ $('.article-figure, .article-link').click(function(){
 
       });
       
-    var options = {
-      script_path:                "",
-      height:                     100,
-      width:                      100,
-      initial_zoom:               3,
-      scale_factor:               1,              // How many screen widths wide should the timeline be
-      zoom_sequence:89,
-      layout:                     "portrait",    // portrait or landscape
-      timenav_position:           "bottom",       // timeline on top or bottom
-      // optimal_tick_width:         100,            // optimal distance (in pixels) between ticks on axis
-      // base_class:                 "",
-      // timenav_height:             150,
-      // timenav_height_percentage:  25,             // Overrides timenav height as a percentage of the screen
-      // timenav_height_min:         150,            // Minimum timenav height
-      marker_height_min:          50,             // Minimum Marker Height
-      marker_width_min:           100,            // Minimum Marker Width
-      // marker_padding:             5,              // Top Bottom Marker Padding
-      // start_at_slide:             0,
-      // menubar_height:             0,
-      // skinny_size:                650,
-      // relative_date:              false,          // Use momentjs to show a relative date from the slide.text.date.created_time field
-      // use_bc:                     false,          // Use declared suffix on dates earlier than 0
-      // // animation
-      // duration:                   1000,
-      // // interaction
-      // dragging:                   true,
-      // trackResize:                true,
-      // map_type:                   "stamen:toner-lite",
-      // slide_padding_lr:           100,            // padding on slide of slide
-      // slide_default_fade:         "0%",           // landscape fade
+//     var options = {
+//       script_path:                "",
+//       height:                     100,
+//       width:                      100,
+//       initial_zoom:               3,
+//       scale_factor:               1,              // How many screen widths wide should the timeline be
+//       zoom_sequence:89,
+//       layout:                     "portrait",    // portrait or landscape
+//       timenav_position:           "bottom",       // timeline on top or bottom
+//       // optimal_tick_width:         100,            // optimal distance (in pixels) between ticks on axis
+//       // base_class:                 "",
+//       // timenav_height:             150,
+//       // timenav_height_percentage:  25,             // Overrides timenav height as a percentage of the screen
+//       // timenav_height_min:         150,            // Minimum timenav height
+//       marker_height_min:          50,             // Minimum Marker Height
+//       marker_width_min:           100,            // Minimum Marker Width
+//       // marker_padding:             5,              // Top Bottom Marker Padding
+//       // start_at_slide:             0,
+//       // menubar_height:             0,
+//       // skinny_size:                650,
+//       // relative_date:              false,          // Use momentjs to show a relative date from the slide.text.date.created_time field
+//       // use_bc:                     false,          // Use declared suffix on dates earlier than 0
+//       // // animation
+//       // duration:                   1000,
+//       // // interaction
+//       // dragging:                   true,
+//       // trackResize:                true,
+//       // map_type:                   "stamen:toner-lite",
+//       // slide_padding_lr:           100,            // padding on slide of slide
+//       // slide_default_fade:         "0%",           // landscape fade
 
-      // api_key_flickr:             "",             // Flickr API Key
-      // language:                   "en"        
+//       // api_key_flickr:             "",             // Flickr API Key
+//       // language:                   "en"        
 
-};
-let database = []
+// };
+// let database = []
 
-fetch('./data/timeline.json')
-.then(response => response.json())
-.then(data => {
-    var timeline = new TL.Timeline('timeline-embed',
-                                 data,
-                                 options);
-  var modalTimeline = new TL.Timeline('modal-timeline',
-                                 data,
-                                 options);
+// fetch('./data/timeline.json')
+// .then(response => response.json())
+// .then(data => {
+//     var timeline = new TL.Timeline('timeline-embed',
+//                                  data,
+//                                  options);
+//   var modalTimeline = new TL.Timeline('modal-timeline',
+//                                  data,
+//                                  options);
 
-                                 setTimeout(() => {
-                                  $('.tl-timemarker-content-container').has('.north-east').css('background-color','#fceef2');
-                                  $('.tl-timemarker-content-container').has('.south-east').css('background-color','#527181');
-                                  $('.tl-timemarker-content-container').has('.england').css('background-color','#81b4c8');
-                                 }, 1000);
-})
+//                                  setTimeout(() => {
+//                                   $('.tl-timemarker-content-container').has('.north-east').css('background-color','#fceef2');
+//                                   $('.tl-timemarker-content-container').has('.south-east').css('background-color','#527181');
+//                                   $('.tl-timemarker-content-container').has('.england').css('background-color','#81b4c8');
+//                                  }, 1000);
+// })
       
-
+$("#england-dates" ).on( "click", function() {
+  $(this).toggleClass( "highlight");
+    $('.England').toggleClass( "highlight");
+});
+$("#northeast-dates" ).on( "click", function() {
+  $(this).toggleClass( "highlight");
+    $('.Northeast').toggleClass( "highlight");
+});
+$("#southeast-dates" ).on( "click", function() {
+  $(this).toggleClass( "highlight");
+    $('.Southeast').toggleClass( "highlight");
+});
+$("#caribbean-dates" ).on( "click", function() {
+  $(this).toggleClass( "highlight");
+    $('.Caribbean').toggleClass( "highlight");
+});
 </script>
 </body>
 </html>

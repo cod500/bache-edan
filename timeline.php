@@ -14,7 +14,6 @@ include("includes/main_head.php");
               $data = file_get_contents('data/timeline.json',true);
               $array = json_decode($data, true);
       ?>
-  
   <div id="timeline">
     <ul id="dates" class="text-dark" style="margin-left:0">
     <?php for ($i = 0; $i < count($array); $i++): ?>

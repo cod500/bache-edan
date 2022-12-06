@@ -837,7 +837,9 @@ a {
     font-size: 20px;
   }
 }
-
+/*---------------------------------------
+  NEWSPAPER            
+-----------------------------------------*/
 .small {
   font-size: 11px;
   color: #999;
@@ -848,20 +850,7 @@ a {
 .cont {
   text-align: center;
 }
-
-.page-head {
-  padding: 60px 0;
-  text-align: center;
-}
-
-.page-head .lead {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 1.4;
-  margin-bottom: 50px;
-  margin-top: 0;
-}
-
+/* 
 .btn {
   -moz-user-select: none;
   background-image: none;
@@ -920,7 +909,7 @@ a {
   position: absolute;
   width: 58px;
   right: -58px;
-}
+} */
 
 .demo-gallery > ul {
   margin-bottom: 0;
@@ -1050,4 +1039,26 @@ a {
 
 .demo-gallery.dark > ul > li a {
   border: 3px solid #04070a;
+}
+
+.lg-sub-html{
+  float: right!important;
+  /* height: 100vh!important; */
+  width: 30%!important;
+}
+
+.lg-sub-html p{
+  color: var(--dark-color)!important;
+}
+.lg-backdrop.in{
+  background-color: var(--white-color)!important;
+}
+
+.lg-outer.lg-grab img.lg-object {
+  float: left;
+  width: 60%;
+  height: 100%;
+}
+.lg-outer .lg-content{
+  position: static;
 }
