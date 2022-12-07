@@ -13,46 +13,30 @@
 <meta name="MobileOptimized" content="width" />
 <!--[if (IEMobile)]><meta http-equiv="cleartype" content="on" />
 <![endif]--><meta name="viewport" content="width=device-width" />
-  <title>One Life: Maya Lin | National Portrait Gallery</title>
-
-<link type="text/css" rel="stylesheet" href="https://npg.si.edu/sites/default/files/css/css_7QU5I2SuSktl6MJIDhHx90i_Zkk0SUdmf7ch45t6S-s.css" media="all" />
-
-  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-<script type="text/javascript" src="https://npg.si.edu/sites/default/files/js/js_pTE_KHb06coJF-VmdrCS-0e7w9H8L4JjVC_GhTQ1S3M.js"></script>
-
-
-<script type="text/javascript" src="https://npg.si.edu/sites/default/files/js/js_Po0KEdQLZZuqiYzDNkwxlDFHeQB9_rjRdm6GUDPKWew.js"></script>
-
+<?php 
+$title = "Newspaper Advertisements";
+include("includes/main_head.php");
+?>
+<link type="text/css" rel="stylesheet" href="/css/npg.lightbox.min.css" media="all" />
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
+
 <body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-148716 node-type-exhibit panel-region-main full-width-exhibit i18n-en" >
- 
+  <?php include("includes/nav.php");?>
+        <?php 
+        $page = "Newspaper Advertisements";
+        include("includes/page_header.php");
+        ?>
+    <div class="container">
+    <div class="entity entity-paragraphs-item paragraphs-item-text-block spacing-bottom field-spacing" id="paragraphs-item-12255">
 
-
-  <div class="entity entity-paragraphs-item paragraphs-item-text-block spacing-bottom field-spacing" id="paragraphs-item-12255">
-    <div class="content">
-      
-  <h3>Image Gallery</h3>
-
-<p>Selections from the Exhibition</p>
-
-      </div>
 </div>
-
-  <!--div class="masonry-grid-list-buttons">
-    <button class="view-style" rel="list-view"><i class="fa fa-list"></i></button>
-    <button class="view-style btn-active" rel="grid-view"><i class="fa fa-th"></i></button>
-</div-->
-
+<img src="/newspapers/np_ad1.png" alt="">
 <div class="masonry-grid masonry-gallery entity entity-paragraphs-item paragraphs-item-masonry-image-gallery" id="paragraphs-item-12274">
   
   
   <div class="grid-item"><div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12257">
-  <a href="
-  https://npg.si.edu/sites/default/files/exhee305_0.jpg
-  " class="lg-figure" data-sub-html=".caption"><img src="
-  https://npg.si.edu/sites/default/files/exhee305_0.jpg
-  " alt="woman crouching near an architectural model in a studio">
+  <a href="/newspapers/news-ad1.png" class="lg-figure" data-sub-html=".caption"><img src="/newspapers/news-ad1.png" alt="woman crouching near an architectural model in a studio">
 		<div class="caption">
 			<span class="original_text">
 			
@@ -88,9 +72,9 @@ Cortesía de Adam Stoltman</p>
 
   <div class="grid-item"><div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12258">
   <a href="
-  https://npg.si.edu/sites/default/files/ee290_wall_0.jpg
+  https://i.ibb.co/0M7v6bm/unnamed.png
   " class="lg-figure" data-sub-html=".caption"><img src="
-  https://npg.si.edu/sites/default/files/ee290_wall_0.jpg
+  https://i.ibb.co/0M7v6bm/unnamed.png
   " alt="view of a granite wall in the sunlight">
 		<div class="caption">
 			<span class="original_text">
@@ -143,9 +127,9 @@ Cortesía de Mark Segal / Panoramic Images © 1982</p>
 
   <div class="grid-item"><div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12262">
   <a href="
-  https://npg.si.edu/sites/default/files/exhee293_0.jpg
+  https://i.ibb.co/4Sj99j7/unnamed-1.png
   " class="lg-figure" data-sub-html=".caption"><img src="
-  https://npg.si.edu/sites/default/files/exhee293_0.jpg
+  https://i.ibb.co/4Sj99j7/unnamed-1.png
   " alt="circular granite memorial">
 		<div class="caption">
 			<span class="original_text">
@@ -196,9 +180,9 @@ Cortesía de Maya Lin Studio</p>
 
   <div class="grid-item"><div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12263">
   <a href="
-  https://npg.si.edu/sites/default/files/exhee294_v.4.jpg
+  https://i.ibb.co/HT5G6Qt/unnamed-2.png
   " class="lg-figure" data-sub-html=".caption"><img src="
-  https://npg.si.edu/sites/default/files/exhee294_v.4.jpg
+  https://i.ibb.co/HT5G6Qt/unnamed-2.png
   " alt="Circular monument dedicated to women">
 		<div class="caption">
 			<span class="original_text">
@@ -251,9 +235,9 @@ Cortesía de Norman McGrath</p>
 
   <div class="grid-item"><div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12264">
   <a href="
-  https://npg.si.edu/sites/default/files/exhee299_v.1_0.jpg
+  https://i.ibb.co/wLNsJxs/unnamed-3.png
   " class="lg-figure" data-sub-html=".caption"><img src="
-  https://npg.si.edu/sites/default/files/exhee299_v.1_0.jpg
+  https://i.ibb.co/wLNsJxs/unnamed-3.png
   " alt="young woman working with pins on an architectural model">
 		<div class="caption">
 			<span class="original_text">
@@ -316,9 +300,9 @@ Cortesía de Chester Higgins Jr. / The New York Times / Redux</p>
 
   <div class="grid-item"><div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12265">
   <a href="
-  https://npg.si.edu/sites/default/files/exhee315_0.jpg
+  https://i.ibb.co/Csm2nv6/unnamed-4.png
   " class="lg-figure" data-sub-html=".caption"><img src="
-  https://npg.si.edu/sites/default/files/exhee315_0.jpg
+  https://i.ibb.co/Csm2nv6/unnamed-4.png
   " alt="view of a library on a platform structure in a landscape">
 		<div class="caption">
 			<span class="original_text">
@@ -356,9 +340,9 @@ Cortesía de Timothy Hursley</p>
 
   <div class="grid-item"><div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12266">
   <a href="
-  https://npg.si.edu/sites/default/files/exhee308_0.jpg
+  https://i.ibb.co/c1zt7VZ/unnamed-12.png
   " class="lg-figure" data-sub-html=".caption"><img src="
-  https://npg.si.edu/sites/default/files/exhee308_0.jpg
+  https://i.ibb.co/c1zt7VZ/unnamed-12.png
   " alt="green landscape with recessed and projecting squares">
 		<div class="caption">
 			<span class="original_text">
@@ -395,9 +379,9 @@ Cortesía de Rose Marie Cromwell</p>
 
   <div class="grid-item"><div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12267">
   <a href="
-  https://npg.si.edu/sites/default/files/exhee344_0.jpg
+  https://i.ibb.co/NpnWXTR/unnamed-5.png
   " class="lg-figure" data-sub-html=".caption"><img src="
-  https://npg.si.edu/sites/default/files/exhee344_0.jpg
+  https://i.ibb.co/NpnWXTR/unnamed-5.png
   " alt="Box-like house in a mountainous landscape">
 		<div class="caption">
 			<span class="original_text">
@@ -434,9 +418,9 @@ Cortesía de Brett Schreckengost</p>
 
   <div class="grid-item"><div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12268">
   <a href="
-  https://npg.si.edu/sites/default/files/exhee312.jpg
+  https://i.ibb.co/51cmdDV/unnamed-1.jpg
   " class="lg-figure" data-sub-html=".caption"><img src="
-  https://npg.si.edu/sites/default/files/exhee312.jpg
+  https://i.ibb.co/51cmdDV/unnamed-1.jpg
   " alt="Italian courtyard filled with sand">
 		<div class="caption">
 			<span class="original_text">
@@ -473,9 +457,9 @@ Cortesía de Maya Lin Studio</p>
 
   <div class="grid-item"><div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12269">
   <a href="
-  https://npg.si.edu/sites/default/files/exhee296_0.jpg
+  https://i.ibb.co/Csxm1Wn/unnamed-6.png
   " class="lg-figure" data-sub-html=".caption"><img src="
-  https://npg.si.edu/sites/default/files/exhee296_0.jpg
+  https://i.ibb.co/Csxm1Wn/unnamed-6.png
   " alt="Tall tower encircled with metal">
 		<div class="caption">
 			<span class="original_text">
@@ -512,9 +496,9 @@ Universidad de Shantou, cortesía de Maya Lin Studio</p>
 
   <div class="grid-item"><div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12270">
   <a href="
-  https://npg.si.edu/sites/default/files/exhee316_0.jpg
+  https://i.ibb.co/4pL9JzF/unnamed-7.png
   " class="lg-figure" data-sub-html=".caption"><img src="
-  https://npg.si.edu/sites/default/files/exhee316_0.jpg
+  https://i.ibb.co/4pL9JzF/unnamed-7.png
   " alt="Modular lighted chapel in a rural landscape">
 		<div class="caption">
 			<span class="original_text">
@@ -551,9 +535,9 @@ Cortesía de Timothy Hursley</p>
 
   <div class="grid-item"><div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12271">
   <a href="
-  https://npg.si.edu/sites/default/files/exhee307_0.jpg
+  https://i.ibb.co/zZn6C1K/unnamed-8.png
   " class="lg-figure" data-sub-html=".caption"><img src="
-  https://npg.si.edu/sites/default/files/exhee307_0.jpg
+  https://i.ibb.co/zZn6C1K/unnamed-8.png
   " alt="Green field with a looping ground-structure">
 		<div class="caption">
 			<span class="original_text">
@@ -590,9 +574,9 @@ Cortesía de Maya Lin Studio</p>
 
   <div class="grid-item"><div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12272">
   <a href="
-  https://npg.si.edu/sites/default/files/exhee313_0.jpg
+  https://i.ibb.co/X4YvX6X/unnamed-9.png
   " class="lg-figure" data-sub-html=".caption"><img src="
-  https://npg.si.edu/sites/default/files/exhee313_0.jpg
+  https://i.ibb.co/X4YvX6X/unnamed-9.png
   " alt="photo of a sand-like substance filling an interior">
 		<div class="caption">
 			<span class="original_text">
@@ -629,9 +613,9 @@ Cortesía de Rose Marie Cromwell</p>
 
   <div class="grid-item"><div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12273">
   <a href="
-  https://npg.si.edu/sites/default/files/library_0.jpg
+  https://i.ibb.co/L5G9WjM/unnamed-10.png
   " class="lg-figure" data-sub-html=".caption"><img src="
-  https://npg.si.edu/sites/default/files/library_0.jpg
+  https://i.ibb.co/L5G9WjM/unnamed-10.png
   " alt="two views, interior and exterior of a library">
 		<div class="caption">
 			<span class="original_text">
@@ -684,9 +668,9 @@ Reproducciones de fotografías de 2021<br />
 
   <div class="grid-item"><div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12275">
   <a href="
-  https://npg.si.edu/sites/default/files/trees2.jpg
+  https://i.ibb.co/NVtdHcx/unnamed-11.png
   " class="lg-figure" data-sub-html=".caption"><img src="
-  https://npg.si.edu/sites/default/files/trees2.jpg
+  https://i.ibb.co/NVtdHcx/unnamed-11.png
   " alt="view of tree installation in NYC">
 		<div class="caption">
 			<span class="original_text">
@@ -737,11 +721,15 @@ Cortesía de Maya Lin Studio</p>
 </div>
 </div>
 
-  </div>
+</div>
 
-  <div class="entity entity-paragraphs-item paragraphs-item-text-block" id="paragraphs-item-12277">f
-    <div class="content">
+    </div>
+ 
 
-
+    <?php include("includes/page_footer.php");?>
+  <!-- JAVASCRIPT FILES -->
+    <!-- <script src="/js/jquery-2.2.4.js"></script> -->
+    <script type="text/javascript" src="/js/jquery.migrate.js"></script>
+    <script type="text/javascript" src="/js/npg.masonary.js"></script>
 </body>
 </html>
