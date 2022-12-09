@@ -14,12 +14,13 @@
   overflow: hidden;
   margin: 0px auto 10px;
   position: relative;
-  background: url("../images/dot.gif") left 45px repeat-x;
+  /* background: url("../images/dot.gif") left 45px repeat-x; */
 }
 #dates {
   width: 800px;
   height: 60px;
   overflow: hidden;
+  background: url("../images/dot.gif") left 45px repeat-x;
 }
 #dates li {
   list-style: none;
@@ -40,7 +41,7 @@
 #dates.bottom-date {
   overflow: visible;
 }
-#dates.regions{
+#dates.regions {
   cursor: pointer;
 }
 #dates.regions .selected {
@@ -50,7 +51,6 @@
 #dates.bottom-date li {
   background: none;
 }
-
 
 #issues {
   width: 800px;
@@ -156,4 +156,3 @@
   border-radius: 10px;
   padding: 5px;
 }
-

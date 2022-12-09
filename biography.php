@@ -118,12 +118,6 @@ include("includes/main_head.php");
               $array = json_decode($data, true);
       ?>
   <div id="timeline">
-    <ul id="dates" class="text-dark" style="margin-left:0">
-    <?php for ($i = 0; $i < count($array); $i++): ?>
-      <li class="<?php echo $array[$i]['group']?>"><a href="#<?php echo $array[$i]['start_date']['id'] ?>"><?php echo $array[$i]['start_date']['year'] ?></a></li>
-    <?php endfor; ?>
-    </ul>
-
     <ul id="issues">
       <?php for ($i = 0; $i < count($array); $i++): ?>
         <li id="<?php echo $array[$i]['start_date']['id'] ?>">
@@ -141,24 +135,31 @@ include("includes/main_head.php");
     <div id="grad_right"></div> -->
     <a href="#" id="next"><i class="bi-arrow-right"></i></a>
     <a href="#" id="prev">-</a>
-  </div>
- <div class="container">
- <ul id="dates" class="bottom-date" style="width:100%; margin-left:0">
+
+    <ul id="dates" class=" dates text-dark top-date" style="margin-left:0">
     <?php for ($i = 0; $i < count($array); $i++): ?>
-      <?php $hidden = $array[$i]['start_date']['hidden'];
-        if($array[$i]['start_date']['hidden'] == 'true'){
-            $hidden= 'hidden';
-        }else{
-          $hidden = "";
-        }
-      ?>
-      <li <?php echo $hidden ?>><a href="<?php echo $array[$i]['start_date']['id'] ?>"><?php echo $array[$i]['start_date']['year'] ?></a></li>
+      <li class="<?php echo $array[$i]['group']?>"><a href="#<?php echo $array[$i]['start_date']['id'] ?>"><?php echo $array[$i]['start_date']['year'] ?></a></li>
     <?php endfor; ?>
-  </ul>
+    </ul>
+  </div>
+
+ <div class="container">
+  <ul id="dates" class="dates bottom-date" style="width:100%; margin-left:0">
+      <?php for ($i = 0; $i < count($array); $i++): ?>
+        <?php $hidden = $array[$i]['start_date']['hidden'];
+          if($array[$i]['start_date']['hidden'] == 'true'){
+              $hidden= 'hidden';
+          }else{
+            $hidden = "";
+          }
+        ?>
+        <li <?php echo $hidden ?>><a href="<?php echo $array[$i]['start_date']['id'] ?>"><?php echo $array[$i]['start_date']['year'] ?></a></li>
+      <?php endfor; ?>
+    </ul>
  </div>
 <br>
  <div class="container">
- <ul class="regions" id="dates" style="width:100%; margin-left:0">
+ <ul class="regions dates" id="dates" style="width:100%; margin-left:0">
  <li  id="england-dates" style="margin-right:140px!important">England</li>
  <li id="northeast-dates" style="margin-right:140px!important">Northeast</li>
  <li id="southeast-dates" style="margin-right:140px!important">Southeast</li>

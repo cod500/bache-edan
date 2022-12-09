@@ -42,29 +42,29 @@ include("includes/main_head.php");
 			
   <p> </p>
 
-<h3>Maya Lin working on <em>Civil Rights Memorial</em></h3>
+<h3>The Telegraph and Daily Advertiser</h3>
+<h3>(Baltimore, MD)</h3>
+<h3>August 18, 22, 1803</h3>
 
 <p><em> </em></p>
 
-<p>Adam Stoltman (born 1960)<br />
-Reproduction of photograph from 1989<br />
-Courtesy of Adam Stoltman</p>
-
-  			</span>
-						
-				<span class="translation_text" style="display: none; visibility: hidden;">
-					
-  <p> </p>
-
-<h3>Maya Lin trabajando en el <em>Monumento a los Derechos Civiles</em></h3>
-
-<p> </p>
-
-<p>Adam Stoltman (n. 1960)<br />
-Reproducción de fotografía de 1989<br />
-Cortesía de Adam Stoltman</p>
-
-  				</span>
+<p>Phisognotrace.<br />
+BACHE and TODD,<br />
+INTENDING to remain a short time in this
+city, with their Patent PHISIOGNOTRACE, upon
+a construction entirely new, respectfully in-form
+the ladies and gentlemen, that they have
+commenced taking likenesses in profile, at the
+house of Mr. Sower, printer, No. 191,
+Market-street, opposite the Golden Swan, where
+any per-son honoring them with their attention,
+may have four correct profiles for 25 cents,
+without being incommoded by any part of the
+machine passing over the face.
+ To accommodate those who have their
+profiles taken, they have an assortment of
+elegant gilt and black frames.
+August 16.</p>
 					</div>
   </a>
 </div>
@@ -81,45 +81,27 @@ Cortesía de Adam Stoltman</p>
 			
   <p> </p>
 
-<h3><em>Vietnam Veterans Memorial</em></h3>
+<h3><em>Federal Gazette & Baltimore Daily Advertiser </em></h3>
+<h3>(Baltimore, MD) </h3>
+<h3>September 6, 1803 </h3>
 
-<p> </p>
+<p>Physfiognotrace.</p>
 
-<p>In 1979, the idea for a Vietnam Veterans Memorial was conceived by Jan Scruggs (born 1950), a former infantry corporeal, who was struggling with and studying post-traumatic stress disorder. After watching <em>The Deer Hunter</em> (1977), a film about three friends who were traumatized by their experiences in the Vietnam War, Scruggs began to think about creating a memorial to honor the Vietnam veterans. With the support of the American Institute of Architects and the National Endowment for the Arts, Scruggs organized an open design competition.</p>
+<p>Messrs. BACHE & TODD return to their
+grate-ful acknowledgements to the ladies and
+gentlemen of Baltimore, for the liberal
+encouragement they have received; and beg leave
+to inform those who may yet wish to avail
+themselves of this opportunity of obtaining correct
+likenesses in profile, that they intend leaving this
+city at the end of the present week.</p>
 
-<p> </p>
+<p>N.B. Mr. Todd will attend for a few days at
+Fell’s-Point, Bond-street, No. 70, with a
+physio-gnotrace.</p>
 
-<p>In April 1981, a jury comprising modernist architects, sculptors, and landscape architects selected Maya Lin’s entry from a pool of 1,421 entries. Taking a radically minimalist approach, Lin proposed installing a pair of black granite walls as a “rift in the earth” and etching the surface with the names of the Americans who had died in the war (58,156 known at the time).  Installed at an angle, the Vietnam Veterans Memorial simultaneously points to the Lincoln Memorial and the Washington Monument. The reflective, mirror-like surface of the granite brings the viewer’s own image onto the wall. At the same time, we see the list of names, emphasizing the individuality of each life lost in the war.</p>
+<p>September 6.</p>
 
-<p> </p>
-
-<p>Mark Segal (born 1956)<br />
-Reproduction of photograph from 1982<br />
-Courtesy of Mark Segal / Panoramic Images © 1982</p>
-
-  			</span>
-						
-				<span class="translation_text" style="display: none; visibility: hidden;">
-					
-  <p> </p>
-
-<h3><em>Monumento a los Veteranos de Vietnam</em></h3>
-
-<p> </p>
-
-<p>En 1979, la idea de un monumento a los veteranos de Vietnam se le ocurrió a Jan Scruggs (n. 1950), un excorporal de infantería que padecía de trastorno de estrés postraumático y lo estaba estudiando. Luego de ver <em>The Deer Hunter</em> (1977), un filme sobre tres amigos traumatizados por sus experiencias en la Guerra de Vietnam, Scruggs empezó a idear un monumento para honrar a los veteranos del conflicto. Con apoyo del Instituto Estadounidense de Arquitectos y la Dotación Nacional de las Artes, organizó un concurso abierto de diseño.</p>
-
-<p>           </p>
-
-<p>En abril de 1981, un jurado de arquitectos modernistas, escultores y arquitectos paisajistas seleccionó la propuesta de Maya Lin entre 1,421 participantes. Con un enfoque radicalmente minimalista, Lin proponía instalar un par de muros de granito negro a manera de “fisura en la tierra” y grabar en la superficie los nombres de los estadounidenses muertos en la guerra (58,156 conocidos en ese momento). Instalado en ángulo, el Monumento a los Veteranos de Vietnam apunta a la vez hacia los monumentos de Lincoln y Washington. La superficie reflectante es como un espejo que coloca la imagen del observador en el muro. Asimismo, la lista de nombres enfatiza la individualidad de cada vida perdida en la guerra.</p>
-
-<p> </p>
-
-<p>Mark Segal (n. 1956)<br />
-Reproducción de fotografía de 1982<br />
-Cortesía de Mark Segal / Panoramic Images © 1982</p>
-
-  				</span>
 					</div>
   </a>
 </div>
@@ -136,43 +118,29 @@ Cortesía de Mark Segal / Panoramic Images © 1982</p>
 			
   <p> </p>
 
-<h3><em>Civil Rights Memorial</em></h3>
+<h3><em>The Virginia Gazette and General Advertiser </em></h3>
+<h3>(Richmond, VA)</h3>
+<h3>January 28, 1804</h3>
+<h3>The Virginia Argus (Richmond, VA)</h3>
+<h3>January 28, 1804</h3>
 
-<p> </p>
+<p>Profile Frames.</p>
+<h3>W. B A C H E,</h3>
 
-<p>In the spring of 1988, soon after Maya Lin had completed graduate school in architecture at Yale, she received a call from Eddie Ashworth at the Southern Poverty Law Center in Montgomery, Alabama, inviting her to create a new monument. Hesitant to be typecast as a monument designer, Lin was motivated by the fact that there was not yet a national civil rights monument. She recalls:</p>
+<p>RESPECTFULLY informs the public, that he has
+ returned to this city with his Patent
+Phisiogno-trace, and a supply of handsome
+Frames. His room is over Mrs. Smith’s millinery
+room, opposite the Union Tavern, where he solicits
+the attendance of those who wish to have striking
+and correct likenesses in profile—Four for 25 cents</p>
 
-<p> </p>
+<p>January 28.</p>
 
-<p class="rteindent1"><em>In asking myself the question of what a memorial to civil rights should be, I realized I had to give people an understanding of what that time period was about. Just as I had learned about what that history embodied—people fighting and sacrificing for racial equality—I felt I needed to make people aware of the history of that era. At the same time, I wanted to respond to the future and to the continuing struggle toward racial equality.</em></p>
-
-<p class="rteindent1"> </p>
-
-<p>Balthazar Korab (1926–2013)<br />
-Reproduction of photograph from 1989<br />
-Courtesy of Maya Lin Studio</p>
 
   			</span>
 						
 				<span class="translation_text" style="display: none; visibility: hidden;">
-					
-  <p> </p>
-
-<h3><em>Monumento a los Derechos Civiles</em></h3>
-
-<p> </p>
-
-<p>En la primavera de 1988, poco después de completar su posgrado en arquitectura en Yale, Maya Lin recibió una llamada de Eddie Ashworth, del Southern Poverty Law Center de Montgomery, Alabama, para invitarla a crear un monumento. Indecisa, pues no quería que la encasillaran como diseñadora de monumentos, Lin accedió, dado que no existía un monumento nacional al movimiento de derechos civiles.</p>
-
-<p style="margin-left:.5in;"><em>Planteándome cómo debía ser un monumento a los derechos civiles, me di cuenta de que tenía que hacer entender a la gente lo que fue aquella época. A medida que iba conociendo lo que implicó —gente que luchó y se sacrificó en aras de la igualdad racial—, sentí que debía crear conciencia de la historia de aquel tiempo. Asimismo, quería hablar del futuro y de la lucha que continúa por la igualdad racial.</em></p>
-
-<p> </p>
-
-<p>Balthazar Korab (1926–2013)<br />
-Reproducción de fotografía de 1989<br />
-Cortesía de Maya Lin Studio</p>
-
-  				</span>
 					</div>
   </a>
 </div>
@@ -189,45 +157,24 @@ Cortesía de Maya Lin Studio</p>
 			
   <p> </p>
 
-<h3><em>Women’s Table</em>, Yale University, New Haven, Connecticut</h3>
+<p><em>The Virginia Argus </em> (Richmond, VA)</p>
 
-<p> </p>
+<p>March 14, 1804</p>
 
-<p>Commissioned in 1989 to commemorate twenty years of coeducation at Yale University, <em>Women’s Table</em> is situated in front of the school’s Sterling Memorial Library. The piece is inscribed with the number of women who were registered at Yale between 1701, when the school was founded, and 1993, when Maya Lin completed the work.</p>
+<p><em>The last week the Physiognotrace will re</em><br>main in Richmond.</p>
 
-<p> </p>
+<h3>W. B A C H E</h3>
 
-<p>As the numerals spiral outward from the center of the elliptical granite tabletop, water pours across the shallow surface and over its edges. Zeroes mark the first 172 years of Yale’s history. In the late nineteenth century, women could register for classes, but only at the Yale School of Fine Arts. Over the years, <em>Women’s Table</em> has been an important place for students and faculty to gather in solidarity for women’s rights, especially in times of protest or unrest.</p>
-
-<p> </p>
-
-<p>Norman McGrath (born 1931)<br />
-Reproduction of photograph from 1993<br />
-Courtesy of Norman McGrath</p>
+<p>RETURNS his grateful acknowledgments to the
+ public, for the encouragement he has receiv- ed
+in this place, and has the pleasure to inform them
+that he has just received a handsome assort-ment
+of GILT and BLACK FRAMES—with which they
+may be supplied during the remainder of this week,
+either with or without profiles, as may be most
+suitable to themselves. .</p>
 
   			</span>
-						
-				<span class="translation_text" style="display: none; visibility: hidden;">
-					
-  <p> </p>
-
-<h3><em>Mesa de mujeres</em>, Universidad de Yale, New Haven, Connecticut</h3>
-
-<p> </p>
-
-<p>Comisionada en 1989 para conmemorar 20 años de educación mixta en la Universidad de Yale, <em>Mesa de mujeres</em>, ubicada frente la Biblioteca Sterling Memorial, lleva inscritas las cifras de mujeres matriculadas en Yale entre 1701, año de fundación, y 1993, cuando Maya Lin completó el encargo.</p>
-
-<p>           </p>
-
-<p>Los números avanzan en espiral desde el centro de la mesa elíptica de granito y una capa de agua corre por la superficie, rebasando los bordes. Los primeros 172 años están marcados por ceros hasta 1873, cuando pudieron matricularse mujeres, pero solo en la Escuela de Bellas Artes de la institución. <em>Mesa de mujeres </em>ha sido un lugar importante, donde estudiantes y profesorado se han reunido en solidaridad con los derechos de la mujer, sobre todo en tiempos de protesta o agitación social.</p>
-
-<p> </p>
-
-<p>Norman McGrath (n. 1931)<br />
-Reproducción de fotografía de 1993<br />
-Cortesía de Norman McGrath</p>
-
-  				</span>
 					</div>
   </a>
 </div>
@@ -244,55 +191,26 @@ Cortesía de Norman McGrath</p>
 			
   <p> </p>
 
-<h3>Selected Projects</h3>
+<p><i>The Virginia Herald</i> (Fredericksburg, VA)</p>
 
-<p> </p>
+<p>May 28, 1804</p>
+<h3>Phyfiognotrace.</h3>
+<h3>WILLIAM BACHE,</h3>
 
-<p>Maya Lin has said she sees her work as a tripod connecting art, architecture, and memorials. “My process in the making of art and architecture is very different,” she explains. “Art to me is like writing a poem, while designing architecture is much more like writing a novel. In my art, I try to keep a simple gesture or thought as pure as possible. In architecture, I layer functionality and programing throughout while maintaining an underlying idea.”</p>
+<p>HAVING returned to this place, again solicits the public patronage in his
+professional line. From the greater ex-perience
+he has now had in his business he flatters
+himself his likenesses will be found to possess
+to a superior degree of excellence, to an taken
+here before, as to ensure the appro-bation of
+those Ladies and Gentlemen who may honor
+him with their attention. </p>
 
-<p> </p>
+<p>Four striking Likenesses in PROFILE for
+25 cents. Application to be made at Mr.
+Ridley’s, on the hill back of the
+Market-House. Fred’g, May 28, 1804</p>
 
-<p>These selected works were created around the globe, for different purposes, but the cohesiveness of Lin’s vision is evident. Her interests in topography, language, time, and history serve as the foundation for both her large-scale immersive environments and her smaller-scaled studio pieces.</p>
-
-<p> </p>
-
-<p>Lin’s small works are often the genesis of the idea for her larger works and architecture that both frame and open the landscape. All of Lin’s projects begin with conceptual writing and drawing in both two and three dimensions as she researches the sites for their historical and cultural context.</p>
-
-<p> </p>
-
-<p>Maya Lin working on <em>Pin River</em><em> – </em><em>Hudson</em><br />
-Chester Higgins Jr. (born 1946)<br />
-Reproduction of photograph from 2013<br />
-Courtesy of Chester Higgins Jr. / The New York Times / Redux</p>
-
-  			</span>
-						
-				<span class="translation_text" style="display: none; visibility: hidden;">
-					
-  <p> </p>
-
-<h3>Proyectos Seleccionados</h3>
-
-<p> </p>
-
-<p>Maya Lin ha dicho que ve su trabajo como un trípode que conecta el arte, la arquitectura y los monumentos. “Mis procesos en el arte y la arquitectura son muy diferentes”, explica. “Para mí el arte es como escribir un poema, mientras que el diseño arquitectónico es más como escribir una novela. En mi arte trato de conservar un gesto o un pensamiento tan puro como sea posible. En la arquitectura agrego estratos de funcionalidad, manteniendo una idea subyacente”.</p>
-
-<p> </p>
-
-<p>Estas obras se realizaron en distintas partes del mundo con distintos fines, pero la cohesión de la visión de Lin es evidente. Su interés en la topografía, el lenguaje, el tiempo y la historia constituye la base tanto de sus ambientes inmersivos a gran escala como de sus piezas de escala más pequeña.</p>
-
-<p> </p>
-
-<p>Las obras más pequeñas de Lin suelen generar ideas para obras más grandes o arquitecturas que enmarcan y a la vez abren el paisaje. Todos sus proyectos comienzan con escritos y dibujos conceptuales en dos y tres dimensiones, a la vez que investiga el contexto histórico y cultural de los lugares.</p>
-
-<p> </p>
-
-<p>Maya Lin trabajando en <em>Río de alfileres – Hudson</em><br />
-Chester Higgins Jr. (n. 1946)<br />
-Reproducción de fotografía de 2013<br />
-Cortesía de Chester Higgins Jr. / The New York Times / Redux</p>
-
-  				</span>
 					</div>
   </a>
 </div>
@@ -309,30 +227,24 @@ Cortesía de Chester Higgins Jr. / The New York Times / Redux</p>
 			
   <p> </p>
 
-<h3><em>Langston Hughes Library</em>, Haley Farm, Clinton, Tennessee</h3>
+<p><i>The Virginia Herald </i> (Fredericksburg, VA)</p>
 
-<p> </p>
+<p><em>Profile Likenesses.</em></p>
 
-<p>Timothy Hursley (born 1955)</p>
+<h3>W. B A C H E, </h3>
 
-<p>Reproduction of photograph from 1999<br />
-Courtesy of Timothy Hursley</p>
+<p>TAKES the Liberty of informing those
+ who yet wish to have Profile
+Like-nesses, that he intends leaving this
+place on Wednesday next, ‘till when he may
+be found as usual at his room, at Mr.
+Ridley’s, on the hill back of the
+Market-House. Four Likenesses for 25
+Cents.</p>
+<p>June 11, 1804 </p>
 
   			</span>
 						
-				<span class="translation_text" style="display: none; visibility: hidden;">
-					
-  <p> </p>
-
-<h3><em>Biblioteca Langston Hughes</em>, Haley Farm, Clinton, Tennessee</h3>
-
-<p> </p>
-
-<p>Timothy Hursley (n. 1955)<br />
-Reproducción de fotografía de 1999<br />
-Cortesía de Timothy Hursley</p>
-
-  				</span>
 					</div>
   </a>
 </div>
@@ -349,29 +261,35 @@ Cortesía de Timothy Hursley</p>
 			
   <p> </p>
 
-<h3><em>Input</em>, Ohio University, Athens, Ohio</h3>
+<p><i>American Mercury </i> (New Haven, CT) <br>
+November 30, 1809
+</p>
 
-<p> </p>
+<h3>PROFILES</h3>
 
-<p>Rose Marie Cromwell (born 1983)<br />
-Reproduction of photograph from 2014<br />
-Courtesy of Rose Marie Cromwell</p>
-
-  			</span>
-						
-				<span class="translation_text" style="display: none; visibility: hidden;">
-					
-  <p> </p>
-
-<h3><em>Tarjeta perforada</em>, Universidad de Ohio, Athens, Ohio</h3>
-
-<p> </p>
-
-<p>Rose Marie Cromwell (n. 1983)<br />
-Reproducción de fotografía de 2014<br />
-Cortesía de Rose Marie Cromwell</p>
-
-  				</span>
+<p>he subscribers respectfully inform the
+ladies and gentlemen of Hartford, that
+they have taken a room next door to PERKINS
+& SEYMOUR’S store, a few rods south of the
+new brick meeting-house, main-street, where
+they propose to cut, shade and paint
+PRO-FILE LIKENESSES, in a new and
+elegant style, far superior to any thing of the
+kind ev-er executed in this place—Prices from
+25 cents to 3 dollars. From their long
+experi-ence, and being aided by an improved
+patent Physiognotrace, the subscribers feel
+confident of rendering satisfaction, to all who
+may fa-vor them with their patronage. Ladies
+who desire it, may be attended at their
+respective houses. Persons wishing to have
+their Like-nesses taken, are respectfully
+requested to make early application, as the
+subscribers will make but a short stay in
+Hartford <br>
+N.B. Likenesses warranted. <br>
+An elegant variety of Profile Frames. <br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; W. BACHE,</p>
 					</div>
   </a>
 </div>
@@ -388,13 +306,19 @@ Cortesía de Rose Marie Cromwell</p>
 			
   <p> </p>
 
-<h3><em>Box House</em>, Telluride, Colorado</h3>
+<p><i>The Telegraph and Daily Advertiser</i></p>
 
-<p> </p>
+<p>(Baltimore, MD)</p>
+<p>July 4, 7, 10, 1804</p>
 
-<p>Brett Schreckengost (born 1971)<br />
-Reproduction of photograph from 2007<br />
-Courtesy of Brett Schreckengost</p>
+<p>HE WHO LIVES IN A POWDER-HOUSE,<br />
+SHOULD NOT THROW FIREBRANDS.<br />
+<i>“ Parents—Relations—Friends!"</i></p>
+<p>“THE Facietrace which I employ," says Mr. Peale, "is the invention of the ingenious Haw-kins, of Philadelphia. The success of this was the occasion of several others to adopt as much of the principle as they could, in evading the patent right, yet in fact they were obliged to omit the principal part, and upon which the whole merit of the invention rests." This last assertion entire-ly exonerates and acquits "several others" of having infringed Mr. Hawkins's patent; for they have omitted that part "upon which the whole merit of the invention rests." It is therefore unne- cessary to mention, that the pentagraph, the prin- cipal mathematical instrument used by Mr. Haw- kins and "others," was invented probably a cen-tury before the  birth of Mr. Hawkins :  That the said pentagraph has for many years been employed in different ways, for taking profile likenesses in Europe and America; one method, with a description and plate, may be seen in the Ladies' Museum, vol. 3d, published in London in the year 1799: That there are several profiles in the United States, nay, in the city of Balti-more, taken in Europe by some of those methods.</p>
+<p>Mr. Hawkins applied the pentagraph in a manner different from any before him, viz. by passing a part of it over, and in contact with the face. Myself and "several others“  conceived this method very objectionable; first, on account of the indelicacy of passing part of the instru-ment between the lips of a delicate lady, after its having passed in contact with the hair and nose, and between the lips of thousands probably some of them, and possibly the very last, infected with a communicable disease; and secondly, the derangement of the features, occasioned by the touch of the instrument passing over the face—We, therefore, devised a method, for which we have a patent, at least free from those objections, by which we can trace the human face with "mathematical correctness" without touching it.</p>
+<p>I TODD, in behalf 
+	of Day, Bache and Todd, the patentees.
+	Although I have never taken the 80th part of 345,000 profiles of different people; yet it re-quires no extraordinary degree of vanity to sub-mit the comparative correctness, neatness and elegance of the profiles I have now (and I have many) or may hereafter have in my possession, to the decision of those who may, with or without prejudice, visit my room over the post office. </p>
 
   			</span>
 						
@@ -427,13 +351,38 @@ Cortesía de Brett Schreckengost</p>
 			
   <p> </p>
 
-<h3><em>Il Cortile Mare, </em>American Academy in Rome, Italy</h3>
+<p>PHYSIOGNOTRACE</p>
 
-<p> </p>
+<p>FOR TAKING</p>
+<p>Profile Likenesses.</p>
+<h3>Bache & Todd,</h3>
+<h3><i>The Patentees,</i></h3>
 
-<p>Robert Reck (born c. 1945)<br />
-Reproduction of photograph from 1998<br />
+<p>JUST arrived form the United States, where
+they have been liberally encouraged, cut and
+framed many thousands profiles; among which
+were the President and many other principal
+characters: respectfully solicit the patronage of
+the Ladies and Gentlemen of New-Orleans and
+its vicinity; they with confidence, assure those
+who may honor them with their attention, that
+they shall have Four correct likenesses, neatly
+cut in Vellum paper for one dollar. For the accommodation of company, they have taken a
+spacious upper room in Royal-street, one door
+from the corner of Saint Anne-street, opposite
+Mr. Ursin Durel’s, where they have elegant profile frames from Fifty cents to Three dollars each,
+gilt and black. They have likewise an assortment
+of neatly finished— <br />
+Looking Glasses <br>
+White Demity <br>
+Parasoles ebony tops silver mounted <br>
+Billiard balls <br>
+Portable writing desks <br>
+A copying press <br>
+A pair of beautiful prints framed.<br />
 Courtesy of Maya Lin Studio</p>
+<h3>A Store to Let.</h3>
+<p>November 16th</p>
 
   			</span>
 						
@@ -466,29 +415,39 @@ Cortesía de Maya Lin Studio</p>
 			
   <p> </p>
 
-<h3><em>The Bell Tower</em>, Shantou University, Guangdong, China</h3>
+<p><em>Louisiana Gazette,</em>(New Orleans, LA)</p>
 
-<p> </p>
+<p>November 16, 1804</p>
 
-<p>Unidentified photographer<br />
-Reproduction of photograph from 2013<br />
-Shantou University, courtesy of Maya Lin Studio</p>
+<p>Brevetés, arrivant des Etats-Unis, où ils ont eu
+les plus grands succès, ayant fait et encadrés
+plusieurs Profils, parmi lesquels sont le Presi-dent
+et plusieurs autres grands personnages, ont
+l’honneur offrir leurs services aux Mes-sieurs et
+Dames de la Nouvelle Orléans, et de ses
+environs. C’est avec confiance qu’ils assurent les
+personnes qui voudront bien les honorer de leur
+visite qu’elles auront quatre portraits
+par-faitement ressemblans, et bien peints sur
+papier velin, pour une piastre.
+Pour la commoditée des S<br />
+Pour la commoditée des Sociétés, ils ont
+pris une grande Salle, située rue Royal, la porte
+après le coin de la rue Ste.-Anne, vis-à-vis chez
+M. Ursin Durel, où ils ont des cadres à Tableaux,
+tant dorés qu’en noir, pour les profils, depuis
+une demi piastre jusqu’à trois. <br />
+Ils ont aussi un bel Assortiment de <br>
+Trumeaux, Miroirs, <br>
+Basin blanc, <br>
+Parasols à manche d’èbéne, montés en <br>
+ argent,
+Bureaux portatifs, <br>
+Une Presse à Copier & <br>
+Deux belles Estampes encadrées</p>
 
   			</span>
 						
-				<span class="translation_text" style="display: none; visibility: hidden;">
-					
-  <p> </p>
-
-<h3><em>Campanario</em>, Universidad de Shantou, Cantón, China</h3>
-
-<p> </p>
-
-<p>Fotógrafo desconocido<br />
-Reproducción de fotografía de 2013<br />
-Universidad de Shantou, cortesía de Maya Lin Studio</p>
-
-  				</span>
 					</div>
   </a>
 </div>
@@ -505,13 +464,31 @@ Universidad de Shantou, cortesía de Maya Lin Studio</p>
 			
   <p> </p>
 
-<h3><em>Riggio-Lynch Interfaith Chapel</em>, Haley Farm, Clinton, Tennessee</h3>
+<p><i>The Democrat</i>(Boston, MA)</p>
+<p>July 16, 23, 1808</p>
+<h3><i>Bache’s Patent Physiognotrace, </i></h3>
+<p>No. 4, DORSET’S LANE—</p>
+<p><i>Opposite the COURT HOUSE,</i></p>
 
-<h3> </h3>
+<h3>Profile Likenesses,</h3>
+<p>Correctly Drawn and elegantly finished by </p>
 
-<p>Timothy Hursley (born 1955)<br />
-Reproduction of photograph from 2004<br />
-Courtesy of Timothy Hursley</p>
+<p>BACHE respectfully solicits the public encouragement, which, from the
+superiority of his Physiognotrace and long
+practice in the Art of Drawing Profiles, he flat-ters
+himself he will be found to merit. <br>
+ Those who may wish to avail themselves of
+this opportunity of obtaining striking Like-nesses,
+but to whom it may be inconvenient to attend at
+the Profile Room, are informed that he will at the
+shortest notice, wait upon them at their own
+Dwellings without any additional expence. <br>
+ W. Bache not intending to stay in Boston more
+than one month, hopes the Public will loose no
+time in honouring him with their commands. <br>
+ Four Likenesses for 25 Cents. –An ele-egant
+variety of Frames, at various Prices.
+ July 16.</p>
 
   			</span>
 						
@@ -544,29 +521,25 @@ Cortesía de Timothy Hursley</p>
 			
   <p> </p>
 
-<h3><em>Eleven Minute Line</em>, The Wanås Foundation, Knislinge, Sweden</h3>
+<p><i>Essex Register</i>(Salem, MA) <br>
+September 14, 21, 23, 24, 27, 1808 <br>
+</p>
 
-<p> </p>
+<p><i>Salem Gazette</i> (Salem, MA) <br>
+September 16, 23, 1808
+</p>
+<h3>W. BACHE,</h3>
 
-<p>Anders Norsell (born 1961)<br />
-Reproduction of photograph from 2004<br />
-Courtesy of Maya Lin Studio</p>
+<p>ETURNS his grateful acknowledge-
+ ments to the Ladies and Gentlemen of
+Salem for the liberal encouragement he
+has received, & begs leave to inform those
+who yet intend having PROFILES drawn,
+that he proposes leaving this place the
+en-suing week.&nbsp; &nbsp; &nbsp; Sept. 14</p>
 
   			</span>
 						
-				<span class="translation_text" style="display: none; visibility: hidden;">
-					
-  <p> </p>
-
-<h3><em>Línea de doce minutos</em>, Fundación Wanås, Knislinge, Suecia</h3>
-
-<p> </p>
-
-<p>Anders Norsell (n. 1961)<br />
-Reproducción de fotografía de 2004<br />
-Cortesía de Maya Lin Studio</p>
-
-  				</span>
 					</div>
   </a>
 </div>
@@ -583,29 +556,34 @@ Cortesía de Maya Lin Studio</p>
 			
   <p> </p>
 
-<h3><em>Groundswell</em>, Wexner Center for the Arts, Columbus, Ohio</h3>
+<p><i>Connecticut Herald</i> (New Haven, CT) <br>
+October 17; November 7, 1809
+</p>
 
-<p> </p>
+<p><i>Connecticut Journal </i>  (New Haven, CT) <br>
+October 19, 1809
+</p>
 
-<p>Rose Marie Cromwell (born 1983)<br />
-Reproduction of photograph from 2014<br />
-Courtesy of Rose Marie Cromwell</p>
+<h3>Profile Cutting, Painting and <br>
+Shading.
+</h3>
+<p>HE subscribers respectively inform the la-
+ dies and gentlemen of New Haven, that
+they have taken a room for a short time at Mr.
+JARMAN’s, South East corner of the Green,
+for the purpose of doing business in the above
+line. From their long experience, and great
+success, the subscribers feel confident of rendering general satisfaction to those who may favor
+them with their patronage. <br>
+&nbsp;&nbsp;&nbsp;W. BACHE <br>
+&nbsp;&nbsp;&nbsp;T. NIXON <br>
+N.B. Specimens of their performance may be <br>
+seen at the Profile Room. <br>
+<i> October 17.</i>
+</p>
 
   			</span>
 						
-				<span class="translation_text" style="display: none; visibility: hidden;">
-					
-  <p> </p>
-
-<h3><em>Oleada</em>, Centro Wexner para las Artes, Columbus, Ohio</h3>
-
-<p> </p>
-
-<p>Rose Marie Cromwell (n. 1983)<br />
-Reproducción de fotografía de 2014<br />
-Cortesía de Rose Marie Cromwell</p>
-
-  				</span>
 					</div>
   </a>
 </div>
@@ -622,108 +600,126 @@ Cortesía de Rose Marie Cromwell</p>
 			
   <p> </p>
 
-<h3><em>Neilson Library, </em>Smith College, Northampton, Massachusetts</h3>
+<p><i>Connecticut Journal</i> (New Haven, CT) <br>
+October 24, 1809
+</p>
 
-<p> </p>
+<h3>PROFILES</h3>
 
-<p>“You rarely get to bring it home in architecture,” Maya Lin observed soon after the Neilson Library at Smith College reopened its doors in 2021. For Lin, whose mother graduated from Smith in 1951, having the opportunity to redesign the library felt highly personal. And for those familiar with the historic 1903 building, the new light-filled interior brought a welcome change.</p>
-
-<p>           </p>
-
-<p>Lin needed to address the repercussions of earlier renovations, which had weakened the sense of visual and functional cohesion inside the library. At the same time, she sought to create a dialogue between the old and the new. “By preserving the original, historic Neilson foundations and exterior, the new library retains the memory of the original structure,” she said. But the interior “speaks to the needs of students today—with more room for collaborating and socializing . . .  you’ll know that you are in a house of books.”</p>
-
-<p> </p>
-
-<p>Nic Lehoux (born 1968)<br />
-Reproductions of photographs from 2021<br />
-© Nic Lehoux </p>
-
-  			</span>
-						
-				<span class="translation_text" style="display: none; visibility: hidden;">
-					
-  <p> </p>
-
-<h3><em>Biblioteca Neilson, Smith College, Northampton, Massachusetts</em></h3>
-
-<p> </p>
-
-<p>“Rara vez tienes la ocasión de hacer un proyecto de arquitectura que te toca de cerca”, observó Maya Lin tras reabrirse la Biblioteca Neilson de Smith College en 2021. Dado que su madre se había graduado de Smith en 1951, la ocasión de rediseñar la biblioteca fue para ella algo muy personal. Y para los que conocían el histórico edificio de 1903, el nuevo interior lleno de luz fue un cambio muy agradable.</p>
-
-<p>           </p>
-
-<p>Lin tuvo que lidiar con renovaciones anteriores, que habían debilitado la cohesión visual y funcional del interior de la biblioteca. Asimismo, quiso crear un diálogo entre lo viejo y lo nuevo. “Al preservar los cimientos y el exterior históricos, la nueva biblioteca conserva la memoria de la estructura original”, dijo. Pero el interior “responde a las necesidades del estudiantado actual con más espacio de colaboración y socialización [...] sabrás que estás en una casa de libros”.</p>
-
-<p> </p>
-
-<p>Nic Lehoux (n. 1968)<br />
-Reproducciones de fotografías de 2021<br />
-© Nic Lehoux</p>
-
-  				</span>
+<p>THE subscribers respectfully inform the ladies and gentlemen of New Haven, that
+they have taken a room for a short time at Mr.
+ELD’s near the Church, in Church-Street;
+where they propose cutting, shading and painting
+PROFILE LIKENESSES in a new and elegant
+style. From their long experience, and great
+success in business, and aided by an improved
+patent Physiognotrace, the subscribers feel
+con-fident in rendering general satisfaction to
+those who may favor them with their patronage. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;W. BACHE, <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T. NIXON. <br>
+ October 24.
+</p>
 					</div>
   </a>
 </div>
 </div>
 
-  <div class="grid-item"><div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12275">
-  <a href="
-  https://i.ibb.co/NVtdHcx/unnamed-11.png
-  " class="lg-figure" data-sub-html=".caption"><img src="
-  https://i.ibb.co/NVtdHcx/unnamed-11.png
-  " alt="view of tree installation in NYC">
-		<div class="caption">
-			<span class="original_text">
-			
-  <p> </p>
+      <div class="grid-item"><div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12275">
+          <a href="
+          https://i.ibb.co/NVtdHcx/unnamed-11.png
+          " class="lg-figure" data-sub-html=".caption"><img src="
+          https://i.ibb.co/NVtdHcx/unnamed-11.png
+          " alt="view of tree installation in NYC">
+        <div class="caption">
+          <span class="original_text">
 
-<h3><em>Ghost Forest</em>, Madison Square Park Conservancy, New York</h3>
+          <p><i>Connecticut Mirror</i> (Hartford, CT)<br>
+          November 20, 27, 1809 
+          </p>
 
-<p> </p>
+          <h3>PROFILES</h3>
 
-<p>When Maya Lin visited the New Jersey Pine Barrens with forester Bob Williams, she was haunted by the scores of Atlantic white cedars that had been killed by climate change. She learned that saltwater inundation, from storm surges and rising sea levels, had been causing “ghost forests” and felt compelled to focus on these ravaged trees in her next public artwork.</p>
+          <p>The subscribers respectfully inform the
+          ladies and gentlemen of Hartford, that
+          they have taken a room next door to Perkins
+          & Seymour’s store, a few rods south of the
+          new brick meeting-house, main-street, where
+          they propose to cut, shade and paint
+          PRO-FILE LIKENESSES, in a new and
+          elegant style, far superior to any thing of the
+          kind ever executed in this place—Prices from
+          25 cents to 3 dollars. From their long
+          experi-ence, and being aided by an improved
+          patent Physiognotrace, the subscribers feel
+          confident of rendering satisfaction, to all who
+          may fa-vour them with their patronage.
+          Ladies who desire it, may be attended at
+          their respective houses. Persons wishing to
+          have their Like-nesses taken, are respectfully
+          requested to make early application, as the
+          subscribers will make but a short stay in
+          Hartford <br>
+          N.B. Likenesses warranted. <br>
+          An elegant variety of Profile Frames. <br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;W. BACHE, <br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T. NIXON 
+          </p>
 
-<p>           </p>
-
-<p><em>Ghost Forest</em>, in New York City, was part of Lin’s ongoing multisite, multimedia project <em>What Is Missing?</em>, which she describes as her last memorial, dedicated to the environment. For the project, she brought forty-nine trees that had already been harvested to the center of Manhattan. Viewing the installation as a call to action, Lin nonetheless expresses hope: “We have a true affinity to the natural world, and if we just take a moment, quiet down, and [are] face to face with it, you begin to see, hear, explore and get connected to nature.”</p>
-
-<p> </p>
-
-<p>James C. Ewart (born 1985)<br />
-Reproductions of photographs from 2021<br />
-Courtesy of Maya Lin Studio</p>
-
-  			</span>
-						
-				<span class="translation_text" style="display: none; visibility: hidden;">
-					
-  <p> </p>
-
-<h3><em>Bosque fantasma</em>, Madison Square Park Conservancy, Nueva York</h3>
-
-<p> </p>
-
-<p>Al visitar los yermos de pino de Nueva Jersey con el silvicultor Bob Williams, Maya Lin quedó impactada por la cantidad de cedros atlánticos muertos por el cambio climático. Supo que las inundaciones de agua salada (debidas a marejadas ciclónicas y el creciente nivel del mar) crean “bosques fantasmas”, y sintió la urgencia de evocar estos árboles destruidos en su siguiente obra de arte público.</p>
-
-<p> </p>
-
-<p><em>Bosque fantasma</em>, en Nueva York, es parte de un proyecto multimedia en varios lugares, titulado <em>¿Qué falta?</em>, el cual Lin describe como su último monumento, dedicado al ambiente. Para esta obra llevó 49 árboles previamente cosechados al centro de Manhattan. La artista ve en su instalación un llamado a la acción, y expresa su esperanza: “Tenemos una genuina afinidad con el mundo natural, y si tan solo te detienes un instante con calma y lo miras cara a cara, empiezas a ver, oír, explorar y conectarte con la naturaleza”.</p>
-
-<p> </p>
-
-<p>James C. Ewart (n. 1985)<br />
-Reproducciones de fotografías de 2021<br />
-Cortesía de Maya Lin Studio</p>
-
-  				</span>
-					</div>
-  </a>
-</div>
-</div>
-
-</div>
-
+      </div>
+        </a>
+      </div>
     </div>
+
+    <!-- Grid Start -->
+    <div class="grid-item"><div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12275">
+      <a href="
+      https://i.ibb.co/2MDpKRg/unnamed-13.png
+      " class="lg-figure" data-sub-html=".caption"><img src="
+      https://i.ibb.co/2MDpKRg/unnamed-13.png
+      " alt="view of tree installation in NYC">
+    <div class="caption">
+			<span class="original_text">
+
+      <p><i>Connecticut Mirror</i> (Hartford, CT)<br>
+      November 20, 27, 1809 
+      </p>
+
+      <h3>PROFILES</h3>
+
+      <p>The subscribers respectfully inform the
+      ladies and gentlemen of Hartford, that
+      they have taken a room next door to Perkins
+      & Seymour’s store, a few rods south of the
+      new brick meeting-house, main-street, where
+      they propose to cut, shade and paint
+      PRO-FILE LIKENESSES, in a new and
+      elegant style, far superior to any thing of the
+      kind ever executed in this place—Prices from
+      25 cents to 3 dollars. From their long
+      experi-ence, and being aided by an improved
+      patent Physiognotrace, the subscribers feel
+      confident of rendering satisfaction, to all who
+      may fa-vour them with their patronage.
+      Ladies who desire it, may be attended at
+      their respective houses. Persons wishing to
+      have their Like-nesses taken, are respectfully
+      requested to make early application, as the
+      subscribers will make but a short stay in
+      Hartford <br>
+      N.B. Likenesses warranted. <br>
+      An elegant variety of Profile Frames. <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;W. BACHE, <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T. NIXON 
+      </p>
+
+  </div>
+    </a>
+  </div>
+</div>
+<!-- Grid End -->
+  </div>
+</div>
  
 
     <?php include("includes/page_footer.php");?>
