@@ -14,7 +14,7 @@ jQuery.fn.timelinr = function (options) {
   settings = jQuery.extend({
     orientation: 'horizontal', // value: horizontal | vertical, default to horizontal
     containerDiv: '#timeline',  // value: any HTML tag or #id, default to #timeline
-    datesDiv: '#dates',     // value: any HTML tag or #id, default to #dates
+    datesDiv: '.dates',     // value: any HTML tag or #id, default to #dates
     datesSelectedClass: 'selected',   // value: any class, default to selected
     datesSpeed: 'normal',     // value: integer between 100 and 1000 (recommended) or 'slow', 'normal' or 'fast'; default to normal
     issuesDiv: '#issues',    // value: any HTML tag or #id, default to #issues
@@ -30,6 +30,8 @@ jQuery.fn.timelinr = function (options) {
     autoPlayDirection: 'forward',    // value: forward | backward, default to forward
     autoPlayPause: 2000          // value: integer (1000 = 1 seg), default to 2000 (2segs)
   }, options);
+
+
 
   $(function () {
     // Checks if required elements exist on page before initializing timelinr | improvement since 0.9.55
@@ -52,13 +54,26 @@ jQuery.fn.timelinr = function (options) {
       // set positions!
       if (settings.orientation == 'horizontal') {
         $(settings.issuesDiv).width(widthIssue * howManyIssues);
-        $(settings.datesDiv).width(widthDate * howManyDates).css('marginLeft', widthContainer / 2 - widthDate / 2);
-        var defaultPositionDates = parseInt($(settings.datesDiv).css('marginLeft').substring(0, $(settings.datesDiv).css('marginLeft').indexOf('px')));
+        $('.timeline-dates').width(widthDate * howManyDates).css('marginLeft', widthContainer / 2 - widthDate / 2);
+        var defaultPositionDates = parseInt($('.timeline-dates').css('marginLeft').substring(0, $('.timeline-dates').css('marginLeft').indexOf('px')));
       } else if (settings.orientation == 'vertical') {
         $(settings.issuesDiv).height(heightIssue * howManyIssues);
         $(settings.datesDiv).height(heightDate * howManyDates).css('marginTop', heightContainer / 2 - heightDate / 2);
         var defaultPositionDates = parseInt($(settings.datesDiv).css('marginTop').substring(0, $(settings.datesDiv).css('marginTop').indexOf('px')));
       }
+      $('.nav-dates').width(55);
+      $('.bottom-dates').css('display', 'flex');
+      $('.bottom-dates').css('justify-content', 'space-around')
+
+      $('.bottom-date a').click(function (e) {
+        e.preventDefault();
+        let url = $(this).prop('href');
+        let dateClass = url.substr(url.length - 6);
+        setTimeout(() => {
+          $("." + dateClass + ' a').click();
+        }, 0);
+
+      })
 
       $(settings.datesDiv + ' a').click(function (event) {
         event.preventDefault();
@@ -71,7 +86,10 @@ jQuery.fn.timelinr = function (options) {
         } else if (settings.orientation == 'vertical') {
           $(settings.issuesDiv).animate({ 'marginTop': -heightIssue * currentIndex }, { queue: false, duration: settings.issuesSpeed });
         }
-        $(settings.issuesDiv + ' li').animate({ 'opacity': settings.issuesTransparency }, { queue: false, duration: settings.issuesSpeed }).removeClass(settings.issuesSelectedClass).eq(currentIndex).addClass(settings.issuesSelectedClass).fadeTo(settings.issuesTransparencySpeed, 1);
+        $(settings.issuesDiv + ' li').animate({ 'opacity': 0 }, { queue: false, duration: settings.issuesSpeed }).removeClass(settings.issuesSelectedClass).eq(currentIndex).addClass(settings.issuesSelectedClass).fadeTo(settings.issuesTransparencySpeed, 1);
+
+        $(settings.issuesDiv + ' li').eq(currentIndex).addClass(settings.issuesSelectedClass).next().animate({ 'opacity': .2 })
+        $(settings.issuesDiv + ' li').eq(currentIndex).addClass(settings.issuesSelectedClass).prev().animate({ 'opacity': .2 })
         // prev/next buttons now disappears on first/last issue | bugfix from 0.9.51: lower than 1 issue hide the arrows | bugfixed: arrows not showing when jumping from first to last date
         if (howManyDates == 1) {
           $(settings.prevButton + ',' + settings.nextButton).fadeOut('fast');
@@ -99,9 +117,14 @@ jQuery.fn.timelinr = function (options) {
         }
         // now moving the dates
         $(settings.datesDiv + ' a').removeClass(settings.datesSelectedClass);
+        $('.selected-year').removeClass('selected-year');
         $(this).addClass(settings.datesSelectedClass);
+        let dateUrl = $(this).prop('href');
+        let dateClass = dateUrl.substr(dateUrl.length - 6);
+        let dateGroup = dateClass.substring(0, dateClass.length - 2);
+        $('.group-' + dateGroup + '-1' + ' a').addClass('selected-year');
         if (settings.orientation == 'horizontal') {
-          $(settings.datesDiv).animate({ 'marginLeft': defaultPositionDates - (widthDate * currentIndex) }, { queue: false, duration: 'settings.datesSpeed' });
+          $(settings.datesDiv + ".timeline-dates").animate({ 'marginLeft': defaultPositionDates - (widthDate * currentIndex) }, { queue: false, duration: 'settings.datesSpeed' });
         } else if (settings.orientation == 'vertical') {
           $(settings.datesDiv).animate({ 'marginTop': defaultPositionDates - (heightDate * currentIndex) }, { queue: false, duration: 'settings.datesSpeed' });
         }
@@ -245,7 +268,7 @@ jQuery.fn.timelinr = function (options) {
         }
       }
       // default position startAt, added since 0.9.3
-      $(settings.datesDiv + ' li').eq(settings.startAt - 1).find('a').trigger('click');
+      $('.timeline-dates li').eq(settings.startAt - 1).find('a').trigger('click');
       // autoPlay, added since 0.9.4
       if (settings.autoPlay == 'true') {
         // set default timer
@@ -261,6 +284,7 @@ jQuery.fn.timelinr = function (options) {
       }
     }
   });
+
 }
 
 // autoPlay, added since 0.9.4

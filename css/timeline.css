@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+section {
+  overflow: hidden;
+}
+
 .sociales {
   text-align: center;
   margin-bottom: 20px;
@@ -11,49 +15,135 @@
 #timeline {
   width: 800px;
   height: 450px;
-  overflow: hidden;
+  /* overflow: hidden; */
   margin: 0px auto 10px;
-  position: relative;
-  /* background: url("../images/dot.gif") left 45px repeat-x; */
 }
-#dates {
+.timeline-group {
+  position: relative;
+  background: url("../images/thin-timeline.png") left 45px top 395px repeat-x;
+  /* 1. inner glow - for dark mode 👇 */
+  box-shadow: inset 0 0 0.5px 1px hsla(0, 0%, 100%, 0.1),
+    /* 2. shadow ring 👇 */ 0 0 0 1px hsla(230, 13%, 9%, 0.075),
+    /* 3. multiple soft shadows 👇 */ 0 0.3px 0.4px hsla(230, 13%, 9%, 0.02),
+    0 0.9px 1.5px hsla(230, 13%, 9%, 0.045), 0 3.5px 6px hsla(230, 13%, 9%, 0.09);
+  /* 
+  width: 100%;
+  height: 100%;
+  max-width: 50%;
+  max-height: 50%; */
+  padding: 0 !important;
+
+  border-radius: 12px;
+}
+.timeline-group::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 393px;
+  width: 20px;
+  height: 5px;
+  background-image: linear-gradient(to right, #fff, rgba(248, 248, 248, 0));
+}
+.timeline-group::after {
+  content: "";
+  position: absolute;
+  right: 0px;
+  top: 393px;
+  width: 20px;
+  height: 5px;
+  background: linear-gradient(to left, #fff, rgba(248, 248, 248, 0));
+}
+.dates-div {
+  overflow: hidden;
+}
+.dates {
   width: 800px;
   height: 60px;
   overflow: hidden;
-  background: url("../images/dot.gif") left 45px repeat-x;
+  /* background: url("../images/dot.gif") left 45px repeat-x; */
 }
-#dates li {
+.dates li {
   list-style: none;
   float: left;
   width: 120px;
   height: 50px;
   font-size: 24px;
   text-align: center;
-  background: url("../images/biggerdot.png") center bottom no-repeat;
+  background: url("../images/grey-dot.png") center bottom no-repeat;
 }
-#dates a {
+.dates a {
   line-height: 38px;
-  padding-bottom: 10px;
+  /* padding-bottom: 10px; */
 }
-#dates .selected {
-  font-size: 38px;
+.dates .selected {
+  font-size: 34px;
+  font-weight: bold;
 }
-#dates.bottom-date {
+.dates.bottom-date {
   overflow: visible;
+  margin-left: 0 !important;
 }
-#dates.regions {
-  cursor: pointer;
+.dates.bottom-date li {
+  font-size: 18px;
 }
-#dates.regions .selected {
-  font-size: 24px;
+.dates.bottom-date a {
+  padding-bottom: 0;
+}
+.dates.bottom-date a.selected-year {
+  border-bottom: solid 2px #758e9b;
+}
+.dates.timeline-dates {
+  margin-top: 3px;
 }
 
-#dates.bottom-date li {
+.regions {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.regions .selected {
+  font-size: 24px;
+}
+.regions li {
+  float: left;
+  margin: 0 30px 0 0;
+  padding: 0 0 0 5px;
+  height: 20px;
+  line-height: 20px;
+  list-style: none;
+}
+.regions li::before {
+  /* add the new bullet point */
+  display: inline-block;
+  content: "";
+  -webkit-border-radius: 30%;
+  border-radius: 50%;
+  height: 14px;
+  width: 14px;
+  margin-right: 0.6rem;
+  background-color: #bdbdbd;
+}
+.regions li#england-dates::before {
+  background-color: #82243f;
+}
+.regions li#northeast-dates::before {
+  background-color: #006992;
+}
+.regions li#southeast-dates::before {
+  background-color: #c8b301;
+}
+.regions li#caribbean-dates::before {
+  background-color: #ee5350;
+}
+
+.dates.bottom-date li {
   background: none;
 }
 
 #issues {
-  width: 800px;
+  width: 66800px !important;
   height: 350px;
   overflow: hidden;
 }
@@ -61,6 +151,15 @@
   font-size: 2rem;
 }
 #issues li {
+  width: 800px;
+  height: 350px;
+  list-style: none;
+  float: left;
+}
+#issues li:last-child {
+  width: 800px;
+}
+#issues li.selected {
   width: 800px;
   height: 350px;
   list-style: none;
@@ -129,6 +228,7 @@
 #next {
   right: 0;
   background-image: url("../images/right-arrow-30.png");
+  left: 770px;
 }
 #prev {
   left: 0;
@@ -144,15 +244,28 @@
   padding: 0 40px;
 }
 
-.highlight {
-  background: yellow !important;
-  border: 1px solid white;
-  border-radius: 10px;
-  padding: 5px;
+.regions-container {
+  padding: 20px;
+  margin-top: 10px;
+  background: #eeeeee;
+  text-align: center;
 }
-.highlight {
-  background: yellow !important;
-  border: 1px solid white;
-  border-radius: 10px;
-  padding: 5px;
+.regions {
+  margin-bottom: 5px;
+}
+.region-highlight {
+  font-weight: bold;
+  scale: 1.2;
+}
+.England.highlight {
+  background: url("/images/england-dot.png") center bottom no-repeat;
+}
+.Northeast.highlight {
+  background: url("/images/north-dot.png") center bottom no-repeat;
+}
+.Southeast.highlight {
+  background: url("/images/south-dot.png") center bottom no-repeat;
+}
+.Caribbean.highlight {
+  background: url("/images/caribbean-dot.png") center bottom no-repeat;
 }

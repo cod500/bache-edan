@@ -117,57 +117,65 @@ include("includes/main_head.php");
               $data = file_get_contents('data/timeline.json',true);
               $array = json_decode($data, true);
       ?>
-  <div id="timeline">
-    <ul id="issues">
-      <?php for ($i = 0; $i < count($array); $i++): ?>
-        <li id="<?php echo $array[$i]['start_date']['id'] ?>">
-          <h1 style="padding: 0 40px"><?php echo $array[$i]['text']['headline'] ?></h1>
-          <p class="timeline-date" style="padding: 0 30px">- <?php echo $array[$i]['start_date']['month']." ".$array[$i]['start_date']['day'].", ".$array[$i]['start_date']['year']?> </p>
-          <div class="slider">
-          <p><?php echo $array[$i]['text']['text'] ?></p>
+
+
+<div id="timeline">
+
+    <div class="container">
+      <ul id="dates" class="bottom-date dates" style="width:100%; margin-left:0">
+          <?php for ($i = 0; $i < count($array); $i++): ?>
+            <?php $hidden = $array[$i]['start_date']['hidden'];
+              if($array[$i]['start_date']['hidden'] == 'true'){
+                  $hidden= 'hidden';
+              }else{
+                $hidden = "";
+              }
+            ?>
+            <li <?php echo $hidden ?> class="group-<?php echo $array[$i]['start_date']['id'] ?> nav-dates"><a href="<?php echo $array[$i]['start_date']['id'] ?>"><?php echo $array[$i]['start_date']['year'] ?></a></li>
+          <?php endfor; ?>
+        </ul>
+    </div>
+      <div class="container timeline-group">
+          <ul id="issues">
+                <?php for ($i = 0; $i < count($array); $i++): ?>
+                  <li id="<?php echo $array[$i]['start_date']['id'] ?>">
+                    <h1 style="padding: 0 40px"><?php echo $array[$i]['text']['headline'] ?></h1>
+                    <p class="timeline-date" style="padding: 0 30px">- <?php echo $array[$i]['start_date']['month']." ".$array[$i]['start_date']['day'].", ".$array[$i]['start_date']['year']?> </p>
+                    <div class="slider">
+                    <p><?php echo $array[$i]['text']['text'] ?></p>
+                      </div>
+                  </li>
+                <?php endfor; ?>
+            
+                
+              </ul>
+              <!-- <div id="grad_left"></div>
+              <div id="grad_right"></div> -->
+              <a href="#" id="next"><i class="bi-arrow-right"></i></a>
+              <a href="#" id="prev">-</a>
+
+            <div class="dates-div">
+            <ul id="" class="dates text-dark timeline-dates" style="margin-left:0">
+              <?php for ($i = 0; $i < count($array); $i++): ?>
+                <li class="<?php echo $array[$i]['start_date']['id'], " ",$array[$i]['group']  ?>"><a href="#<?php echo $array[$i]['start_date']['id'] ?>"><?php echo $array[$i]['start_date']['year'] ?></a></li>
+              <?php endfor; ?>
+              </ul>
             </div>
-        </li>
-      <?php endfor; ?>
-   
-      
-    </ul>
-    <!-- <div id="grad_left"></div>
-    <div id="grad_right"></div> -->
-    <a href="#" id="next"><i class="bi-arrow-right"></i></a>
-    <a href="#" id="prev">-</a>
+      </div>
+      <div class="container regions-container">
+        <ul class="regions" id="dates" style="width:100%; margin-left:0">
+          <li  id="england-dates" >England</li>
+          <li id="northeast-dates" >U.S. Northeast</li>
+          <li id="southeast-dates" >U.S. Southeast</li>
+          <li id="caribbean-dates">Caribbean</li>
+        </ul>
+        <small class="mt-5"><i>Click to filter region</i></small>
+      </div>
+   </div>
 
-    <ul id="dates" class=" dates text-dark top-date" style="margin-left:0">
-    <?php for ($i = 0; $i < count($array); $i++): ?>
-      <li class="<?php echo $array[$i]['group']?>"><a href="#<?php echo $array[$i]['start_date']['id'] ?>"><?php echo $array[$i]['start_date']['year'] ?></a></li>
-    <?php endfor; ?>
-    </ul>
-  </div>
 
- <div class="container">
-  <ul id="dates" class="dates bottom-date" style="width:100%; margin-left:0">
-      <?php for ($i = 0; $i < count($array); $i++): ?>
-        <?php $hidden = $array[$i]['start_date']['hidden'];
-          if($array[$i]['start_date']['hidden'] == 'true'){
-              $hidden= 'hidden';
-          }else{
-            $hidden = "";
-          }
-        ?>
-        <li <?php echo $hidden ?>><a href="<?php echo $array[$i]['start_date']['id'] ?>"><?php echo $array[$i]['start_date']['year'] ?></a></li>
-      <?php endfor; ?>
-    </ul>
- </div>
-<br>
- <div class="container">
- <ul class="regions dates" id="dates" style="width:100%; margin-left:0">
- <li  id="england-dates" style="margin-right:140px!important">England</li>
- <li id="northeast-dates" style="margin-right:140px!important">Northeast</li>
- <li id="southeast-dates" style="margin-right:140px!important">Southeast</li>
- <li id="caribbean-dates"style="margin-right:140px!important">Caribbean</li>
-  </ul>
- </div>
   <br>
-<p dir="ltr" class="biography-content"vstyle=" text-indent: 40px;">
+<p dir="ltr" class="biography-content"vstyle=" text-indent: 40px;" style="margin-top:120px">
     On August 16, 1803, Bache and Todd advertised that they had “commenced
     taking likenesses in profile” in Baltimore, offering customers “four
     correct profiles for 25 cents.” They used the physiognotrace to outline a
@@ -391,19 +399,19 @@ $('.article-figure, .article-link').click(function(){
 // })
       
 $("#england-dates" ).on( "click", function() {
-  $(this).toggleClass( "highlight");
+  $(this).toggleClass( "region-highlight");
     $('.England').toggleClass( "highlight");
 });
 $("#northeast-dates" ).on( "click", function() {
-  $(this).toggleClass( "highlight");
+  $(this).toggleClass( "region-highlight");
     $('.Northeast').toggleClass( "highlight");
 });
 $("#southeast-dates" ).on( "click", function() {
-  $(this).toggleClass( "highlight");
+  $(this).toggleClass( "region-highlight");
     $('.Southeast').toggleClass( "highlight");
 });
 $("#caribbean-dates" ).on( "click", function() {
-  $(this).toggleClass( "highlight");
+  $(this).toggleClass( "region-highlight");
     $('.Caribbean').toggleClass( "highlight");
 });
 </script>
