@@ -146,7 +146,7 @@ include("includes/main_head.php");
                 <?php endfor; ?>
             
                 
-              </ul>
+          </ul>
               <!-- <div id="grad_left"></div>
               <div id="grad_right"></div> -->
               <a href="#" id="next"><i class="bi-arrow-right"></i></a>

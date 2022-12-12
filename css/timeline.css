@@ -161,6 +161,7 @@ section {
   height: 350px;
   list-style: none;
   float: left;
+
 }
 #issues li:last-child {
   width: 800px;
@@ -173,6 +174,54 @@ section {
   height: 350px;
   list-style: none;
   float: left;
+}
+@media (max-width: 1374px) {
+  #issues li.selected {
+    width: 700px;
+  }
+  .slider p{
+    font-size: 1rem;
+  }
+}
+@media (max-width: 1254px) {
+  #issues li.selected {
+    width: 600px;
+  }
+}
+@media (max-width: 1163px) {
+  #issues li.selected {
+    width: 500px;
+  }
+  #issues b{
+    font-size: 1.5rem;
+  }
+  #issues h1{
+    margin-top: 0;
+  }
+  .dates.timeline-dates{
+    margin-top: 10px;
+  }
+  .dates li{
+    font-size: 20px;
+  }
+  .dates .selected{
+    font-size: 30px;
+  }
+}
+@media (max-width: 1044px) {
+  #issues li.selected {
+    width: 400px;
+  }
+  .slider p{
+    font-size: 0.85rem;
+  }
+
+}
+@media (max-width: 994px) {
+  #issues li:first-child {
+    margin-left: 225px;
+  }
+
 }
 #issues .timeline-date {
   font-style: italic;
@@ -197,7 +246,7 @@ section {
 #issues li h1 {
   color: #000;
   font-size: 48px;
-  margin: 20px 0;
+  /* margin: 20px 0; */
   /* text-shadow: #000 1px 1px 2px; */
 }
 

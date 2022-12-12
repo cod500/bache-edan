@@ -54,7 +54,7 @@ jQuery.fn.timelinr = function (options) {
       // set positions!
       if (settings.orientation == 'horizontal') {
         $(settings.issuesDiv).width(widthIssue * howManyIssues);
-        $('.timeline-dates').width(widthDate * howManyDates).css('marginLeft', (widthContainer / 2 - widthDate / 2));
+        $('.timeline-dates').width(widthDate * howManyDates).css('marginLeft', (widthContainer / 3 - widthDate / 3));
         var defaultPositionDates = parseInt($('.timeline-dates').css('marginLeft').substring(0, $('.timeline-dates').css('marginLeft').indexOf('px')));
       } else if (settings.orientation == 'vertical') {
         $(settings.issuesDiv).height(heightIssue * howManyIssues);
@@ -304,3 +304,10 @@ function autoPlay() {
     }
   }
 }
+
+// window.addEventListener('resize', function(){
+//   if (window.innerWidth < 1400) {
+//     let setWidth = $('.timeline-group').width();
+//     $('#issues li.selected').width(setWidth - 200);
+// }
+// }, true);
