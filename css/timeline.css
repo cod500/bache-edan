@@ -13,14 +13,10 @@ section {
 }
 
 #timeline {
-  width: 800px;
+  width: 100%;
   height: 450px;
   /* overflow: hidden; */
   margin: 0px auto 10px;
-}
-.timeline-group {
-  position: relative;
-  background: url("../images/thin-timeline.png") left 45px top 395px repeat-x;
   /* 1. inner glow - for dark mode 👇 */
   box-shadow: inset 0 0 0.5px 1px hsla(0, 0%, 100%, 0.1),
     /* 2. shadow ring 👇 */ 0 0 0 1px hsla(230, 13%, 9%, 0.075),
@@ -34,6 +30,11 @@ section {
   padding: 0 !important;
 
   border-radius: 12px;
+  overflow: hidden;
+}
+.timeline-group {
+  position: relative;
+  background: url("../images/thin-timeline.png") left 45px top 395px repeat-x;
 }
 .timeline-group::before {
   content: "";
@@ -82,6 +83,8 @@ section {
 .dates.bottom-date {
   overflow: visible;
   margin-left: 0 !important;
+  display: flex;
+  justify-content: space-between;
 }
 .dates.bottom-date li {
   font-size: 18px;
@@ -95,7 +98,10 @@ section {
 .dates.timeline-dates {
   margin-top: 3px;
 }
-
+.dates.timeline-dates small {
+  font-size: 18px;
+  display: block;
+}
 .regions {
   cursor: pointer;
   display: flex;
@@ -158,6 +164,9 @@ section {
 }
 #issues li:last-child {
   width: 800px;
+}
+#issues li:first-child {
+  margin-left: 225px;
 }
 #issues li.selected {
   width: 800px;
@@ -228,10 +237,10 @@ section {
 #next {
   right: 0;
   background-image: url("../images/right-arrow-30.png");
-  left: 770px;
+ 
 }
 #prev {
-  left: 0;
+  left: 20px;
   background-image: url("../images/left-arrow-30.png");
 }
 #next.disabled,
@@ -245,13 +254,24 @@ section {
 }
 
 .regions-container {
+  width: 100%;
   padding: 20px;
-  margin-top: 10px;
+  margin-top: 30px;
   background: #eeeeee;
   text-align: center;
+  border-radius: 12px;
 }
 .regions {
-  margin-bottom: 5px;
+  margin-bottom: 20px;
+}
+.regions li{
+  width:100%; 
+  margin-left:0;
+  transition: .3s linear;
+}
+.regions li:hover{
+  font-weight: bold;
+  scale: 1.2;
 }
 .region-highlight {
   font-weight: bold;

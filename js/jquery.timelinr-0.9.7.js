@@ -54,7 +54,7 @@ jQuery.fn.timelinr = function (options) {
       // set positions!
       if (settings.orientation == 'horizontal') {
         $(settings.issuesDiv).width(widthIssue * howManyIssues);
-        $('.timeline-dates').width(widthDate * howManyDates).css('marginLeft', widthContainer / 2 - widthDate / 2);
+        $('.timeline-dates').width(widthDate * howManyDates).css('marginLeft', (widthContainer / 2 - widthDate / 2));
         var defaultPositionDates = parseInt($('.timeline-dates').css('marginLeft').substring(0, $('.timeline-dates').css('marginLeft').indexOf('px')));
       } else if (settings.orientation == 'vertical') {
         $(settings.issuesDiv).height(heightIssue * howManyIssues);
@@ -124,7 +124,7 @@ jQuery.fn.timelinr = function (options) {
         let dateGroup = dateClass.substring(0, dateClass.length - 2);
         $('.group-' + dateGroup + '-1' + ' a').addClass('selected-year');
         if (settings.orientation == 'horizontal') {
-          $(settings.datesDiv + ".timeline-dates").animate({ 'marginLeft': defaultPositionDates - (widthDate * currentIndex) }, { queue: false, duration: 'settings.datesSpeed' });
+          $(settings.datesDiv + ".timeline-dates").animate({ 'marginLeft': (defaultPositionDates - (widthDate + 120 * currentIndex)) }, { queue: false, duration: 'settings.datesSpeed' });
         } else if (settings.orientation == 'vertical') {
           $(settings.datesDiv).animate({ 'marginTop': defaultPositionDates - (heightDate * currentIndex) }, { queue: false, duration: 'settings.datesSpeed' });
         }

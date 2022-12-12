@@ -118,10 +118,7 @@ include("includes/main_head.php");
               $array = json_decode($data, true);
       ?>
 
-
-<div id="timeline">
-
-    <div class="container">
+<div class="container">
       <ul id="dates" class="bottom-date dates" style="width:100%; margin-left:0">
           <?php for ($i = 0; $i < count($array); $i++): ?>
             <?php $hidden = $array[$i]['start_date']['hidden'];
@@ -135,6 +132,7 @@ include("includes/main_head.php");
           <?php endfor; ?>
         </ul>
     </div>
+<div id="timeline">
       <div class="container timeline-group">
           <ul id="issues">
                 <?php for ($i = 0; $i < count($array); $i++): ?>
@@ -162,20 +160,21 @@ include("includes/main_head.php");
               </ul>
             </div>
       </div>
-      <div class="container regions-container">
-        <ul class="regions" id="dates" style="width:100%; margin-left:0">
+   </div>
+
+   <div class="container regions-container">
+        <ul class="regions" id="dates">
           <li  id="england-dates" >England</li>
           <li id="northeast-dates" >U.S. Northeast</li>
           <li id="southeast-dates" >U.S. Southeast</li>
           <li id="caribbean-dates">Caribbean</li>
         </ul>
-        <small class="mt-5"><i>Click to filter region</i></small>
+        <small class="mt-5"><i>Click to specify region</i></small>
       </div>
-   </div>
 
 
   <br>
-<p dir="ltr" class="biography-content"vstyle=" text-indent: 40px;" style="margin-top:120px">
+<p dir="ltr" class="biography-content" style=" text-indent: 40px;" style="margin-top:120px">
     On August 16, 1803, Bache and Todd advertised that they had “commenced
     taking likenesses in profile” in Baltimore, offering customers “four
     correct profiles for 25 cents.” They used the physiognotrace to outline a
