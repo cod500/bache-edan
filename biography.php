@@ -419,6 +419,7 @@ $("#england-dates" ).on( "click", function() {
 });
 $("#northeast-dates" ).on( "click", function() {
   $(this).toggleClass( "region-highlight");
+  $('.Northeast').toggleClass( "highlight");
   $('.Northeast-mobile').toggleClass( "mobile-highlight");
 });
 $("#southeast-dates" ).on( "click", function() {
