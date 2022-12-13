@@ -14,7 +14,7 @@ function timelinrMobile(options) {
   virtSettings = jQuery.extend({
     orientation: 'virtical', // value: horizontal | vertical, default to horizontal
     containerDiv: '#vertical-timeline',  // value: any HTML tag or #id, default to #timeline
-    datesDiv: '#vertical-dates',     // value: any HTML tag or #id, default to #dates
+    datesDiv: '.vertical-dates',     // value: any HTML tag or #id, default to #dates
     datesSelectedClass: 'vertical-selected',   // value: any class, default to selected
     datesSpeed: 'normal',     // value: integer between 100 and 1000 (recommended) or 'slow', 'normal' or 'fast'; default to normal
     issuesDiv: '#vertical-issues',    // value: any HTML tag or #id, default to #issues
@@ -33,12 +33,12 @@ function timelinrMobile(options) {
 
   $(function () {
     // Checks if required elements exist on page before initializing timelinr | improvement since 0.9.55
-    if ($('#vertical-dates').length > 0 && $('#vertical-issues').length > 0) {
+    if ($('.vertical-dates').length > 0 && $('#vertical-issues').length > 0) {
       // setting variables... many of them
 
-      var howManyDates = $('#vertical-dates' + ' li').length;
+      var howManyDates = $('.vertical-dates' + ' li').length;
       var howManyIssues = $('#vertical-issues' + ' li').length;
-      var currentDate = $('#vertical-dates').find('a.' + 'vertical-selected');
+      var currentDate = $('.vertical-dates').find('a.' + 'vertical-selected');
       var currentIssue = $('#vertical-issues').find('li.' + 'vertical-selected');
       var widthContainer = $('#vertical-timeline').width();
       var heightContainer = $('#vertical-timeline').height();
@@ -46,18 +46,28 @@ function timelinrMobile(options) {
       var heightIssues = $('#vertical-issues').height();
       var widthIssue = $('#vertical-issues' + ' li').width();
       var heightIssue = $('#vertical-issues' + ' li').height();
-      var widthDates = $('#vertical-dates').width();
-      var heightDates = $('#vertical-dates').height();
-      var widthDate = $('#vertical-dates' + ' li').width();
-      var heightDate = $('#vertical-dates' + ' li').height();
+      var widthDates = $('.vertical-dates').width();
+      var heightDates = $('.vertical-dates').height();
+      var widthDate = $('.vertical-dates' + ' li').width();
+      var heightDate = $('.vertical-dates' + ' li').height();
       // set positions!
       if (virtSettings.orientation == 'vertical') {
         $('#vertical-issues').height(heightIssue * howManyIssues);
-        $('#vertical-dates').height(heightDate * howManyDates).css('marginTop', heightContainer / 2 - heightDate / 2);
-        var defaultPositionDates = parseInt($('#vertical-dates').css('marginTop').substring(0, $('#vertical-dates').css('marginTop').indexOf('px')));
+        $('.vertical-times').height(heightDate * howManyDates).css('marginTop', heightContainer / 2 - heightDate / 2);
+        var defaultPositionDates = parseInt($('.vertical-times').css('marginTop').substring(0, $('.vertical-times').css('marginTop').indexOf('px')));
       }
 
-      $('#vertical-dates' + ' a').click(function (event) {
+      $('.vertical-time a').click(function (e) {
+        e.preventDefault();
+        let url = $(this).prop('href');
+        let dateClass = url.substr(url.length - 6);
+        setTimeout(() => {
+          $("." + dateClass + ' a').click();
+        }, 0);
+
+      })
+
+      $('.vertical-dates' + ' a').click(function (event) {
         event.preventDefault();
         // first vars
         var whichIssue = $(this).text();
@@ -93,10 +103,10 @@ function timelinrMobile(options) {
           }
         }
         // now moving the dates
-        $('#vertical-dates' + ' a').removeClass('vertical-selected');
+        $('.vertical-dates' + ' a').removeClass('vertical-selected');
         $(this).addClass('vertical-selected');
 
-        $('#vertical-dates').animate({ 'marginTop': defaultPositionDates - (heightDate * currentIndex) }, { queue: false, duration: 'virtSettings.datesSpeed' });
+        $('.vertical-times').animate({ 'marginTop': defaultPositionDates - (heightDate * currentIndex) }, { queue: false, duration: 'virtSettings.datesSpeed' });
 
       });
 
@@ -107,15 +117,15 @@ function timelinrMobile(options) {
         if (virtSettings.orientation == 'vertical') {
           var currentPositionIssues = parseInt($('#vertical-issues').css('marginTop').substring(0, $('#vertical-issues').css('marginTop').indexOf('px')));
           var currentIssueIndex = currentPositionIssues / heightIssue;
-          var currentPositionDates = parseInt($('#vertical-dates').css('marginTop').substring(0, $('#vertical-dates').css('marginTop').indexOf('px')));
+          var currentPositionDates = parseInt($('.vertical-dates').css('marginTop').substring(0, $('.vertical-dates').css('marginTop').indexOf('px')));
           var currentIssueDate = currentPositionDates - heightDate;
           if (currentPositionIssues <= -(heightIssue * howManyIssues - (heightIssue))) {
             $('#vertical-issues').stop();
-            $('#vertical-dates' + ' li:last-child a').click();
+            $('.vertical-dates' + ' li:last-child a').click();
           } else {
             if (!$('#vertical-issues').is(':animated')) {
               // bugixed from 0.9.54: now the dates gets centered when there's too much dates.
-              $('#vertical-dates' + ' li').eq(currentIndex + 1).find('a').trigger('click');
+              $('.vertical-dates' + ' li').eq(currentIndex + 1).find('a').trigger('click');
             }
           }
         }
@@ -151,15 +161,15 @@ function timelinrMobile(options) {
         if (virtSettings.orientation == 'vertical') {
           var currentPositionIssues = parseInt($('#vertical-issues').css('marginTop').substring(0, $('#vertical-issues').css('marginTop').indexOf('px')));
           var currentIssueIndex = currentPositionIssues / heightIssue;
-          var currentPositionDates = parseInt($('#vertical-dates').css('marginTop').substring(0, $('#vertical-dates').css('marginTop').indexOf('px')));
+          var currentPositionDates = parseInt($('.vertical-dates').css('marginTop').substring(0, $('.vertical-dates').css('marginTop').indexOf('px')));
           var currentIssueDate = currentPositionDates + heightDate;
           if (currentPositionIssues >= 0) {
             $('#vertical-issues').stop();
-            $('#vertical-dates' + ' li:first-child a').click();
+            $('.vertical-dates' + ' li:first-child a').click();
           } else {
             if (!$('#vertical-issues').is(':animated')) {
               // bugixed from 0.9.54: now the dates gets centered when there's too much dates.
-              $('#vertical-dates' + ' li').eq(currentIndex - 1).find('a').trigger('click');
+              $('.vertical-dates' + ' li').eq(currentIndex - 1).find('a').trigger('click');
             }
           }
         }
@@ -201,7 +211,7 @@ function timelinrMobile(options) {
         }
       }
       // default position startAt, added since 0.9.3
-      $('#vertical-dates' + ' li').eq(virtSettings.startAt - 1).find('a').trigger('click');
+      $('.vertical-times' + ' li').eq(virtSettings.startAt - 1).find('a').trigger('click');
       // autoPlay, added since 0.9.4
       if (virtSettings.autoPlay == 'true') {
         // set default timer

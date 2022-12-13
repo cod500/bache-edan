@@ -6,6 +6,7 @@
 <!--[if IE 8]><html class="no-js ie lt-ie9" lang="en" dir="ltr"><![endif]-->
 <!--[if (gte IE 9)|(gt IEMobile 7)]><html class="no-js ie" lang="en" dir="ltr"><![endif]-->
 <!--[if !IE]><!--><html class="no-js" lang="en" dir="ltr"><!--<![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
   <meta charset="utf-8" />
 <link rel="shortcut icon" href="https://npg.si.edu/favicon.ico" type="image/vnd.microsoft.icon" />

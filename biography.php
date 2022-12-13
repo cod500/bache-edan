@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<?php 
-$title = "Biography";
-include("includes/main_head.php");
-?>
-<!-- <link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css"> -->
+  <?php 
+  $title = "Biography";
+  include("includes/main_head.php");
+  ?>
 <link rel="stylesheet" href="css/timeline.css" media="screen" />
 
 </head>
 <body>
-<?php include("includes/nav.php");?>
-<?php 
-        $page = "A Brief Biography of William Bache";
-        include("includes/page_header.php");
-        ?>
+  <?php include("includes/nav.php");?>
+  <?php 
+      $page = "A Brief Biography of William Bache";
+      include("includes/page_header.php");
+  ?>
+  <?php 
+        $data = file_get_contents('data/timeline.json',true);
+        $array = json_decode($data, true);
+    ?>
     <!-- MODAL -->
     <div class="container">
       <div class="row justify-content-center">
@@ -108,78 +111,70 @@ include("includes/main_head.php");
     trace the human face with ‘mathematical correctness’ without touching it.”
 </p>
 <br>
-<div id="vertical-timeline">
-    <ul id="vertical-dates">
-      <li><a href="#1900" class="vertical-selected">1900</a></li>
-      <li><a href="#1930">1930</a></li>
-      <li><a href="#1944">1944</a></li>
-      <li><a href="#1950">1950</a></li>
-      <li><a href="#1971">1971</a></li>
-      <li><a href="#1977">1977</a></li>
-      <li><a href="#1989">1989</a></li>
-      <li><a href="#1999">1999</a></li>
-      <li><a href="#2001">2001</a></li>
-      <li><a href="#2011">2011</a></li>
+<!-- MOBILE TIMELINE-->
+<div class="container vertical-container">
+<ul style="width:100%; margin-left:0" class="vertical-dates vertical-time">
+          <?php for ($i = 0; $i < 23; $i++): ?>
+            <?php $hidden = $array[$i]['start_date']['hidden'];
+              if($array[$i]['start_date']['hidden'] == 'true'){
+                  $hidden= 'hidden';
+              }else{
+                $hidden = "";
+              }
+            ?>
+            <li <?php echo $hidden ?> class="group-<?php echo $array[$i]['start_date']['id'] ?> nav-dates"><a href="<?php echo $array[$i]['start_date']['id'] ?>"><?php echo $array[$i]['start_date']['year'] ?></a></li>
+          <?php endfor; ?>
+  </ul>
+  <div id="vertical-timeline">
+    <ul class="vertical-dates vertical-times">
+      <?php for ($i = 0; $i < count($array); $i++): ?>
+        <?php 
+          $seleced = "";
+          if($i == 0){
+            $selected = "vertical-selected";
+          }
+          ?>
+            <li class="<?php echo $array[$i]['start_date']['id'], " ",$array[$i]['group'].'-'.'mobile', $seleced ?>"><a href="#<?php echo $array[$i]['start_date']['id'] ?>"><span class="vertical-span"><?php echo $array[$i]['start_date']['month'] ?></span><?php echo $array[$i]['start_date']['year'] ?></a></li>
+        <?php endfor; ?>
     </ul>
     <ul id="vertical-issues">
-      <li id="1900" class="vertical-selected">
-        <h1>1900</h1>
-        <p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
-      </li>
-      <li id="1930">
-        <h1>1930</h1>
-        <p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
-      </li>
-      <li id="1944">
-        <h1>1944</h1>
-        <p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
-      </li>
-      <li id="1950">
-        <h1>1950</h1>
-        <p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
-      </li>
-      <li id="1971">
-        <h1>1971</h1>
-        <p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
-      </li>
-      <li id="1977">
-        <h1>1977</h1>
-        <p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
-      </li>
-      <li id="1989">
-        <h1>1989</h1>
-        <p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
-      </li>
-      <li id="1999">
-        <h1>1999</h1>
-        <p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
-      </li>
-      <li id="2001">
-        <h1>2001</h1>
-        <p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
-      </li>
-      <li id="2011">
-        <h1>2011</h1>
-        <p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
-      </li>
+        <?php for ($i = 0; $i < count($array); $i++): ?>
+          <?php 
+          $seleced = "";
+          if($i == 0){
+            $selected = "vertical-selected";
+          }
+          ?>
+        <li id="<?php echo $array[$i]['start_date']['id'] ?>" class="<?php echo $selected?>">
+          <h1 style="padding: 0 40px"><?php echo $array[$i]['text']['headline'] ?></h1>
+          <p style="padding: 0 30px">- <?php echo $array[$i]['start_date']['month']." ".$array[$i]['start_date']['day'].", ".$array[$i]['start_date']['year']?> </p>
+          <div class="slider">
+            <p><?php echo $array[$i]['text']['text'] ?></p>
+          </div>
+        </li>
+        <?php endfor; ?>
     </ul>
-    <!-- <div id="grad_top"></div>
-    <div id="grad_bottom"></div> -->
     <a href="#" id="vertical-next">+</a>
     <a href="#" id="vertical-prev">-</a>
   </div>
-<!-- TIMELINE-->
-<!-- <div class="time-line">
-  <div id='timeline-embed' style="width: 100%; height: 600px"></div>
-  <button id="expand-timeline" aria-label="Open Full Screen" data-tippy-content="Click to Expand"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="false"></i></button>
-</div> -->
- <!-- END TIMELINE-->
- <?php 
-              $data = file_get_contents('data/timeline.json',true);
-              $array = json_decode($data, true);
-      ?>
 
-<div class="container">
+  <ul style="width:100%; margin-left:0" class="vertical-dates vertical-time">
+          <?php for ($i = 23; $i < count($array); $i++): ?>
+            <?php $hidden = $array[$i]['start_date']['hidden'];
+              if($array[$i]['start_date']['hidden'] == 'true'){
+                  $hidden= 'hidden';
+              }else{
+                $hidden = "";
+              }
+            ?>
+            <li <?php echo $hidden ?> class="group-<?php echo $array[$i]['start_date']['id'] ?> nav-dates"><a href="<?php echo $array[$i]['start_date']['id'] ?>"><?php echo $array[$i]['start_date']['year'] ?></a></li>
+          <?php endfor; ?>
+  </ul>
+</div>
+<!-- END MOBILE TIMELINE-->
+ 
+<!-- TIMELINE-->
+  <div class="container">
       <ul id="dates" class="bottom-date dates" style="width:100%; margin-left:0">
           <?php for ($i = 0; $i < count($array); $i++): ?>
             <?php $hidden = $array[$i]['start_date']['hidden'];
@@ -192,8 +187,8 @@ include("includes/main_head.php");
             <li <?php echo $hidden ?> class="group-<?php echo $array[$i]['start_date']['id'] ?> nav-dates"><a href="<?php echo $array[$i]['start_date']['id'] ?>"><?php echo $array[$i]['start_date']['year'] ?></a></li>
           <?php endfor; ?>
         </ul>
-    </div>
-<div id="timeline">
+  </div>
+  <div id="timeline">
       <div class="container timeline-group">
           <ul id="issues">
                 <?php for ($i = 0; $i < count($array); $i++): ?>
@@ -208,21 +203,21 @@ include("includes/main_head.php");
             
                 
           </ul>
-              <!-- <div id="grad_left"></div>
-              <div id="grad_right"></div> -->
               <a href="#" id="next"><i class="bi-arrow-right"></i></a>
               <a href="#" id="prev">-</a>
 
             <div class="dates-div">
             <ul id="" class="dates text-dark timeline-dates" style="margin-left:0">
               <?php for ($i = 0; $i < count($array); $i++): ?>
-                <li class="<?php echo $array[$i]['start_date']['id'], " ",$array[$i]['group']  ?>"><a href="#<?php echo $array[$i]['start_date']['id'] ?>"><?php echo $array[$i]['start_date']['year'] ?></a></li>
+                <li class="<?php echo $array[$i]['start_date']['id'], " ",$array[$i]['group']  ?>"><a href="#<?php echo $array[$i]['start_date']['id'] ?>"><span><?php echo $array[$i]['start_date']['month'] ?></span> <?php echo $array[$i]['start_date']['year'] ?></a></li>
               <?php endfor; ?>
               </ul>
             </div>
       </div>
    </div>
+   <!-- END TIMELINE-->
 
+   <!-- REGION LEGEND -->
    <div class="container regions-container">
         <ul class="regions" id="dates">
           <li  id="england-dates" >England</li>
@@ -231,7 +226,8 @@ include("includes/main_head.php");
           <li id="caribbean-dates">Caribbean</li>
         </ul>
         <small class="mt-5"><i>Click to specify region</i></small>
-      </div>
+    </div>
+    <!-- END REGION LEGEND -->
 
 
   <br>
@@ -360,9 +356,8 @@ include("includes/main_head.php");
         startAt:      3
       });
 
-    timelinr();
+    timelinr({arrowKeys:    'true',});
  
-
     //Mobile timeline
     
     
@@ -416,75 +411,25 @@ $('.article-figure, .article-link').click(function(){
 
       });
       
-//     var options = {
-//       script_path:                "",
-//       height:                     100,
-//       width:                      100,
-//       initial_zoom:               3,
-//       scale_factor:               1,              // How many screen widths wide should the timeline be
-//       zoom_sequence:89,
-//       layout:                     "portrait",    // portrait or landscape
-//       timenav_position:           "bottom",       // timeline on top or bottom
-//       // optimal_tick_width:         100,            // optimal distance (in pixels) between ticks on axis
-//       // base_class:                 "",
-//       // timenav_height:             150,
-//       // timenav_height_percentage:  25,             // Overrides timenav height as a percentage of the screen
-//       // timenav_height_min:         150,            // Minimum timenav height
-//       marker_height_min:          50,             // Minimum Marker Height
-//       marker_width_min:           100,            // Minimum Marker Width
-//       // marker_padding:             5,              // Top Bottom Marker Padding
-//       // start_at_slide:             0,
-//       // menubar_height:             0,
-//       // skinny_size:                650,
-//       // relative_date:              false,          // Use momentjs to show a relative date from the slide.text.date.created_time field
-//       // use_bc:                     false,          // Use declared suffix on dates earlier than 0
-//       // // animation
-//       // duration:                   1000,
-//       // // interaction
-//       // dragging:                   true,
-//       // trackResize:                true,
-//       // map_type:                   "stamen:toner-lite",
-//       // slide_padding_lr:           100,            // padding on slide of slide
-//       // slide_default_fade:         "0%",           // landscape fade
-
-//       // api_key_flickr:             "",             // Flickr API Key
-//       // language:                   "en"        
-
-// };
-// let database = []
-
-// fetch('./data/timeline.json')
-// .then(response => response.json())
-// .then(data => {
-//     var timeline = new TL.Timeline('timeline-embed',
-//                                  data,
-//                                  options);
-//   var modalTimeline = new TL.Timeline('modal-timeline',
-//                                  data,
-//                                  options);
-
-//                                  setTimeout(() => {
-//                                   $('.tl-timemarker-content-container').has('.north-east').css('background-color','#fceef2');
-//                                   $('.tl-timemarker-content-container').has('.south-east').css('background-color','#527181');
-//                                   $('.tl-timemarker-content-container').has('.england').css('background-color','#81b4c8');
-//                                  }, 1000);
-// })
       
 $("#england-dates" ).on( "click", function() {
   $(this).toggleClass( "region-highlight");
     $('.England').toggleClass( "highlight");
+    $('.England-mobile').toggleClass( "mobile-highlight");
 });
 $("#northeast-dates" ).on( "click", function() {
   $(this).toggleClass( "region-highlight");
-    $('.Northeast').toggleClass( "highlight");
+  $('.Northeast-mobile').toggleClass( "mobile-highlight");
 });
 $("#southeast-dates" ).on( "click", function() {
   $(this).toggleClass( "region-highlight");
     $('.Southeast').toggleClass( "highlight");
+    $('.Southeast-mobile').toggleClass( "mobile-highlight");
 });
 $("#caribbean-dates" ).on( "click", function() {
   $(this).toggleClass( "region-highlight");
     $('.Caribbean').toggleClass( "highlight");
+    $('.Caribbean-mobile').toggleClass( "mobile-highlight");
 });
 </script>
 </body>

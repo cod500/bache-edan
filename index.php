@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php 
     $title = "William Bache Silhouettes";
     include("includes/main_head.php");?>

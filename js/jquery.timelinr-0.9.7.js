@@ -112,10 +112,11 @@ function timelinr(options) {
         // now moving the dates
         $(settings.datesDiv + ' a').removeClass(settings.datesSelectedClass);
         $('.selected-year').removeClass('selected-year');
-        $(this).addClass(settings.datesSelectedClass);
+        $(this).addClass('vertical-selected');
         let dateUrl = $(this).prop('href');
         let dateClass = dateUrl.substr(dateUrl.length - 6);
         let dateGroup = dateClass.substring(0, dateClass.length - 2);
+        console.log(dateGroup)
         $('.group-' + dateGroup + '-1' + ' a').addClass('selected-year');
         if (settings.orientation == 'horizontal') {
           $(settings.datesDiv + ".timeline-dates").animate({ 'marginLeft': (defaultPositionDates - (widthDate + 120 * currentIndex)) }, { queue: false, duration: 'settings.datesSpeed' });

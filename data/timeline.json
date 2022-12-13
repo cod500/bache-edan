@@ -1,7 +1,7 @@
 [
   {
     "start_date": {
-      "month": "December",
+      "month": "Dec.",
       "day": "22",
       "year": "1771",
       "id": "1771-1",
@@ -43,7 +43,7 @@
   },
   {
     "start_date": {
-      "month": "August",
+      "month": "Aug.",
       "day": "18",
       "year": "1803",
       "id": "1803-2",
@@ -57,7 +57,7 @@
   },
   {
     "start_date": {
-      "month": "September",
+      "month": "Sept.",
       "day": "6",
       "year": "1803",
       "id": "1803-3",
@@ -71,7 +71,7 @@
   },
   {
     "start_date": {
-      "month": "November",
+      "month": "Nov.",
       "day": "11",
       "year": "1803",
       "id": "1803-4",
@@ -85,7 +85,7 @@
   },
   {
     "start_date": {
-      "month": "December",
+      "month": "Dec.",
       "day": "20",
       "year": "1803",
       "id": "1803-5",
@@ -99,7 +99,7 @@
   },
   {
     "start_date": {
-      "month": "January",
+      "month": "Jan.",
       "day": "28",
       "year": "1804",
       "id": "1804-1",
@@ -113,7 +113,7 @@
   },
   {
     "start_date": {
-      "month": "January",
+      "month": "Jan.",
       "day": "28",
       "year": "1804",
       "id": "1804-2",
@@ -127,7 +127,7 @@
   },
   {
     "start_date": {
-      "month": "March",
+      "month": "Mar.",
       "day": "14",
       "year": "1804",
       "id": "1804-3",
@@ -169,7 +169,7 @@
   },
   {
     "start_date": {
-      "month": "November",
+      "month": "Nov.",
       "day": "16",
       "year": "1804",
       "id": "1804-6",
@@ -183,7 +183,7 @@
   },
   {
     "start_date": {
-      "month": "December",
+      "month": "Dec.",
       "day": "",
       "year": "1804",
       "id": "1804-7",
@@ -211,7 +211,7 @@
   },
   {
     "start_date": {
-      "month": "August",
+      "month": "Aug.",
       "day": "",
       "year": "1806",
       "id": "1806-2",
@@ -225,7 +225,7 @@
   },
   {
     "start_date": {
-      "month": "October",
+      "month": "Oct.",
       "day": "13",
       "year": "1806",
       "id": "1806-3",
@@ -253,7 +253,7 @@
   },
   {
     "start_date": {
-      "month": "September",
+      "month": "Sept.",
       "day": "14",
       "year": "1808",
       "id": "1808-2",
@@ -267,7 +267,7 @@
   },
   {
     "start_date": {
-      "month": "October",
+      "month": "Oct.",
       "day": "17",
       "year": "1809",
       "id": "1809-1",
@@ -281,7 +281,7 @@
   },
   {
     "start_date": {
-      "month": "October",
+      "month": "Oct.",
       "day": "24",
       "year": "1809",
       "id": "1809-2",
@@ -295,7 +295,7 @@
   },
   {
     "start_date": {
-      "month": "November",
+      "month": "Nov.",
       "day": "20",
       "year": "1809",
       "id": "1809-3",
@@ -309,7 +309,7 @@
   },
   {
     "start_date": {
-      "month": "December",
+      "month": "Dec.",
       "day": "22",
       "year": "1809",
       "id": "1809-4",
@@ -323,7 +323,7 @@
   },
   {
     "start_date": {
-      "month": "January",
+      "month": "Jan.",
       "day": "12",
       "year": "1810",
       "id": "1810-1",
@@ -337,7 +337,7 @@
   },
   {
     "start_date": {
-      "month": "February",
+      "month": "Feb.",
       "day": "23",
       "year": "1810",
       "id": "1810-2",
@@ -351,7 +351,7 @@
   },
   {
     "start_date": {
-      "month": "April",
+      "month": "Apr.",
       "day": "28",
       "year": "1810",
       "id": "1810-3",
@@ -407,7 +407,7 @@
   },
   {
     "start_date": {
-      "month": "August",
+      "month": "Aug.",
       "day": "11",
       "year": "1810",
       "id": "1810-7",
@@ -421,7 +421,7 @@
   },
   {
     "start_date": {
-      "month": "September",
+      "month": "Sept.",
       "day": "7",
       "year": "1810",
       "id": "1810-8",
@@ -435,7 +435,7 @@
   },
   {
     "start_date": {
-      "month": "October",
+      "month": "Oct.",
       "day": "26",
       "year": "1810",
       "id": "1810-9",
@@ -449,7 +449,7 @@
   },
   {
     "start_date": {
-      "month": "December",
+      "month": "Dec.",
       "day": "4",
       "year": "1810",
       "id": "1810-10",
@@ -463,7 +463,7 @@
   },
   {
     "start_date": {
-      "month": "January",
+      "month": "Jan.",
       "day": "12",
       "year": "1811",
       "id": "1811-1",
@@ -477,7 +477,7 @@
   },
   {
     "start_date": {
-      "month": "February",
+      "month": "Feb.",
       "day": "21",
       "year": "1811",
       "id": "1811-2",
@@ -505,7 +505,7 @@
   },
   {
     "start_date": {
-      "month": "November",
+      "month": "Nov.",
       "day": "28",
       "year": "1811",
       "id": "1811-4",
@@ -519,7 +519,7 @@
   },
   {
     "start_date": {
-      "month": "January",
+      "month": "Jan.",
       "day": "24",
       "year": "1812",
       "id": "1812-1",
@@ -533,7 +533,7 @@
   },
   {
     "start_date": {
-      "month": "March",
+      "month": "Mar.",
       "day": "25",
       "year": "1817",
       "id": "1817-1",
@@ -547,7 +547,7 @@
   },
   {
     "start_date": {
-      "month": "April",
+      "month": "Apr.",
       "day": "10",
       "year": "1822",
       "id": "1822-1",
