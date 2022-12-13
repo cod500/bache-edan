@@ -9,7 +9,7 @@ http://www.opensource.org/licenses/mit-license.php
 instructions: http://www.csslab.cl/2011/08/18/jquery-timelinr/
 ---------------------------------- */
 
-jQuery.fn.timelinr = function (options) {
+function timelinr(options) {
   // default plugin settings
   settings = jQuery.extend({
     orientation: 'horizontal', // value: horizontal | vertical, default to horizontal
@@ -56,10 +56,6 @@ jQuery.fn.timelinr = function (options) {
         $(settings.issuesDiv).width(widthIssue * howManyIssues);
         $('.timeline-dates').width(widthDate * howManyDates).css('marginLeft', (widthContainer / 3 - widthDate / 3));
         var defaultPositionDates = parseInt($('.timeline-dates').css('marginLeft').substring(0, $('.timeline-dates').css('marginLeft').indexOf('px')));
-      } else if (settings.orientation == 'vertical') {
-        $(settings.issuesDiv).height(heightIssue * howManyIssues);
-        $(settings.datesDiv).height(heightDate * howManyDates).css('marginTop', heightContainer / 2 - heightDate / 2);
-        var defaultPositionDates = parseInt($(settings.datesDiv).css('marginTop').substring(0, $(settings.datesDiv).css('marginTop').indexOf('px')));
       }
       $('.nav-dates').width(55);
       $('.bottom-dates').css('display', 'flex');
@@ -83,8 +79,6 @@ jQuery.fn.timelinr = function (options) {
         // moving the elements
         if (settings.orientation == 'horizontal') {
           $(settings.issuesDiv).animate({ 'marginLeft': -widthIssue * currentIndex }, { queue: false, duration: settings.issuesSpeed });
-        } else if (settings.orientation == 'vertical') {
-          $(settings.issuesDiv).animate({ 'marginTop': -heightIssue * currentIndex }, { queue: false, duration: settings.issuesSpeed });
         }
         $(settings.issuesDiv + ' li').animate({ 'opacity': 0 }, { queue: false, duration: settings.issuesSpeed }).removeClass(settings.issuesSelectedClass).eq(currentIndex).addClass(settings.issuesSelectedClass).fadeTo(settings.issuesTransparencySpeed, 1);
 
@@ -148,20 +142,6 @@ jQuery.fn.timelinr = function (options) {
               $(settings.datesDiv + ' li').eq(currentIndex + 1).find('a').trigger('click');
             }
           }
-        } else if (settings.orientation == 'vertical') {
-          var currentPositionIssues = parseInt($(settings.issuesDiv).css('marginTop').substring(0, $(settings.issuesDiv).css('marginTop').indexOf('px')));
-          var currentIssueIndex = currentPositionIssues / heightIssue;
-          var currentPositionDates = parseInt($(settings.datesDiv).css('marginTop').substring(0, $(settings.datesDiv).css('marginTop').indexOf('px')));
-          var currentIssueDate = currentPositionDates - heightDate;
-          if (currentPositionIssues <= -(heightIssue * howManyIssues - (heightIssue))) {
-            $(settings.issuesDiv).stop();
-            $(settings.datesDiv + ' li:last-child a').click();
-          } else {
-            if (!$(settings.issuesDiv).is(':animated')) {
-              // bugixed from 0.9.54: now the dates gets centered when there's too much dates.
-              $(settings.datesDiv + ' li').eq(currentIndex + 1).find('a').trigger('click');
-            }
-          }
         }
         // prev/next buttons now disappears on first/last issue | bugfix from 0.9.51: lower than 1 issue hide the arrows
         if (howManyDates == 1) {
@@ -197,20 +177,6 @@ jQuery.fn.timelinr = function (options) {
           var currentIssueIndex = currentPositionIssues / widthIssue;
           var currentPositionDates = parseInt($(settings.datesDiv).css('marginLeft').substring(0, $(settings.datesDiv).css('marginLeft').indexOf('px')));
           var currentIssueDate = currentPositionDates + widthDate;
-          if (currentPositionIssues >= 0) {
-            $(settings.issuesDiv).stop();
-            $(settings.datesDiv + ' li:first-child a').click();
-          } else {
-            if (!$(settings.issuesDiv).is(':animated')) {
-              // bugixed from 0.9.54: now the dates gets centered when there's too much dates.
-              $(settings.datesDiv + ' li').eq(currentIndex - 1).find('a').trigger('click');
-            }
-          }
-        } else if (settings.orientation == 'vertical') {
-          var currentPositionIssues = parseInt($(settings.issuesDiv).css('marginTop').substring(0, $(settings.issuesDiv).css('marginTop').indexOf('px')));
-          var currentIssueIndex = currentPositionIssues / heightIssue;
-          var currentPositionDates = parseInt($(settings.datesDiv).css('marginTop').substring(0, $(settings.datesDiv).css('marginTop').indexOf('px')));
-          var currentIssueDate = currentPositionDates + heightDate;
           if (currentPositionIssues >= 0) {
             $(settings.issuesDiv).stop();
             $(settings.datesDiv + ' li:first-child a').click();
@@ -256,15 +222,6 @@ jQuery.fn.timelinr = function (options) {
               $(settings.prevButton).click();
             }
           });
-        } else if (settings.orientation == 'vertical') {
-          $(document).keydown(function (event) {
-            if (event.keyCode == 40) {
-              $(settings.nextButton).click();
-            }
-            if (event.keyCode == 38) {
-              $(settings.prevButton).click();
-            }
-          });
         }
       }
       // default position startAt, added since 0.9.3
@@ -287,27 +244,3 @@ jQuery.fn.timelinr = function (options) {
 
 }
 
-// autoPlay, added since 0.9.4
-function autoPlay() {
-  var currentDate = $(settings.datesDiv).find('a.' + settings.datesSelectedClass);
-  if (settings.autoPlayDirection == 'forward') {
-    if (currentDate.parent().is('li:last-child')) {
-      $(settings.datesDiv + ' li:first-child').find('a').trigger('click');
-    } else {
-      currentDate.parent().next().find('a').trigger('click');
-    }
-  } else if (settings.autoPlayDirection == 'backward') {
-    if (currentDate.parent().is('li:first-child')) {
-      $(settings.datesDiv + ' li:last-child').find('a').trigger('click');
-    } else {
-      currentDate.parent().prev().find('a').trigger('click');
-    }
-  }
-}
-
-// window.addEventListener('resize', function(){
-//   if (window.innerWidth < 1400) {
-//     let setWidth = $('.timeline-group').width();
-//     $('#issues li.selected').width(setWidth - 200);
-// }
-// }, true);

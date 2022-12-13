@@ -1,95 +1,89 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
 <head>
-<?php 
-$title = "Timeline";
-include("includes/main_head.php");
-?>
- <link rel="stylesheet" href="css/timeline.css" media="screen" />
-</head>
-
-
-<body>
-    <?php 
-              $data = file_get_contents('data/timeline.json',true);
-              $array = json_decode($data, true);
-      ?>
-  <div id="timeline">
-    <ul id="dates" class="text-dark" style="margin-left:0">
-    <?php for ($i = 0; $i < count($array); $i++): ?>
-      <li class="<?php echo $array[$i]['group']?>"><a href="#<?php echo $array[$i]['start_date']['id'] ?>"><?php echo $array[$i]['start_date']['year'] ?></a></li>
-    <?php endfor; ?>
-    </ul>
-
-    <ul id="issues">
-      <?php for ($i = 0; $i < count($array); $i++): ?>
-        <li id="<?php echo $array[$i]['start_date']['id'] ?>">
-          <h1 style="padding: 0 40px"><?php echo $array[$i]['text']['headline'] ?></h1>
-          <p class="timeline-date" style="padding: 0 30px">- <?php echo $array[$i]['start_date']['month']." ".$array[$i]['start_date']['day'].", ".$array[$i]['start_date']['year']?> </p>
-          <div class="slider">
-          <p><?php echo $array[$i]['text']['text'] ?></p>
-            </div>
-        </li>
-      <?php endfor; ?>
-   
-      
-    </ul>
-    <!-- <div id="grad_left"></div>
-    <div id="grad_right"></div> -->
-    <a href="#" id="next"><i class="bi-arrow-right"></i></a>
-    <a href="#" id="prev">-</a>
-  </div>
- <div class="container">
- <ul id="dates" class="bottom-date" style="width:100%; margin-left:0">
-    <?php for ($i = 0; $i < count($array); $i++): ?>
-      <?php $hidden = $array[$i]['start_date']['hidden'];
-        if($array[$i]['start_date']['hidden'] == 'true'){
-            $hidden= 'hidden';
-        }else{
-          $hidden = "";
-        }
-      ?>
-      <li <?php echo $hidden ?>><a href="<?php echo $array[$i]['start_date']['id'] ?>"><?php echo $array[$i]['start_date']['year'] ?></a></li>
-    <?php endfor; ?>
-  </ul>
- </div>
-<br>
- <div class="container">
- <ul class="regions" id="dates" style="width:100%; margin-left:0">
- <li  id="england-dates" style="margin-right:140px!important">England</li>
- <li id="northeast-dates" style="margin-right:140px!important">Northeast</li>
- <li id="southeast-dates" style="margin-right:140px!important">Southeast</li>
- <li id="caribbean-dates"style="margin-right:140px!important">Caribbean</li>
-  </ul>
- </div>
-
-<?php include("includes/main_js.php");?>
-<script src="js/jquery.timelinr-0.9.7.js"></script>
-<script>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="author" content="Made with ❤ by Jorge Epuñan - @csslab">
+  
+  <title>jQuery Timelinr - Dando vida al tiempo</title>
+  <link rel="stylesheet" href="css/timeline-vertical.css" media="screen" />
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script src="js//jquery.timelinr-mobile.js"></script>
+  <script>
     $(function(){
       $().timelinr({
-        arrowKeys: 'true'
+        orientation:  'vertical',
+        issuesSpeed:  300,
+        datesSpeed:   100,
+        arrowKeys:    'true',
+        startAt:      3
       })
     });
-
-
-$("#england-dates" ).on( "click", function() {
-  $(this).toggleClass( "highlight");
-    $('.England').toggleClass( "highlight");
-});
-$("#northeast-dates" ).on( "click", function() {
-  $(this).toggleClass( "highlight");
-    $('.Northeast').toggleClass( "highlight");
-});
-$("#southeast-dates" ).on( "click", function() {
-  $(this).toggleClass( "highlight");
-    $('.Southeast').toggleClass( "highlight");
-});
-$("#caribbean-dates" ).on( "click", function() {
-  $(this).toggleClass( "highlight");
-    $('.Caribbean').toggleClass( "highlight");
-});
   </script>
 
+</head>
+
+<body>
+  
+  <div id="vertical-timeline">
+    <ul id="vertical-dates">
+      <li><a href="#1900" class="vertical-selected">1900</a></li>
+      <li><a href="#1930">1930</a></li>
+      <li><a href="#1944">1944</a></li>
+      <li><a href="#1950">1950</a></li>
+      <li><a href="#1971">1971</a></li>
+      <li><a href="#1977">1977</a></li>
+      <li><a href="#1989">1989</a></li>
+      <li><a href="#1999">1999</a></li>
+      <li><a href="#2001">2001</a></li>
+      <li><a href="#2011">2011</a></li>
+    </ul>
+    <ul id="vertical-issues">
+      <li id="1900" class="vertical-selected">
+        <h1>1900</h1>
+        <p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
+      </li>
+      <li id="1930">
+        <h1>1930</h1>
+        <p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
+      </li>
+      <li id="1944">
+        <h1>1944</h1>
+        <p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
+      </li>
+      <li id="1950">
+        <h1>1950</h1>
+        <p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
+      </li>
+      <li id="1971">
+        <h1>1971</h1>
+        <p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
+      </li>
+      <li id="1977">
+        <h1>1977</h1>
+        <p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
+      </li>
+      <li id="1989">
+        <h1>1989</h1>
+        <p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
+      </li>
+      <li id="1999">
+        <h1>1999</h1>
+        <p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
+      </li>
+      <li id="2001">
+        <h1>2001</h1>
+        <p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
+      </li>
+      <li id="2011">
+        <h1>2011</h1>
+        <p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
+      </li>
+    </ul>
+    <!-- <div id="grad_top"></div>
+    <div id="grad_bottom"></div> -->
+    <a href="#" id="vertical-next">+</a>
+    <a href="#" id="vertical-prev">-</a>
+  </div>
 </body>
 </html>

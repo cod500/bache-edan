@@ -7,6 +7,7 @@ include("includes/main_head.php");
 ?>
 <!-- <link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css"> -->
 <link rel="stylesheet" href="css/timeline.css" media="screen" />
+
 </head>
 <body>
 <?php include("includes/nav.php");?>
@@ -107,6 +108,66 @@ include("includes/main_head.php");
     trace the human face with ‘mathematical correctness’ without touching it.”
 </p>
 <br>
+<div id="vertical-timeline">
+    <ul id="vertical-dates">
+      <li><a href="#1900" class="vertical-selected">1900</a></li>
+      <li><a href="#1930">1930</a></li>
+      <li><a href="#1944">1944</a></li>
+      <li><a href="#1950">1950</a></li>
+      <li><a href="#1971">1971</a></li>
+      <li><a href="#1977">1977</a></li>
+      <li><a href="#1989">1989</a></li>
+      <li><a href="#1999">1999</a></li>
+      <li><a href="#2001">2001</a></li>
+      <li><a href="#2011">2011</a></li>
+    </ul>
+    <ul id="vertical-issues">
+      <li id="1900" class="vertical-selected">
+        <h1>1900</h1>
+        <p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
+      </li>
+      <li id="1930">
+        <h1>1930</h1>
+        <p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
+      </li>
+      <li id="1944">
+        <h1>1944</h1>
+        <p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
+      </li>
+      <li id="1950">
+        <h1>1950</h1>
+        <p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
+      </li>
+      <li id="1971">
+        <h1>1971</h1>
+        <p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
+      </li>
+      <li id="1977">
+        <h1>1977</h1>
+        <p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
+      </li>
+      <li id="1989">
+        <h1>1989</h1>
+        <p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
+      </li>
+      <li id="1999">
+        <h1>1999</h1>
+        <p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
+      </li>
+      <li id="2001">
+        <h1>2001</h1>
+        <p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
+      </li>
+      <li id="2011">
+        <h1>2011</h1>
+        <p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
+      </li>
+    </ul>
+    <!-- <div id="grad_top"></div>
+    <div id="grad_bottom"></div> -->
+    <a href="#" id="vertical-next">+</a>
+    <a href="#" id="vertical-prev">-</a>
+  </div>
 <!-- TIMELINE-->
 <!-- <div class="time-line">
   <div id='timeline-embed' style="width: 100%; height: 600px"></div>
@@ -286,13 +347,25 @@ include("includes/main_head.php");
 <script src="https://unpkg.com/@popperjs/core@2"></script>
 <script src="https://unpkg.com/tippy.js@6"></script>
 <script src="js/jquery.timelinr-0.9.7.js"></script>
+<script src="js/jquery.timelinr-mobile.js"></script>
 <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
 <script>
-   $(function(){
-      $().timelinr({
-        arrowKeys: 'true'
-      })
-    });
+  
+
+    timelinrMobile({
+        orientation:  'vertical',
+        issuesSpeed:  300,
+        datesSpeed:   100,
+        arrowKeys:    'true',
+        startAt:      3
+      });
+
+    timelinr();
+ 
+
+    //Mobile timeline
+    
+    
 tippy('.article-figure, #expand-timeline', { arrow: true });
 
 //Hide timeline behind modal
