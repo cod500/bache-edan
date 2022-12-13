@@ -724,6 +724,7 @@ those who may favor them with their patronage. <br>
 
     <?php include("includes/page_footer.php");?>
   <!-- JAVASCRIPT FILES -->
+  <script src="js/bootstrap.min.js"></script>
     <!-- <script src="/js/jquery-2.2.4.js"></script> -->
     <script type="text/javascript" src="/js/jquery.migrate.js"></script>
     <script type="text/javascript" src="/js/npg.masonary.js"></script>
