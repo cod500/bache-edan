@@ -37,7 +37,7 @@ include("includes/main_head.php");
   
   
   <div class="grid-item"><div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12257">
-  <a href="/newspapers/news-ad1.png" class="lg-figure" data-sub-html=".caption"><img src="/newspapers/news-ad1.png" alt="woman crouching near an architectural model in a studio">
+  <a href="/images/clippings/Clippings-1.png" class="lg-figure" data-sub-html=".caption"><img src="/images/clippings/Clippings-1.png" alt="">
 		<div class="caption">
 			<span class="original_text">
 			
@@ -72,10 +72,7 @@ August 16.</p>
 </div>
 
   <div class="grid-item"><div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12258">
-  <a href="
-  https://i.ibb.co/0M7v6bm/unnamed.png
-  " class="lg-figure" data-sub-html=".caption"><img src="
-  https://i.ibb.co/0M7v6bm/unnamed.png
+  <a href="/images/clippings/Clippings-2.png" class="lg-figure" data-sub-html=".caption"><img src="/images/clippings/Clippings-2.png
   " alt="view of a granite wall in the sunlight">
 		<div class="caption">
 			<span class="original_text">

@@ -104,7 +104,13 @@ function timelinrMobile(options) {
         }
         // now moving the dates
         $('.vertical-dates' + ' a').removeClass('vertical-selected');
+        $('.selected-year').removeClass('selected-year');
         $(this).addClass('vertical-selected');
+        let dateUrl = $(this).prop('href');
+        let dateClass = dateUrl.substr(dateUrl.length - 6);
+        let dateGroup = dateClass.substring(0, dateClass.length - 2);
+        console.log(dateGroup)
+        $('.group-' + dateGroup + '-1' + ' a').addClass('selected-year');
 
         $('.vertical-times').animate({ 'marginTop': defaultPositionDates - (heightDate * currentIndex) }, { queue: false, duration: 'virtSettings.datesSpeed' });
 

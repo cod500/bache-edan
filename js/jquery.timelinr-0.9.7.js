@@ -112,7 +112,7 @@ function timelinr(options) {
         // now moving the dates
         $(settings.datesDiv + ' a').removeClass(settings.datesSelectedClass);
         $('.selected-year').removeClass('selected-year');
-        $(this).addClass('vertical-selected');
+        $(this).addClass('selected');
         let dateUrl = $(this).prop('href');
         let dateClass = dateUrl.substr(dateUrl.length - 6);
         let dateGroup = dateClass.substring(0, dateClass.length - 2);

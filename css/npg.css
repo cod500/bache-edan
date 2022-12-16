@@ -500,7 +500,7 @@ footer,
 }
 @media (max-width: 1024px) {
   #block-panels-mini-footer .newsletter h2:before {
-    left: 5.5rem;
+    left: 0.5rem;
   }
 }
 #block-panels-mini-footer .newsletter h2:hover:before {

@@ -189,8 +189,7 @@
 .cut-seam-even#seam-54,
 .cut-seam-even#seam-56,
 .cut-seam-even#seam-58,
-.cut-seam-even#seam-60
- {
+.cut-seam-even#seam-60 {
   transform: translate(-10px, 0);
 }
 
@@ -200,8 +199,7 @@
 .cut-seam-even#seam-32,
 .cut-seam-even#seam-34,
 .cut-seam-even#seam-36,
-.cut-seam-even#seam-44
- {
+.cut-seam-even#seam-44 {
   transform: translate(-20px, 0);
 }
 
@@ -215,13 +213,11 @@
 .cut-seam-odd#seam-37,
 .cut-seam-odd#seam-39,
 .cut-seam-odd#seam-41,
-.cut-seam-odd#seam-43
- {
+.cut-seam-odd#seam-43 {
   transform: translate(-30px, 0);
 }
 
-.cut-seam-odd#seam-55
- {
+.cut-seam-odd#seam-55 {
   transform: translate(5px, 0);
 }
 
@@ -280,7 +276,13 @@ BOOK CONTROLS
   background: #006992;
   padding: 0 25px;
 }
-
+@media (max-width: 1000px) {
+  .nav-btn {
+    width: 120px !important;
+    height: 50px;
+    margin: 0 15px;
+  }
+}
 i {
   color: #888;
 }

@@ -111,20 +111,9 @@
     trace the human face with ‘mathematical correctness’ without touching it.”
 </p>
 <br>
+<h3 class="timeline-title"> William Bache’s Timeline</h3>
 <!-- MOBILE TIMELINE-->
 <div class="container vertical-container">
-<ul style="width:100%; margin-left:0" class="vertical-dates vertical-time">
-          <?php for ($i = 0; $i < 23; $i++): ?>
-            <?php $hidden = $array[$i]['start_date']['hidden'];
-              if($array[$i]['start_date']['hidden'] == 'true'){
-                  $hidden= 'hidden';
-              }else{
-                $hidden = "";
-              }
-            ?>
-            <li <?php echo $hidden ?> class="group-<?php echo $array[$i]['start_date']['id'] ?> nav-dates"><a href="<?php echo $array[$i]['start_date']['id'] ?>"><?php echo $array[$i]['start_date']['year'] ?></a></li>
-          <?php endfor; ?>
-  </ul>
   <div id="vertical-timeline">
     <ul class="vertical-dates vertical-times">
       <?php for ($i = 0; $i < count($array); $i++): ?>
@@ -157,19 +146,6 @@
     <a href="#" id="vertical-next">+</a>
     <a href="#" id="vertical-prev">-</a>
   </div>
-
-  <ul style="width:100%; margin-left:0" class="vertical-dates vertical-time">
-          <?php for ($i = 23; $i < count($array); $i++): ?>
-            <?php $hidden = $array[$i]['start_date']['hidden'];
-              if($array[$i]['start_date']['hidden'] == 'true'){
-                  $hidden= 'hidden';
-              }else{
-                $hidden = "";
-              }
-            ?>
-            <li <?php echo $hidden ?> class="group-<?php echo $array[$i]['start_date']['id'] ?> nav-dates"><a href="<?php echo $array[$i]['start_date']['id'] ?>"><?php echo $array[$i]['start_date']['year'] ?></a></li>
-          <?php endfor; ?>
-  </ul>
 </div>
 <!-- END MOBILE TIMELINE-->
  
