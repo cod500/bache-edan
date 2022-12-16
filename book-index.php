@@ -7,7 +7,7 @@ include("includes/main_head.php");
 ?>
  
 </head>
-<body style="overflow: scroll">
+<body style="overflow: scroll; min-width: 720px;">
 <?php include("includes/nav.php");?>
 <?php 
         $page = "Ledger Book Index";
@@ -76,7 +76,7 @@ include("includes/main_head.php");
 <!-- END MODAL -->
 
 <section class="section-padding section-bg pt-5 biography-section">
-<div class="container table-container">
+<div class="table-container">
     <table id="index-table" class="display" style="width:100%">
             <thead>
                 <tr>
@@ -118,12 +118,18 @@ include("includes/main_head.php");
 
 <script>
 $(document).ready(function () {
-    $('table.display').DataTable({
+    var datatable = $('table.display').DataTable({
         "pageLength": 25,
-        "order": [1, 'asc'],
-        "fnDrawCallback": function( oSettings ) {
-          //Modal for Book Index
-    $('.book-index-link').click(function(){
+        "order": [1, 'asc']
+    });
+    
+    //Call edan funciton on every table redraw to show modal
+    datatable.on('draw', function() {
+   edanCall();
+});
+
+ function edanCall(){
+  $('.book-index-link').click(function(){
     var data = {
 			silhouette: 'edanmdm:npg_S_'+$(this).attr('data-link'),
 		};
@@ -158,8 +164,8 @@ $(document).ready(function () {
 				})
 
 			});
-        }
-    });
+ }
+ edanCall();
 });
 
 </script>

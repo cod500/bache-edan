@@ -125,7 +125,9 @@ strong {
   font-weight: var(--font-weight-bold);
 }
 
-/* NavBar Stylrs */
+/*---------------------------------------
+  NAVBAR     
+-----------------------------------------*/
 .site-navbar {
   margin-bottom: 0px;
   z-index: 1999;
@@ -313,18 +315,25 @@ strong {
   opacity: 1;
 }
 .site-menu-toggle {
+  display: none;
   position: absolute;
   top: 0;
   right: 0;
   font-size: 38px;
+  padding-right: 10px;
 }
+
+.site-menu-toggle i, .site-mobile-menu-close i{
+  color: var(--dark-color);
+}
+
 
 .site-mobile-menu {
   width: 300px;
   position: fixed;
   right: 0;
   z-index: 2000;
-  background: #fff;
+  background: var(--npg-bg-color);
   height: calc(100vh);
   -webkit-transform: translateX(110%);
   -ms-transform: translateX(110%);
@@ -394,13 +403,13 @@ strong {
   position: relative;
 }
 .site-mobile-menu .site-nav-wrap a {
-  padding: 10px 20px;
+  padding: 10px 0px;
   display: block;
   position: relative;
-  color: #212529;
+  color: var(--white-color);
 }
 .site-mobile-menu .site-nav-wrap a:hover {
-  color: #007bff;
+ text-decoration: underline;
 }
 .site-mobile-menu .site-nav-wrap li {
   position: relative;
@@ -463,9 +472,12 @@ strong {
 }
 .site-mobile-menu .site-nav-wrap > li > ul > li {
   display: block;
+  background: #496573;
+  padding: 5px 0px;
+  border-radius: 0.375em;
 }
 .site-mobile-menu .site-nav-wrap > li > ul > li > a {
-  padding-left: 40px;
+  padding: 5px 15px;
   font-size: 16px;
 }
 .site-mobile-menu .site-nav-wrap > li > ul > li > ul {
@@ -539,9 +551,13 @@ strong {
   .desktop-nav {
     display: none;
   }
+  .site-menu-toggle{
+    display: block;
+  }
 }
-
-/* End NavBarStyls */
+/*---------------------------------------
+  END NAVBAR     
+-----------------------------------------*/
 
 /*---------------------------------------
   SECTION               
@@ -914,6 +930,10 @@ strong {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+.site-mobile-menu .site-nav-wrap .dropdown-item {
+  background: #496573;
+  border-radius: 0.375rem;
+}
 
 .dropdown-menu li:last-child .dropdown-item {
   padding-top: 0;
@@ -950,6 +970,7 @@ strong {
   .dropdown:hover .dropdown-menu {
     display: block;
     margin-top: 0;
+    background: #496573;
   }
 }
 
@@ -1232,11 +1253,13 @@ a {
   }
 
   .dropdown:hover .dropdown-menu {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     position: relative;
     margin-top: 5px;
     margin-bottom: 20px;
-    left: 20px;
+    /* left: 20px; */
   }
 
   .site-header .social-icon {

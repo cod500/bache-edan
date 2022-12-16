@@ -19,7 +19,6 @@ $title = "Newspaper Advertisements";
 include("includes/main_head.php");
 ?>
 <link type="text/css" rel="stylesheet" href="/css/npg.lightbox.min.css" media="all" />
-<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
 <body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-148716 node-type-exhibit panel-region-main full-width-exhibit i18n-en" >
@@ -28,7 +27,7 @@ include("includes/main_head.php");
         $page = "Newspaper Advertisements";
         include("includes/page_header.php");
         ?>
-    <div class="container">
+    <div class="">
     <div class="entity entity-paragraphs-item paragraphs-item-text-block spacing-bottom field-spacing" id="paragraphs-item-12255">
 
 </div>
@@ -106,11 +105,8 @@ physio-gnotrace.</p>
 </div>
 
   <div class="grid-item"><div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12262">
-  <a href="
-  https://i.ibb.co/4Sj99j7/unnamed-1.png
-  " class="lg-figure" data-sub-html=".caption"><img src="
-  https://i.ibb.co/4Sj99j7/unnamed-1.png
-  " alt="circular granite memorial">
+  <a href="/images/clippings/Clippings-3.png"
+  class="lg-figure" data-sub-html=".caption"><img src="/images/clippings/Clippings-3.png" alt="circular granite memorial">
 		<div class="caption">
 			<span class="original_text">
 			
@@ -146,10 +142,10 @@ and correct likenesses in profile—Four for 25 cents</p>
 
   <div class="grid-item"><div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12263">
   <a href="
-  https://i.ibb.co/HT5G6Qt/unnamed-2.png
+  /images/clippings/Clippings-4.png
   " class="lg-figure" data-sub-html=".caption"><img src="
-  https://i.ibb.co/HT5G6Qt/unnamed-2.png
-  " alt="Circular monument dedicated to women">
+  /images/clippings/Clippings-4.png
+  " alt="">
 		<div class="caption">
 			<span class="original_text">
 			
@@ -180,9 +176,9 @@ suitable to themselves. .</p>
 
   <div class="grid-item"><div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12264">
   <a href="
-  https://i.ibb.co/wLNsJxs/unnamed-3.png
+  /images/clippings/Clippings-6.png
   " class="lg-figure" data-sub-html=".caption"><img src="
-  https://i.ibb.co/wLNsJxs/unnamed-3.png
+  /images/clippings/Clippings-6.png
   " alt="young woman working with pins on an architectural model">
 		<div class="caption">
 			<span class="original_text">
@@ -216,9 +212,9 @@ Market-House. Fred’g, May 28, 1804</p>
 
   <div class="grid-item"><div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12265">
   <a href="
-  https://i.ibb.co/Csm2nv6/unnamed-4.png
+  /images/clippings/Clippings-7.png
   " class="lg-figure" data-sub-html=".caption"><img src="
-  https://i.ibb.co/Csm2nv6/unnamed-4.png
+  /images/clippings/Clippings-7.png
   " alt="view of a library on a platform structure in a landscape">
 		<div class="caption">
 			<span class="original_text">
@@ -250,9 +246,9 @@ Cents.</p>
 
   <div class="grid-item"><div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12266">
   <a href="
-  https://i.ibb.co/c1zt7VZ/unnamed-12.png
+  /images/clippings/Clippings-13.png
   " class="lg-figure" data-sub-html=".caption"><img src="
-  https://i.ibb.co/c1zt7VZ/unnamed-12.png
+  /images/clippings/Clippings-13.png
   " alt="green landscape with recessed and projecting squares">
 		<div class="caption">
 			<span class="original_text">
@@ -265,7 +261,7 @@ November 30, 1809
 
 <h3>PROFILES</h3>
 
-<p>he subscribers respectfully inform the
+<p>The subscribers respectfully inform the
 ladies and gentlemen of Hartford, that
 they have taken a room next door to PERKINS
 & SEYMOUR’S store, a few rods south of the
@@ -453,9 +449,9 @@ Deux belles Estampes encadrées</p>
 
   <div class="grid-item"><div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12270">
   <a href="
-  https://i.ibb.co/4pL9JzF/unnamed-7.png
+  /images/clippings/Clippings-13.png
   " class="lg-figure" data-sub-html=".caption"><img src="
-  https://i.ibb.co/4pL9JzF/unnamed-7.png
+  /images/clippings/Clippings-13.png
   " alt="Modular lighted chapel in a rural landscape">
 		<div class="caption">
 			<span class="original_text">
@@ -510,9 +506,9 @@ Cortesía de Timothy Hursley</p>
 
   <div class="grid-item"><div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12271">
   <a href="
-  https://i.ibb.co/zZn6C1K/unnamed-8.png
+  /images/clippings/Clippings-12.png
   " class="lg-figure" data-sub-html=".caption"><img src="
-  https://i.ibb.co/zZn6C1K/unnamed-8.png
+  /images/clippings/Clippings-12.png
   " alt="Green field with a looping ground-structure">
 		<div class="caption">
 			<span class="original_text">
@@ -528,7 +524,7 @@ September 16, 23, 1808
 </p>
 <h3>W. BACHE,</h3>
 
-<p>ETURNS his grateful acknowledge-
+<p>RETURNS his grateful acknowledge-
  ments to the Ladies and Gentlemen of
 Salem for the liberal encouragement he
 has received, & begs leave to inform those
@@ -545,9 +541,53 @@ en-suing week.&nbsp; &nbsp; &nbsp; Sept. 14</p>
 
   <div class="grid-item"><div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12272">
   <a href="
-  https://i.ibb.co/X4YvX6X/unnamed-9.png
+  /images/clippings/Clippings-13.png
   " class="lg-figure" data-sub-html=".caption"><img src="
-  https://i.ibb.co/X4YvX6X/unnamed-9.png
+  /images/clippings/Clippings-13.png
+  " alt="photo of a sand-like substance filling an interior">
+		<div class="caption">
+			<span class="original_text">
+			
+  <p> </p>
+
+<p><i>Connecticut Herald</i> (New Haven, CT) <br>
+October 17; November 7, 1809
+</p>
+
+<p><i>Connecticut Journal </i>  (New Haven, CT) <br>
+October 19, 1809
+</p>
+
+<h3>Profile Cutting, Painting and <br>
+Shading.
+</h3>
+<p>HE subscribers respectively inform the la-
+ dies and gentlemen of New Haven, that
+they have taken a room for a short time at Mr.
+JARMAN’s, South East corner of the Green,
+for the purpose of doing business in the above
+line. From their long experience, and great
+success, the subscribers feel confident of rendering general satisfaction to those who may favor
+them with their patronage. <br>
+&nbsp;&nbsp;&nbsp;W. BACHE <br>
+&nbsp;&nbsp;&nbsp;T. NIXON <br>
+N.B. Specimens of their performance may be <br>
+seen at the Profile Room. <br>
+<i> October 17.</i>
+</p>
+
+  			</span>
+						
+					</div>
+  </a>
+</div>
+</div>
+
+<div class="grid-item"><div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12272">
+  <a href="
+  /images/clippings/Clippings-17.png
+  " class="lg-figure" data-sub-html=".caption"><img src="
+  /images/clippings/Clippings-17.png
   " alt="photo of a sand-like substance filling an interior">
 		<div class="caption">
 			<span class="original_text">
@@ -722,9 +762,16 @@ those who may favor them with their patronage. <br>
 
     <?php include("includes/page_footer.php");?>
   <!-- JAVASCRIPT FILES -->
-  <script src="js/bootstrap.min.js"></script>
-    <!-- <script src="/js/jquery-2.2.4.js"></script> -->
-    <script type="text/javascript" src="/js/jquery.migrate.js"></script>
-    <script type="text/javascript" src="/js/npg.masonary.js"></script>
+  <script src="/js/jquery.3.4.1.js"></script>
+  <script type="text/javascript" src="/js/main.js"></script>
+  <script src="/js/jquery.sticky.js"></script>
+  <script type="text/javascript" src="/js/jquery.migrate.js"></script>
+  <script type="text/javascript" src="/js/npg.masonary.js"></script> 
+  <script>
+    jQuery('.grid-item').click(function(){
+      jQuery('.site-navbar').css('z-index', -1);
+    })
+  </script>
+   
 </body>
 </html>

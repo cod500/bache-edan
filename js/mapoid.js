@@ -445,7 +445,7 @@
 
 			})
 
-			self.map.on('click touchstart', 'area', function (e) {
+			self.map.on('click', 'area', function (e) {
 				//console.log(tid)
 				e.preventDefault()
 

@@ -340,17 +340,18 @@
 tippy('.article-figure, #expand-timeline', { arrow: true });
 
 //Hide timeline behind modal
-// $('#expand-timeline').click(function(){
-//   $('#timeline-modal').click();
-//   $('.time-line').css('z-index', '-1');
-// })
+$('.article-figure, .article-link').click(function(){
+  $('.regions-container, .dates li, .timeline-group').animate({ 'opacity': .2 })
+  $('.dates li').animate({ 'opacity': .2 })
+})
 
-// //Bring back timeline when modal is closed
-// $('#exampleModal, #timelineeModal').on('hide.bs.modal', function(){
-//       setTimeout(() => {
-//     $('.time-line').css('z-index', '1');
-//   }, 300);
-// });
+//Bring back timeline when modal is closed
+$('#exampleModal, #timelineModal').on('hide.bs.modal', function(){
+      setTimeout(() => {
+    $('.regions-container').animate({ 'opacity': 1 })
+    $('.regions-container, .dates li, .timeline-group').animate({ 'opacity': 1 })
+  }, 300);
+});
 
 $('.article-figure, .article-link').click(function(){
     var data = {
@@ -361,8 +362,22 @@ $('.article-figure, .article-link').click(function(){
 				url: "/data/index.php",
 				data: data
 			}).done(function (msg) {
+        console.log(jsonData);
 				var jsonData = JSON.parse(msg);
-					console.log(jsonData);
+        if(jsonData.content == undefined){
+          $('#silhouette-name').text("");
+						$('#artist-name').text("");
+						$('#sitter').text("");
+						$('#medium').text("");
+						$('#dimensions').text("");
+						$('#book-closed').text("");
+						$('#book-open').text("");
+						$('#silhouette-date').text("");
+						$('#credit-line').text("");
+						$('#obj-number').text("");
+            $("#result").attr("src", "");
+            $('#bache-modal').click();
+        }else{
 					let image = jsonData.content.descriptiveNonRepeating.online_media.media[0].guid;
 					$('#silhouette-name').text(jsonData.title);
 					$('#artist-name').text(jsonData.content.freetext.name[0].content);
@@ -381,7 +396,8 @@ $('.article-figure, .article-link').click(function(){
 					$('#obj-number').text(jsonData.content.freetext.identifier[0].content);
 					$("#result").attr("src", image);
 						$('#bache-modal').click();
-            $('.time-line').css('z-index', '-1');
+        }
+				
 
 				})
 

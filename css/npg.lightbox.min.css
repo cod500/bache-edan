@@ -300,12 +300,13 @@ figcaption p:last-child,
 
 .masonry-grid.masonry-gallery {
   overflow: hidden;
-  margin: 24px 0;
-  margin: 2.4rem 0;
-  margin-left:15% !important;
+  /* margin: 24px 0;
+  margin: 2.4rem 0; */
+  /* margin-left:5% !important; */
   padding: 24px 0;
   padding: 2.4rem 0;
   border-color: #abb4bb;
+  margin: 0 auto;
 }
 @media (max-width: 768px) {
   .masonry-grid.masonry-gallery {

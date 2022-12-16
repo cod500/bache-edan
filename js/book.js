@@ -210,6 +210,9 @@ $(document).ready(function () {
 			}
 		},
 		"click": function (j, e) {
+			// if (window.silhouettes === undefined) {
+			// 	window.silhouettes = {};
+			// }
 			console.log(window.silhouettes);
 			let coords = e.attr('data-coords').split(',') //Find coordinates of area and pass to be cropped
 			let url = e.attr('data-tooltip');
@@ -271,6 +274,7 @@ $(document).ready(function () {
 						$("#result").attr("src", image);
 						setTimeout(function () {
 							$('#bache-modal').click();
+							$('.bb-custom-wrapper').animate({ 'opacity': .2 })
 						}, 300)
 					}
 
@@ -280,6 +284,12 @@ $(document).ready(function () {
 
 		}
 	}
+
+	$('#exampleModal').on('hide.bs.modal', function(){
+		setTimeout(() => {
+	  $('.bb-custom-wrapper').animate({ 'opacity': 1 })
+	}, 0);
+  });
 
 	//initialize mapping
 	$("map").mapoid(obj);

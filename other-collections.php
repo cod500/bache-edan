@@ -7,7 +7,7 @@ include("includes/main_head.php");
 ?>
  
 </head>
-<body>
+<body style="min-width: 720px;">
 <?php include("includes/nav.php");?>
 <?php 
         $page = "Silhouettes in Other Collections";
@@ -25,7 +25,7 @@ include("includes/main_head.php");
     ?>
 
 <section class="section-padding section-bg pt-5 biography-section">
-<div class="container table-container">
+<div class="table-container">
     <nav>
     <div class="nav nav-tabs table-tabs mb-3" id="nav-tab" role="tablist">
         <a class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Collections One</a>
