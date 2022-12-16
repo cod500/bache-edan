@@ -42,7 +42,7 @@
     <div class="site-mobile-menu site-navbar-target">
         <div class="site-mobile-menu-header">
             <div class="site-mobile-menu-close mt-3">
-                <span class="icon-close2 js-menu-toggle">Toggle@</span>
+                <span class="icon-close2 js-menu-toggle"><i class="bi-x-lg"></i></span>
             </div>
         </div>
         <div class="site-mobile-menu-body"></div>
@@ -89,7 +89,7 @@
                </div>
              <span class="d-inline-block d-lg-block"><a href="#"
                             class="text-black site-menu-toggle js-menu-toggle"><span
-                                class="icon-menu h3 text-black"></span>Toggle</a>
+                                class="icon-menu h3 text-black"></span><i class="bi-list"></i></a>
                     </span>
                     
                     <nav class="site-navigation text-right ml-auto d-none d-lg-none" role="navigation">
@@ -100,11 +100,11 @@
                         <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
                             <li><a class="dropdown-item" href="newspaper-advertisements.php">Newspaper Advertisements</a></li>
                         </ul>
-                    </li>
+                        </li>
                             <li><a href="about.html" class="nav-link">About</a></li>
                             <li><a href="services.html" class="nav-link">Services</a></li>
                             <li><a href="blog.html" class="nav-link">Blog</a></li>
-                            <li><a href="contact.html" class="nav-link">Contact</a></li>
+                            <li></li>
                         </ul>
                     </nav>
                 </div>

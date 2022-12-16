@@ -132,14 +132,14 @@ strong {
   position: relative;
   top: 0;
   width: 100%;
-  padding: 1rem;
+  padding: 0.4rem;
   background: var(--npg-bg-color);
   /* position: absolute; */
 }
 @media (max-width: 991.98px) {
   .site-navbar {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 }
 .site-navbar .toggle-button {
@@ -316,6 +316,7 @@ strong {
   position: absolute;
   top: 0;
   right: 0;
+  font-size: 38px;
 }
 
 .site-mobile-menu {
@@ -323,7 +324,6 @@ strong {
   position: fixed;
   right: 0;
   z-index: 2000;
-  padding-top: 20px;
   background: #fff;
   height: calc(100vh);
   -webkit-transform: translateX(110%);
@@ -535,6 +535,9 @@ strong {
   .sticky-wrapper .shrink {
     padding-top: 30px !important;
     padding-bottom: 30px !important;
+  }
+  .desktop-nav {
+    display: none;
   }
 }
 
