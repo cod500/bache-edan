@@ -111,7 +111,8 @@
     trace the human face with ‘mathematical correctness’ without touching it.”
 </p>
 <br>
-<h3 class="timeline-title"> William Bache’s Timeline</h3>
+<h3 class="timeline-title text-black"> William Bache’s Timeline</h3>
+<hr id="timeline-title-hr">
 <!-- MOBILE TIMELINE-->
 <div class="container vertical-container">
   <div id="vertical-timeline">

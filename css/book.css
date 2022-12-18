@@ -237,8 +237,7 @@ BOOK CONTROLS
 -----------------------------------------*/
 .controls {
   text-align: center;
-  font: 30px arial;
-  font-family: "Lato", sans-serif;
+  font: 30px;
 }
 .zoom-controls {
   display: flex;
@@ -259,6 +258,7 @@ BOOK CONTROLS
   border-color: #dedfe0;
   font-size: 0.8rem;
   border-radius: 4px;
+  margin: 0 5px;
   -webkit-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
   -moz-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
   -ms-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
@@ -266,16 +266,21 @@ BOOK CONTROLS
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
 }
 
-.controls input,
-.controls label,
-#number-pages {
-  font: 20px arial;
-  font-family: "Lato", sans-serif;
+#book-pagination {
+  font-size: 20px;
+  display: inline;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.nav-btn {
+  background: #22799e;
+  padding: 0px 40px;
+  height: 44px;
+  margin: 0 10px;
 }
 
-.nav-btn {
-  background: #006992;
-  padding: 0 25px;
+.nav-btn i {
+  font-size: 18px;
 }
 @media (max-width: 1000px) {
   .nav-btn {

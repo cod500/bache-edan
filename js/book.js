@@ -257,7 +257,7 @@ $(document).ready(function () {
 						$('#obj-number').text("");
 						setTimeout(function () {
 							$('#bache-modal').click();
-							$('.bb-custom-wrapper').animate({ 'opacity': .2 })
+							$('.bb-custom-wrapper, .book-link').animate({ 'opacity': .2 })
 						}, 0)
 					} else {
 						console.log(jsonData);
@@ -275,7 +275,7 @@ $(document).ready(function () {
 						$("#result").attr("src", image);
 						setTimeout(function () {
 							$('#bache-modal').click();
-							$('.bb-custom-wrapper').animate({ 'opacity': .2 })
+							$('.bb-custom-wrapper, .book-link').animate({ 'opacity': .2 })
 						}, 0)
 					}
 
@@ -288,7 +288,7 @@ $(document).ready(function () {
 
 	$('#exampleModal').on('hide.bs.modal', function () {
 		setTimeout(() => {
-			$('.bb-custom-wrapper').animate({ 'opacity': 1 })
+			$('.bb-custom-wrapper, .book-link').animate({ 'opacity': 1 })
 		}, 0);
 	});
 

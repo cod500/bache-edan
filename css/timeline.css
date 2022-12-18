@@ -243,7 +243,8 @@ section {
 }
 @media (max-width: 819px) {
   #timeline,
-  .dates.bottom-date {
+  .dates.bottom-date,
+  #timeline-title-hr {
     display: none;
   }
   .section-padding {

@@ -127,10 +127,10 @@
             <div class="zoom-controls mt-3 mb-3">
                 <div>
                 <button id="zoom-in-even"
-                  class="px-4 py-2 my-2 md:my-6 py-2 px-8"  aria-label="Zoom In Left Page"><i class="bi-plus-circle-fill" aria-hidden="false"></i>ZOOM
+                  class="px-4 py-2 my-2 md:my-6 py-2 px-8"  aria-label="Zoom In Left Page"><i class="bi-zoom-in" aria-hidden="false"></i>ZOOM
                   IN </button>
                 <button id="zoom-out-even"
-                  class="px-4 py-2 my-2 md:my-6 py-2 px-8"  aria-label="Zoom Out Left Page"><i class="bi-dash-circle-fill" aria-hidden="false"></i>ZOOM
+                  class="px-4 py-2 my-2 md:my-6 py-2 px-8"  aria-label="Zoom Out Left Page"><i class="bi-zoom-out" aria-hidden="false"></i>ZOOM
                   OUT</button>
                 <!-- <input type="range" class="zoom-range"> -->
                 <button
@@ -140,10 +140,10 @@
 
               <div>
                 <button id="zoom-in-odd"
-                  class="px-4 py-2 my-2 md:my-6 py-2 px-8" aria-label="Zoom In Right Page"><i class="bi-plus-circle-fill" aria-hidden="false"></i>ZOOM
+                  class="px-4 py-2 my-2 md:my-6 py-2 px-8" aria-label="Zoom In Right Page"><i class="bi-zoom-in" aria-hidden="false"></i>ZOOM
                   IN </button>
                 <button id="zoom-out-odd"
-                  class="px-4 py-2 my-2 md:my-6 py-2 px-8"  aria-label="Zoom Out Right Page"><i class="bi-dash-circle-fill" aria-hidden="false"></i>ZOOM
+                  class="px-4 py-2 my-2 md:my-6 py-2 px-8"  aria-label="Zoom Out Right Page"><i class="bi-zoom-out" aria-hidden="false"></i>ZOOM
                   OUT</button>
                 <!-- <input type="range" id="zoom-range" min="0.1" max="4" step="0.1" value="1"> -->
                 <button
@@ -152,12 +152,14 @@
               </div>
             </div>
               <nav>
-                <button id="bb-nav-first" aria-label="First Page" class="text-white border-0 py-1 px-6 focus:outline-none rounded-pill nav-btn"><i class="fa-sharp fa-solid fa-backward text-white"></i></button>
+                <button id="bb-nav-first" aria-label="First Page" class="text-white border-0 py-1 px-6 focus:outline-none rounded-pill nav-btn"><i class="bi-skip-backward-fill text-white"></i></button>
                 <button id="bb-nav-prev" aria-label="Previous Page" class="text-white border-0 py-1 px-6 focus:outline-none rounded-pill nav-btn"><i class="fa-solid fa-caret-left text-white"></i></i></button>
-                <label for="page-number" style="font: 20px arial;">Page:</label> <input type="text" size="2" id="page-number" min="1" max="76" style="font: 20px arial;"> <span
-              style="font: 20px arial;">of  </span> <span id="number-pages"></span>
+                <div id="book-pagination">
+                <label for="page-number" >Page:</label> <input type="text" size="2" id="page-number" min="1" max="76"> <span
+             >of  </span> <span id="number-pages"></span>
+                </div>
                 <button id="bb-nav-next" aria-label="Next Page" class="text-white border-0 py-1 px-6 focus:outline-none rounded-pill nav-btn"><i class="fa-solid fa-caret-right text-white"></i></button>
-                <button id="bb-nav-last" aria-label="Last Page" class="text-white border-0 py-1 px-6 focus:outline-none rounded-pill nav-btn"><i class="fa-solid fa-forward text-white"></i></button>
+                <button id="bb-nav-last" aria-label="Last Page" class="text-white border-0 py-1 px-6 focus:outline-none rounded-pill nav-btn"><i class="bi-skip-forward-fill text-white"></i></button>
               </nav>
           </div>
           </div>
