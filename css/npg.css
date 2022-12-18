@@ -31,6 +31,11 @@ summary {
   src: url("/fonts/semplicitapro/SemplicitaPro-Light.otf") format("opentype");
   font-weight: 300;
 }
+@font-face {
+  font-family: SemplicitaPro;
+  src: url("/fonts/semplicitapro/SemplicitaPro-Medium.otf") format("opentype");
+  font-weight: 500;
+}
 
 @font-face {
   font-family: Proxima Nova;
@@ -46,7 +51,7 @@ summary {
 
 @font-face {
   font-family: Proxima Nova;
-  src: url("/fonts/semplicitapro/SemplicitaPro-Medium.otf") format("opentype");
+  src: url("/fonts/ProximaNova/hinted-ProximaNova-Medium.ttf") format("opentype");
   font-weight: 500;
 }
 
@@ -498,9 +503,24 @@ footer,
   top: 15px;
   left: -2.5rem;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
   #block-panels-mini-footer .newsletter h2:before {
-    left: 0.5rem;
+    left: 15.5rem;
+  }
+}
+@media (max-width: 992px) {
+  #block-panels-mini-footer .newsletter h2:before {
+    left: 8.5rem;
+  }
+}
+@media (max-width: 768px) {
+  #block-panels-mini-footer .newsletter h2:before {
+    left: 1.5rem;
+  }
+}
+@media (max-width: 450px) {
+  #block-panels-mini-footer .newsletter h2:before {
+    top: -20px;
   }
 }
 #block-panels-mini-footer .newsletter h2:hover:before {

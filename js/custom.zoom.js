@@ -4,8 +4,8 @@
 
 // Store initial image size
 function setImageSize() {
-  var imageSize = Math.floor($('.zoom-main img:first-child').height());
-  if (imageSize <= 0) {
+  var imageSize = Math.floor($('.zoom-main img').height());
+  if (imageSize <= 100) {
     requestAnimationFrame(setImageSize);
   }
   else {
@@ -50,6 +50,11 @@ $('.zoom-main img').on('click', function (e) {
     $(this).off('mousemove').prop('style', '');
   }
 });
+
+$('#bache-modal').on('click', function (e) {
+  setImageSize();
+});
+
 
 
 

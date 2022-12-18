@@ -378,7 +378,7 @@ $('.article-figure, .article-link').click(function(){
             $("#result").attr("src", "");
             $('#bache-modal').click();
         }else{
-					let image = jsonData.content.descriptiveNonRepeating.online_media.media[0].guid;
+          let image = jsonData.content.descriptiveNonRepeating.online_media.media[0].guid;
 					$('#silhouette-name').text(jsonData.title);
 					$('#artist-name').text(jsonData.content.freetext.name[0].content);
 					$('#sitter').text(jsonData.content.freetext.name[1].content);

@@ -256,6 +256,7 @@ BOOK CONTROLS
 #reset-even,
 #reset-odd {
   background-color: #dddddd;
+  border-color: #dedfe0;
   font-size: 0.8rem;
   border-radius: 4px;
   -webkit-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);

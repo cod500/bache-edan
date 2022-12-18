@@ -18,7 +18,7 @@
                 <div class="container">
                     <div class="row">
 
-                        <div class="col-lg-4 col-12 mb-5 mb-lg-0 text-center">
+                        <div class="col-lg-4 col-12 mb-lg-0 text-center">
                             <img src="https://ids.si.edu/ids/deliveryService?id=ark:/65665/tr208d714b74e8b40fca83c74449119978f"
                                 class="custom-text-box-image img-fluid" alt="">
                         </div>

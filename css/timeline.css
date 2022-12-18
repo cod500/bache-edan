@@ -12,6 +12,7 @@ section {
   margin-bottom: 20px;
 }
 .timeline-title {
+  font-weight: 500;
   text-align: center;
   color: #496573;
   margin-bottom: 15px;
@@ -295,6 +296,7 @@ section {
   margin-top: 30px;
   background: #eeeeee;
   text-align: center;
+  border: 1px solid #e4e4e4;
   border-radius: 12px;
 }
 .regions {

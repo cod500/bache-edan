@@ -17,6 +17,7 @@ include("includes/main_head.php");
 <div class="calibre container" id="calibre_link-0">
 	<p class="block_">Select Bibliography</p>
 	<p class="block_1">&nbsp;</p>
+	<b class="">Download the PDF version of the bibliography <a href="/assets/Select Bibliography.pdf" target="_blank">here.</a></b>
 	<p class="block_2">&nbsp;</p>
 	<p class="block_3">Benes, Peter. <i class="calibre1">For a Short Time Only: Itinerants and the Resurgence of Popular Culture in Early America (</i>Amherst: University of Massachusetts Press, 2016).</p>
 	<p class="block_2">&nbsp;</p>

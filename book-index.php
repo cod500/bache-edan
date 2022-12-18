@@ -159,7 +159,7 @@ $(document).ready(function () {
 					$("#result").attr("src", image);
 						setTimeout(() => {
                             $('#bache-modal').click();
-                        }, 100);
+                        }, 0);
 
 				})
 

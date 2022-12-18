@@ -1,8 +1,12 @@
 /*---------------------------------------
   CUSTOM PROPERTIES ( VARIABLES )             
 -----------------------------------------*/
+* {
+  font-size: 99%;
+}
 body {
   min-height: calc(100vh - 500px);
+  font-size: 98%;
 }
 :root {
   --white-color: #ffffff;
@@ -103,6 +107,10 @@ p {
   color: var(--white-color) !important;
   font-size: var(--btn-font-size);
   font-weight: var(--font-weight-bold);
+}
+
+#pdf-link {
+  font-size: 20px;
 }
 
 a,
@@ -323,10 +331,10 @@ strong {
   padding-right: 10px;
 }
 
-.site-menu-toggle i, .site-mobile-menu-close i{
+.site-menu-toggle i,
+.site-mobile-menu-close i {
   color: var(--dark-color);
 }
-
 
 .site-mobile-menu {
   width: 300px;
@@ -389,7 +397,7 @@ strong {
   text-decoration: none;
 }
 .site-mobile-menu .site-mobile-menu-body {
-  overflow-y: scroll;
+  overflow-y: auto;
   -webkit-overflow-scrolling: touch;
   position: relative;
   padding: 0 20px 20px 20px;
@@ -409,7 +417,7 @@ strong {
   color: var(--white-color);
 }
 .site-mobile-menu .site-nav-wrap a:hover {
- text-decoration: underline;
+  text-decoration: underline;
 }
 .site-mobile-menu .site-nav-wrap li {
   position: relative;
@@ -551,7 +559,7 @@ strong {
   .desktop-nav {
     display: none;
   }
-  .site-menu-toggle{
+  .site-menu-toggle {
     display: block;
   }
 }
@@ -791,10 +799,28 @@ strong {
   -moz-box-shadow: 4px 7px 11px -2px rgba(0, 0, 0, 0.41);
 }
 
+@media (max-width: 1244px) {
+  .custom-text-box-image {
+    width: 90%;
+    height: 90%;
+  }
+  .section-padding {
+    padding: 0;
+  }
+  .custom-text-box p {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 1020px) {
+  .custom-text-box p {
+    font-size: 1.3rem;
+  }
+}
+
 @media screen and (max-width: 992px) {
   .custom-text-box-image {
-    width: 60%;
-    height: 100%;
+    width: 50%;
+    /* height: 90%; */
   }
 }
 
@@ -887,6 +913,7 @@ strong {
   margin-right: 0;
   margin-left: 0;
   padding: 20px;
+  font-size: 80%;
 }
 
 .navbar-nav {
@@ -1057,7 +1084,7 @@ strong {
   color: var(--white-color);
   font-size: var(--h3-font-size) !important;
   letter-spacing: 5px;
-  font-weight: bold;
+  font-weight: 500;
   line-height: normal !important;
 }
 

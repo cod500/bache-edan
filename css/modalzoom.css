@@ -12,6 +12,7 @@
 
 .modal-body h2 {
   font-size: 28px;
+  font-weight: 500;
 }
 
 .modal-body p {
@@ -37,9 +38,9 @@
 .zoom-main {
   overflow: hidden;
   position: relative;
-  max-width: 500px;
+  max-width: 280px !important;
   /* max-height: 344px; */
-  max-height: 300px;
+  max-height: 400px;
   margin-top: 30px !important;
   -webkit-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
   -moz-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);

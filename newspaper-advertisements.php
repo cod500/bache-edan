@@ -27,7 +27,15 @@ include("includes/main_head.php");
         $page = "Newspaper Advertisements";
         include("includes/page_header.php");
         ?>
-    <div class="">
+        
+  <div class="entity entity-paragraphs-item paragraphs-item-text-block spacing-bottom field-spacing" id="paragraphs-item-12255">
+    <div class="content">
+      
+      </div>
+</div>
+
+  <div class="section-padding">
+  <hr>
     <div class="entity entity-paragraphs-item paragraphs-item-text-block spacing-bottom field-spacing" id="paragraphs-item-12255">
 
 </div>

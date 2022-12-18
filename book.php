@@ -112,10 +112,10 @@
                     }
                   ?>
                   <div class="bb-item">
-                  <div class="bb-custom-side">
+                  <div class="bb-custom-side bb-left">
                   <?php include_once "./pages/$page.php";?>
                   </div>
-                  <div class="bb-custom-side">
+                  <div class="bb-custom-side bb-right">
                   <?php include_once "./pages/$next.php";?>
                   <?php $page = $page + 2;?>
                   </div>

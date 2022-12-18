@@ -310,9 +310,8 @@ figcaption p:last-child,
 }
 @media (max-width: 768px) {
   .masonry-grid.masonry-gallery {
-    margin-left:22% !important;
+    margin-left: 22% !important;
   }
-
 }
 
 .masonry-grid.masonry-gallery .grid-item {
@@ -1063,6 +1062,7 @@ aside .teaser-long .entity-paragraphs-item.pane-menu-tree > a,
     float: right;
     width: 50%;
     visibility: visible;
+    padding: 0 80px 0 0;
   }
   .node-type-exhibit .lg-outer.lg-slide .lg .lg-sub-html .lg-toolbar {
     background: none;

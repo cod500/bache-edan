@@ -188,7 +188,8 @@
   margin-bottom: 200px;
   position: relative;
   margin: 0 auto 200px;
-  box-shadow: 0 12px 20px -10px rgba(81, 64, 49, 0.6);
+  /* box-shadow: 0 12px 20px -10px rgba(81, 64, 49, 0.6); */
+  box-shadow: 4px 7px 11px -2px rgba(0, 0, 0, 0.41);
   z-index: 0;
 }
 /* img {
@@ -234,6 +235,13 @@
   -moz-box-align: center;
   -webkit-align-items: center;
   align-items: center;
+}
+
+.bb-left {
+  border-radius: 4px 0px 0px 4px;
+}
+.bb-right {
+  border-radius: 0px 4px 4px 0px;
 }
 
 .bb-custom-firstpage h1 {

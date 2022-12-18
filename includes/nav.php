@@ -70,14 +70,15 @@
                     <a class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="javascript:void(0)">Other Recources</a>
 
                         <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
-                            <li><a class="dropdown-item" href="/assets/Which Cracked Firsts.pdf" target="_blank">Conservation History <i class="fa-regular fa-file-pdf fa-lg"></i></a></li>
+                            <li><a class="dropdown-item" href="/assets/Which Cracked Firsts.pdf" target="_blank">Conservation History <i id="pdf-link" class="bi-file-earmark-pdf-fill text-white"></i></a></li>
                             <li><a class="dropdown-item" href="/other-collections.php"> Silhouettes In Other Collections</a></li>
                             <li><a class="dropdown-item" href="/bibliography.php">Bibliography</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="/book.php">Ledger Book</a>
+                        <a class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="javascript:void(0)">Ledger Book</a>
                         <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
+                        <li><a class="dropdown-item" href="/book.php">Ledger Book</a></li>
                             <li><a class="dropdown-item" href="/book-index.php">Digitized Book</a></li>
                             <li><a class="dropdown-item" href="/book-index.php">Book Index</a></li>
                         </ul>

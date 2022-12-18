@@ -257,7 +257,8 @@ $(document).ready(function () {
 						$('#obj-number').text("");
 						setTimeout(function () {
 							$('#bache-modal').click();
-						}, 300)
+							$('.bb-custom-wrapper').animate({ 'opacity': .2 })
+						}, 0)
 					} else {
 						console.log(jsonData);
 						let image = jsonData.content.descriptiveNonRepeating.online_media.media[0].guid;
@@ -275,7 +276,7 @@ $(document).ready(function () {
 						setTimeout(function () {
 							$('#bache-modal').click();
 							$('.bb-custom-wrapper').animate({ 'opacity': .2 })
-						}, 300)
+						}, 0)
 					}
 
 				});
@@ -285,11 +286,11 @@ $(document).ready(function () {
 		}
 	}
 
-	$('#exampleModal').on('hide.bs.modal', function(){
+	$('#exampleModal').on('hide.bs.modal', function () {
 		setTimeout(() => {
-	  $('.bb-custom-wrapper').animate({ 'opacity': 1 })
-	}, 0);
-  });
+			$('.bb-custom-wrapper').animate({ 'opacity': 1 })
+		}, 0);
+	});
 
 	//initialize mapping
 	$("map").mapoid(obj);
