@@ -79,7 +79,7 @@
                         <a class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="javascript:void(0)">Ledger Book</a>
                         <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
                         <li><a class="dropdown-item" href="/book.php">Ledger Book</a></li>
-                            <li><a class="dropdown-item" href="/book-index.php">Digitized Book</a></li>
+                            <!-- <li><a class="dropdown-item" href="/book-index.php">Digitized Book</a></li> -->
                             <li><a class="dropdown-item" href="/book-index.php">Book Index</a></li>
                         </ul>
                     </li>
@@ -113,7 +113,7 @@
                         <a class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="javascript:void(0)">Ledger Book</a>
                         <ul class="dropdown-menu dropdown-menu-light mobile-menu" aria-labelledby="navbarLightDropdownMenuLink">
                         <li><a class="dropdown-item" href="/book.php">Ledger Book</a></li>
-                            <li><a class="dropdown-item" href="/book-index.php">Digitized Book</a></li>
+                            <!-- <li><a class="dropdown-item" href="/book-index.php">Digitized Book</a></li> -->
                             <li><a class="dropdown-item" href="/book-index.php">Book Index</a></li>
                         </ul>
                     </li>
