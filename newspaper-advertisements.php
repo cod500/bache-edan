@@ -35,7 +35,7 @@ include("includes/main_head.php");
 </div>
 
   <div class="section-padding">
-  <hr>
+  <!-- <hr> -->
     <div class="entity entity-paragraphs-item paragraphs-item-text-block spacing-bottom field-spacing" id="paragraphs-item-12255">
 
 </div>
@@ -147,12 +147,47 @@ and correct likenesses in profile—Four for 25 cents</p>
   </a>
 </div>
 </div>
-
-  <div class="grid-item"><div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12263">
+<!-- Cliippings 4 -->
+<div class="grid-item"><div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12263">
   <a href="
   /images/clippings/Clippings-4.png
   " class="lg-figure" data-sub-html=".caption"><img src="
   /images/clippings/Clippings-4.png
+  " alt="">
+		<div class="caption">
+			<span class="original_text">
+			
+  <p> </p>
+
+<p><em>The Virginia Argus </em> (Richmond, VA)</p>
+
+<p>March 14, 1804</p>
+
+<p><em>The last week the Physiognotrace will re</em><br>main in Richmond.</p>
+
+<h3>W. B A C H E</h3>
+
+<p>RETURNS his grateful acknowledgments to the
+ public, for the encouragement he has receiv- ed
+in this place, and has the pleasure to inform them
+that he has just received a handsome assort-ment
+of GILT and BLACK FRAMES—with which they
+may be supplied during the remainder of this week,
+either with or without profiles, as may be most
+suitable to themselves. .</p>
+
+  			</span>
+					</div>
+  </a>
+</div>
+</div>
+<!-- Clippings 4 -->
+
+  <div class="grid-item"><div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12263">
+  <a href="
+  /images/clippings/Clippings-5.png
+  " class="lg-figure" data-sub-html=".caption"><img src="
+  /images/clippings/Clippings-5.png
   " alt="">
 		<div class="caption">
 			<span class="original_text">
@@ -252,7 +287,7 @@ Cents.</p>
 </div>
 </div>
 
-  <div class="grid-item"><div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12266">
+  <!-- <div class="grid-item"><div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12266">
   <a href="
   /images/clippings/Clippings-13.png
   " class="lg-figure" data-sub-html=".caption"><img src="
@@ -295,9 +330,9 @@ An elegant variety of Profile Frames. <br>
 					</div>
   </a>
 </div>
-</div>
+</div> -->
 
-  <div class="grid-item"><div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12267">
+  <!-- <div class="grid-item"><div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12267">
   <a href="
   https://i.ibb.co/NpnWXTR/unnamed-5.png
   " class="lg-figure" data-sub-html=".caption"><img src="
@@ -340,9 +375,9 @@ Cortesía de Brett Schreckengost</p>
 					</div>
   </a>
 </div>
-</div>
+</div> -->
 
-  <div class="grid-item"><div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12268">
+  <!-- <div class="grid-item"><div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12268">
   <a href="
   https://i.ibb.co/51cmdDV/unnamed-1.jpg
   " class="lg-figure" data-sub-html=".caption"><img src="
@@ -404,9 +439,9 @@ Cortesía de Maya Lin Studio</p>
 					</div>
   </a>
 </div>
-</div>
+</div> -->
 
-  <div class="grid-item"><div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12269">
+  <!-- <div class="grid-item"><div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12269">
   <a href="
   https://i.ibb.co/Csxm1Wn/unnamed-6.png
   " class="lg-figure" data-sub-html=".caption"><img src="
@@ -453,189 +488,747 @@ Deux belles Estampes encadrées</p>
 					</div>
   </a>
 </div>
+</div> -->
+
+  <!-- Cliipping 13 -->
+  <!-- <div class="grid-item"><div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12270">
+      <a href="
+      /images/clippings/Clippings-7.png
+      " class="lg-figure" data-sub-html=".caption"><img src="
+      /images/clippings/Clippings-7.png
+      " alt="">
+        <div class="caption">
+          <span class="original_text">
+          
+      <p> </p>
+
+    <p><i>The Democrat</i>(Boston, MA)</p>
+    <p>July 16, 23, 1808</p>
+    <h3><i>Bache’s Patent Physiognotrace, </i></h3>
+    <p>No. 4, DORSET’S LANE—</p>
+    <p><i>Opposite the COURT HOUSE,</i></p>
+
+    <h3>Profile Likenesses,</h3>
+    <p>Correctly Drawn and elegantly finished by </p>
+
+    <p>BACHE respectfully solicits the public encouragement, which, from the
+    superiority of his Physiognotrace and long
+    practice in the Art of Drawing Profiles, he flat-ters
+    himself he will be found to merit. <br>
+    Those who may wish to avail themselves of
+    this opportunity of obtaining striking Like-nesses,
+    but to whom it may be inconvenient to attend at
+    the Profile Room, are informed that he will at the
+    shortest notice, wait upon them at their own
+    Dwellings without any additional expence. <br>
+    W. Bache not intending to stay in Boston more
+    than one month, hopes the Public will loose no
+    time in honouring him with their commands. <br>
+    Four Likenesses for 25 Cents. –An ele-egant
+    variety of Frames, at various Prices.
+    July 16.</p>
+
+            </span>
+                
+            <span class="translation_text" style="display: none; visibility: hidden;">
+              
+      <p> </p>
+
+    <h3><em>Capilla Interconfesional Riggio-Lynch</em>, Haley Farm, Clinton, Tennessee</h3>
+
+    <p> </p>
+
+    <p>Timothy Hursley (n. 1955)<br />
+    Reproducción de fotografía de 2004<br />
+    Cortesía de Timothy Hursley</p>
+
+              </span>
+              </div>
+      </a>
+    </div>
+</div> -->
+<!-- Cliipping 13 -->
+
+<!-- Cliipping 12 -->
+<div class="grid-item">
+  <div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12271">
+    <a href="
+    /images/clippings/Clippings-12.png
+    " class="lg-figure" data-sub-html=".caption"><img src="
+    /images/clippings/Clippings-12.png
+    " alt="">
+      <div class="caption">
+        <span class="original_text">
+        
+    <p> </p>
+
+  <p><i>Essex Register</i>(Salem, MA) <br>
+  September 14, 21, 23, 24, 27, 1808 <br>
+  </p>
+
+  <p><i>Salem Gazette</i> (Salem, MA) <br>
+  September 16, 23, 1808
+  </p>
+  <h3>W. BACHE,</h3>
+
+  <p>RETURNS his grateful acknowledge-
+  ments to the Ladies and Gentlemen of
+  Salem for the liberal encouragement he
+  has received, & begs leave to inform those
+  who yet intend having PROFILES drawn,
+  that he proposes leaving this place the
+  en-suing week.&nbsp; &nbsp; &nbsp; Sept. 14</p>
+
+          </span>
+              
+            </div>
+    </a>
+  </div>
 </div>
+  <!-- Cliipping 13 -->
+<div class="grid-item">
+    <div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12272">
+      <a href="
+      /images/clippings/Clippings-13.png
+      " class="lg-figure" data-sub-html=".caption"><img src="
+      /images/clippings/Clippings-13.png
+      " alt="">
+        <div class="caption">
+          <span class="original_text">
+          
+      <p> </p>
 
-  <div class="grid-item"><div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12270">
-  <a href="
-  /images/clippings/Clippings-13.png
-  " class="lg-figure" data-sub-html=".caption"><img src="
-  /images/clippings/Clippings-13.png
-  " alt="Modular lighted chapel in a rural landscape">
-		<div class="caption">
-			<span class="original_text">
-			
-  <p> </p>
+    <p><i>Connecticut Herald</i> (New Haven, CT) <br>
+    October 17; November 7, 1809
+    </p>
 
-<p><i>The Democrat</i>(Boston, MA)</p>
-<p>July 16, 23, 1808</p>
-<h3><i>Bache’s Patent Physiognotrace, </i></h3>
-<p>No. 4, DORSET’S LANE—</p>
-<p><i>Opposite the COURT HOUSE,</i></p>
+    <p><i>Connecticut Journal </i>  (New Haven, CT) <br>
+    October 19, 1809
+    </p>
 
-<h3>Profile Likenesses,</h3>
-<p>Correctly Drawn and elegantly finished by </p>
+    <h3>Profile Cutting, Painting and <br>
+    Shading.
+    </h3>
+    <p>HE subscribers respectively inform the la-
+    dies and gentlemen of New Haven, that
+    they have taken a room for a short time at Mr.
+    JARMAN’s, South East corner of the Green,
+    for the purpose of doing business in the above
+    line. From their long experience, and great
+    success, the subscribers feel confident of rendering general satisfaction to those who may favor
+    them with their patronage. <br>
+    &nbsp;&nbsp;&nbsp;W. BACHE <br>
+    &nbsp;&nbsp;&nbsp;T. NIXON <br>
+    N.B. Specimens of their performance may be <br>
+    seen at the Profile Room. <br>
+    <i> October 17.</i>
+    </p>
 
-<p>BACHE respectfully solicits the public encouragement, which, from the
-superiority of his Physiognotrace and long
-practice in the Art of Drawing Profiles, he flat-ters
-himself he will be found to merit. <br>
- Those who may wish to avail themselves of
-this opportunity of obtaining striking Like-nesses,
-but to whom it may be inconvenient to attend at
-the Profile Room, are informed that he will at the
-shortest notice, wait upon them at their own
-Dwellings without any additional expence. <br>
- W. Bache not intending to stay in Boston more
-than one month, hopes the Public will loose no
-time in honouring him with their commands. <br>
- Four Likenesses for 25 Cents. –An ele-egant
-variety of Frames, at various Prices.
- July 16.</p>
-
-  			</span>
-						
-				<span class="translation_text" style="display: none; visibility: hidden;">
-					
-  <p> </p>
-
-<h3><em>Capilla Interconfesional Riggio-Lynch</em>, Haley Farm, Clinton, Tennessee</h3>
-
-<p> </p>
-
-<p>Timothy Hursley (n. 1955)<br />
-Reproducción de fotografía de 2004<br />
-Cortesía de Timothy Hursley</p>
-
-  				</span>
-					</div>
-  </a>
+            </span>
+                
+              </div>
+      </a>
+    </div>
 </div>
+<!-- Cliipping 13 -->
+
+<!-- Cliipping 17 -->
+<div class="grid-item">
+  <div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12272">
+      <a href="
+      /images/clippings/Clippings-17.png
+      " class="lg-figure" data-sub-html=".caption"><img src="
+      /images/clippings/Clippings-17.png
+      " alt="">
+        <div class="caption">
+          <span class="original_text">
+          
+      <p> </p>
+
+    <p><i>The Rhode-Island American, and General </i> <br>
+    Advertiser (Providence, RI) <br>
+    December 22, 26, 29, 1809; <br>
+    January 2, 5, 1810
+    </p>
+
+    <p>STRIKING and cheap LIKENESSES, by W. BACHE, and T.
+    NIXON; who engage to furnish any
+    per-son that will favour them with half
+    an hour’s sitting, an elegant painting and
+    speaking Likeness for the small sum of
+    Two Dollars and Twenty-five Cents.–
+    Also, Profiles in a new and superiour
+    style, elegantly shaded, for Fifty Cents. <br>
+    The publick are assured that this is
+    something entirely different from any thing
+    heretofore attempted in this place. It is
+    therefore hoped they will not deem it
+    be-neath their attention, but call and see
+    spe-cimens of the work, at Major McCLEL-LAN’S, next-door to Col.
+    Macomber’s Tavern, near the Bridge,
+    Main-Street.
+    December 22, 1809.
+
+    </p>
+
+            </span>
+                
+              </div>
+      </a>
+  </div>
 </div>
+<!-- Cliipping 17 -->
 
-  <div class="grid-item"><div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12271">
-  <a href="
-  /images/clippings/Clippings-12.png
-  " class="lg-figure" data-sub-html=".caption"><img src="
-  /images/clippings/Clippings-12.png
-  " alt="Green field with a looping ground-structure">
-		<div class="caption">
-			<span class="original_text">
-			
-  <p> </p>
+<!-- Cliipping 18 -->
+<div class="grid-item">
+  <div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12272">
+    <a href="
+    /images/clippings/Clippings-18.png
+    " class="lg-figure" data-sub-html=".caption"><img src="
+    /images/clippings/Clippings-18.png
+    " alt="">
+      <div class="caption">
+        <span class="original_text">
+        
+    <p> </p>
 
-<p><i>Essex Register</i>(Salem, MA) <br>
-September 14, 21, 23, 24, 27, 1808 <br>
-</p>
+  <p><i>The Rhode-Island American, and General </i> <br>
+  Advertiser (Providence, RI) <br>
+  January 12, 16, 19, 23, 26, 30, 1810
+  </p>
 
-<p><i>Salem Gazette</i> (Salem, MA) <br>
-September 16, 23, 1808
-</p>
-<h3>W. BACHE,</h3>
+  <p>T. NIXON & W. BACHE,
+  PAINTERS AND PROFILEISTS,
+  RATEFULLY acknowledge the numerous favours they have received in this
+  town, and beg leave to inform the publick
+  that they stay here will be but a short time
+  longer.
+  W. BACHE informs those who wish to
+  have shaded profiles, that he intends
+  stay-ing but two weeks longer in
+  Providence.
+  Their Painting and Profile-Room is at
+  Major M
+  cCLELLAN’s.
+  January 12, 1810.
+  </p>
 
-<p>RETURNS his grateful acknowledge-
- ments to the Ladies and Gentlemen of
-Salem for the liberal encouragement he
-has received, & begs leave to inform those
-who yet intend having PROFILES drawn,
-that he proposes leaving this place the
-en-suing week.&nbsp; &nbsp; &nbsp; Sept. 14</p>
+          </span>
+              
+            </div>
+      </a>
+    </div>
+  </div>
+  <!-- Cliipping 18 -->
 
-  			</span>
-						
-					</div>
-  </a>
+  <!-- Cliipping 19 -->
+  <div class="grid-item">
+    <div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12272">
+      <a href="
+      /images/clippings/Clippings-19.png
+      " class="lg-figure" data-sub-html=".caption"><img src="
+      /images/clippings/Clippings-19.png
+      " alt="">
+        <div class="caption">
+          <span class="original_text">
+          
+      <p> </p>
+
+    <p><i>The Rhode-Island American, and General </i> <br>
+    Advertiser (Providence, RI) <br>
+    February 23, 27; March 2, 1810
+    </p>
+
+    <h3>W. BACHE & T. NIXON</h3>
+    <p>RETURN their grateful acknowledgements for the liberal encouragement
+    they have experienced in this town, and
+    flatter themselves with the hope that their
+    Profile Likenesses have given general satisfaction. Having been requested to give
+    timely notice of their departure from
+    Pro-vidence, they beg leave to inform those
+    who yet intend sitting for Likenesses that
+    they do not purpose staying longer than
+    during the approaching session of the Legislature. Their prices are as formerly,
+    25 Cents for cutting the set of Profiles;
+    25 Cents for shading each; or
+    2 Dollars in Colours.
+    Their Room is at Major McCLELLAN’s,
+    opposite the Market-House.
+    February 23, 1810
+    </p>
+
+            </span>
+                
+              </div>
+      </a>
+  </div>
 </div>
+<!-- Cliipping 19 -->
+
+<!-- Cliipping 20 -->
+<div class="grid-item">
+  <div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12272">
+    <a href="
+    /images/clippings/Clippings-20.png
+    " class="lg-figure" data-sub-html=".caption"><img src="
+    /images/clippings/Clippings-20.png
+    " alt="">
+      <div class="caption">
+        <span class="original_text">
+        
+    <p> </p>
+
+  <p><i>The Newport Mercury (Newport, RI) </i> <br>
+  April 28; May 5, 1810 <br>
+  </p>
+  <h3>Striking Likeneſſes <br>
+  W. Bache & T. Nixon,</h3>
+
+  <p>HAVE the honor to inform the Ladies
+  and Gentlemen of Newport, of their arrival
+  in Town, and respectfully offer their services in the
+  line of their profession— They engage to give a
+  speaking likeness and handsome painting to any
+  person that will favour them with an half-hours’
+  sitting, for the small sum of Two Dollars.— They
+  also cut profiles and execute likenesses in a new
+  and handsome style of black on a fine vellum
+  paper, for fifty cents.
+  Having painted during the winter in Providence
+  and Bristol, with great success, they flatter themselves they are already known as artists in Newport, and deem it unnecessary to say that they can
+  warrant to give universal satisfaction to those who
+  may favour them with their patronage. As their
+  stay in town will be short, persons wishing to employ them are invited to call soon at Mrs. COTTRELL’s, No. 128, Thames-Street.
+  Newport, April 27, 1810
+  </p>
+
+          </span>
+              
+            </div>
+    </a>
+  </div>
 </div>
+<!-- Cliipping 20 -->
 
-  <div class="grid-item"><div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12272">
-  <a href="
-  /images/clippings/Clippings-13.png
-  " class="lg-figure" data-sub-html=".caption"><img src="
-  /images/clippings/Clippings-13.png
-  " alt="photo of a sand-like substance filling an interior">
-		<div class="caption">
-			<span class="original_text">
-			
-  <p> </p>
+<!-- Cliipping 21 -->
+<div class="grid-item">
+  <div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12272">
+    <a href="
+    /images/clippings/Clippings-21.png
+    " class="lg-figure" data-sub-html=".caption"><img src="
+    /images/clippings/Clippings-21.png
+    " alt="">
+      <div class="caption">
+        <span class="original_text">
+        
+    <p> </p>
 
-<p><i>Connecticut Herald</i> (New Haven, CT) <br>
-October 17; November 7, 1809
-</p>
+  <p><i>The Rhode Island Republican (Newport, RI) </i> <br>
+  May 16, 23, 1810 <br>
+  </p>
+  <h3>Miniature Painting, <br>
+  AND SHADING IN PROFILE. <br>
+  MESSRS. T. Nixon & W. Bache,
+  </h3>
 
-<p><i>Connecticut Journal </i>  (New Haven, CT) <br>
-October 19, 1809
-</p>
+  <p>Painters and Profileists, at Mrs. Cottrell’s, No.
+  128, Thames street, return their grateful thanks to
+  the Ladies and Gentlemen of Newport, for the liberal patronage they have already experienced; which
+  together with a view to the accommodation of those
+  who have been prevented by engagements or indisposition from sitting for their Likenesses, induces them
+  to prolong their stay in town for two or three weeks.
+  By unexampled and highly flattering success that had attended them, they are emboldened to
+  say that their performances, both in point of likeness and elegance of extinction, surpasses any thing
+  of the kind that has hitherto been attempted in
+  Rhode-Island,—and respectfully invite the Ladies
+  and Gentlemen of Newport, to avail themselves of the
+  opportunity now offered, to get a speaking
+  Likenes-ses for the small sum of two dollars, in
+  colours, twen- ty-five cents shaded, or twenty-five
+  cent a set cut in paper. May 16. 
+  </p>
 
-<h3>Profile Cutting, Painting and <br>
-Shading.
-</h3>
-<p>HE subscribers respectively inform the la-
- dies and gentlemen of New Haven, that
-they have taken a room for a short time at Mr.
-JARMAN’s, South East corner of the Green,
-for the purpose of doing business in the above
-line. From their long experience, and great
-success, the subscribers feel confident of rendering general satisfaction to those who may favor
-them with their patronage. <br>
-&nbsp;&nbsp;&nbsp;W. BACHE <br>
-&nbsp;&nbsp;&nbsp;T. NIXON <br>
-N.B. Specimens of their performance may be <br>
-seen at the Profile Room. <br>
-<i> October 17.</i>
-</p>
-
-  			</span>
-						
-					</div>
-  </a>
+          </span>
+              
+            </div>
+    </a>
+  </div>
 </div>
+<!-- Cliipping 21 -->
+
+<!-- Cliipping 22 -->
+<div class="grid-item">
+  <div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12272">
+    <a href="
+    /images/clippings/Clippings-22.png
+    " class="lg-figure" data-sub-html=".caption"><img src="
+    /images/clippings/Clippings-22.png
+    " alt="">
+      <div class="caption">
+        <span class="original_text">
+        
+    <p> </p>
+
+  <p><i>New-Bedford Mercury (New Bedford, MA) </i> <br>
+  June 15, 22, 1810 <br>
+  </p>
+  <h3>Miniature Painting<br>
+  AND SHADING IN PROFILE
+  </h3>
+
+  <p>T. NIXON & W. BACHE, Painters and
+  Profilists, respectfully inform the Ladies
+  and Gentlemen of New-Bed-ford, that
+  they have taken the old Hall, entrance
+  at the east door, at Nelson’s Hotel, where
+  they offer their services, for a short time,
+  in the line of their pro-fession.—They
+  engage to give a speak-ing Likeness, in
+  Miniature style, for the small sum of two
+  dollars and twenty-five cents, and
+  require but half an hour’s sitting. They
+  also cut Profiles, and shade them in a
+  new and elegant style, on a fine vellum
+  paper, for fifty cents.
+  T.N. & W.B. bind themselves to give
+  good Likenesses to all who may favour
+  them with their patronage.—Ladies,
+  objecting to call at the Room, may be
+  waited on at their houses. 
+  </p>
+
+          </span>
+              
+            </div>
+    </a>
+  </div>
 </div>
+<!-- Cliipping 22 -->
 
-<div class="grid-item"><div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12272">
-  <a href="
-  /images/clippings/Clippings-17.png
-  " class="lg-figure" data-sub-html=".caption"><img src="
-  /images/clippings/Clippings-17.png
-  " alt="photo of a sand-like substance filling an interior">
-		<div class="caption">
-			<span class="original_text">
-			
-  <p> </p>
+<!-- Cliipping 23 -->
+<div class="grid-item">
+  <div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12272">
+    <a href="
+    /images/clippings/Clippings-23.png
+    " class="lg-figure" data-sub-html=".caption"><img src="
+    /images/clippings/Clippings-23.png
+    " alt="">
+      <div class="caption">
+        <span class="original_text">
+        
+    <p> </p>
 
-<p><i>Connecticut Herald</i> (New Haven, CT) <br>
-October 17; November 7, 1809
-</p>
+  <p><i>Essex Register (Salem MA) </i> <br>
+  July 10, 11, 14, 18, 21, 25, 28; August 1, 4, 1810 <br>
+  </p>
+  <p>Salem Gazette (Salem, MA)<br>
+  July 10, 13, 17, 20, 24, 27, 1810 
+  </p>
 
-<p><i>Connecticut Journal </i>  (New Haven, CT) <br>
-October 19, 1809
-</p>
+  <h3>Profile Likenesses.</h3>
+  <p>WM. BACHE has the honor to inform the ladies and gentlemen of Salem of his return to
+  town, and respectfully offers to them his
+  serv-ices in the line of his profession, at his room
+  over Dr. Daniel Jenks’s store. He invites their
+  atten-tion to a much improved style of <br>
+  SHADED PROFILES, <br>
+  on fine vellum paper; and begs leave to
+  intro-duce his friend Mr. NIXON, who colours
+  profiles in miniature style, and warrants as good a
+  likeness for two dollars as can be obtained for
+  twenty.
+  Salem, July 10.
+  </p>
 
-<h3>Profile Cutting, Painting and <br>
-Shading.
-</h3>
-<p>HE subscribers respectively inform the la-
- dies and gentlemen of New Haven, that
-they have taken a room for a short time at Mr.
-JARMAN’s, South East corner of the Green,
-for the purpose of doing business in the above
-line. From their long experience, and great
-success, the subscribers feel confident of rendering general satisfaction to those who may favor
-them with their patronage. <br>
-&nbsp;&nbsp;&nbsp;W. BACHE <br>
-&nbsp;&nbsp;&nbsp;T. NIXON <br>
-N.B. Specimens of their performance may be <br>
-seen at the Profile Room. <br>
-<i> October 17.</i>
-</p>
-
-  			</span>
-						
-					</div>
-  </a>
+          </span>
+              
+            </div>
+    </a>
+  </div>
 </div>
-</div>
+<!-- Cliipping 23 -->
 
-  <div class="grid-item"><div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12273">
+<!-- Cliipping 24 -->
+<div class="grid-item">
+  <div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12272">
+    <a href="
+    /images/clippings/Clippings-24.png
+    " class="lg-figure" data-sub-html=".caption"><img src="
+    /images/clippings/Clippings-24.png
+    " alt="">
+      <div class="caption">
+        <span class="original_text">
+        
+    <p> </p>
+
+  <p><i>Essex Register (Salem, MA) </i> <br>
+  August 11, 15, 18, 25, 29, 1810 <br>
+  </p>
+  <p>Salem Gazette (Salem, MA)<br>
+  August 15, 29, 1810
+  </p>
+
+  <h3>Profile Notice.</h3>
+  <p>W. BACHE respectfully informs the public
+  that he intends leaving Salem, at the close of
+  the ensuing week, and particular- ly requests
+  those to make immediate applica-tion for their
+  PROFILES, who intend having them painted
+  by Mr. NIXON, who will remain for a short
+  time longer in town for that purpose.
+  The Profile and Painting Room is over the
+  store of Mr Daniel Jenks.
+  aug. 11
+  </p>
+
+          </span>
+              
+            </div>
+    </a>
+  </div>
+</div>
+<!-- Cliipping 24 -->
+
+<!-- Cliipping 26 -->
+<div class="grid-item">
+  <div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12272">
+    <a href="
+    /images/clippings/Clippings-26.png
+    " class="lg-figure" data-sub-html=".caption"><img src="
+    /images/clippings/Clippings-26.png
+    " alt="">
+      <div class="caption">
+        <span class="original_text">
+        
+    <p> </p>
+
+  <p><i>Newburyport Herald (Newburyport, MA) </i> <br>
+  October 26; November 2, 6, 9, 16, 1810 <br>
+  </p>
+
+  <h3>Painted Profiles.</h3>
+  <p>W. BACHE returns his grateful acknowledgements for the liberal encou-ragement
+  he has received in the place, and has the
+  pleasure to inform those who wish to have their
+  Profiles painted, agreeable to the speci- mens
+  that have been exhibited at the Profile Room,
+  that Mr. NIXON has arrived in town, and offers
+  to ensure to those who may employ him, an
+  elegant and striking Likeness in miniature style
+  for the small sum of Two Dollars.
+  W. BACHE, begs leave to inform the public,
+  that his stay in town in intended only two weeks
+  longer. Newburyport, Oct. 26.
+  </p>
+
+          </span>
+              
+            </div>
+    </a>
+  </div>
+</div>
+<!-- Cliipping 26 -->
+
+<!-- Cliipping 28 -->
+<div class="grid-item">
+  <div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12272">
+    <a href="
+    /images/clippings/Clippings-28.png
+    " class="lg-figure" data-sub-html=".caption"><img src="
+    /images/clippings/Clippings-28.png
+    " alt="">
+      <div class="caption">
+        <span class="original_text">
+        
+    <p> </p>
+
+  <p><i>Portsmouth Oracle, (Portsmouth, NH) </i> <br>
+  January 12, 19, 26; February 2, 9, 1811<br>
+  </p>
+
+  <h3>Painted Profiles.</h3>
+  <p>THE attention of the Public is respectfully requested to a new and elegant
+  style of finishing profile likenesses by
+  Messrs. W. Bache and T. Nixon,
+  Physiognotrists and Painters, who flatter
+  themselves (from the great encouragement
+  they have received at Newburyport and the
+  adjacent towns) that as artists, they are not
+  wholly unknown to the inhabitants of Portsmouth, and feeling confident their work will be
+  found to merit public patronage they respectfully solicit it, at their Painting and
+  Profile Room, over Mr. NATHANIEL DEANS
+  Store, No. 4, Market street.
+  Price for cutting a set of Profiles 25
+  cents.
+  Shading in black additional 25 cts. each,
+  or painting in colors in miniature style, 2
+  dollars.
+  January 12
+  </p>
+
+          </span>
+              
+            </div>
+    </a>
+  </div>
+</div>
+<!-- Cliipping 28 -->
+
+<!-- Cliipping 29 -->
+<div class="grid-item">
+  <div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12272">
+    <a href="
+    /images/clippings/Clippings-29.png
+    " class="lg-figure" data-sub-html=".caption"><img src="
+    /images/clippings/Clippings-29.png
+    " alt="">
+      <div class="caption">
+        <span class="original_text">
+        
+    <p> </p>
+
+  <p><i>Weekly Eastern Argus (Portland, ME) </i> <br>
+  February 21, 1811<br>
+  </p>
+
+  <h3>Profiles.</h3>
+  <p>ESPECTFULLY solicits the attention of the Ladies
+  and Gentlemen of Portland to a new and elegant
+  manner of executing Profile Likenesses shaded in the
+  na-tural dress. W.B. having devoted the last 7 years to
+  de-lineating the human countenance and having invented
+  a Machine upon principles less liable to error than those
+  commonly used for drawing Profiles, he flatters himself
+  able to give general satisfaction to those who may honor
+  him with their attendance at his Profile Room over the
+  store of Mr. Storer in Middle-Street.
+  </p>
+
+          </span>
+              
+            </div>
+    </a>
+  </div>
+</div>
+<!-- Cliipping 29 -->
+
+<!-- Cliipping 30 -->
+<div class="grid-item">
+  <div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12272">
+    <a href="
+    /images/clippings/Clippings-30.png
+    " class="lg-figure" data-sub-html=".caption"><img src="
+    /images/clippings/Clippings-30.png
+    " alt="">
+      <div class="caption">
+        <span class="original_text">
+        
+    <p> </p>
+
+  <p><i>Weekly Eastern Argus (Portland, ME) </i> <br>
+  March 21, 28; April 4, 11, 25<br>
+  </p>
+
+  <h3>W. BACHE, Profilist,</h3>
+  <p>HAS removed from the Room he formerly occupied at the store of Mr.
+  S. Storer, to the front chamber, over the
+  Store of Mr. John Dean, in Hay-market
+  Row.
+  </p>
+
+          </span>
+              
+            </div>
+    </a>
+  </div>
+</div>
+<!-- Cliipping 30 -->
+
+<!-- Cliipping 31 -->
+<div class="grid-item">
+  <div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12272">
+    <a href="
+    /images/clippings/Clippings-31.png
+    " class="lg-figure" data-sub-html=".caption"><img src="
+    /images/clippings/Clippings-31.png
+    " alt="">
+      <div class="caption">
+        <span class="original_text">
+        
+    <p> </p>
+
+  <p><i>Weekly Eastern Argus (Portland, ME) </i> <br>
+  May 2, 9, 16; June 6, 1811<br>
+  </p>
+
+  <h3>PROFILE NOTICE. <br>
+  W. BACHE,
+  </h3>
+  <p>RESPECTFULLTY informs those who
+  have politely deferred sitting for their
+  Profiles during his great press of Business,
+  that he has now leisure to pay particular
+  attention to them and that he intends
+  stay-ing in Portland, But about two weeks
+  longer. May 2.
+  </p>
+
+          </span>
+              
+            </div>
+    </a>
+  </div>
+</div>
+<!-- Cliipping 31 -->
+
+<!-- Cliipping 32 -->
+<div class="grid-item">
+  <div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12272">
+    <a href="
+    /images/clippings/Clippings-32.png
+    " class="lg-figure" data-sub-html=".caption"><img src="
+    /images/clippings/Clippings-32.png
+    " alt="">
+      <div class="caption">
+        <span class="original_text">
+        
+    <p> </p>
+
+  <p><i>United States Gazette (Philadelphia, PA) </i> <br>
+  January 24, 30; February 4, 7, 11, 18, 20, 24, 25, 28; <br>
+  March 4, 5, 7, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, <br>
+  23, 24, 1812
+  </p>
+
+  <h3>W. BACHE<br>
+  RESPECTFULLY INFORMS THE <br>
+  PUBLICK,
+  </h3>
+  <p>HAT he executes PROFILE LIKENESSES; shaded in a manner entirely new, which
+  for correctness of delineation and ele-grance of
+  workmanship, he flatters himself have not been
+  equaled in Philadelphia; specimens of which
+  may be seen in the windows of most of the Print
+  stores in town, and at the Profile Room, No. 133
+  south Second street. <br>
+  W. Bache also reduces large profiles to
+  mini-ture and shades of Old Profiles to look
+  entirely New. <br>
+  N.B. A variety of Elegant Profile Frames,
+  and largest size best Gold Leaf for sale. <br>
+  Jan. 24.
+  </p>
+
+          </span>
+              
+            </div>
+    </a>
+  </div>
+</div>
+<!-- Cliipping 32 -->
+
+
+  <!-- <div class="grid-item"><div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12273">
   <a href="
   https://i.ibb.co/L5G9WjM/unnamed-10.png
   " class="lg-figure" data-sub-html=".caption"><img src="
@@ -669,9 +1262,9 @@ those who may favor them with their patronage. <br>
 					</div>
   </a>
 </div>
-</div>
+</div> -->
 
-      <div class="grid-item"><div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12275">
+      <!-- <div class="grid-item"><div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12275">
           <a href="
           https://i.ibb.co/NVtdHcx/unnamed-11.png
           " class="lg-figure" data-sub-html=".caption"><img src="
@@ -715,10 +1308,10 @@ those who may favor them with their patronage. <br>
       </div>
         </a>
       </div>
-    </div>
+    </div> -->
 
     <!-- Grid Start -->
-    <div class="grid-item"><div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12275">
+    <!-- <div class="grid-item"><div class="entity entity-paragraphs-item paragraphs-item-image-lightbox" id="paragraphs-item-12275">
       <a href="
       https://i.ibb.co/2MDpKRg/unnamed-13.png
       " class="lg-figure" data-sub-html=".caption"><img src="
@@ -762,7 +1355,7 @@ those who may favor them with their patronage. <br>
   </div>
     </a>
   </div>
-</div>
+</div> -->
 <!-- Grid End -->
   </div>
 </div>

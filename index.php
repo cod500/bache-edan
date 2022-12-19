@@ -14,7 +14,7 @@
         ?>
         <main>
             <!-- BACHE INTRO-->
-            <section class="section-padding section-bg pt-5" id="section_2">
+            <section class="section-padding section-bg pt-5" id="bache-intro-text">
                 <div class="container">
                     <div class="row">
 
@@ -65,7 +65,7 @@
             </section>
             <!-- END BACHE INTRO-->
             <!-- BOOK LINK-->
-            <section class="section-padding pb-5" id="section_3">
+            <section class="section-padding pb-5" id="index-view-book-link">
                 <div class="container">
                     <div class="row">
 

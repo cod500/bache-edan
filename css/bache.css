@@ -152,6 +152,12 @@ strong {
     padding-bottom: 1rem;
   }
 }
+@media (max-width: 498px) {
+  .site-navbar{
+    padding-top: 0.5rem!important;
+    padding-bottom: 0.5rem!important;
+  }
+}
 .site-navbar .toggle-button {
   position: absolute;
   right: 0px;
@@ -342,7 +348,7 @@ strong {
   right: 0;
   z-index: 2000;
   background: var(--npg-bg-color);
-  height: calc(100vh);
+  height: 100%;
   -webkit-transform: translateX(110%);
   -ms-transform: translateX(110%);
   transform: translateX(110%);
@@ -599,6 +605,16 @@ strong {
 /*---------------------------------------
   BIBLIOGRAPHY            
 -----------------------------------------*/
+.bibliography-section {
+  margin: 0 0 100px;
+}
+@media (max-width: 577px) {
+  .bibliography-section {
+    padding-left: 20px!important;
+    padding-right: 20px!important;
+  }
+}
+
 .block_ {
   display: block;
   font-size: 1.41667em;
@@ -821,6 +837,27 @@ strong {
   .custom-text-box-image {
     width: 50%;
     /* height: 90%; */
+  }
+}
+@media (max-width: 577px) {
+  #bache-intro-text{
+    padding-bottom: 0;
+  }
+  .custom-text-box{
+    padding: 0 10px;
+  }
+  .custom-text-box p{
+    font-size: 1rem;
+  }
+  #index-view-book-link{
+    padding-top: 0;
+  }
+  .book-link p{
+    font-size: 20px!important;
+  }
+  .book-link-credit{
+    font-size: 12px!important;
+    text-align: center;
   }
 }
 
@@ -1082,7 +1119,7 @@ strong {
 .site-header p a,
 .site-header .social-icon-link {
   color: var(--white-color);
-  font-size: var(--h3-font-size) !important;
+  font-size: var(--h3-font-size);
   letter-spacing: 5px;
   font-weight: 500;
   line-height: normal !important;
@@ -1098,6 +1135,32 @@ strong {
   height: inherit;
   line-height: inherit;
   margin-right: 15px;
+}
+@media (max-width: 768px) {
+  .site-header {
+    padding: 25px 0;
+  }
+  .site-header h1 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 498px) {
+  .site-header {
+    padding: 5px 0;
+  }
+  .site-header h1 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 467px) {
+  .site-header {
+    padding: 15px 0;
+  }
+  .site-header h1 {
+    font-size: 18px;
+  }
 }
 
 /*---------------------------------------
@@ -1279,8 +1342,9 @@ a {
     padding: 8px 20px;
   }
 
-  .dropdown:hover .dropdown-menu {
-    display: flex;
+  .dropdown .dropdown-menu {
+
+    display: none;
     flex-direction: column;
     flex-wrap: wrap;
     position: relative;

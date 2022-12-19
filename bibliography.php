@@ -13,7 +13,7 @@ include("includes/main_head.php");
         include("includes/page_header.php");
         ?>
 <!-- BIOGRAPHY-->
-<section class="section-padding section-bg pt-5 biography-section">
+<section class="section-padding section-bg pt-5 bibliography-section">
 <div class="calibre container" id="calibre_link-0">
 	<p class="block_">Select Bibliography</p>
 	<p class="block_1">&nbsp;</p>

@@ -37,6 +37,10 @@ jQuery(function() {
 
     }, 1000);
 
+	jQuery('.dropdown-mobile').on('click', function (){
+		jQuery(this).find('.mobile-menu').toggle()
+	})
+
 		jQuery('body').on('click', '.arrow-collapse', function(e) {
       var jQuerythis = jQuery(this);
       if ( jQuerythis.closest('li').find('.collapse').hasClass('show') ) {

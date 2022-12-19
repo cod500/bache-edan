@@ -93,25 +93,26 @@
                     
             <nav class="site-navigation text-right ml-auto d-none d-lg-none" role="navigation">
                 <ul class="js-clone-nav navbar-nav ms-auto">
-                    <li class="nav-item dropdown">
+                    <li class="nav-item dropdown dropdown-mobile">
                         <a class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="javascript:void(0)">Primary Documents</a>
 
-                        <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
+                        <ul class="dropdown-menu dropdown-menu-light mobile-menu" aria-labelledby="navbarLightDropdownMenuLink">
                             <li><a class="dropdown-item" href="newspaper-advertisements.php">Newspaper Advertisements</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item dropdown dropdown-mobile">
                     <a class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="javascript:void(0)">Other Recources</a>
 
-                        <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
+                        <ul class="dropdown-menu dropdown-menu-light mobile-menu" aria-labelledby="navbarLightDropdownMenuLink">
                             <li><a class="dropdown-item" href="/assets/Which Cracked Firsts.pdf" target="_blank">Conservation History</a></li>
                             <li><a class="dropdown-item" href="/other-collections.php"> Silhouettes In Other Collections</a></li>
                             <li><a class="dropdown-item" href="/bibliography.php">Bibliography</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="/book.php">Ledger Book</a>
-                        <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
+                    <li class="nav-item dropdown dropdown-mobile">
+                        <a class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="javascript:void(0)">Ledger Book</a>
+                        <ul class="dropdown-menu dropdown-menu-light mobile-menu" aria-labelledby="navbarLightDropdownMenuLink">
+                        <li><a class="dropdown-item" href="/book.php">Ledger Book</a></li>
                             <li><a class="dropdown-item" href="/book-index.php">Digitized Book</a></li>
                             <li><a class="dropdown-item" href="/book-index.php">Book Index</a></li>
                         </ul>
