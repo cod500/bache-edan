@@ -6,7 +6,7 @@
     $title = "William Bache Silhouettes";
     include("includes/main_head.php");?>
     </head>
-    <body id="section_1">
+    <body id="index-section">
         <?php include("includes/nav.php");?>
         <?php 
         $page = "William Bache's Silhouettes Album";
