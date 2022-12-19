@@ -91,6 +91,7 @@ $(document).ready(function () {
 	//Panzoom for al odd pages
 	const oddPages = document.querySelectorAll('.panzoom-odd');
 	oddPages.forEach((elem) => {
+		console.log(elem)
 		const parent = elem.parentElement;
 		const panzoom = Panzoom(elem, {
 			autocenter: true,
@@ -114,13 +115,19 @@ $(document).ready(function () {
 		})
 
 		$('#zoom-out-odd').click(function () {
-			var m = $('.panzoom-odd').css('transform');
-			var mt = m.substring(m.indexOf('(') + 1, m.indexOf(')')).split(',');
-			if (mt[0] < 1.5) {
-				panzoom.reset();
-			} else {
-				panzoom.zoomOut();
-			}
+			var style = getComputedStyle(document.getElementsByClassName('panzoom-odd')[0], null);
+			$(elem).each(function( index ) {
+				if($(this).css('transform') != 'none'){
+				var m = $(this).css('transform');
+				var mt = m.substring(m.indexOf('(') + 1, m.indexOf(')')).split(',');
+				if (mt[0] < 1.5) {
+					panzoom.reset();
+				} else {
+					panzoom.zoomOut();
+				}
+					}
+				});
+			
 		})
 
 		$('#bb-nav-next, #bb-nav-last, #bb-nav-prev, #bb-nav-first').hover(function () {
