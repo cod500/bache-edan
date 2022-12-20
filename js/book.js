@@ -240,7 +240,7 @@ $(document).ready(function () {
 				$('#book-closed').text(window.silhouettes['' + url + ''].content.freetext.physicalDescription[2].content);
 				$('#book-open').text(window.silhouettes['' + url + ''].content.freetext.physicalDescription[3].content);
 				$('#silhouette-date').text(window.silhouettes['' + url + ''].content.freetext.date[0].content);
-				$('#credit-line').text(window.silhouettes['' + url + ''].content.freetext.physicalDescription[0].content);
+				$('#credit-line').text(window.silhouettes['' + url + ''].content.freetext.creditLine[0].content);
 				$('#obj-number').text(window.silhouettes['' + url + ''].content.freetext.identifier[0].content);
 				$("#result").attr("src", window.silhouettes['' + url + ''].content.descriptiveNonRepeating.online_media.media[0].guid);
 			} else {
@@ -278,7 +278,7 @@ $(document).ready(function () {
 						$('#book-closed').text(jsonData.content.freetext.physicalDescription[2].content);
 						$('#book-open').text(jsonData.content.freetext.physicalDescription[3].content);
 						$('#silhouette-date').text(jsonData.content.freetext.date[0].content);
-						$('#credit-line').text(jsonData.content.freetext.physicalDescription[0].content);
+						$('#credit-line').text(jsonData.content.freetext.creditLine[0].content);
 						$('#obj-number').text(jsonData.content.freetext.identifier[0].content);
 						$("#result").attr("src", image);
 						setTimeout(function () {
