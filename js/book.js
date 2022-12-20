@@ -262,6 +262,7 @@ $(document).ready(function () {
 						$('#silhouette-date').text("");
 						$('#credit-line').text("");
 						$('#obj-number').text("");
+						$("#result").attr("src", "/images/No_Image_.jpeg");
 						setTimeout(function () {
 							$('#bache-modal').click();
 							$('.bb-custom-wrapper, .book-link').animate({ 'opacity': .2 })

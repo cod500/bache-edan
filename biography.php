@@ -376,7 +376,7 @@ $('.article-figure, .article-link').click(function(){
 						$('#silhouette-date').text("");
 						$('#credit-line').text("");
 						$('#obj-number').text("");
-            $("#result").attr("src", "");
+            $("#result").attr("src", "/images/No_Image_.jpeg");
             $('#bache-modal').click();
         }else{
           let image = jsonData.content.descriptiveNonRepeating.online_media.media[0].guid;
