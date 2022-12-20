@@ -243,7 +243,7 @@ BOOK CONTROLS
 .book-controls {
   background-color: #f7f7f7;
   /* box-shadow: 0 0 10px 5px #e1e5ee; */
-  border-radius: 0 0 2rem 2rem;
+  border-radius: 0 0 1rem 1rem;
   overflow: hidden;
   padding: 1.4rem;
   /* width: 24rem; */
