@@ -116,18 +116,18 @@ $(document).ready(function () {
 
 		$('#zoom-out-odd').click(function () {
 			var style = getComputedStyle(document.getElementsByClassName('panzoom-odd')[0], null);
-			$(elem).each(function( index ) {
-				if($(this).css('transform') != 'none'){
-				var m = $(this).css('transform');
-				var mt = m.substring(m.indexOf('(') + 1, m.indexOf(')')).split(',');
-				if (mt[0] < 1.5) {
-					panzoom.reset();
-				} else {
-					panzoom.zoomOut();
-				}
+			$(elem).each(function (index) {
+				if ($(this).css('transform') != 'none') {
+					var m = $(this).css('transform');
+					var mt = m.substring(m.indexOf('(') + 1, m.indexOf(')')).split(',');
+					if (mt[0] < 1.5) {
+						panzoom.reset();
+					} else {
+						panzoom.zoomOut();
 					}
-				});
-			
+				}
+			});
+
 		})
 
 		$('#bb-nav-next, #bb-nav-last, #bb-nav-prev, #bb-nav-first').hover(function () {
@@ -301,6 +301,15 @@ $(document).ready(function () {
 
 	//initialize mapping
 	$("map").mapoid(obj);
+
+	$('.nav-btn').on('mousedown', function () {
+		$(this).addClass("pressed");
+	})
+
+
+	$(".nav-btn").mouseup(function () {
+		$(this).removeClass("pressed");
+	});
 });
 
 

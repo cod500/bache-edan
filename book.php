@@ -123,8 +123,8 @@
                 <?php endfor; ?>
             </div>
 
-            <div class="book-controls text-center mt-4">
-            <div class="zoom-controls mt-3 mb-3">
+            <div class="book-controls text-center">
+            <div class="zoom-controls mb-3">
                 <div>
                 <button id="zoom-in-even"
                   class="px-4 py-2 my-2 md:my-6 py-2 px-8"  aria-label="Zoom In Left Page"><i class="bi-zoom-in" aria-hidden="false"></i>ZOOM
