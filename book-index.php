@@ -168,7 +168,7 @@ $(document).ready(function () {
                         $('#book-open').text(jsonData.content.freetext.physicalDescription[3].content);
                     }
 					$('#silhouette-date').text(jsonData.content.freetext.date[0].content);
-					$('#credit-line').text(jsonData.content.freetext.physicalDescription[0].content);
+					$('#credit-line').text(jsonData.content.freetext.creditLine[0].content);
 					$('#obj-number').text(jsonData.content.freetext.identifier[0].content);
 					$("#result").attr("src", image);
 						setTimeout(() => {
