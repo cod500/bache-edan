@@ -316,8 +316,8 @@ figcaption p:last-child,
 
 .masonry-grid.masonry-gallery .grid-item {
   max-width: 240px;
-  padding: 0 12px 0 0;
-  margin: 0 0 12px;
+  padding: 0 18px 0 0;
+  margin: 0 0 18px;
 }
 
 .masonry-grid.masonry-gallery .grid-item .b-text-wrapper {
