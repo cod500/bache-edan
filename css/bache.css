@@ -812,8 +812,8 @@ strong {
 }
 
 .custom-text-box-image {
-  width: 90%;
-  height: 90%;
+  width: 333px;
+  height: 450px;
   /* object-fit: cover; */
   box-shadow: 4px 7px 11px -2px rgba(0, 0, 0, 0.41);
   -webkit-box-shadow: 4px 7px 11px -2px rgba(0, 0, 0, 0.41);
@@ -821,10 +821,7 @@ strong {
 }
 
 @media (max-width: 1244px) {
-  .custom-text-box-image {
-    width: 90%;
-    height: 90%;
-  }
+ 
   .section-padding {
     padding: 0;
   }
@@ -836,12 +833,15 @@ strong {
   .custom-text-box p {
     font-size: 1.3rem;
   }
+  .custom-text-box-image {
+    width: 281px;
+    height: 380px;
+  }
 }
 
 @media screen and (max-width: 992px) {
   .custom-text-box-image {
-    width: 50%;
-    /* height: 90%; */
+    margin-bottom: 20px;
   }
 }
 @media (max-width: 577px) {
