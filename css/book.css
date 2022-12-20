@@ -360,7 +360,7 @@ BOOK CONTROLS
   font-size: 14px;
   letter-spacing: 1px;
   font-weight: 600;
-  border: 1px solid #9ec1d2;
+  border: none;
   border-radius: 100px;
   padding: 50px;
   transition-duration: 0.2s;

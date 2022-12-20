@@ -210,22 +210,22 @@ $(document).ready(function () {
 		"fillOpacity": .4,
 		"selectOnClick": true,
 		"fadeTime": 100,
-		"hoverIn": function (j, e) {
-			if ($('.crop-image').attr('src') != e[0].offsetParent.firstChild.src) { //Check if image for this map is loaded
-				$(".crop-image").attr("src", e[0].offsetParent.firstChild.src); //Change image when using different map
-				init();
-			}
-		},
+		// "hoverIn": function (j, e) {
+		// 	if ($('.crop-image').attr('src') != e[0].offsetParent.firstChild.src) { //Check if image for this map is loaded
+		// 		$(".crop-image").attr("src", e[0].offsetParent.firstChild.src); //Change image when using different map
+		// 		init();
+		// 	}
+		// },
 		"click": function (j, e) {
 			// if (window.silhouettes === undefined) {
 			// 	window.silhouettes = {};
 			// }
 			console.log(window.silhouettes);
-			let coords = e.attr('data-coords').split(',') //Find coordinates of area and pass to be cropped
+			// let coords = e.attr('data-coords').split(',') //Find coordinates of area and pass to be cropped
 			let url = e.attr('data-tooltip');
 			console.log(url)
-			let leftCoord = coords[0];
-			let topCoord = coords[1];
+			// let leftCoord = coords[0];
+			// let topCoord = coords[1];
 			var data = {
 				silhouette: url,
 			};
@@ -251,7 +251,7 @@ $(document).ready(function () {
 				}).done(function (msg) {
 					var jsonData = JSON.parse(msg);
 					if (!jsonData.title) {
-						openCropCanvasImg(-leftCoord, -topCoord); //Send coordinates of this area to be cropped
+						// openCropCanvasImg(-leftCoord, -topCoord); //Send coordinates of this area to be cropped
 						$('#silhouette-name').text("");
 						$('#artist-name').text("");
 						$('#sitter').text("");
@@ -302,11 +302,10 @@ $(document).ready(function () {
 	//initialize mapping
 	$("map").mapoid(obj);
 
+	//Navigation button animations for book conrtols
 	$('.nav-btn').on('mousedown', function () {
 		$(this).addClass("pressed");
 	})
-
-
 	$(".nav-btn").mouseup(function () {
 		$(this).removeClass("pressed");
 	});
