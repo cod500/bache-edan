@@ -266,7 +266,7 @@ $(document).ready(function () {
 						setTimeout(function () {
 							$('#bache-modal').click();
 							$('.bb-custom-wrapper, .book-link').animate({ 'opacity': .2 })
-						}, 0)
+						}, 200)
 					} else {
 						console.log(jsonData);
 						let image = jsonData.content.descriptiveNonRepeating.online_media.media[0].guid;
@@ -284,7 +284,7 @@ $(document).ready(function () {
 						setTimeout(function () {
 							$('#bache-modal').click();
 							$('.bb-custom-wrapper, .book-link').animate({ 'opacity': .2 })
-						}, 0)
+						}, 200)
 					}
 
 				});

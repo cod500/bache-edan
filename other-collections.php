@@ -19,7 +19,7 @@
     <link href="css/modalzoom.css" rel="stylesheet">
     <link href="css/npg.css" rel="stylesheet">
 </head>
-<body style="min-width: 720px;">
+<body>
 <?php include("includes/nav.php");?>
 <?php 
         $page = "Silhouettes in Other Collections";
@@ -71,9 +71,7 @@
                 <tr>
                     <th>Accession number</th>
                     <th>Sitter</th>
-                    <th>Artist</th>
                     <th>Collection</th>
-                    <th>Date</th>
                     <th>Medium</th>
                     <th>Dimensions</th>
                 </tr>
@@ -83,9 +81,7 @@
                     <tr>
                         <td><?php echo $collectionTwo[$i]["Accession number"]?></td>
                         <td><?php echo $collectionTwo[$i]["Sitter"]?></td>
-                        <td><?php echo $collectionTwo[$i]["Artist"] ?></td>
                         <td><?php echo $collectionTwo[$i]["Collection"] ?></td>
-                        <td><?php echo $collectionTwo[$i]["Date"] ?></td>
                         <td><?php echo $collectionTwo[$i]["Medium"] ?></td>
                         <td><?php echo $collectionTwo[$i]["Dimensions"] ?></td>
                     </tr>

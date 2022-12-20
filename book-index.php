@@ -97,7 +97,7 @@
                     <th>Page</th>
                     <th>Row</th>
                     <th>Column</th>
-                    <th>Number</th>
+                    <th>Ledger Number</th>
                     <th>URL</th>
                 </tr>
             </thead>
