@@ -17,7 +17,7 @@ $edan = new EDANInterface($server, $app_id, $key, $tier);
 
 $service = '/content/v2.0/content/getContent.htm';
 $parameters = [
-  'url' => 'edanmdm:npg_S_NPG.2002.184.2',
+  'url' => 'edanmdm:npg_S_NPG.2002.184.5',
 ];
 $uri = http_build_query($parameters);
 

@@ -61,6 +61,7 @@ $(document).ready(function () {
 		followCursor: true,
 		delay: 0,
 		onShow(instance) {
+			instance.setContent("Loading...");
 			if (window.silhouettes === undefined) {
 				window.silhouettes = {};
 			}
@@ -266,7 +267,7 @@ $(document).ready(function () {
 						setTimeout(function () {
 							$('#bache-modal').click();
 							$('.bb-custom-wrapper, .book-link').animate({ 'opacity': .2 })
-						}, 200)
+						}, 10)
 					} else {
 						console.log(jsonData);
 						let image = jsonData.content.descriptiveNonRepeating.online_media.media[0].guid;
@@ -284,7 +285,7 @@ $(document).ready(function () {
 						setTimeout(function () {
 							$('#bache-modal').click();
 							$('.bb-custom-wrapper, .book-link').animate({ 'opacity': .2 })
-						}, 200)
+						}, 10)
 					}
 
 				});

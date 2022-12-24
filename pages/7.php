@@ -12,6 +12,7 @@ $image = $array[6]['image'];
 
 <div class="panzoom-odd">
     <div class="cut-seam-odd">
+    <img class="fixed-height" src="/images/placeholder.gif" style="position: absolute; z-index: 10; opacity:0" usemap="#page-7" />
         <img class="fixed-height"src=<?php echo $image?> usemap="#page-7" />
     </div>
 </div>

@@ -9,6 +9,7 @@ body {
   font-size: 98%;
   overflow-x: hidden;
 }
+
 :root {
   --white-color: #ffffff;
   --primary-color: #5bc1ac;
@@ -20,7 +21,7 @@ body {
   --dark-color: #000000;
   --p-color: #717275;
   --border-color: #e9eaeb;
-  --npg-bg-color: #517182;
+  --npg-bg-color: #527081;
   --npg-bg-color-dark: #38444b;
 
   --h1-font-size: 52px;
@@ -133,7 +134,7 @@ b,
 strong {
   font-weight: var(--font-weight-bold);
 }
-#index-section{
+#index-section {
   overflow-y: hidden;
 }
 
@@ -158,9 +159,9 @@ strong {
   }
 }
 @media (max-width: 498px) {
-  .site-navbar{
-    padding-top: 0.5rem!important;
-    padding-bottom: 0.5rem!important;
+  .site-navbar {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
   }
 }
 .site-navbar .toggle-button {
@@ -341,10 +342,12 @@ strong {
   font-size: 38px;
   padding-right: 10px;
 }
-
+.mobile-menu {
+  border: none;
+}
 .site-menu-toggle i,
 .site-mobile-menu-close i {
-  color: var(--dark-color);
+  color: var(--white-color);
 }
 
 .site-mobile-menu {
@@ -411,7 +414,7 @@ strong {
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
   position: relative;
-  padding: 0 20px 20px 20px;
+  padding: 0 0px 0px 0.1px;
   height: calc(100vh - 52px);
   padding-bottom: 150px;
 }
@@ -428,7 +431,7 @@ strong {
   color: var(--white-color);
 }
 .site-mobile-menu .site-nav-wrap a:hover {
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 .site-mobile-menu .site-nav-wrap li {
   position: relative;
@@ -479,6 +482,8 @@ strong {
   position: relative;
   float: left;
   width: 100%;
+  border-bottom: 1px solid #44535e;
+  /* padding-bottom: 8px; */
 }
 .site-mobile-menu .site-nav-wrap > li > a {
   padding-left: 20px;
@@ -488,12 +493,13 @@ strong {
   padding: 0;
   margin: 0;
   list-style: none;
+  /* margin-left: 24px; */
 }
 .site-mobile-menu .site-nav-wrap > li > ul > li {
   display: block;
   background: #496573;
   padding: 5px 0px;
-  border-radius: 0.375em;
+  /* border-radius: 0.375em; */
 }
 .site-mobile-menu .site-nav-wrap > li > ul > li > a {
   padding: 5px 15px;
@@ -615,8 +621,8 @@ strong {
 }
 @media (max-width: 577px) {
   .bibliography-section {
-    padding-left: 20px!important;
-    padding-right: 20px!important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
   }
 }
 
@@ -821,7 +827,6 @@ strong {
 }
 
 @media (max-width: 1244px) {
- 
   .section-padding {
     padding: 0;
   }
@@ -845,23 +850,23 @@ strong {
   }
 }
 @media (max-width: 577px) {
-  #bache-intro-text{
+  #bache-intro-text {
     padding-bottom: 0;
   }
-  .custom-text-box{
+  .custom-text-box {
     padding: 0 10px;
   }
-  .custom-text-box p{
+  .custom-text-box p {
     font-size: 1rem;
   }
-  #index-view-book-link{
+  #index-view-book-link {
     padding-top: 0;
   }
-  .book-link p{
-    font-size: 20px!important;
+  .book-link p {
+    font-size: 20px !important;
   }
-  .book-link-credit{
-    font-size: 12px!important;
+  .book-link-credit {
+    font-size: 12px !important;
     text-align: center;
   }
 }
@@ -982,12 +987,103 @@ strong {
 }
 
 .dropdown-menu {
-  background: var(--npg-bg-color);
-  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+  position: relative;
+  opacity: 1;
+  -webkit-transition: all 1;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+.dropdown:hover > .dropdown-menu {
+  visibility: visible;
+  opacity: 1;
+}
+
+.dropdown-menu:after {
+  position: absolute; /* Sets the position absolute to the top div */
+  top: 0;
+  left: 35%; /* position the little arrow */
+  margin-left: -15px;
+  margin-top: -15px; /* Set margin equal to border px */
+  width: 0;
+  z-index: 1;
+  height: 0;
+  border-bottom: solid 15px #496573; /* Creates the arrow pointing up, to change to a notch instead user border-top */
+  border-left: solid 15px transparent; /* Creates triangle effect */
+  border-right: solid 15px transparent; /* Creates triangle effect */
+}
+
+.drop-nav {
+  display: none;
+  position: absolute;
+  background: #496573;
+  color: var(--white-color);
+  font-size: var(--copyright-font-size);
+  font-weight: 500;
+  padding: 10px 50px 10px 15px;
+  clear: both;
+  font-weight: 500;
+  text-align: inherit;
+  text-decoration: none;
+  white-space: nowrap;
   border: 0;
-  /* max-width: 50px; */
-  padding: 0;
-  margin-top: 20px;
+  overflow: visible !important;
+  border-radius: 4px;
+}
+
+.drop-nav.dark-nav {
+  display: none;
+  position: absolute;
+  background: #496573;
+}
+
+.drop-nav li {
+  list-style: none;
+  font-weight: 500;
+}
+
+.drop-nav.doc-nav:after {
+  content: ""; /* Required to display content */
+  position: absolute; /* Sets the position absolute to the top div */
+  top: 0;
+  left: 28%; /* position the little arrow */
+  margin-left: 5px;
+  margin-top: -15px; /* Set margin equal to border px */
+  width: 0;
+  z-index: 1;
+  height: 0;
+  border-bottom: solid 15px #496573; /* Creates the arrow pointing up, to change to a notch instead user border-top */
+  border-left: solid 15px transparent; /* Creates triangle effect */
+  border-right: solid 15px transparent; /* Creates triangle effect */
+}
+.drop-nav.other-nav:after {
+  content: ""; /* Required to display content */
+  position: absolute; /* Sets the position absolute to the top div */
+  top: 0;
+  left: 28%; /* position the little arrow */
+  margin-left: -5px;
+  margin-top: -15px; /* Set margin equal to border px */
+  width: 0;
+  z-index: 1;
+  height: 0;
+  border-bottom: solid 15px #496573; /* Creates the arrow pointing up, to change to a notch instead user border-top */
+  border-left: solid 15px transparent; /* Creates triangle effect */
+  border-right: solid 15px transparent; /* Creates triangle effect */
+}
+.drop-nav.book-nav:after {
+  content: ""; /* Required to display content */
+  position: absolute; /* Sets the position absolute to the top div */
+  top: 0;
+  left: 28%; /* position the little arrow */
+  margin-left: 10px;
+  margin-top: -15px; /* Set margin equal to border px */
+  width: 0;
+  z-index: 1;
+  height: 0;
+  border-bottom: solid 15px #496573; /* Creates the arrow pointing up, to change to a notch instead user border-top */
+  border-left: solid 15px transparent; /* Creates triangle effect */
+  border-right: solid 15px transparent; /* Creates triangle effect */
 }
 
 .dropdown-item {
@@ -1001,11 +1097,14 @@ strong {
 }
 .site-mobile-menu .site-nav-wrap .dropdown-item {
   background: #496573;
-  border-radius: 0.375rem;
+  margin-left: 24px;
+  border-bottom: 1px solid #44535e;
+  /* border-radius: 0.375rem; */
 }
 
 .dropdown-menu li:last-child .dropdown-item {
   padding-top: 0;
+  border-bottom: none;
 }
 
 .dropdown-item.active,
@@ -1013,12 +1112,20 @@ strong {
 .dropdown-item:focus,
 .dropdown-item:hover {
   background: transparent;
-  text-decoration: underline;
+  /* text-decoration: underline; */
   color: var(--white-color);
+  color: #f9b343;
+}
+
+.navbar-nav li:hover .dropdown-menu {
+  transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
 }
 
 .dropdown-toggle::after {
-  content: "\f282";
+  content: "";
   display: inline-block;
   font-family: bootstrap-icons !important;
   font-size: var(--copyright-font-size);
@@ -1033,6 +1140,19 @@ strong {
   position: relative;
   left: 2px;
   border: 0;
+}
+
+.dropdown-mobile:hover {
+  background: #496573;
+  color: #c8b301;
+}
+
+.dropdown-mobile a:hover {
+  color: #f9b343;
+}
+
+.nav-item.dropdown-mobile.light-nav {
+  background: #496573 !important;
 }
 
 @media screen and (min-width: 992px) {
@@ -1107,6 +1227,33 @@ strong {
 
 .navbar-toggler .navbar-toggler-icon::after {
   top: 8px;
+}
+
+.down-caret {
+  display: inline-block;
+  border-right: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+  width: 12px;
+  height: 12px;
+  transform: rotate(-315deg);
+  position: relative;
+  top: -5px;
+  transition: all 0.25s ease-out;
+}
+
+.down-caret.caret-doc {
+  margin-left: 74px;
+}
+.down-caret.caret-other {
+  margin-left: 98.5px;
+}
+.down-caret.caret-book {
+  margin-left: 137px;
+}
+
+.open-caret {
+  transform: rotate(-134deg);
+  transition: all 0.25s ease-out;
 }
 
 /*---------------------------------------
@@ -1192,6 +1339,8 @@ strong {
 .book-link-credit {
   font-style: italic !important;
   letter-spacing: 3px;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 /*---------------------------------------
@@ -1348,7 +1497,6 @@ a {
   }
 
   .dropdown .dropdown-menu {
-
     display: none;
     flex-direction: column;
     flex-wrap: wrap;

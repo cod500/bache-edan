@@ -12,53 +12,78 @@
     <style type="text/css">
    
 
-.js .slider-single > div:nth-child(1n+2) { display: none }
-
-.js .slider-single.slick-initialized > div:nth-child(1n+2) { display: block }
-
-h3 {
-	background: #f0f0f0;
-	color: #3498db;
-	font-size: 2.25rem;
-	margin: .5rem;
-	padding: 2%;
-	position: relative;
-	text-align: center;
+   body {
+  margin: 0;
+  padding: 0;
 }
 
-.slick-prev.slick-disabled:before, .slick-next.slick-disabled:before {
+.sld-wrp {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.slider-for {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 10;
+  box-shadow: inset 0 0 0.5px 1px hsla(0, 0%, 100%, 0.1), 0 0 0 1px hsla(230, 13%, 9%, 0.075),
+    0 0.3px 0.4px hsla(230, 13%, 9%, 0.02), 0 0.9px 1.5px hsla(230, 13%, 9%, 0.045),
+    0 3.5px 6px hsla(230, 13%, 9%, 0.09);
+  padding: 0 !important;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.slide-container {
+  height: 600px;
+  width: 1200px;
+  background-color: #fff;
+  text-align: center;
+  line-height: 40vh;
+  font-size: 40px;
+  font-weight: bold;
+  /* border: 1px solid #000; */
+  border-radius:12px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.slide-container img{
+	height: 100%;
+}
+
+.slide-btn {
+  text-align: center;
+  box-sizing: border-box;
+  padding: 5px;
+  cursor: pointer;
+  display:flex!important;
+  justify-content:center!important;
+  
+}
+
+.slide-btn img{
+ width:300px;
+ height:300px;
+}
+
+.slide-btn:hover {
+  background-color: rgb(255, 179, 0);
+}
+
+.slick-prev:before, .slick-next:before {
     opacity: 1;
-    color: black!important;
+    color: black;
+
 }
 
-slick-prev:before, .slick-next:before {
-  opacity: 1;
-    color: black!important;
-}
-.slider-single h3 {
-	line-height: 10rem;
+.slick-prev:before, .slick-next:before {
+    opacity: 1;
+    color: black;
 }
 
-.slider-nav h3::before {
-	content: "";
-	display: block;
-	padding-top: 75%;
-}
-
-.slider-nav h3 span {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-
-.slider-nav .slick-slide { cursor: pointer; }
-
-.slick-slide.is-active h3 {
-	color: #c00;
-	background-color: #fff
-}
-    </style>
+</style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
@@ -71,57 +96,362 @@ slick-prev:before, .slick-next:before {
         include("includes/page_header.php");
         ?>
 
-<div class="container section-padding section-bg pt-5 pb-5">
-<div class="row">
-		<div class="column small-11 small-centered">
-			<div class="slider slider-single">
-				<div><img src="/images/clippings/Clippings-1.png" alt=""></div>
-				<div><img src="/images/clippings/Clippings-2.png" alt=""></div>
-				<div><img src="/images/clippings/Clippings-3.png" alt=""></div>
-				<div><img src="/images/clippings/Clippings-4.png" alt=""></div>
-				<div><img src="/images/clippings/Clippings-5.png" alt=""></div>
-				<div><img src="/images/clippings/Clippings-6.png" alt=""></div>
-				<div><img src="/images/clippings/Clippings-7.png" alt=""></div>
-				<div><img src="/images/clippings/Clippings-12.png" alt=""></div>
-				<div><img src="/images/clippings/Clippings-18.png" alt=""></div>
-				<div><img src="/images/clippings/Clippings-19.png" alt=""></div>
-        <div><img src="/images/clippings/Clippings-20.png" alt=""></div>
-        <div><img src="/images/clippings/Clippings-21.png" alt=""></div>
-        <div><img src="/images/clippings/Clippings-22.png" alt=""></div>
-        <div><img src="/images/clippings/Clippings-23.png" alt=""></div>
-        <div><img src="/images/clippings/Clippings-24.png" alt=""></div>
-        <div><img src="/images/clippings/Clippings-26.png" alt=""></div>
-        <div><img src="/images/clippings/Clippings-28.png" alt=""></div>
-        <div><img src="/images/clippings/Clippings-29.png" alt=""></div>
-        <div><img src="/images/clippings/Clippings-30.png" alt=""></div>
-        <div><img src="/images/clippings/Clippings-31.png" alt=""></div>
-        <div><img src="/images/clippings/Clippings-32.png" alt=""></div>
+<div class="sld-wrp pt-5 pb-5">
+
+  <div class="slider-for">
+    <div class="slide-container">
+			<div class=row>
+				<img class="col-6" src="/images/clippings/Clippings-1.png" alt="">
+				<div class=col-6>
+						
+					<h3>The Telegraph and Daily Advertiser</h3>
+					<h3>(Baltimore, MD)</h3>
+					<h3>August 18, 22, 1803</h3>
+
+					<p><em> </em></p>
+
+					<p>Phisognotrace.<br />
+					BACHE and TODD,<br />
+					INTENDING to remain a short time in this
+					city, with their Patent PHISIOGNOTRACE, upon
+					a construction entirely new, respectfully in-form
+					the ladies and gentlemen, that they have
+					commenced taking likenesses in profile, at the
+					house of Mr. Sower, printer, No. 191,
+					Market-street, opposite the Golden Swan, where
+					any per-son honoring them with their attention,
+					may have four correct profiles for 25 cents,
+					without being incommoded by any part of the
+					machine passing over the face.
+					To accommodate those who have their
+					profiles taken, they have an assortment of
+					elegant gilt and black frames.
+					August 16.</p>
+				</div>
 			</div>
-			<div class="slider slider-nav">
-      <div><img src="/images/clippings/Clippings-1.png" alt=""></div>
-				<div><img src="/images/clippings/Clippings-2.png" alt=""></div>
-				<div><img src="/images/clippings/Clippings-3.png" alt=""></div>
-				<div><img src="/images/clippings/Clippings-4.png" alt=""></div>
-				<div><img src="/images/clippings/Clippings-5.png" alt=""></div>
-				<div><img src="/images/clippings/Clippings-6.png" alt=""></div>
-				<div><img src="/images/clippings/Clippings-7.png" alt=""></div>
-				<div><img src="/images/clippings/Clippings-12.png" alt=""></div>
-				<div><img src="/images/clippings/Clippings-18.png" alt=""></div>
-				<div><img src="/images/clippings/Clippings-19.png" alt=""></div>
-        <div><img src="/images/clippings/Clippings-20.png" alt=""></div>
-        <div><img src="/images/clippings/Clippings-21.png" alt=""></div>
-        <div><img src="/images/clippings/Clippings-22.png" alt=""></div>
-        <div><img src="/images/clippings/Clippings-23.png" alt=""></div>
-        <div><img src="/images/clippings/Clippings-24.png" alt=""></div>
-        <div><img src="/images/clippings/Clippings-26.png" alt=""></div>
-        <div><img src="/images/clippings/Clippings-28.png" alt=""></div>
-        <div><img src="/images/clippings/Clippings-29.png" alt=""></div>
-        <div><img src="/images/clippings/Clippings-30.png" alt=""></div>
-        <div><img src="/images/clippings/Clippings-31.png" alt=""></div>
-        <div><img src="/images/clippings/Clippings-32.png" alt=""></div>
+	</div>
+
+
+
+    <div class="slide-container">
+		<div class=row>
+				<img class="col-6" src="/images/clippings/Clippings-2.png" alt="">
+				<div class=col-6>
+						
+					<h3>The Telegraph and Daily Advertiser</h3>
+					<h3>(Baltimore, MD)</h3>
+					<h3>August 18, 22, 1803</h3>
+
+					<p><em> </em></p>
+
+					<p>Phisognotrace.<br />
+					BACHE and TODD,<br />
+					INTENDING to remain a short time in this
+					city, with their Patent PHISIOGNOTRACE, upon
+					a construction entirely new, respectfully in-form
+					the ladies and gentlemen, that they have
+					commenced taking likenesses in profile, at the
+					house of Mr. Sower, printer, No. 191,
+					Market-street, opposite the Golden Swan, where
+					any per-son honoring them with their attention,
+					may have four correct profiles for 25 cents,
+					without being incommoded by any part of the
+					machine passing over the face.
+					To accommodate those who have their
+					profiles taken, they have an assortment of
+					elegant gilt and black frames.
+					August 16.</p>
+				</div>
 			</div>
+	</div>
+    <div class="slide-container">
+		<div class=row>
+				<img class="col-6" src="/images/clippings/Clippings-3.png" alt="">
+				<div class=col-6>
+						
+					<h3>The Telegraph and Daily Advertiser</h3>
+					<h3>(Baltimore, MD)</h3>
+					<h3>August 18, 22, 1803</h3>
+
+					<p><em> </em></p>
+
+					<p>Phisognotrace.<br />
+					BACHE and TODD,<br />
+					INTENDING to remain a short time in this
+					city, with their Patent PHISIOGNOTRACE, upon
+					a construction entirely new, respectfully in-form
+					the ladies and gentlemen, that they have
+					commenced taking likenesses in profile, at the
+					house of Mr. Sower, printer, No. 191,
+					Market-street, opposite the Golden Swan, where
+					any per-son honoring them with their attention,
+					may have four correct profiles for 25 cents,
+					without being incommoded by any part of the
+					machine passing over the face.
+					To accommodate those who have their
+					profiles taken, they have an assortment of
+					elegant gilt and black frames.
+					August 16.</p>
+				</div>
+			</div>
+	</div>
+    <div class="slide-container">
+		<div class=row>
+				<img class="col-6" src="/images/clippings/Clippings-4.png" alt="">
+				<div class=col-6>
+						
+					<h3>The Telegraph and Daily Advertiser</h3>
+					<h3>(Baltimore, MD)</h3>
+					<h3>August 18, 22, 1803</h3>
+
+					<p><em> </em></p>
+
+					<p>Phisognotrace.<br />
+					BACHE and TODD,<br />
+					INTENDING to remain a short time in this
+					city, with their Patent PHISIOGNOTRACE, upon
+					a construction entirely new, respectfully in-form
+					the ladies and gentlemen, that they have
+					commenced taking likenesses in profile, at the
+					house of Mr. Sower, printer, No. 191,
+					Market-street, opposite the Golden Swan, where
+					any per-son honoring them with their attention,
+					may have four correct profiles for 25 cents,
+					without being incommoded by any part of the
+					machine passing over the face.
+					To accommodate those who have their
+					profiles taken, they have an assortment of
+					elegant gilt and black frames.
+					August 16.</p>
+				</div>
 		</div>
 	</div>
+    <div class="slide-container">
+		<div class=row>
+				<img class="col-6" src="/images/clippings/Clippings-5.png" alt="">
+				<div class=col-6>
+						
+					<h3>The Telegraph and Daily Advertiser</h3>
+					<h3>(Baltimore, MD)</h3>
+					<h3>August 18, 22, 1803</h3>
+
+					<p><em> </em></p>
+
+					<p>Phisognotrace.<br />
+					BACHE and TODD,<br />
+					INTENDING to remain a short time in this
+					city, with their Patent PHISIOGNOTRACE, upon
+					a construction entirely new, respectfully in-form
+					the ladies and gentlemen, that they have
+					commenced taking likenesses in profile, at the
+					house of Mr. Sower, printer, No. 191,
+					Market-street, opposite the Golden Swan, where
+					any per-son honoring them with their attention,
+					may have four correct profiles for 25 cents,
+					without being incommoded by any part of the
+					machine passing over the face.
+					To accommodate those who have their
+					profiles taken, they have an assortment of
+					elegant gilt and black frames.
+					August 16.</p>
+				</div>
+		</div>
+	</div>
+    <div class="slide-container">
+		<div class=row>
+				<img class="col-6" src="/images/clippings/Clippings-6.png" alt="">
+				<div class=col-6>
+						
+					<h3>The Telegraph and Daily Advertiser</h3>
+					<h3>(Baltimore, MD)</h3>
+					<h3>August 18, 22, 1803</h3>
+
+					<p><em> </em></p>
+
+					<p>Phisognotrace.<br />
+					BACHE and TODD,<br />
+					INTENDING to remain a short time in this
+					city, with their Patent PHISIOGNOTRACE, upon
+					a construction entirely new, respectfully in-form
+					the ladies and gentlemen, that they have
+					commenced taking likenesses in profile, at the
+					house of Mr. Sower, printer, No. 191,
+					Market-street, opposite the Golden Swan, where
+					any per-son honoring them with their attention,
+					may have four correct profiles for 25 cents,
+					without being incommoded by any part of the
+					machine passing over the face.
+					To accommodate those who have their
+					profiles taken, they have an assortment of
+					elegant gilt and black frames.
+					August 16.</p>
+				</div>
+		</div>
+	</div>
+	<div class="slide-container">
+		<div class=row>
+				<img class="col-6" src="/images/clippings/Clippings-7.png" alt="">
+				<div class=col-6>
+						
+					<h3>The Telegraph and Daily Advertiser</h3>
+					<h3>(Baltimore, MD)</h3>
+					<h3>August 18, 22, 1803</h3>
+
+					<p><em> </em></p>
+
+					<p>Phisognotrace.<br />
+					BACHE and TODD,<br />
+					INTENDING to remain a short time in this
+					city, with their Patent PHISIOGNOTRACE, upon
+					a construction entirely new, respectfully in-form
+					the ladies and gentlemen, that they have
+					commenced taking likenesses in profile, at the
+					house of Mr. Sower, printer, No. 191,
+					Market-street, opposite the Golden Swan, where
+					any per-son honoring them with their attention,
+					may have four correct profiles for 25 cents,
+					without being incommoded by any part of the
+					machine passing over the face.
+					To accommodate those who have their
+					profiles taken, they have an assortment of
+					elegant gilt and black frames.
+					August 16.</p>
+				</div>
+		</div>
+	</div>
+    <div class="slide-container">
+		<div class=row>
+				<img class="col-6" src="/images/clippings/Clippings-12.png" alt="">
+				<div class=col-6>
+						
+					<h3>The Telegraph and Daily Advertiser</h3>
+					<h3>(Baltimore, MD)</h3>
+					<h3>August 18, 22, 1803</h3>
+
+					<p><em> </em></p>
+
+					<p>Phisognotrace.<br />
+					BACHE and TODD,<br />
+					INTENDING to remain a short time in this
+					city, with their Patent PHISIOGNOTRACE, upon
+					a construction entirely new, respectfully in-form
+					the ladies and gentlemen, that they have
+					commenced taking likenesses in profile, at the
+					house of Mr. Sower, printer, No. 191,
+					Market-street, opposite the Golden Swan, where
+					any per-son honoring them with their attention,
+					may have four correct profiles for 25 cents,
+					without being incommoded by any part of the
+					machine passing over the face.
+					To accommodate those who have their
+					profiles taken, they have an assortment of
+					elegant gilt and black frames.
+					August 16.</p>
+				</div>
+		</div>
+	</div>
+    <div class="slide-container">
+		<div class=row>
+				<img class="col-6" src="/images/clippings/Clippings-13.png" alt="">
+				<div class=col-6>
+						
+					<h3>The Telegraph and Daily Advertiser</h3>
+					<h3>(Baltimore, MD)</h3>
+					<h3>August 18, 22, 1803</h3>
+
+					<p><em> </em></p>
+
+					<p>Phisognotrace.<br />
+					BACHE and TODD,<br />
+					INTENDING to remain a short time in this
+					city, with their Patent PHISIOGNOTRACE, upon
+					a construction entirely new, respectfully in-form
+					the ladies and gentlemen, that they have
+					commenced taking likenesses in profile, at the
+					house of Mr. Sower, printer, No. 191,
+					Market-street, opposite the Golden Swan, where
+					any per-son honoring them with their attention,
+					may have four correct profiles for 25 cents,
+					without being incommoded by any part of the
+					machine passing over the face.
+					To accommodate those who have their
+					profiles taken, they have an assortment of
+					elegant gilt and black frames.
+					August 16.</p>
+				</div>
+		</div>
+	</div>
+    <div class="slide-container">
+		<div class=row>
+				<img class="col-6" src="/images/clippings/Clippings-17.png" alt="">
+				<div class=col-6>
+						
+					<h3>The Telegraph and Daily Advertiser</h3>
+					<h3>(Baltimore, MD)</h3>
+					<h3>August 18, 22, 1803</h3>
+
+					<p><em> </em></p>
+
+					<p>Phisognotrace.<br />
+					BACHE and TODD,<br />
+					INTENDING to remain a short time in this
+					city, with their Patent PHISIOGNOTRACE, upon
+					a construction entirely new, respectfully in-form
+					the ladies and gentlemen, that they have
+					commenced taking likenesses in profile, at the
+					house of Mr. Sower, printer, No. 191,
+					Market-street, opposite the Golden Swan, where
+					any per-son honoring them with their attention,
+					may have four correct profiles for 25 cents,
+					without being incommoded by any part of the
+					machine passing over the face.
+					To accommodate those who have their
+					profiles taken, they have an assortment of
+					elegant gilt and black frames.
+					August 16.</p>
+				</div>
+		</div>
+	</div>
+    <div class="slide-container"><img src="/images/clippings/Clippings-18.png" alt=""></div>
+    <div class="slide-container"><img src="/images/clippings/Clippings-19.png" alt=""></div>
+	<div class="slide-container"><img src="/images/clippings/Clippings-20.png" alt=""></div>
+    <div class="slide-container"><img src="/images/clippings/Clippings-21.png" alt=""></div>
+    <div class="slide-container"><img src="/images/clippings/Clippings-22.png" alt=""></div>
+    <div class="slide-container"><img src="/images/clippings/Clippings-23.png" alt=""></div>
+    <div class="slide-container"><img src="/images/clippings/Clippings-24.png" alt=""></div>
+    <div class="slide-container"><img src="/images/clippings/Clippings-26.png" alt=""></div>
+	<div class="slide-container"><img src="/images/clippings/Clippings-28.png" alt=""></div>
+    <div class="slide-container"><img src="/images/clippings/Clippings-29.png" alt=""></div>
+    <div class="slide-container"><img src="/images/clippings/Clippings-30.png" alt=""></div>
+    <div class="slide-container"><img src="/images/clippings/Clippings-31.png" alt=""></div>
+    <div class="slide-container"><img src="/images/clippings/Clippings-32.png" alt=""></div>
+  </div>
+  <div class="slider-nav">
+  <div class="slide-btn"><img src="/images/clippings/Clippings-1.png" alt=""></div>
+    <div class="slide-btn"><img src="/images/clippings/Clippings-2.png" alt=""></div>
+    <div class="slide-btn"><img src="/images/clippings/Clippings-3.png" alt=""></div>
+    <div class="slide-btn"><img src="/images/clippings/Clippings-4.png" alt=""></div>
+    <div class="slide-btn"><img src="/images/clippings/Clippings-5.png" alt=""></div>
+    <div class="slide-btn"><img src="/images/clippings/Clippings-6.png" alt=""></div>
+	<div class="slide-btn"><img src="/images/clippings/Clippings-7.png" alt=""></div>
+    <div class="slide-btn"><img src="/images/clippings/Clippings-12.png" alt=""></div>
+    <div class="slide-btn"><img src="/images/clippings/Clippings-13.png" alt=""></div>
+    <div class="slide-btn"><img src="/images/clippings/Clippings-17.png" alt=""></div>
+    <div class="slide-btn"><img src="/images/clippings/Clippings-18.png" alt=""></div>
+    <div class="slide-btn"><img src="/images/clippings/Clippings-19.png" alt=""></div>
+	<div class="slide-btn"><img src="/images/clippings/Clippings-20.png" alt=""></div>
+    <div class="slide-btn"><img src="/images/clippings/Clippings-21.png" alt=""></div>
+    <div class="slide-btn"><img src="/images/clippings/Clippings-22.png" alt=""></div>
+    <div class="slide-btn"><img src="/images/clippings/Clippings-23.png" alt=""></div>
+    <div class="slide-btn"><img src="/images/clippings/Clippings-24.png" alt=""></div>
+    <div class="slide-btn"><img src="/images/clippings/Clippings-26.png" alt=""></div>
+	<div class="slide-btn"><img src="/images/clippings/Clippings-28.png" alt=""></div>
+    <div class="slide-btn"><img src="/images/clippings/Clippings-29.png" alt=""></div>
+    <div class="slide-btn"><img src="/images/clippings/Clippings-30.png" alt=""></div>
+    <div class="slide-btn"><img src="/images/clippings/Clippings-31.png" alt=""></div>
+    <div class="slide-btn"><img src="/images/clippings/Clippings-32.png" alt=""></div>
+  </div>
+
 </div>
 
         <?php include("includes/page_footer.php");?>
@@ -129,62 +459,23 @@ slick-prev:before, .slick-next:before {
      
         <script>
 
-$('.slider-single').slick({
- 	slidesToShow: 1,
- 	slidesToScroll: 1,
- 	arrows: true,
- 	fade: false,
- 	adaptiveHeight: true,
- 	infinite: false,
-	useTransform: true,
- 	speed: 400,
- 	cssEase: 'cubic-bezier(0.77, 0, 0.18, 1)',
- });
+$('.slider-for').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  // fade: true,
+  asNavFor: '.slider-nav',
+  infinite:false,
 
- $('.slider-nav')
- 	.on('init', function(event, slick) {
- 		$('.slider-nav .slick-slide.slick-current').addClass('is-active');
- 	})
- 	.slick({
- 		slidesToShow: 7,
- 		slidesToScroll: 7,
- 		dots: false,
- 		focusOnSelect: false,
- 		infinite: false,
- 		responsive: [{
- 			breakpoint: 1024,
- 			settings: {
- 				slidesToShow: 5,
- 				slidesToScroll: 5,
- 			}
- 		}, {
- 			breakpoint: 640,
- 			settings: {
- 				slidesToShow: 4,
- 				slidesToScroll: 4,
-			}
- 		}, {
- 			breakpoint: 420,
- 			settings: {
- 				slidesToShow: 3,
- 				slidesToScroll: 3,
-		}
- 		}]
- 	});
-
- $('.slider-single').on('afterChange', function(event, slick, currentSlide) {
- 	$('.slider-nav').slick('slickGoTo', currentSlide);
- 	var currrentNavSlideElem = '.slider-nav .slick-slide[data-slick-index="' + currentSlide + '"]';
- 	$('.slider-nav .slick-slide.is-active').removeClass('is-active');
- 	$(currrentNavSlideElem).addClass('is-active');
- });
-
- $('.slider-nav').on('click', '.slick-slide', function(event) {
- 	event.preventDefault();
- 	var goToSingleSlide = $(this).data('slick-index');
-
- 	$('.slider-single').slick('slickGoTo', goToSingleSlide);
- });
+});
+$('.slider-nav').slick({
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  asNavFor: '.slider-for',
+//   centerMode: true,
+  focusOnSelect: true,
+  infinite:false
+});
         </script>
     </body>
 </html>
